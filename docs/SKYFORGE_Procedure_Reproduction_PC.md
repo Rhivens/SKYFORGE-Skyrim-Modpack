@@ -13,6 +13,9 @@
 **Objectif :**  
 Installer Skyrim Anniversary Edition via Steam et lancer le jeu une première fois pour initialiser les fichiers de base et le contenu AE / Creation Club.
 
+**Lien :**  
+https://store.steampowered.com/app/489830/The_Elder_Scrolls_V_Skyrim_Special_Edition/
+
 **Résultat attendu :**  
 Skyrim est installé, initialisé, et le contenu Anniversary Edition est présent.
 
@@ -22,6 +25,9 @@ Skyrim est installé, initialisé, et le contenu Anniversary Edition est présen
 
 **Objectif :**  
 Empêcher Steam de mettre à jour Skyrim automatiquement pendant la construction du modpack.
+
+**Lien :**  
+Aucun téléchargement requis.
 
 **Résultat attendu :**  
 L’option Steam est réglée sur “Attendre que je lance le jeu” et le fichier `appmanifest_489830.acf` est en lecture seule.
@@ -33,6 +39,9 @@ L’option Steam est réglée sur “Attendre que je lance le jeu” et le fichi
 **Objectif :**  
 Créer une copie isolée de Skyrim dans un dossier dédié au projet SKYFORGE.
 
+**Lien :**  
+Aucun téléchargement requis.
+
 **Résultat attendu :**  
 Le dossier `D:\SKYFORGE\Stock Game\` contient une copie complète du dossier Skyrim Steam.
 
@@ -42,6 +51,9 @@ Le dossier `D:\SKYFORGE\Stock Game\` contient une copie complète du dossier Sky
 
 **Objectif :**  
 Appliquer le downgrade **Best of Both Worlds** sur le Stock Game afin de conserver le contenu AE tout en utilisant l’exécutable Skyrim SE 1.5.97.
+
+**Lien :**  
+https://www.nexusmods.com/skyrimspecialedition/mods/169962
 
 **Résultat attendu :**  
 `SkyrimSE.exe` dans `D:\SKYFORGE\Stock Game\` est en version `1.5.97.0`.
@@ -53,6 +65,9 @@ Appliquer le downgrade **Best of Both Worlds** sur le Stock Game afin de conserv
 **Objectif :**  
 Installer SKSE compatible Skyrim SE 1.5.97 dans le Stock Game.
 
+**Lien :**  
+https://skse.silverlock.org/
+
 **Résultat attendu :**  
 `skse64_loader.exe`, `skse64_1_5_97.dll` et `skse64_steam_loader.dll` sont présents dans `D:\SKYFORGE\Stock Game\`.
 
@@ -62,6 +77,9 @@ Installer SKSE compatible Skyrim SE 1.5.97 dans le Stock Game.
 
 **Objectif :**  
 Installer MO2 en instance portable dédiée à SKYFORGE.
+
+**Lien :**  
+https://www.nexusmods.com/skyrimspecialedition/mods/6194
 
 **Résultat attendu :**  
 MO2 2.4.4 est installé dans `D:\SKYFORGE\MO2\` et pointe vers `D:\SKYFORGE\Stock Game\SkyrimSE.exe`.
@@ -73,6 +91,9 @@ MO2 2.4.4 est installé dans `D:\SKYFORGE\MO2\` et pointe vers `D:\SKYFORGE\Stoc
 **Objectif :**  
 Créer un profil isolé pour SKYFORGE.
 
+**Lien :**  
+Aucun téléchargement requis.
+
 **Résultat attendu :**  
 Le profil `00 - SKYFORGE Base` existe avec sauvegardes et fichiers INI spécifiques au profil activés.
 
@@ -82,6 +103,9 @@ Le profil `00 - SKYFORGE Base` existe avec sauvegardes et fichiers INI spécifiq
 
 **Objectif :**  
 Créer une structure visuelle propre dans le panneau gauche de MO2.
+
+**Lien :**  
+Aucun téléchargement requis.
 
 **Résultat attendu :**  
 Les séparateurs SKYFORGE sont créés, de `00 - BASE GAME` à `18 - TRADUCTIONS FR`, avec `Overwrite` conservé tout en bas.
@@ -93,6 +117,9 @@ Les séparateurs SKYFORGE sont créés, de `00 - BASE GAME` à `18 - TRADUCTIONS
 **Objectif :**  
 Installer la dépendance SKSE nécessaire aux plugins modernes.
 
+**Lien :**  
+https://www.nexusmods.com/skyrimspecialedition/mods/32444
+
 **Résultat attendu :**  
 `Address Library for SKSE Plugins` est installé, coché, et placé sous `01 - SKSE PLUGINS & CORE UTILITIES`.
 
@@ -102,6 +129,9 @@ Installer la dépendance SKSE nécessaire aux plugins modernes.
 
 **Objectif :**  
 Permettre à Skyrim SE 1.5.97 de gérer correctement les plugins ESL récents.
+
+**Lien :**  
+https://www.nexusmods.com/skyrimspecialedition/mods/106441
 
 **Résultat attendu :**  
 `Backported Extended ESL Support` est installé, coché, et placé sous `01 - SKSE PLUGINS & CORE UTILITIES`.
@@ -113,6 +143,9 @@ Permettre à Skyrim SE 1.5.97 de gérer correctement les plugins ESL récents.
 **Objectif :**  
 Vérifier que la base Stock Game + SKSE + Address Library + BEES démarre correctement.
 
+**Lien :**  
+Aucun téléchargement requis.
+
 **Résultat attendu :**  
 Le jeu atteint le menu principal via SKSE lancé depuis MO2.
 
@@ -122,6 +155,9 @@ Le jeu atteint le menu principal via SKSE lancé depuis MO2.
 
 **Objectif :**  
 Ajouter un outil de diagnostic pour les futurs crashs.
+
+**Lien :**  
+https://www.nexusmods.com/skyrimspecialedition/mods/59818
 
 **Résultat attendu :**  
 `Crash Logger SSE AE VR - PDB support` version Skyrim SE 1.5.97 est installé, coché, et le jeu démarre correctement.
@@ -133,6 +169,9 @@ Ajouter un outil de diagnostic pour les futurs crashs.
 **Objectif :**  
 Installer les correctifs moteur essentiels pour Skyrim SE 1.5.97.
 
+**Lien :**  
+https://www.nexusmods.com/skyrimspecialedition/mods/17230
+
 **Résultat attendu :**  
 La partie MO2 et la partie manuelle de SSE Engine Fixes sont installées, et le jeu atteint le menu principal sans crash.
 
@@ -142,6 +181,9 @@ La partie MO2 et la partie manuelle de SSE Engine Fixes sont installées, et le 
 
 **Objectif :**  
 Ajouter des corrections SKSE complémentaires au moteur du jeu.
+
+**Lien :**  
+https://www.nexusmods.com/skyrimspecialedition/mods/33261
 
 **Résultat attendu :**  
 `Bug Fixes SSE` est installé, coché, et le jeu démarre correctement.
@@ -153,6 +195,9 @@ Ajouter des corrections SKSE complémentaires au moteur du jeu.
 **Objectif :**  
 Ajouter des corrections configurables pour plusieurs bugs du moteur et du gameplay vanilla.
 
+**Lien :**  
+https://www.nexusmods.com/skyrimspecialedition/mods/43532
+
 **Résultat attendu :**  
 `Scrambled Bugs` est installé, coché, et le jeu démarre correctement.
 
@@ -162,6 +207,9 @@ Ajouter des corrections configurables pour plusieurs bugs du moteur et du gamepl
 
 **Objectif :**  
 Ajouter une dépendance Papyrus majeure utilisée par de nombreux mods.
+
+**Lien :**  
+https://www.nexusmods.com/skyrimspecialedition/mods/13048
 
 **Résultat attendu :**  
 `PapyrusUtil SE` est installé, coché, et le jeu démarre correctement.
@@ -173,6 +221,9 @@ Ajouter une dépendance Papyrus majeure utilisée par de nombreux mods.
 **Objectif :**  
 Ajouter des fonctions Papyrus étendues utilisées par de nombreux mods modernes.
 
+**Lien :**  
+https://www.nexusmods.com/skyrimspecialedition/mods/22854
+
 **Résultat attendu :**  
 `powerofthree's Papyrus Extender` est installé, coché, et le jeu démarre correctement.
 
@@ -182,6 +233,9 @@ Ajouter des fonctions Papyrus étendues utilisées par de nombreux mods modernes
 
 **Objectif :**  
 Ajouter une bibliothèque de stockage et manipulation de données utilisée par plusieurs frameworks.
+
+**Lien :**  
+https://www.nexusmods.com/skyrimspecialedition/mods/16495
 
 **Résultat attendu :**  
 `JContainers SE` est installé, coché, et le jeu démarre correctement.
@@ -193,6 +247,9 @@ Ajouter une bibliothèque de stockage et manipulation de données utilisée par 
 **Objectif :**  
 Ajouter les tweaks SKSE de powerofthree et générer leur configuration.
 
+**Lien :**  
+https://www.nexusmods.com/skyrimspecialedition/mods/51073
+
 **Résultat attendu :**  
 `powerofthree's Tweaks` est installé, coché, et son fichier `po3_Tweaks.ini` généré est isolé dans un mod dédié.
 
@@ -202,6 +259,9 @@ Ajouter les tweaks SKSE de powerofthree et générer leur configuration.
 
 **Objectif :**  
 Ajouter la dépendance moderne nécessaire aux menus MCM de nombreux mods.
+
+**Lien :**  
+https://www.nexusmods.com/skyrimspecialedition/mods/53000
 
 **Résultat attendu :**  
 `MCM Helper` est installé et coché, avec ses dépendances satisfaites.
@@ -213,6 +273,9 @@ Ajouter la dépendance moderne nécessaire aux menus MCM de nombreux mods.
 **Objectif :**  
 Installer l’interface de base nécessaire aux menus MCM.
 
+**Lien :**  
+https://www.nexusmods.com/skyrimspecialedition/mods/12604
+
 **Résultat attendu :**  
 `SkyUI_5_2_SE` est installé, coché, et le missing master de `MCMHelper.esp` est résolu.
 
@@ -222,6 +285,9 @@ Installer l’interface de base nécessaire aux menus MCM.
 
 **Objectif :**  
 Ajouter une dépendance SKSE utilisée par plusieurs mods modernes.
+
+**Lien :**  
+https://www.nexusmods.com/skyrimspecialedition/mods/76649
 
 **Résultat attendu :**  
 `ConsoleUtilSSE NG` est installé, coché, et le jeu démarre correctement.
@@ -233,6 +299,9 @@ Ajouter une dépendance SKSE utilisée par plusieurs mods modernes.
 **Objectif :**  
 Ajouter le support des dialogues silencieux pour les mods de quêtes, roleplay et systèmes adultes.
 
+**Lien :**  
+https://www.nexusmods.com/skyrimspecialedition/mods/15109
+
 **Résultat attendu :**  
 `Fuz Ro D-oh - Silent Voice` est installé, coché, et son fichier `Fuz Ro D'oh.ini` généré est isolé dans un mod dédié.
 
@@ -242,6 +311,9 @@ Ajouter le support des dialogues silencieux pour les mods de quêtes, roleplay e
 
 **Objectif :**  
 Ajouter le distributeur de sorts, perks, objets et effets utilisé par les listes modernes.
+
+**Lien :**  
+https://www.nexusmods.com/skyrimspecialedition/mods/36869
 
 **Résultat attendu :**  
 `Spell Perk Item Distributor` est installé, coché, et son fichier `po3_SpellPerkItemDistributor.ini` généré est isolé dans un mod dédié.
@@ -253,6 +325,9 @@ Ajouter le distributeur de sorts, perks, objets et effets utilisé par les liste
 **Objectif :**  
 Ajouter le distributeur de keywords pour objets et records.
 
+**Lien :**  
+https://www.nexusmods.com/skyrimspecialedition/mods/55728
+
 **Résultat attendu :**  
 `Keyword Item Distributor` est installé, coché, et le jeu démarre correctement.
 
@@ -262,6 +337,9 @@ Ajouter le distributeur de keywords pour objets et records.
 
 **Objectif :**  
 Ajouter le système de remplacement dynamique d’objets de base.
+
+**Lien :**  
+https://www.nexusmods.com/skyrimspecialedition/mods/60805
 
 **Résultat attendu :**  
 `Base Object Swapper` est installé, coché, et le jeu démarre correctement.
@@ -273,6 +351,9 @@ Ajouter le système de remplacement dynamique d’objets de base.
 **Objectif :**  
 Ajouter la manipulation dynamique de FormLists.
 
+**Lien :**  
+https://www.nexusmods.com/skyrimspecialedition/mods/74037
+
 **Résultat attendu :**  
 `FormList Manipulator - FLM` est installé, coché, et le jeu démarre correctement.
 
@@ -282,6 +363,9 @@ Ajouter la manipulation dynamique de FormLists.
 
 **Objectif :**  
 Ajouter le système de remplacement dynamique d’objets d’animation.
+
+**Lien :**  
+https://www.nexusmods.com/skyrimspecialedition/mods/75167
 
 **Résultat attendu :**  
 `AnimObject Swapper` est installé, coché, et le jeu démarre correctement.
@@ -293,6 +377,9 @@ Ajouter le système de remplacement dynamique d’objets d’animation.
 **Objectif :**  
 Ajouter l’interface de sauvegarde/chargement de configurations utilisée par certains mods.
 
+**Lien :**  
+https://www.nexusmods.com/skyrimspecialedition/mods/13956
+
 **Résultat attendu :**  
 `FileAccess Interface for Skyrim SE Scripts - FISSES` est installé, coché, et le jeu démarre correctement.
 
@@ -302,6 +389,9 @@ Ajouter l’interface de sauvegarde/chargement de configurations utilisée par c
 
 **Objectif :**  
 Étendre les commandes console disponibles pour les mods et le diagnostic.
+
+**Lien :**  
+https://www.nexusmods.com/skyrimspecialedition/mods/28210
 
 **Résultat attendu :**  
 `Console Commands Extender` est installé, coché, et le jeu démarre correctement.
@@ -313,6 +403,9 @@ Ajouter l’interface de sauvegarde/chargement de configurations utilisée par c
 **Objectif :**  
 Améliorer les informations affichées dans la console de Skyrim.
 
+**Lien :**  
+https://www.nexusmods.com/skyrimspecialedition/mods/19250
+
 **Résultat attendu :**  
 `More Informative Console` est installé, coché, et le jeu démarre correctement.
 
@@ -322,6 +415,9 @@ Améliorer les informations affichées dans la console de Skyrim.
 
 **Objectif :**  
 Améliorer l’utilisation de la console et générer sa configuration.
+
+**Lien :**  
+https://www.nexusmods.com/skyrimspecialedition/mods/79975
 
 **Résultat attendu :**  
 `ConsolePlusPlus` est installé, coché, et son fichier `po3_ConsolePlusPlus.ini` généré est isolé dans un mod dédié.
@@ -333,6 +429,9 @@ Améliorer l’utilisation de la console et générer sa configuration.
 **Objectif :**  
 Ajouter un utilitaire d’interface utile aux traductions et menus Scaleform.
 
+**Lien :**  
+https://www.nexusmods.com/skyrimspecialedition/mods/77359
+
 **Résultat attendu :**  
 `Scaleform Translation Plus Plus NG` est installé, coché, et le jeu démarre correctement.
 
@@ -342,6 +441,9 @@ Ajouter un utilitaire d’interface utile aux traductions et menus Scaleform.
 
 **Objectif :**  
 Permettre une meilleure gestion automatique clavier/manette.
+
+**Lien :**  
+https://www.nexusmods.com/skyrimspecialedition/mods/54309
 
 **Résultat attendu :**  
 `Auto Input Switch` est installé, coché, et le jeu démarre correctement.
@@ -353,6 +455,9 @@ Permettre une meilleure gestion automatique clavier/manette.
 **Objectif :**  
 Ajouter une dépendance de gestion avancée des touches pour certains mods.
 
+**Lien :**  
+https://www.nexusmods.com/skyrimspecialedition/mods/69944
+
 **Résultat attendu :**  
 `dTry’s Key Utils` est installé, coché, et le jeu démarre correctement.
 
@@ -362,6 +467,9 @@ Ajouter une dépendance de gestion avancée des touches pour certains mods.
 
 **Objectif :**  
 Ajouter le prérequis SKSE nécessaire aux futurs systèmes ENB/météo/éclairage.
+
+**Lien :**  
+https://www.nexusmods.com/skyrimspecialedition/mods/23174
 
 **Résultat attendu :**  
 `ENB Helper SE` est installé, coché, et le jeu démarre correctement.
@@ -373,6 +481,9 @@ Ajouter le prérequis SKSE nécessaire aux futurs systèmes ENB/météo/éclaira
 **Objectif :**  
 Ajouter un plugin SKSE de confort pour le saut.
 
+**Lien :**  
+https://www.nexusmods.com/skyrimspecialedition/mods/18967
+
 **Résultat attendu :**  
 `Better Jumping SE` est installé, coché, et le jeu démarre correctement.
 
@@ -382,6 +493,9 @@ Ajouter un plugin SKSE de confort pour le saut.
 
 **Objectif :**  
 Ajouter un utilitaire d’activation moderne pour les futurs systèmes d’interaction.
+
+**Lien :**  
+https://www.nexusmods.com/skyrimspecialedition/mods/96273
 
 **Résultat attendu :**  
 `Dynamic Activation Key` est installé, coché, et le jeu démarre correctement.
@@ -393,6 +507,9 @@ Ajouter un utilitaire d’activation moderne pour les futurs systèmes d’inter
 **Objectif :**  
 Ajouter une dépendance moderne pour certains systèmes d’animations et comportements.
 
+**Lien :**  
+https://www.nexusmods.com/skyrimspecialedition/mods/78146
+
 **Résultat attendu :**  
 `Behavior Data Injector` est installé, coché, et le jeu démarre correctement.
 
@@ -402,6 +519,9 @@ Ajouter une dépendance moderne pour certains systèmes d’animations et compor
 
 **Objectif :**  
 Ajouter un système de patching dynamique sans multiplier les plugins `.esp`.
+
+**Lien :**  
+https://www.nexusmods.com/skyrimspecialedition/mods/106659
 
 **Résultat attendu :**  
 `SkyPatcher` est installé, coché, et le jeu démarre correctement.
@@ -413,6 +533,9 @@ Ajouter un système de patching dynamique sans multiplier les plugins `.esp`.
 **Objectif :**  
 Préparer une dépendance potentielle sans l’activer dans la base actuelle.
 
+**Lien :**  
+https://www.nexusmods.com/skyrimspecialedition/mods/115164
+
 **Résultat attendu :**  
 `Kris's Papyrus Extender - DECOCHE / RESERVE` est installé mais décoché.
 
@@ -422,6 +545,9 @@ Préparer une dépendance potentielle sans l’activer dans la base actuelle.
 
 **Objectif :**  
 Optimiser certains scripts vanilla sans modifier la logique globale du jeu.
+
+**Lien :**  
+https://www.nexusmods.com/skyrimspecialedition/mods/54061
 
 **Résultat attendu :**  
 `Vanilla Script MicroOptimizations` est installé, coché, et placé juste après USSEP une fois celui-ci installé.
@@ -433,6 +559,9 @@ Optimiser certains scripts vanilla sans modifier la logique globale du jeu.
 **Objectif :**  
 Installer le patch communautaire principal compatible Skyrim SE 1.5.97.
 
+**Lien :**  
+https://www.nexusmods.com/skyrimspecialedition/mods/266?tab=files&file_id=209150
+
 **Résultat attendu :**  
 `Unofficial Skyrim Special Edition Patch - USSEP 4.2.5b` est installé, coché, et `Unofficial Skyrim Special Edition Patch.esp` est actif.
 
@@ -443,6 +572,9 @@ Installer le patch communautaire principal compatible Skyrim SE 1.5.97.
 **Objectif :**  
 Corriger le contenu Creation Club / AE conservé avec le downgrade Best of Both Worlds.
 
+**Lien :**  
+https://www.nexusmods.com/skyrimspecialedition/mods/18975
+
 **Résultat attendu :**  
 `Unofficial Skyrim Creation Club Content Patch` est installé en option **Merged**, coché, sans missing master.
 
@@ -452,6 +584,9 @@ Corriger le contenu Creation Club / AE conservé avec le downgrade Best of Both 
 
 **Objectif :**  
 Confirmer que la base technique SKYFORGE est stable avant d’ajouter les modules lourds.
+
+**Lien :**  
+Aucun téléchargement requis.
 
 **Résultat attendu :**  
 Le jeu démarre via SKSE depuis MO2, atteint le menu principal, ne génère aucun fichier dans `Overwrite`, et ne présente aucun missing master.

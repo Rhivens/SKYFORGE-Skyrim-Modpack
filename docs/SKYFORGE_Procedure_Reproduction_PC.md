@@ -580,16 +580,235 @@ https://www.nexusmods.com/skyrimspecialedition/mods/18975
 
 ---
 
-## État validé à ce stade
+### 45. Mise en réserve de Object Categorization Framework
 
 **Objectif :**  
-Confirmer que la base technique SKYFORGE est stable avant d’ajouter les modules lourds.
+Préparer Object Categorization Framework pour la future interface / catégorisation d’objets, sans l’intégrer définitivement à ce stade.
+
+**Lien :**  
+https://www.nexusmods.com/skyrimspecialedition/mods/81469
+
+**Résultat attendu :**  
+Le mod est présent dans MO2 mais renommé :
+
+`A REINSTALL PLUS TARD - Object Categorization Framework`
+
+**Note :**  
+OCF est différé volontairement. Il sera réinstallé proprement plus tard avec le bloc UI / icônes / inventaire, afin d’éviter une intégration prématurée.
+
+---
+
+### 46. Mise en réserve de Keyword Patch Collection
+
+**Objectif :**  
+Préparer Keyword Patch Collection pour les futurs systèmes de mots-clés, inventaire, armures, armes et patches de catégorisation.
+
+**Lien :**  
+https://www.nexusmods.com/skyrimspecialedition/mods/92534
+
+**Résultat attendu :**  
+Le mod est présent dans MO2 mais renommé :
+
+`A REINSTALL PLUS TARD - Keyword Patch Collection`
+
+**Note :**  
+Keyword Patch Collection est différé volontairement. Il sera réinstallé plus tard quand les mods dépendants seront présents.
+
+---
+
+### 47. Mise en attente de NPC AI Process Position Fix - NG
+
+**Objectif :**  
+Préparer un correctif lié au positionnement des processus IA des NPC, sans l’activer trop tôt.
+
+**Lien :**  
+https://www.nexusmods.com/skyrimspecialedition/mods/69326
+
+**Résultat attendu :**  
+Le mod n’est pas intégré définitivement à ce stade.
+
+**Note :**  
+NPC AI Process Position Fix - NG est à réinstaller plus tard, après l’installation de AI Overhaul, afin de mieux contrôler les dépendances et conflits potentiels.
+
+---
+
+### 48. Réglages SKSE différés
+
+**Objectif :**  
+Consigner les réglages volontairement différés pour éviter de modifier trop tôt le comportement moteur.
+
+**Lien :**  
+Aucun téléchargement requis.
+
+**Réglages différés :**
+
+- Scrambled Bugs custom settings.
+- powerofthree’s Tweaks custom settings.
+- SSE Display Tweaks custom settings.
+- SSE Engine Fixes custom settings.
+- Papyrus Tweaks NG custom settings.
+
+**Résultat attendu :**  
+Aucun réglage custom supplémentaire n’est appliqué à ce stade.
+
+**Note :**  
+Les mods concernés peuvent être installés, mais leurs réglages personnalisés SKYFORGE seront appliqués plus tard, après stabilisation du socle.
+
+---
+
+### 49. Préparation du bloc Bug Fixes vanilla
+
+**Objectif :**  
+Préparer le passage du socle SKSE / core utilities vers le bloc de correctifs vanilla simples.
 
 **Lien :**  
 Aucun téléchargement requis.
 
 **Résultat attendu :**  
-Le jeu démarre via SKSE depuis MO2, atteint le menu principal, ne génère aucun fichier dans `Overwrite`, et ne présente aucun missing master.
+Le profil `00 - SKYFORGE Base` reste stable avant l’installation des correctifs de quêtes et scripts vanilla.
+
+**Test de validation :**  
+Le jeu démarre via SKSE depuis MO2, atteint le menu principal, et `Overwrite` reste vide.
+
+---
+
+### 50. Correctifs de quêtes/scripts vanilla
+
+**Objectif :**  
+Installer un petit bloc de correctifs simples liés aux quêtes et scripts vanilla.
+
+**Liens :**
+
+- WE05 Script Fix  
+  https://www.nexusmods.com/skyrimspecialedition/mods/56695
+
+- Ulfric...Tullius...Give Me a Break  
+  https://www.nexusmods.com/skyrimspecialedition/mods/35427
+
+- Delphine Skyhaven Bugfix MQ203  
+  https://www.nexusmods.com/skyrimspecialedition/mods/62417
+
+**Résultat attendu :**  
+Les mods sont installés sous :
+
+`02 - BUG FIXES & ENGINE PATCHES`
+
+**Test de validation :**  
+SKSE lancé via MO2, menu principal atteint, `Overwrite` vide.
+
+**Statut :**  
+Étape 50 validée.
+
+---
+
+### 51. Petit bloc fixes système / confort
+
+**Objectif :**  
+Ajouter un petit bloc de correctifs issus du module Bug Fixes / Engine Patches, sans toucher aux réglages custom différés.
+
+**Liens :**
+
+- Better Combat Escape - SSE  
+  https://www.nexusmods.com/skyrimspecialedition/mods/43936
+
+- Bethesda.net Mods Manager Menu Disable Hide Remove  
+  https://www.nexusmods.com/skyrimspecialedition/mods/56430
+
+- Aurora Fix  
+  https://www.nexusmods.com/skyrimspecialedition/mods/77834
+
+**Résultat attendu :**  
+Les mods sont installés sous :
+
+`Delphine Skyhaven Bugfix MQ203`
+
+Ordre MO2 conseillé :
+
+1. Better Combat Escape - SSE
+2. Bethesda.net Mods Manager Menu Disable Hide Remove
+3. Aurora Fix
+
+**Test de validation :**  
+SKSE lancé via MO2, menu principal atteint, `Overwrite` vide.
+
+**Statut :**  
+Étape 51 validée.
+
+---
+
+### 52. Correctifs techniques suivants, bloc prudent
+
+**Objectif :**  
+Ajouter trois correctifs techniques supplémentaires du module Bug Fixes / Engine Patches.
+
+**Liens corrigés :**
+
+- TrapSwingingWall Script Fix  
+  https://www.nexusmods.com/skyrimspecialedition/mods/61978
+
+- Southfringe Sanctum Crash Fix  
+  https://www.nexusmods.com/skyrimspecialedition/mods/98963
+
+- Sky Reflection Fix for ENB  
+  https://www.nexusmods.com/skyrimspecialedition/mods/110604
+
+**Résultat attendu :**  
+Les mods sont installés sous :
+
+`Aurora Fix`
+
+Ordre MO2 conseillé :
+
+1. TrapSwingingWall Script Fix
+2. Southfringe Sanctum Crash Fix
+3. Sky Reflection Fix for ENB
+
+**Notes :**
+
+- Le premier lien proposé pour Trap Swinging Wall Script Fix était incorrect.
+- Le bon lien est :  
+  https://www.nexusmods.com/skyrimspecialedition/mods/61978
+- Pour TrapSwingingWall Script Fix, utiliser la version vanilla/simple si un choix est proposé.
+- Sky Reflection Fix for ENB est un plugin SKSE : surveiller les messages DLL au lancement.
+- Aucun réglage custom ENB/ReShade n’est encore installé à cette étape.
+
+**Test de validation :**  
+SKSE lancé via MO2, menu principal atteint, aucun message d’erreur bloquant, `Overwrite` vide.
+
+**Statut :**  
+Étape 52 validée.  
+Pause du projet à cette étape.  
+Reprise prévue à l’étape 53.
+
+---
+
+## État validé après l’étape 52
+
+**Objectif :**  
+Confirmer que la base technique SKYFORGE reste stable après les premiers correctifs Bug Fixes / Engine Patches.
+
+**Résultat validé :**
+
+- Skyrim SE 1.5.97 Best of Both Worlds : OK
+- AE / Creation Club conservé : OK
+- SKSE lancé via MO2 : OK
+- Menu principal atteint : OK
+- Aucun missing master signalé : OK
+- `Overwrite` vide : OK
+
+**Points différés :**
+
+- OCF : installé mais renommé `A REINSTALL PLUS TARD`
+- Keyword Patch Collection : installé mais renommé `A REINSTALL PLUS TARD`
+- NPC AI Process Position Fix - NG : à réinstaller plus tard après AI Overhaul
+- Kris’s Papyrus Extender : installé mais décoché en réserve
+- Settings custom Scrambled Bugs : différés
+- Settings custom po3 Tweaks : différés
+- Settings custom Display Tweaks : différés
+- Settings custom Engine Fixes : différés
+- Settings custom Papyrus Tweaks : différés
+- ENB Manager / Cabbage ENB / Kauz ENB : plus tard
+- ReShade : plus tard
 
 ---
 

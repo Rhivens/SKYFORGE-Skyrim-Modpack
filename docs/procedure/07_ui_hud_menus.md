@@ -335,3 +335,159 @@ SKSE via MO2, menu principal atteint, aucun message DLL, aucun master manquant, 
 
 **Statut :**  
 Étape 150 validée.
+
+---
+
+### 152. A Matter of Time
+
+**Module :** 03 - UI HUD MENUS
+
+**Objectif :**  
+Installer une horloge HUD configurable et son système de chargement de paramètres.
+
+**Liens :**
+
+- A Matter of Time - A HUD clock widget  
+  https://www.nexusmods.com/skyrimspecialedition/mods/12937
+- A Matter Of Time - Legacy Settings Loader  
+  https://www.nexusmods.com/skyrimspecialedition/mods/55365
+
+**Mods installés :**
+
+- `A Matter of Time - A HUD clock widget`
+- `A Matter Of Time - Legacy Settings Loader`
+
+**Placement MO2 :**  
+Dans `03 - UI HUD MENUS`, sous le bloc `moreHUD`.
+
+**Choix :**
+
+- Fichier principal pour les deux mods.
+- Pas de traduction.
+- Pas de test ingame/MCM pour l’instant.
+- Test limité au menu principal.
+
+**Test de validation :**
+
+- SKSE via MO2 : OK
+- Menu principal atteint : OK
+- Aucun message DLL : OK
+- Aucun master manquant : OK
+- `Overwrite` vide : OK
+
+**Statut :**  
+Étape 152 validée.
+
+---
+
+### 153. SkyHUD minimal
+
+**Module :** 03 - UI HUD MENUS
+
+**Objectif :**  
+Installer SkyHUD comme base technique HUD, sans appliquer encore de preset complet.
+
+**Lien :**  
+https://www.nexusmods.com/skyrimspecialedition/mods/463
+
+**Mod installé :**
+
+- `SkyHUD`
+
+**Choix FOMOD retenus :**
+
+- Package : `Loose Files`
+- Preset : `None`
+- iHUD compatibility patch : décoché
+- Extra presets : décoché
+
+**Décision UI associée :**
+
+- Le crosshair vanilla de Skyrim doit être conservé.
+- `Contextual Crosshair` n’est pas installé.
+- Aucun remplacement par point blanc alternatif.
+
+**Renommage MO2 :**
+
+`SkyHUD - A REINSTALL PLUS TARD`
+
+**Raison :**  
+SkyHUD est installé en version minimale. Il pourra être réinstallé plus tard si une configuration HUD finale ou un preset spécifique est retenu.
+
+**Test de validation :**
+
+- SKSE via MO2 : OK
+- Menu principal atteint : OK
+- Aucun message DLL/master : OK
+- `Overwrite` vide : OK
+
+**Statut :**  
+Étape 153 validée.
+
+---
+
+### 154. Vel’dun UI minimal
+
+**Module :** 03 - UI HUD MENUS
+
+**Objectif :**  
+Installer Vel’dun UI comme nouvelle interface principale SKYFORGE, en configuration minimale.
+
+**Lien :**  
+https://www.nexusmods.com/skyrimspecialedition/mods/176230
+
+**Mod installé :**
+
+- `Vel'dun UI`
+
+**Placement MO2 :**  
+Dans `03 - UI HUD MENUS`, sous :
+
+`SkyHUD - A REINSTALL PLUS TARD`
+
+**Choix FOMOD retenus :**
+
+- Main Files
+- Main Bulk : coché
+- Main Menu : `Skip - Default`
+- General Patches : tous les patches laissés décochés / skip
+- Dialogue : `Skip/Default`
+- Patches Page 1 : tout laissé en `Skip / Default`
+
+**Patches explicitement laissés décochés / skip :**
+
+- BTPS Patch
+- CoMAP
+- Experience Patch
+- ImGUI Icons Patch
+- Oblivion Interaction Icons Patch
+- Scribes of Skyrim Patch
+- STB Active Effects
+- STB Widgets
+- TrueHUD Patch
+- Inventory Bars
+- COCKS
+- Compass Navigation Overhaul
+- Favorites Menu
+- Local Map Upgrade
+- MoreHUD Inventory Edition
+- MoreHUD
+- QuickLoot
+
+**Renommage MO2 :**
+
+`Vel'dun UI - A REINSTALL PLUS TARD`
+
+**Raison :**  
+Installation volontairement minimale. Vel’dun UI devra être réinstallé plus tard pour activer les patches utiles quand les mods parents seront installés ou confirmés.
+
+**Test de validation :**
+
+- SKSE via MO2 : OK
+- Menu principal atteint : OK
+- Aucun message DLL/master : OK
+- `Overwrite` vide : OK
+- Nouvelle interface visible au menu Skyrim : OK
+
+**Statut :**  
+Étape 154 validée.

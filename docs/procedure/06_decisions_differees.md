@@ -4,7 +4,7 @@
 
 ---
 
-## Décisions importantes retenues après l’étape 150
+## Décisions importantes retenues après l’étape 154
 
 - LOOT / ordre de chargement global : différé.
 - Documentation : mise à jour groupée, pas étape par étape.
@@ -19,6 +19,11 @@
 - Les choix magie, alchimie, besoins, hygiène, survie et immersion seront proposés plus tard sous forme de variantes cohérentes.
 - L’interface UI de SKYFORGE ne reprend pas automatiquement celle de Nefaram ; le module UI est commencé mais restera construit par variantes cohérentes.
 - SMIM / SMIM Quality Addon / Unofficial Material Fix restent prioritaires sur les conflits Security Overhaul extras pour l’instant.
+- `Skyrim Unbound` est retenu comme départ alternatif officiel et devra être installé avant les premiers tests ingame jusqu’à la création de personnage ou spawn joueur.
+- `Alternate Start` / `Alternate Perspective` ne seront pas utilisés comme départ principal.
+- `Edge UI` est abandonné et supprimé.
+- `Vel’dun UI` devient l’interface principale actuelle de SKYFORGE.
+- Le crosshair vanilla de Skyrim doit être conservé ; `Contextual Crosshair` n’est pas installé.
 
 ---
 
@@ -348,3 +353,124 @@ Conflits acceptés pour l’instant : les mods Security Overhaul extras perdent 
 
 **Statut :**  
 Patches différés.
+
+---
+
+### 153. SkyHUD minimal — réinstallation future
+
+**Décision :**  
+`SkyHUD` est installé en version minimale et renommé :
+
+`SkyHUD - A REINSTALL PLUS TARD`
+
+**Raison :**  
+Il pourra être réinstallé plus tard si une configuration HUD finale ou un preset spécifique est retenu.
+
+**Décision associée :**  
+Le crosshair vanilla de Skyrim doit être conservé. `Contextual Crosshair` n’est pas installé.
+
+**Statut :**  
+Réinstallation / configuration HUD différée.
+
+---
+
+### 154. Vel’dun UI minimal — réinstallation future
+
+**Décision :**  
+`Vel’dun UI` est retenu comme interface principale actuelle de SKYFORGE, mais installé en configuration minimale et renommé :
+
+`Vel'dun UI - A REINSTALL PLUS TARD`
+
+**Raison :**  
+Vel’dun UI devra être réinstallé plus tard pour activer les patches utiles quand les mods parents seront installés ou confirmés.
+
+**Patches différés :**
+
+- BTPS Patch
+- CoMAP
+- Experience Patch
+- ImGUI Icons Patch
+- Oblivion Interaction Icons Patch
+- Scribes of Skyrim Patch
+- STB Active Effects
+- STB Widgets
+- TrueHUD Patch
+- Inventory Bars
+- COCKS
+- Compass Navigation Overhaul
+- Favorites Menu
+- Local Map Upgrade
+- MoreHUD Inventory Edition
+- MoreHUD
+- QuickLoot
+
+**Statut :**  
+Réinstallation / patches UI différés.
+
+---
+
+### Décision UI — Edge UI abandonné
+
+**Choix initial envisagé :**
+
+- `Edge UI`
+- patch `Dragonborn Bestiary` pour Edge UI
+
+**Décision finale :**
+
+- `Edge UI` est abandonné.
+- `Vel’dun UI` devient l’interface principale actuelle de SKYFORGE.
+
+**Raisons :**
+
+- Identité visuelle forte.
+- Moins dépendant d’une pile de patches lourde.
+- Modder actif sur Discord Nolvus.
+- Requirements principaux compatibles avec la base actuelle : SkyUI + SkyHUD.
+
+**Mods supprimés :**
+
+- `Edge UI Dragonborn Bestiary Patch`
+- `Edge UI - DECOCHE REMPLACE PAR VELDUN UI`
+
+**Statut :**  
+Décision ferme.
+
+---
+
+### Décision différée — Dragonborn Reskin icons
+
+**Icônes Dragonborn à tester plus tard :**
+
+- Dragonborn Reskin - Wheeler  
+  https://www.nexusmods.com/skyrimspecialedition/mods/100043
+- Dragonborn Reskin - STB Widgets  
+  https://www.nexusmods.com/skyrimspecialedition/mods/140283
+- Dragonborn Reskin - SkyUI Inventory Category and Favorites Icons  
+  https://www.nexusmods.com/skyrimspecialedition/mods/132019
+
+**Conditions :**
+
+- `Dragonborn Reskin - Wheeler` : à tester uniquement quand Wheeler sera installé.
+- `Dragonborn Reskin - STB Widgets` : à tester uniquement quand STB Widgets sera installé.
+- `Dragonborn Reskin - SkyUI Inventory Category and Favorites Icons` : à tester plus tard avec le travail sur l’inventaire / favoris / icônes SkyUI.
+
+**Statut :**  
+Décision différée. Aucun de ces trois mods n’est installé maintenant.
+
+---
+
+### Décision ferme — Skyrim Unbound
+
+**Décision définitive :**  
+`Skyrim Unbound` est retenu comme départ alternatif officiel de SKYFORGE.
+
+**Conséquences :**
+
+- `Alternate Start` / `Alternate Perspective` ne seront pas utilisés comme départ principal.
+- Avant les premiers tests ingame jusqu’à la création de personnage ou spawn joueur, `Skyrim Unbound` devra être installé.
+- Les tests actuels restent limités au menu principal.
+- Cette décision est ferme et ne sera pas remise en question plus tard.
+
+**Statut :**  
+Décision ferme.

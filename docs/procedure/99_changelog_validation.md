@@ -77,6 +77,7 @@
 
 **Étapes ajoutées lors de cette mise à jour :**
 
+- `Étape 151 — Bloc UIExtensions / SkyUI fix / moreHUD`
 - `Étape 152 — A Matter of Time`
 - `Étape 153 — SkyHUD minimal`
 - `Étape 154 — Vel’dun UI minimal`
@@ -100,6 +101,12 @@
 
 **Prochaine reprise :**  
 `Étape 155`
+
+---
+
+## Correction documentaire après coup
+
+L’étape 151 avait été oubliée lors de la première mise à jour 152–154. Elle a été retrouvée et intégrée proprement dans `docs/procedure/07_ui_hud_menus.md`.
 
 ---
 

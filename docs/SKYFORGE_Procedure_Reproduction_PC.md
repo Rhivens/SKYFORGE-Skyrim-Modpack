@@ -8,12 +8,12 @@
 
 ## État actuel validé
 
-- **Dernière étape validée :** Étape 150 — Security Overhaul SKSE - Some More Locks / Extra Locks
+- **Dernière étape validée :** Étape 154 — Vel’dun UI minimal
 - **Runtime :** Skyrim SE 1.5.97 Best of Both Worlds
 - **AE / Creation Club conservé :** oui
 - **Gestionnaire :** Mod Organizer 2 portable
-- **Module récent :** 03 - UI HUD MENUS
-- **Validation :** SKSE via MO2 → menu principal → aucun message DLL bloquant → aucun master manquant → `Overwrite` vide
+- **Module en cours :** 03 - UI HUD MENUS
+- **Validation :** SKSE via MO2 → menu principal → aucun message DLL bloquant → aucun master manquant → `Overwrite` vide → Vel’dun UI visible au menu principal
 
 ---
 

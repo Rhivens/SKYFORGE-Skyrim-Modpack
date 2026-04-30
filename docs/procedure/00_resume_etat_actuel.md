@@ -4,10 +4,10 @@
 
 ---
 
-## État validé après l’étape 101
+## État validé après l’étape 150
 
 **Objectif :**  
-Confirmer que la base technique SKYFORGE reste stable après l’ajout des correctifs Bug Fixes / Engine Patches jusqu’à l’étape 101.
+Confirmer que la base technique SKYFORGE reste stable après l’ajout des correctifs Bug Fixes / Engine Patches, des compléments SKSE/Core Utilities et du début du module UI/HUD/Menus jusqu’à l’étape 150.
 
 **Résultat validé :**
 
@@ -21,45 +21,52 @@ Confirmer que la base technique SKYFORGE reste stable après l’ajout des corre
 
 **Dernière étape validée :**
 
-`Étape 101 — Installation de Best In Class`
+`Étape 150 — Security Overhaul SKSE - Some More Locks / Extra Locks`
 
-**Module principal en cours :**
+**Module récent :**
 
-`02 - BUG FIXES & ENGINE PATCHES`
+`03 - UI HUD MENUS`
 
-**Modules déjà touchés ponctuellement :**
+**Modules touchés depuis l’étape 101 :**
 
-- `01 - SKSE PLUGINS & CORE UTILITIES` : ajout de `NL_MCM - A Modular MCM Framework`.
-- `05 - VISUAL BASE MESHES TEXTURES` : ajout de SMIM, SMIM Quality Addon et Unofficial Material Fix.
-- `13 - SEXLAB CORE ADULT FRAMEWORKS` : ajout en réserve décochée du patch `MuJointFix - Sexlab Ostim Patch`.
+- `01 - SKSE PLUGINS & CORE UTILITIES` : SKSE Menu Framework, Execute Hotkeys, Container Item Distributor, Andrealphus' Papyrus Functions, MergeMapper, Perk Entry Point Extender, Dynamic String Distributor, KiLoader, Media Keys Fix SKSE, DPI Scaling Fix.
+- `02 - BUG FIXES & ENGINE PATCHES` : ENB Terrain Blending Fix, Dangerous Trap Fixes, EPW4NPCs, Lightened Skyrim BOS, bc036's Tweaks, Andrealletius' Exploit Fixes, HearthFires Customizable Fertile Soil, Mum's the Word NG, Magic Fixes and Tweaks SKSE, Thalmor Don't Report Crimes To Stormcloaks, Persistent Favorites, To Your Face.
+- `03 - UI HUD MENUS` : Regional Save Names, Notification Log SSE, Yes Im Sure, Copy and Paste in Console, Essential Favorites, Favorite Misc Items, Better Container Controls for SkyUI, Better MessageBox Controls, Better Dialogue Controls, Read Or Take SKSE, Use Or Take SKSE, Improved Help Command, Disable Numpad, Notification Filter, Security Overhaul SKSE.
+- `05 - VISUAL BASE MESHES TEXTURES` : SMIM / SMIM Quality Addon / Unofficial Material Fix restent prioritaires sur les conflits Security Overhaul extras.
 
 **Décisions importantes retenues :**
 
-- LOOT / ordre de chargement global : différé.
-- Documentation : mise à jour groupée, pas étape par étape.
+- LOOT / ordre de chargement global : toujours différé.
+- Documentation : mise à jour groupée et reclassée par fichiers thématiques.
 - Les petits fixes non sensibles peuvent être installés par blocs, avec un seul test final.
 - Les DLL / SKSE sensibles, masters, FOMOD complexes ou sources externes doivent être testés individuellement.
-- Indiquer l’emplacement panneau gauche MO2 quand le séparateur ou l’ordre de priorité a une importance.
-- Quêtes SFW/NSFW Nolvus/Nefaram : à proposer plus tard, décision manuelle avant installation.
-- Patches de quêtes : uniquement si le mod parent est installé ou officiellement retenu.
-- SexLab 1.63 est un choix définitif pour SKYFORGE, mais le module SexLab n’est pas encore installé.
-- Le patch `MuJointFix - Sexlab Ostim Patch - DECOCHE RESERVE SEXLAB` reste décoché jusqu’au futur module SexLab.
-- Les choix magie, alchimie, besoins, hygiène, survie et immersion seront proposés plus tard sous forme de variantes cohérentes.
-- L’interface UI de SKYFORGE ne reprendra pas automatiquement celle de Nefaram ; le module UI sera choisi plus tard par variantes cohérentes.
-- `OnMagicEffectApply Replacer` doit gagner ses conflits contre `Optimized USSEP Valdr Quest` et `Vanilla Scripting Enhancements Loose version`.
-- `Navigator - Navmesh Fixes` est à revoir si VIGILANT, Interesting NPCs, Skyrim Sewers ou Wraithguard Vault Fixer sont installés.
-- `Wordkeys` est à revoir si des mods de magie comme Mysticism, Odin, Apocalypse ou Triumvirate sont installés.
-- `Rock Traps Trigger Fixes` est à revoir si Lawbringer, Skyrim Realistic Conquering ou des lieux associés sont installés.
-- `Myrwatch - Editable Home Cells` reste différé sauf besoin explicite.
-- `Enchantable Special Item Fix - Patches` reste différé.
-- `Dragon Mounds CTD Fix / WoW Dragon Mounds CTD Fix` reste différé car `Wonders of Weather` n’est pas installé.
-- `Thalmor Don’t Report Crimes To Stormcloaks` reste différé pour analyse.
-- `RemoveAllItems Freeze Fix` était déjà installé et n’a pas été réinstallé.
-- `OCF` et `Keyword Patch Collection` restent installés mais renommés `A REINSTALL PLUS TARD`.
-- `NPC AI Process Position Fix - NG` reste à réinstaller plus tard après AI Overhaul.
-- Les mauvais liens repérés pendant les étapes 90, 94, 95 et 98 ont été rejetés ; seuls les liens corrigés retenus sont documentés.
+- Les étapes conservent une numérotation chronologique globale même si elles sont rangées dans des fichiers thématiques différents.
+- Les fichiers trop longs peuvent être prolongés avec une partie suivante.
+- `ENB Extender Skyrim - DECOCHE RESERVE ENB` reste désactivé jusqu’à installation d’un ENB binaire actif avec `d3d11.dll`.
+- `Notification Filter` est installé, mais sa configuration INI est différée.
+- `Security Overhaul SKSE - Some More Locks` est installé en base, mais ses patches optionnels seront revus plus tard selon les modules clutter / strongboxes / meshes.
+- `Magic Fixes and Tweaks SKSE` est installé en base ; les options `Revamped Costs` et `Spell Binding` sont différées.
+- `Andrealletius' Exploit Fixes` est installé avec une sélection prudente ; ses options FOMOD seront revues plus tard selon magie / alchimie / perks / lieux.
+- Le futur module carte sera construit autour de `Flat World Map Framework` et `Skyrim Paper Map by Caro Tuts for FWMF`. `Atlas Map Markers` reste différé.
+- PC principal : RTX 4070 12 Go. Prévoir plus tard un module performance avec Skyrim Upscaler DLSS / DLAA, ENB Manager, ENB retenu, ReShade éventuel et réglages SSE Display Tweaks.
 
 ---
+
+## Prochaine reprise
+
+Reprendre à partir de :
+
+`Étape 151`
+
+État de départ :
+
+- Dernière étape validée : Étape 150
+- Module récent : `03 - UI HUD MENUS`
+- SKSE via MO2 : OK
+- Menu principal atteint : OK
+- Aucun message DLL : OK
+- Aucun master manquant : OK
+- `Overwrite` vide : OK
 
 ---
 

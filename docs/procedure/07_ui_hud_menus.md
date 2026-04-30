@@ -338,6 +338,70 @@ SKSE via MO2, menu principal atteint, aucun message DLL, aucun master manquant, 
 
 ---
 
+### 151. Bloc UIExtensions / SkyUI fix / moreHUD
+
+**Module :** 03 - UI HUD MENUS
+
+**Objectif :**  
+Installer le bloc de base UIExtensions, correctif SkyUI et moreHUD compatible Skyrim SE 1.5.97 / Pre-AE.
+
+**Mods installés :**
+
+- `UIExtensions`
+- `SkyUI - Ghost Item Bug Fix`
+- `moreHUD SE - Light Master - Pre AE`
+- `moreHUD Inventory Edition - Loose Version - Pre AE`
+
+**Placement MO2 :**  
+Dans `03 - UI HUD MENUS`, sous le bloc `Security Overhaul`.
+
+**Choix retenu pour moreHUD SE :**
+
+Fichier installé :
+
+`moreHUD SE Light Master - Pre AE`
+
+**Raisons :**
+
+- Compatible Skyrim SE 1.5.97 / Pre-AE.
+- Plugin light master.
+- Meilleure préservation de la marge plugins.
+
+**À ne pas installer en parallèle :**
+
+`moreHUD SE - Pre AE`
+
+**Choix retenu pour moreHUD Inventory Edition :**
+
+Fichier installé :
+
+`moreHUD Inventory Edition Loose Version - Pre AE`
+
+**Raisons :**
+
+- Compatible Skyrim SE 1.5.97 / Pre-AE.
+- Version loose files.
+- Aucun ESP / ESL.
+- Rien à gérer dans le panneau droit.
+
+**Note de priorité MO2 :**  
+`moreHUD Inventory Edition - Loose Version - Pre AE` doit être placé après `moreHUD SE - Light Master - Pre AE`.
+
+S’il y a conflit de fichiers, l’addon inventaire peut gagner : c’est attendu.
+
+**Test de validation :**
+
+- SKSE via MO2 : OK
+- Menu principal atteint : OK
+- Aucun message DLL : OK
+- Aucun master manquant : OK
+- `Overwrite` vide : OK
+
+**Statut :**  
+Étape 151 validée.
+
+---
+
 ### 152. A Matter of Time
 
 **Module :** 03 - UI HUD MENUS

@@ -29,7 +29,8 @@
 8. [Visual base meshes & textures](procedure/05_visual_base_meshes_textures.md)
 9. [Décisions différées et points à revoir](procedure/06_decisions_differees.md)
 10. [UI, HUD et menus](procedure/07_ui_hud_menus.md)
-11. [Changelog / validation](procedure/99_changelog_validation.md)
+11. [UI, HUD et menus — partie 2](procedure/07_ui_hud_menus_part_2.md)
+12. [Changelog / validation](procedure/99_changelog_validation.md)
 
 ---
 

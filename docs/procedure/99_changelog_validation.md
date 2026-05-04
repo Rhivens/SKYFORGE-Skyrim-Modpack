@@ -110,6 +110,68 @@ L’étape 151 avait été oubliée lors de la première mise à jour 152–154.
 
 ---
 
+## État validé après l’étape 168
+
+**Dernière étape validée :**  
+`Étape 168 — Bloc HUD confort léger`
+
+**Module en cours :**  
+`03 - UI HUD MENUS`
+
+**Résultat validé :**
+
+- SKSE lancé via MO2 : OK
+- Menu principal atteint : OK
+- Aucun message DLL : OK
+- Aucun master manquant : OK
+- `Overwrite` vide : OK
+
+**Étapes ajoutées / documentées lors de cette mise à jour :**
+
+- `Étape 155 — TrueHUD`
+- `Étape 156 — STB Widgets + STB Active Effects`
+- `Étape 157 — Dragonborn Reskin pour STB`
+- `Étape 158 — Wheeler + Dragonborn Wheeler Reskin`
+- `Étape 159 — dMenu + dMenu NG`
+- `Étape 160 — Infinity UI + Compass Navigation Overhaul`
+- `Étape 161 — Better Third Person Selection`
+- `Étape 162 — QuickLoot IE différé`
+- `Étape 163 — ImGui Icons / Dialogue History / Menu Maid 2`
+- `Étape 164 — Oxygen Meter 2`
+- `Correction associée à l’étape 153 — Patch - SkyHUD 0.90.1B`
+- `Étape 165 — Show Player In Menus`
+- `Étape 166 — Dragonborn SkyUI Category and Fav Icons`
+- `Étape 167 — Bloc carte / wait menu`
+- `Étape 168 — Bloc HUD confort léger`
+
+**Décisions ajoutées / confirmées lors de cette mise à jour :**
+
+- `QuickLoot IE` est différé / non installé pour préserver l’immersion future SexLab / Devious / Cursed Loot.
+- Les patches Vel’dun UI restent différés jusqu’à confirmation des mods parents utiles.
+- `Dragonborn Reskin - Oxygen Meter 2` n’est pas installé.
+- `Dragonborn Reskin - Compass and Weather` n’est pas installé.
+- `Toggle Compass Hotkey` n’est pas retenu.
+- `HideUI` est différé.
+- `Photo Mode` est différé jusqu’aux futurs tests ingame / screenshots avec `Skyrim Unbound`.
+- Les blocs de mods légers, visuels ou non sensibles peuvent être installés de façon groupée avec un test final.
+
+**Fichiers ajoutés lors de cette mise à jour :**
+
+- `docs/procedure/07_ui_hud_menus_part_2.md`
+
+**Fichiers mis à jour lors de cette mise à jour :**
+
+- `docs/SKYFORGE_Procedure_Reproduction_PC.md`
+- `docs/procedure/00_resume_etat_actuel.md`
+- `docs/procedure/02_skse_core_utilities_part_2.md`
+- `docs/procedure/06_decisions_differees.md`
+- `docs/procedure/99_changelog_validation.md`
+
+**Prochaine reprise :**  
+`Étape 169`
+
+---
+
 ## Rappel méthode
 
 - Avancer prudemment, par petits blocs.

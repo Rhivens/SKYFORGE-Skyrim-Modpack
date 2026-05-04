@@ -4,7 +4,7 @@
 
 ---
 
-## Décisions importantes retenues après l’étape 154
+## Décisions importantes retenues après l’étape 168
 
 - LOOT / ordre de chargement global : différé.
 - Documentation : mise à jour groupée, pas étape par étape.
@@ -24,6 +24,11 @@
 - `Edge UI` est abandonné et supprimé.
 - `Vel’dun UI` devient l’interface principale actuelle de SKYFORGE.
 - Le crosshair vanilla de Skyrim doit être conservé ; `Contextual Crosshair` n’est pas installé.
+- Les patches Vel’dun UI sont différés jusqu’à confirmation / installation des mods parents concernés.
+- `QuickLoot IE` est différé / non installé afin de préserver la logique future SexLab / Devious / Cursed Loot et une fouille manuelle plus immersive.
+- `Toggle Compass Hotkey` n’est pas retenu.
+- `HideUI` est différé.
+- `Photo Mode` est différé jusqu’aux futurs tests ingame / screenshots avec `Skyrim Unbound`.
 
 ---
 
@@ -369,6 +374,9 @@ Il pourra être réinstallé plus tard si une configuration HUD finale ou un pre
 **Décision associée :**  
 Le crosshair vanilla de Skyrim doit être conservé. `Contextual Crosshair` n’est pas installé.
 
+**Correction ajoutée plus tard :**  
+Le patch optionnel `Patch - SkyHUD 0.90.1B` a été installé comme mod séparé et placé entre `SkyHUD - A REINSTALL PLUS TARD` et `TrueHUD - HUD Additions`.
+
 **Statut :**  
 Réinstallation / configuration HUD différée.
 
@@ -409,6 +417,46 @@ Réinstallation / patches UI différés.
 
 ---
 
+### 162. QuickLoot IE différé
+
+**Décision :**  
+`QuickLoot IE` n’est pas installé à cette étape.
+
+**Raison :**  
+Le futur setup SexLab / Devious / Cursed Loot rend QuickLoot potentiellement contre-productif :
+
+- risque de casser l’immersion ;
+- fouille moins manuelle des conteneurs ;
+- moins de tension liée aux coffres et pièges ;
+- interface trop moderne pour une logique de loot dangereux / surprise.
+
+**Non installés :**
+
+- `QuickLoot IE`
+- patch Vel’dun UI QuickLoot
+- reskins QuickLoot
+
+**Statut :**  
+Étape 162 validée comme décision de différer.
+
+---
+
+### 168. Toggle Compass Hotkey / HideUI / Photo Mode
+
+**Décisions :**
+
+- `Toggle Compass Hotkey` : non retenu.
+- `HideUI` : différé.
+- `Photo Mode` : différé jusqu’aux futurs tests ingame / screenshots avec `Skyrim Unbound`.
+
+**Raison Photo Mode :**  
+Aucun mod déjà installé ne remplace vraiment un vrai photomode global. `TrueHUD`, `Infinity UI` et `moreHUD` ne couvrent pas le même besoin qu’un photomode complet.
+
+**Statut :**  
+Décisions UI différées / non retenues.
+
+---
+
 ### Décision UI — Edge UI abandonné
 
 **Choix initial envisagé :**
@@ -440,23 +488,25 @@ Décision ferme.
 
 ### Décision différée — Dragonborn Reskin icons
 
-**Icônes Dragonborn à tester plus tard :**
+**Icônes Dragonborn testées / installées :**
 
-- Dragonborn Reskin - Wheeler  
-  https://www.nexusmods.com/skyrimspecialedition/mods/100043
 - Dragonborn Reskin - STB Widgets  
   https://www.nexusmods.com/skyrimspecialedition/mods/140283
-- Dragonborn Reskin - SkyUI Inventory Category and Favorites Icons  
+- Dragonborn Reskin - STB Active Effects  
+  https://www.nexusmods.com/skyrimspecialedition/mods/149364
+- Dragonborn - Wheeler Reskin  
+  https://www.nexusmods.com/skyrimspecialedition/mods/100043
+- Dragonborn Reskin - SkyUI Category and Fav Icons  
   https://www.nexusmods.com/skyrimspecialedition/mods/132019
 
-**Conditions :**
+**Icônes Dragonborn non installées / différées :**
 
-- `Dragonborn Reskin - Wheeler` : à tester uniquement quand Wheeler sera installé.
-- `Dragonborn Reskin - STB Widgets` : à tester uniquement quand STB Widgets sera installé.
-- `Dragonborn Reskin - SkyUI Inventory Category and Favorites Icons` : à tester plus tard avec le travail sur l’inventaire / favoris / icônes SkyUI.
+- `Dragonborn Reskin - Oxygen Meter 2` : non installé.
+- `Dragonborn Reskin - Compass and Weather` : non installé.
+- Autres reskins UI Dragonborn non souhaités à ce stade.
 
 **Statut :**  
-Décision différée. Aucun de ces trois mods n’est installé maintenant.
+Décision partiellement levée : certains reskins Dragonborn sont installés, d’autres restent différés ou non retenus.
 
 ---
 

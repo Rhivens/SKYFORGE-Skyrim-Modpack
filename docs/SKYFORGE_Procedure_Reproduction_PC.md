@@ -8,11 +8,11 @@
 
 ## État actuel validé
 
-- **Dernière étape validée :** Étape 168 — Bloc HUD confort léger
+- **Dernière étape validée :** Étape 185 — Patch ASIF pour RISE
 - **Runtime :** Skyrim SE 1.5.97 Best of Both Worlds
 - **AE / Creation Club conservé :** oui
 - **Gestionnaire :** Mod Organizer 2 portable
-- **Module en cours :** 03 - UI HUD MENUS
+- **Module en cours :** 04 - AUDIO MUSIC SOUNDS
 - **Validation :** SKSE via MO2 → menu principal → aucun message DLL bloquant → aucun master manquant → `Overwrite` vide
 
 ---
@@ -30,7 +30,10 @@
 9. [Décisions différées et points à revoir](procedure/06_decisions_differees.md)
 10. [UI, HUD et menus](procedure/07_ui_hud_menus.md)
 11. [UI, HUD et menus — partie 2](procedure/07_ui_hud_menus_part_2.md)
-12. [Changelog / validation](procedure/99_changelog_validation.md)
+12. [UI, HUD et menus — partie 3](procedure/07_ui_hud_menus_part_3.md)
+13. [Survival, immersion et roleplay](procedure/08_survival_immersion_roleplay.md)
+14. [Audio, musiques et sons](procedure/09_audio_music_sounds.md)
+15. [Changelog / validation](procedure/99_changelog_validation.md)
 
 ---
 

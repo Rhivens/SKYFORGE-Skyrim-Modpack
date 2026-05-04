@@ -4,10 +4,10 @@
 
 ---
 
-## État validé après l’étape 168
+## État validé après l’étape 185
 
 **Objectif :**  
-Confirmer que la base technique SKYFORGE reste stable après l’ajout du bloc UI/HUD/Menus avancé : TrueHUD, STB, Wheeler, Infinity UI, Compass Navigation Overhaul, BTPS, gestion MCM, carte locale, menu d’attente et confort HUD léger.
+Confirmer que SKYFORGE reste stable après la clôture provisoire du module UI/HUD/Menus, l’installation de `Skyrim Unbound Reborn` comme départ alternatif officiel, puis l’entrée dans le module Audio / Music / Sounds jusqu’au patch ASIF pour RISE.
 
 **Résultat validé :**
 
@@ -15,76 +15,58 @@ Confirmer que la base technique SKYFORGE reste stable après l’ajout du bloc U
 - AE / Creation Club conservé : OK
 - SKSE lancé via MO2 : OK
 - Menu principal atteint : OK
+- Tests ingame limités à la salle de départ Skyrim Unbound : OK
 - Aucun missing master bloquant signalé : OK
 - Aucun message DLL bloquant signalé sur les derniers tests : OK
 - `Overwrite` vide : OK
 
 **Dernière étape validée :**
 
-`Étape 168 — Bloc HUD confort léger`
+`Étape 185 — Patch ASIF pour RISE`
 
 **Module en cours :**
 
-`03 - UI HUD MENUS`
+`04 - AUDIO MUSIC SOUNDS`
 
-**Mods UI importants actifs à ce stade :**
+**État UI/HUD/Menus :**  
+Le module `03 - UI HUD MENUS` est provisoirement clos après l’étape 178.
 
-- `UIExtensions`
-- `SkyUI - Ghost Item Bug Fix`
-- `moreHUD SE - Light Master - Pre AE`
-- `moreHUD Inventory Edition - Loose Version - Pre AE`
-- `A Matter of Time - A HUD clock widget`
-- `A Matter Of Time - Legacy Settings Loader`
-- `SkyHUD - A REINSTALL PLUS TARD`
-- `Patch - SkyHUD 0.90.1B`
-- `TrueHUD - HUD Additions`
-- `STB Widgets`
-- `STB Active Effects`
-- `Wheeler - Quick Action Wheel Of Skyrim`
-- `Infinity UI`
-- `Compass Navigation Overhaul`
-- `Better Third Person Selection`
-- `Dialogue History`
-- `Menu Maid 2 - MCM Manager`
-- `Menu Maid 2 - Generated INI`
-- `Oxygen Meter 2`
-- `Show Player In Menus`
-- `HD Local Map`
-- `Local Map Upgrade`
-- `Modern Wait Menu`
-- `Horse Stamina HUD - Script-Free`
-- `Floating Damage`
-- `Vel'dun UI - A REINSTALL PLUS TARD`
-- `Dragonborn Reskin - STB Widgets`
-- `Dragonborn Reskin - STB Active Effects`
-- `Dragonborn - Wheeler Reskin`
-- `Dragonborn Reskin - SkyUI Category and Fav Icons`
+**Départ alternatif :**
 
-**Core utilities ajoutées pendant ce bloc :**
+- `Skyrim Unbound Reborn - A REINSTALL PLUS TARD` est installé et validé.
+- Les tests ingame restent limités à la salle de départ.
+- Les sauvegardes de test / autosaves devront être supprimées avant la partie finale.
 
-- `dMenu`
-- `dMenu NG`
-- `ImGui Icons`
+**Bloc audio actuel recommandé :**
+
+- `Sound Record Distributor`
+- `Acoustic Space Improvement Fixes - SkyPatcher`
+- `Audio Overhaul for Skyrim SE - A REINSTALL PLUS TARD`
+- `Immersive Sounds - Compendium - A REINSTALL PLUS TARD`
+- `Audio Overhaul - Immersive Sounds Integration`
+- `Regional Sounds Expansion`
+- `Reverb Interior Sounds Expansion`
 
 **Décisions importantes retenues :**
 
 - LOOT / ordre de chargement global : toujours différé.
 - Ne pas toucher au panneau droit sauf missing master.
-- Tests limités au menu principal tant que `Skyrim Unbound` n’est pas installé.
 - `Skyrim Unbound` est retenu comme départ alternatif officiel de SKYFORGE.
 - `Alternate Start` / `Alternate Perspective` ne seront pas utilisés comme départ principal.
-- Avant les premiers tests ingame jusqu’à la création de personnage ou spawn joueur, `Skyrim Unbound` devra être installé.
+- Les tests ingame restent limités à la salle de départ tant que la base globale n’est pas suffisamment avancée.
+- Les sauvegardes techniques temporaires créées pour tester `Skyrim Unbound` devront être supprimées avant la vraie partie finale.
 - Le crosshair vanilla de Skyrim doit être conservé.
 - `Contextual Crosshair` n’est pas installé.
 - `Edge UI` est abandonné et supprimé.
 - `Vel’dun UI` reste l’interface principale actuelle de SKYFORGE.
-- `SkyHUD` et `Vel’dun UI` sont installés en version minimale et renommés `A REINSTALL PLUS TARD` afin de permettre une réinstallation propre quand les patches utiles seront nécessaires.
-- Les patches Vel’dun UI pour `TrueHUD`, `STB Widgets`, `STB Active Effects`, `BTPS`, `Compass Navigation Overhaul`, `MoreHUD`, `Local Map Upgrade` et autres modules parents restent différés.
-- `QuickLoot IE` est différé / non installé afin de préserver la logique future SexLab / Devious / Cursed Loot et une fouille plus manuelle des conteneurs.
-- `Toggle Compass Hotkey` n’est pas retenu.
-- `HideUI` est différé.
-- `Photo Mode` est différé jusqu’aux futurs tests ingame / screenshots avec `Skyrim Unbound`.
-- Les blocs de mods légers, visuels ou non sensibles peuvent être installés de façon groupée avec un test final.
+- `SkyHUD`, `Vel’dun UI`, `Atlas Map Markers`, `Skyrim Unbound Reborn`, `Audio Overhaul for Skyrim SE` et `Immersive Sounds - Compendium` gardent une logique de réinstallation future si les patches ou choix FOMOD doivent être revus.
+- `RaceMenu Undress` affiche `$Undress slider` : correction ou acceptation à vérifier plus tard.
+- `Better AltTab` est à installer plus tard avec test individuel ALT+TAB.
+- `Show Follower Carry Weight` / `Show Mount Carry Weight` sont différés à cause de `Rogue’s Gallery`.
+- `Too many notifications` est différé pour éviter doublon avec `Notification Log SSE` + `Notification Filter`.
+- `Photo Mode`, `HideUI` et les ajouts cosmétiques de menu principal sont différés.
+- `AOS` et `ISC` restent marqués `A REINSTALL PLUS TARD` pour choix FOMOD conditionnels ou subjectifs.
+- `ASIF` a été réinstallé avec le patch `RISE` activé.
 
 ---
 
@@ -92,14 +74,15 @@ Confirmer que la base technique SKYFORGE reste stable après l’ajout du bloc U
 
 Reprendre à partir de :
 
-`Étape 169`
+`Étape 186`
 
 État de départ :
 
-- Dernière étape validée : Étape 168
-- Module en cours : `03 - UI HUD MENUS`
+- Dernière étape validée : Étape 185
+- Module en cours : `04 - AUDIO MUSIC SOUNDS`
 - SKSE via MO2 : OK
 - Menu principal atteint : OK
+- Tests ingame limités à la salle de départ Skyrim Unbound : OK
 - Aucun message DLL : OK
 - Aucun master manquant : OK
 - `Overwrite` vide : OK

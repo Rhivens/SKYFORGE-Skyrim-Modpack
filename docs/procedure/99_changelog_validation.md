@@ -189,11 +189,9 @@ L’étape 151 avait été oubliée lors de la première mise à jour 152–154.
 - Aucun master manquant : OK
 - `Overwrite` vide : OK
 
-**Note de numérotation :**  
-Le bloc fourni documente les étapes 170 à 185. L’étape 169 n’a pas été fournie dans ce bloc de mise à jour et reste absente de cette passe documentaire.
-
 **Étapes ajoutées / documentées lors de cette mise à jour :**
 
+- `Étape 169 — Bloc UI inventaire / lecture / quêtes`
 - `Étape 170 — Atlas Map Markers`
 - `Étape 171 — Contrôle placement Map UI`
 - `Étape 172 — RaceMenu / création personnage`
@@ -236,6 +234,9 @@ Le bloc fourni documente les étapes 170 à 185. L’étape 169 n’a pas été 
 - `docs/procedure/00_resume_etat_actuel.md`
 - `docs/procedure/06_decisions_differees.md`
 - `docs/procedure/99_changelog_validation.md`
+
+**Correction documentaire après coup :**  
+L’étape 169 avait été omise lors de la première mise à jour 170–185. Elle a été retrouvée et intégrée proprement dans `docs/procedure/07_ui_hud_menus_part_3.md`.
 
 **Prochaine reprise :**  
 `Étape 186`

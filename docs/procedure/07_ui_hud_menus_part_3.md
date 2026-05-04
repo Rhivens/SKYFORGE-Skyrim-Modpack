@@ -2,7 +2,36 @@
 
 > Procédure personnelle du projet **SKYFORGE**. Aucun mod, archive Nexus, fichier Bethesda, fichier Creation Club, fichier SKSE, ENB ou élément soumis à redistribution restreinte n’est inclus dans ce dépôt.
 
-Contient les étapes 170 à 173 puis 176 à 178 classées dans le module **03 - UI HUD MENUS**.
+Contient les étapes 169 à 173 puis 176 à 178 classées dans le module **03 - UI HUD MENUS**.
+
+---
+
+### 169. Bloc UI inventaire / lecture / quêtes
+
+**Module :** 03 - UI HUD MENUS
+
+**Objectif :**  
+Valider le bloc UI déjà installé autour de l’inventaire, des informations injectées dans SkyUI, de la lecture des livres et de l’identification des quêtes.
+
+**Mods validés :**
+
+- `Inventory Interface Information Injector`
+- `I4 - SkyUI Weapons Pack`
+- `Unread Books Glow Redone`
+- `Whose Quest Is It Anyway NG`
+
+**Action :**  
+Aucun nouveau mod ajouté à cette étape. Il s’agit d’une vérification / validation du bloc existant.
+
+**Test de validation :**
+
+- SKSE via MO2 : OK
+- Menu principal atteint : OK
+- Aucun message DLL/master : OK
+- `Overwrite` vide : OK
+
+**Statut :**  
+Étape 169 validée.
 
 ---
 

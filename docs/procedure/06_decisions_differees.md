@@ -4,7 +4,7 @@
 
 ---
 
-## Décisions importantes retenues après l’étape 168
+## Décisions importantes retenues après l’étape 185
 
 - LOOT / ordre de chargement global : différé.
 - Documentation : mise à jour groupée, pas étape par étape.
@@ -19,8 +19,10 @@
 - Les choix magie, alchimie, besoins, hygiène, survie et immersion seront proposés plus tard sous forme de variantes cohérentes.
 - L’interface UI de SKYFORGE ne reprend pas automatiquement celle de Nefaram ; le module UI est commencé mais restera construit par variantes cohérentes.
 - SMIM / SMIM Quality Addon / Unofficial Material Fix restent prioritaires sur les conflits Security Overhaul extras pour l’instant.
-- `Skyrim Unbound` est retenu comme départ alternatif officiel et devra être installé avant les premiers tests ingame jusqu’à la création de personnage ou spawn joueur.
+- `Skyrim Unbound` est retenu comme départ alternatif officiel et installé / validé.
 - `Alternate Start` / `Alternate Perspective` ne seront pas utilisés comme départ principal.
+- Les tests ingame restent limités à la salle de départ Skyrim Unbound.
+- Les sauvegardes de test / autosaves devront être supprimées avant la vraie partie finale.
 - `Edge UI` est abandonné et supprimé.
 - `Vel’dun UI` devient l’interface principale actuelle de SKYFORGE.
 - Le crosshair vanilla de Skyrim doit être conservé ; `Contextual Crosshair` n’est pas installé.
@@ -28,7 +30,10 @@
 - `QuickLoot IE` est différé / non installé afin de préserver la logique future SexLab / Devious / Cursed Loot et une fouille manuelle plus immersive.
 - `Toggle Compass Hotkey` n’est pas retenu.
 - `HideUI` est différé.
-- `Photo Mode` est différé jusqu’aux futurs tests ingame / screenshots avec `Skyrim Unbound`.
+- `Photo Mode` est différé jusqu’aux futurs tests ingame / screenshots.
+- `Better AltTab` est à installer plus tard avec test individuel ALT+TAB en jeu.
+- `AOS` et `ISC` restent marqués `A REINSTALL PLUS TARD` pour choix FOMOD conditionnels ou subjectifs.
+- `ASIF` a été réinstallé avec le patch `RISE` activé.
 
 ---
 
@@ -318,20 +323,24 @@ Le mod touche aux restrictions d’équipement, aux outfits, au roleplay et pote
 
 ### 147. Atlas Map Markers SE - Updated with MCM
 
-**Décision :**  
+**Décision initiale :**  
 Différé.
 
-**Raison :**  
-Le module carte sera construit plus tard autour de :
+**État après étape 170 :**  
+`Atlas Map Markers - Updated with MCM - A REINSTALL PLUS TARD` et `Atlas Map Markers SE - Updated with MCM - Settings Loader` sont installés.
 
-- `Flat World Map Framework (FWMF)`
-- `Skyrim Paper Map by Caro Tuts for FWMF`
+**Patches différés :**
+
+- `Delphine’s Map Reveals Dragon Mounds`
+- `Obscure’s College`
+- `Ultimate College`
+- autres patches proposés mais non cochés à cette étape
 
 **Note à retenir :**  
-`Module carte retenu : FWMF + Skyrim Paper Map by Caro Tuts. Revoir Atlas Map Markers uniquement si compatible et utile avec ce setup.`
+Le module carte retenu reste à stabiliser plus tard autour de `FWMF` / carte papier et des futurs mods de lieux ou de quêtes. Atlas est installé mais garde une logique de réinstallation future.
 
 **Statut :**  
-Étape 147 différée.
+Décision partiellement levée : base Atlas installée, patches différés.
 
 ---
 
@@ -447,13 +456,140 @@ Le futur setup SexLab / Devious / Cursed Loot rend QuickLoot potentiellement con
 
 - `Toggle Compass Hotkey` : non retenu.
 - `HideUI` : différé.
-- `Photo Mode` : différé jusqu’aux futurs tests ingame / screenshots avec `Skyrim Unbound`.
+- `Photo Mode` : différé jusqu’aux futurs tests ingame / screenshots.
 
 **Raison Photo Mode :**  
 Aucun mod déjà installé ne remplace vraiment un vrai photomode global. `TrueHUD`, `Infinity UI` et `moreHUD` ne couvrent pas le même besoin qu’un photomode complet.
 
 **Statut :**  
 Décisions UI différées / non retenues.
+
+---
+
+### 172. RaceMenu Undress — slider non traduit
+
+**Décision / constat :**  
+`RaceMenu Undress` est installé, mais le slider apparaît sous la forme `$Undress slider`.
+
+**Action différée :**  
+Vérifier plus tard si ce libellé doit être corrigé par traduction, fichier MCM / interface, ou s’il peut être accepté tel quel.
+
+**Statut :**  
+Correction / acceptation à vérifier plus tard.
+
+---
+
+### 172. Lumière RaceMenu
+
+**Décision :**  
+Le mod de lumière RaceMenu est différé.
+
+**Statut :**  
+À revoir plus tard selon les besoins de création de personnage / screenshots.
+
+---
+
+### 175. Sauvegardes de test Skyrim Unbound
+
+**Décision :**  
+Les sauvegardes créées pendant le test `Skyrim Unbound` sont des sauvegardes techniques temporaires.
+
+**Note :**  
+`SKYFORGE_STEP_174_UNBOUND_OK - TEST A SUPPRIMER`
+
+**Action future :**  
+Supprimer ces sauvegardes de test et autosaves avant la vraie partie finale.
+
+**Statut :**  
+Nettoyage à faire plus tard.
+
+---
+
+### 176. Better AltTab
+
+**Décision :**  
+`Better AltTab` est à installer plus tard.
+
+**Condition :**  
+Prévoir un test individuel ALT+TAB en jeu.
+
+**Statut :**  
+Différé.
+
+---
+
+### 177. Show Follower Carry Weight / Show Mount Carry Weight
+
+**Décision :**  
+Différés / non installés.
+
+**Raison :**  
+`Show Follower Carry Weight` demande `Rogue’s Gallery`, donc le bloc est différé.
+
+**Statut :**  
+À revoir plus tard si `Rogue’s Gallery` est installé ou retenu.
+
+---
+
+### 177. Too many notifications
+
+**Décision :**  
+Différé.
+
+**Raison :**  
+Le bloc UI contient déjà :
+
+- `Notification Log SSE`
+- `Notification Filter - Remove unwanted notifications - CONFIG INI A FAIRE PLUS TARD`
+
+**Statut :**  
+Différé pour éviter les doublons prématurés.
+
+---
+
+### 178. Ajouts cosmétiques / captures / menu principal
+
+**Décision :**  
+Différer les ajouts suivants :
+
+- `Main Menu Customizer`
+- `Main Menu Replacer`
+- `Main Menu Randomizer`
+- `Random Main Menu Music`
+- `Photo Mode`
+- `HideUI`
+
+**Statut :**  
+Différés après fin provisoire du module UI.
+
+---
+
+### 180 / 185. Acoustic Space Improvement Fixes - SkyPatcher
+
+**Décision initiale :**  
+`Acoustic Space Improvement Fixes - SkyPatcher` a été installé avec le patch `Reverb Interior Sounds Expansion` décoché au premier passage, puis temporairement nommé `A REINSTALL PLUS TARD`.
+
+**État après étape 185 :**  
+Après installation de `Reverb Interior Sounds Expansion`, `ASIF` a été réinstallé avec le patch `Reverb Interior Sounds Expansion` coché.
+
+**Statut :**  
+Décision levée : annotation `A REINSTALL PLUS TARD` supprimée pour `ASIF`.
+
+---
+
+### 182. Audio Overhaul / Immersive Sounds — réinstallation future
+
+**Décision :**  
+`Audio Overhaul for Skyrim SE` et `Immersive Sounds - Compendium` restent marqués :
+
+- `Audio Overhaul for Skyrim SE - A REINSTALL PLUS TARD`
+- `Immersive Sounds - Compendium - A REINSTALL PLUS TARD`
+
+**Raison :**  
+Les choix FOMOD sont conditionnels ou subjectifs et pourront être ajustés selon les futurs mods ou les tests gameplay.
+
+**Statut :**  
+Réinstallation / ajustement audio différé.
 
 ---
 
@@ -515,12 +651,15 @@ Décision partiellement levée : certains reskins Dragonborn sont installés, d�
 **Décision définitive :**  
 `Skyrim Unbound` est retenu comme départ alternatif officiel de SKYFORGE.
 
+**État après étape 174 :**  
+`Skyrim Unbound Reborn - A REINSTALL PLUS TARD` est installé et validé.
+
 **Conséquences :**
 
 - `Alternate Start` / `Alternate Perspective` ne seront pas utilisés comme départ principal.
-- Avant les premiers tests ingame jusqu’à la création de personnage ou spawn joueur, `Skyrim Unbound` devra être installé.
-- Les tests actuels restent limités au menu principal.
+- Les tests ingame restent limités à la salle de départ Skyrim Unbound.
 - Cette décision est ferme et ne sera pas remise en question plus tard.
+- Les patches Skyrim Unbound pourront être revus selon les futurs modules quêtes / dialogues / factions / dragons.
 
 **Statut :**  
-Décision ferme.
+Décision ferme, installation validée.

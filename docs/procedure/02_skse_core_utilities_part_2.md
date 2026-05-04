@@ -229,3 +229,77 @@ SKSE via MO2, menu principal atteint, aucun message DLL, aucun master manquant, 
 
 **Statut :**  
 Étape 137 sautée — déjà installé.
+
+---
+
+### 159. dMenu + dMenu NG
+
+**Module :** 01 - SKSE PLUGINS & CORE UTILITIES
+
+**Objectif :**  
+Ajouter le framework de menu nécessaire / recommandé pour certains mods modernes, notamment `Wheeler`.
+
+**Liens :**
+
+- dMenu  
+  https://www.nexusmods.com/skyrimspecialedition/mods/97221
+- dMenu NG  
+  https://www.nexusmods.com/skyrimspecialedition/mods/166751
+
+**Mods installés :**
+
+- `dMenu`
+- `dMenu NG`
+
+**Placement MO2 :**  
+Dans `01 - SKSE PLUGINS & CORE UTILITIES`, sous `DPI Scaling Fix`.
+
+**Ordre retenu :**
+
+1. `dMenu`
+2. `dMenu NG`
+
+**Règle :**  
+`dMenu NG` doit rester après `dMenu` pour gagner les conflits éventuels.
+
+**Test de validation :**
+
+- SKSE via MO2 : OK
+- Menu principal atteint : OK
+- Aucun message DLL/master : OK
+- `Overwrite` vide : OK
+
+**Statut :**  
+Étape 159 validée.
+
+---
+
+### 163. ImGui Icons
+
+**Module :** 01 - SKSE PLUGINS & CORE UTILITIES
+
+**Objectif :**  
+Ajouter une dépendance ImGui utilisée par certains menus ou éléments UI modernes.
+
+**Lien corrigé :**  
+https://www.nexusmods.com/skyrimspecialedition/mods/114790?tab=files
+
+**Mod installé :**
+
+- `ImGui Icons`
+
+**Placement MO2 :**  
+Dans `01 - SKSE PLUGINS & CORE UTILITIES`, sous `dMenu NG`.
+
+**Note :**  
+Les autres éléments validés dans l’étape globale 163 (`Dialogue History`, `Menu Maid 2`, `Menu Maid 2 - Generated INI`) sont classés dans le fichier UI/HUD/Menus.
+
+**Test de validation :**
+
+- SKSE via MO2 : OK
+- Menu principal atteint : OK
+- Aucun message DLL/master : OK
+- `Overwrite` vidé après création du mod dédié `Menu Maid 2 - Generated INI` : OK
+
+**Statut :**  
+Étape 163 validée pour la partie core utilities.

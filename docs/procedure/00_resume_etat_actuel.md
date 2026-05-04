@@ -4,10 +4,10 @@
 
 ---
 
-## État validé après l’étape 154
+## État validé après l’étape 168
 
 **Objectif :**  
-Confirmer que la base technique SKYFORGE reste stable après l’ajout des correctifs Bug Fixes / Engine Patches, des compléments SKSE/Core Utilities et du module UI/HUD/Menus jusqu’à l’installation minimale de Vel’dun UI.
+Confirmer que la base technique SKYFORGE reste stable après l’ajout du bloc UI/HUD/Menus avancé : TrueHUD, STB, Wheeler, Infinity UI, Compass Navigation Overhaul, BTPS, gestion MCM, carte locale, menu d’attente et confort HUD léger.
 
 **Résultat validé :**
 
@@ -18,11 +18,10 @@ Confirmer que la base technique SKYFORGE reste stable après l’ajout des corre
 - Aucun missing master bloquant signalé : OK
 - Aucun message DLL bloquant signalé sur les derniers tests : OK
 - `Overwrite` vide : OK
-- Vel’dun UI visible au menu principal : OK
 
 **Dernière étape validée :**
 
-`Étape 154 — Vel’dun UI minimal`
+`Étape 168 — Bloc HUD confort léger`
 
 **Module en cours :**
 
@@ -37,7 +36,35 @@ Confirmer que la base technique SKYFORGE reste stable après l’ajout des corre
 - `A Matter of Time - A HUD clock widget`
 - `A Matter Of Time - Legacy Settings Loader`
 - `SkyHUD - A REINSTALL PLUS TARD`
+- `Patch - SkyHUD 0.90.1B`
+- `TrueHUD - HUD Additions`
+- `STB Widgets`
+- `STB Active Effects`
+- `Wheeler - Quick Action Wheel Of Skyrim`
+- `Infinity UI`
+- `Compass Navigation Overhaul`
+- `Better Third Person Selection`
+- `Dialogue History`
+- `Menu Maid 2 - MCM Manager`
+- `Menu Maid 2 - Generated INI`
+- `Oxygen Meter 2`
+- `Show Player In Menus`
+- `HD Local Map`
+- `Local Map Upgrade`
+- `Modern Wait Menu`
+- `Horse Stamina HUD - Script-Free`
+- `Floating Damage`
 - `Vel'dun UI - A REINSTALL PLUS TARD`
+- `Dragonborn Reskin - STB Widgets`
+- `Dragonborn Reskin - STB Active Effects`
+- `Dragonborn - Wheeler Reskin`
+- `Dragonborn Reskin - SkyUI Category and Fav Icons`
+
+**Core utilities ajoutées pendant ce bloc :**
+
+- `dMenu`
+- `dMenu NG`
+- `ImGui Icons`
 
 **Décisions importantes retenues :**
 
@@ -50,9 +77,14 @@ Confirmer que la base technique SKYFORGE reste stable après l’ajout des corre
 - Le crosshair vanilla de Skyrim doit être conservé.
 - `Contextual Crosshair` n’est pas installé.
 - `Edge UI` est abandonné et supprimé.
-- `Vel’dun UI` devient l’interface principale actuelle de SKYFORGE.
+- `Vel’dun UI` reste l’interface principale actuelle de SKYFORGE.
 - `SkyHUD` et `Vel’dun UI` sont installés en version minimale et renommés `A REINSTALL PLUS TARD` afin de permettre une réinstallation propre quand les patches utiles seront nécessaires.
-- Les icônes `Dragonborn Reskin` sont différées et seront testées plus tard avec Wheeler, STB Widgets et le travail inventaire / favoris / icônes SkyUI.
+- Les patches Vel’dun UI pour `TrueHUD`, `STB Widgets`, `STB Active Effects`, `BTPS`, `Compass Navigation Overhaul`, `MoreHUD`, `Local Map Upgrade` et autres modules parents restent différés.
+- `QuickLoot IE` est différé / non installé afin de préserver la logique future SexLab / Devious / Cursed Loot et une fouille plus manuelle des conteneurs.
+- `Toggle Compass Hotkey` n’est pas retenu.
+- `HideUI` est différé.
+- `Photo Mode` est différé jusqu’aux futurs tests ingame / screenshots avec `Skyrim Unbound`.
+- Les blocs de mods légers, visuels ou non sensibles peuvent être installés de façon groupée avec un test final.
 
 ---
 
@@ -60,18 +92,17 @@ Confirmer que la base technique SKYFORGE reste stable après l’ajout des corre
 
 Reprendre à partir de :
 
-`Étape 155`
+`Étape 169`
 
 État de départ :
 
-- Dernière étape validée : Étape 154
+- Dernière étape validée : Étape 168
 - Module en cours : `03 - UI HUD MENUS`
 - SKSE via MO2 : OK
 - Menu principal atteint : OK
 - Aucun message DLL : OK
 - Aucun master manquant : OK
 - `Overwrite` vide : OK
-- Vel’dun UI visible au menu principal : OK
 
 ---
 

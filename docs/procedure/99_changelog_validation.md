@@ -172,6 +172,76 @@ L’étape 151 avait été oubliée lors de la première mise à jour 152–154.
 
 ---
 
+## État validé après l’étape 185
+
+**Dernière étape validée :**  
+`Étape 185 — Patch ASIF pour RISE`
+
+**Module en cours :**  
+`04 - AUDIO MUSIC SOUNDS`
+
+**Résultat validé :**
+
+- SKSE lancé via MO2 : OK
+- Menu principal atteint : OK
+- Test ingame limité à la salle de départ Skyrim Unbound : OK
+- Aucun message DLL : OK
+- Aucun master manquant : OK
+- `Overwrite` vide : OK
+
+**Note de numérotation :**  
+Le bloc fourni documente les étapes 170 à 185. L’étape 169 n’a pas été fournie dans ce bloc de mise à jour et reste absente de cette passe documentaire.
+
+**Étapes ajoutées / documentées lors de cette mise à jour :**
+
+- `Étape 170 — Atlas Map Markers`
+- `Étape 171 — Contrôle placement Map UI`
+- `Étape 172 — RaceMenu / création personnage`
+- `Étape 173 — Pause sécurité avant départ alternatif`
+- `Étape 174 — Skyrim Unbound Reborn`
+- `Étape 175 — Sauvegarde test Unbound`
+- `Étape 176 — Hotkeys UI légers`
+- `Étape 177 — Audit anti-doublon UI`
+- `Étape 178 — Fin provisoire du bloc UI`
+- `Étape 179 — Base audio technique`
+- `Étape 180 — Acoustic Space Improvement Fixes`
+- `Étape 181 — Préparation AOS / ISC`
+- `Étape 182 — Audio Overhaul + Immersive Sounds`
+- `Étape 183 — Regional Sounds Expansion`
+- `Étape 184 — Reverb Interior Sounds Expansion`
+- `Étape 185 — Patch ASIF pour RISE`
+
+**Décisions ajoutées / confirmées lors de cette mise à jour :**
+
+- `Skyrim Unbound` est installé et validé comme départ alternatif officiel.
+- Les tests ingame restent limités à la salle de départ.
+- Les sauvegardes de test / autosaves devront être supprimées avant la partie finale.
+- `RaceMenu Undress` affiche `$Undress slider` : correction ou acceptation à vérifier plus tard.
+- `Better AltTab` est à installer plus tard avec test individuel ALT+TAB.
+- `Show Follower Carry Weight` / `Show Mount Carry Weight` sont différés à cause de `Rogue’s Gallery`.
+- `Too many notifications` est différé pour éviter doublon avec `Notification Log SSE` + `Notification Filter`.
+- `AOS` et `ISC` restent marqués `A REINSTALL PLUS TARD` pour choix FOMOD conditionnels ou subjectifs.
+- `ASIF` a été réinstallé avec le patch `RISE` activé.
+- LOOT n’a pas été lancé.
+
+**Fichiers ajoutés lors de cette mise à jour :**
+
+- `docs/procedure/07_ui_hud_menus_part_3.md`
+- `docs/procedure/08_survival_immersion_roleplay.md`
+- `docs/procedure/09_audio_music_sounds.md`
+
+**Fichiers mis à jour lors de cette mise à jour :**
+
+- `docs/SKYFORGE_Procedure_Reproduction_PC.md`
+- `docs/procedure/00_resume_etat_actuel.md`
+- `docs/procedure/06_decisions_differees.md`
+- `docs/procedure/99_changelog_validation.md`
+
+**Prochaine reprise :**  
+`Étape 186`
+
+---
+
 ## Rappel méthode
 
 - Avancer prudemment, par petits blocs.
@@ -179,7 +249,7 @@ L’étape 151 avait été oubliée lors de la première mise à jour 152–154.
 - Tester individuellement les DLL / SKSE sensibles, masters, FOMOD complexes ou sources externes.
 - Ne pas lancer LOOT pour l’instant.
 - Ne pas toucher au panneau droit sauf missing master.
-- Tant que `Skyrim Unbound` n’est pas installé, limiter les tests au menu principal.
+- Les tests ingame restent limités à la salle de départ Skyrim Unbound tant que la base globale n’est pas suffisamment avancée.
 - Ne pas installer de patch si le mod parent n’est pas installé ou officiellement retenu.
 - Garder les décisions différées dans `06_decisions_differees.md`.
 - Garder la numérotation chronologique globale, même quand les étapes sont reclassées dans des fichiers thématiques.

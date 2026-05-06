@@ -4,10 +4,10 @@
 
 ---
 
-## État validé après l’étape 185
+## État validé après l’étape 203
 
 **Objectif :**  
-Confirmer que SKYFORGE reste stable après la clôture provisoire du module UI/HUD/Menus, l’installation de `Skyrim Unbound Reborn` comme départ alternatif officiel, puis l’entrée dans le module Audio / Music / Sounds jusqu’au patch ASIF pour RISE.
+Confirmer que SKYFORGE reste stable après la clôture provisoire du module `04 - AUDIO MUSIC SOUNDS`.
 
 **Résultat validé :**
 
@@ -22,51 +22,102 @@ Confirmer que SKYFORGE reste stable après la clôture provisoire du module UI/H
 
 **Dernière étape validée :**
 
-`Étape 185 — Patch ASIF pour RISE`
+`Étape 203 — Clôture provisoire audio`
 
-**Module en cours :**
+**Module clos provisoirement :**
 
 `04 - AUDIO MUSIC SOUNDS`
 
-**État UI/HUD/Menus :**  
+---
+
+## État UI/HUD/Menus
+
 Le module `03 - UI HUD MENUS` est provisoirement clos après l’étape 178.
 
-**Départ alternatif :**
+**Décisions UI importantes :**
+
+- `Vel’dun UI` reste l’interface principale actuelle de SKYFORGE.
+- `Edge UI` est abandonné et supprimé.
+- Le crosshair vanilla de Skyrim doit être conservé.
+- `QuickLoot IE` est différé / non installé.
+- Les patches Vel’dun UI restent différés jusqu’à confirmation / installation des mods parents concernés.
+
+---
+
+## Départ alternatif
 
 - `Skyrim Unbound Reborn - A REINSTALL PLUS TARD` est installé et validé.
+- `Skyrim Unbound` est le départ alternatif officiel de SKYFORGE.
 - Les tests ingame restent limités à la salle de départ.
 - Les sauvegardes de test / autosaves devront être supprimées avant la partie finale.
 
-**Bloc audio actuel recommandé :**
+---
+
+## Bloc audio final actif après étape 203
 
 - `Sound Record Distributor`
 - `Acoustic Space Improvement Fixes - SkyPatcher`
-- `Audio Overhaul for Skyrim SE - A REINSTALL PLUS TARD`
+- `Audio Overhaul for Skyrim (4.1.3) - A REINSTALL PLUS TARD`
 - `Immersive Sounds - Compendium - A REINSTALL PLUS TARD`
-- `Audio Overhaul - Immersive Sounds Integration`
-- `Regional Sounds Expansion`
+- `Audio Overhaul - Immersive Sounds Integration (AOS - ISC Compatibility Patch)`
+- `Regional Sounds Expansion (SRD - Wilds Dungeons Towns Ambience Birds - Fixes)`
 - `Reverb Interior Sounds Expansion`
+- `Quiet Better Jumping for CGO - Audio Overhaul - Immersive Sounds Integration`
+- `Thundering Shouts`
+- `Authentic Wolf Howls and Aggro`
+- `More Painful Death Sounds SE`
+- `Update Plugin More Painful Death Sounds SE`
+- `50 Percent Chance More Painful Death Sounds SE`
+- `Blackreach Eerie Ambience`
+- `Nordic Winds`
+- `Ambient Warfare`
+- `Distant Rolling Thunder`
+- `The Sounds of Towns and Cities`
+- `Solstheim Exterior Soundscapes`
+- `Volkihar Soundscape Overhaul - A REINSTALL PLUS TARD`
+- `Revenant Spirits of the Soul Cairn`
+- `The Standing Sound Stones - A REINSTALL PLUS TARD`
+- `Bleeding Edge - Bladed Weapons SFX Overhaul - A REINSTALL PLUS TARD`
+- `Skullbreaker - Blunt Weapons SFX`
+- `Bulwark - Shield Audio Overhaul`
+- `Wildwood Echoes`
+- `Murder of Songbirds`
+- `Combat Music Fix NG Updated`
+- `New Game Sound on Continue (SKSE)`
+- `Still - Skyrim Inspired Music`
+- `Chapter II - Jeremy Soule Inspired Music`
+- `Melodies of Civilization - Skyrim Fan-Made Music`
+- `Hun Lovaas - Skyrim Fan-Made combat music`
+- `The Northerner Diaries - Immersive Edition (music by Jeremy Soule)`
+- `The Elder Songs - Complete - A REINSTALL PLUS TARD`
+- `Songs to Play Skyrim to - A Music Mod All in One`
+- `The Southerner Diaries - A Soundtrack Expansion`
+- `Symphonic Soundtrack - Extension HIGH QUALITY`
+- `Ragnarok - Viking Battle Music`
+- `BA Bard Songs`
 
-**Décisions importantes retenues :**
+**Mods présents mais non actifs / différés :**
+
+- `Magic College Music - Songs for Academy - DECOCHE FORM 43`
+- `Phoenix Compendium - DIFFÉRÉ`
+- `Whispering Tomes of Apocrypha - DIFFÉRÉ`
+- `Nyghtfall - DIFFÉRÉ`
+- `Dark Era - DIFFÉRÉ`
+- `Music Mods Merged SSE Edition - EXCLU POUR L’INSTANT`
+
+---
+
+## Décisions importantes retenues
 
 - LOOT / ordre de chargement global : toujours différé.
 - Ne pas toucher au panneau droit sauf missing master.
-- `Skyrim Unbound` est retenu comme départ alternatif officiel de SKYFORGE.
-- `Alternate Start` / `Alternate Perspective` ne seront pas utilisés comme départ principal.
-- Les tests ingame restent limités à la salle de départ tant que la base globale n’est pas suffisamment avancée.
+- Les tests ingame restent limités à la salle de départ Skyrim Unbound tant que la base globale n’est pas suffisamment avancée.
 - Les sauvegardes techniques temporaires créées pour tester `Skyrim Unbound` devront être supprimées avant la vraie partie finale.
-- Le crosshair vanilla de Skyrim doit être conservé.
-- `Contextual Crosshair` n’est pas installé.
-- `Edge UI` est abandonné et supprimé.
-- `Vel’dun UI` reste l’interface principale actuelle de SKYFORGE.
-- `SkyHUD`, `Vel’dun UI`, `Atlas Map Markers`, `Skyrim Unbound Reborn`, `Audio Overhaul for Skyrim SE` et `Immersive Sounds - Compendium` gardent une logique de réinstallation future si les patches ou choix FOMOD doivent être revus.
-- `RaceMenu Undress` affiche `$Undress slider` : correction ou acceptation à vérifier plus tard.
-- `Better AltTab` est à installer plus tard avec test individuel ALT+TAB.
-- `Show Follower Carry Weight` / `Show Mount Carry Weight` sont différés à cause de `Rogue’s Gallery`.
-- `Too many notifications` est différé pour éviter doublon avec `Notification Log SSE` + `Notification Filter`.
-- `Photo Mode`, `HideUI` et les ajouts cosmétiques de menu principal sont différés.
-- `AOS` et `ISC` restent marqués `A REINSTALL PLUS TARD` pour choix FOMOD conditionnels ou subjectifs.
-- `ASIF` a été réinstallé avec le patch `RISE` activé.
+- `AOS`, `ISC`, `Volkihar Soundscape Overhaul`, `The Standing Sound Stones`, `Bleeding Edge` et `The Elder Songs` gardent une logique de réinstallation future.
+- `Combat Music Fix NG Updated` et `New Game Sound on Continue (SKSE)` ont été testés individuellement car plugins SKSE / DLL.
+- `Magic College Music` est désactivé à cause du warning Form 43.
+- Les erreurs de liens corrigées pendant le module audio sont documentées dans les étapes correspondantes.
+- Corrections de nommage à faire dans MO2 : supprimer les doubles tirets sur `Audio Overhaul for Skyrim (4.1.3)` et `Bleeding Edge - Bladed Weapons SFX Overhaul`.
 
 ---
 
@@ -74,12 +125,12 @@ Le module `03 - UI HUD MENUS` est provisoirement clos après l’étape 178.
 
 Reprendre à partir de :
 
-`Étape 186`
+`Étape 204`
 
 État de départ :
 
-- Dernière étape validée : Étape 185
-- Module en cours : `04 - AUDIO MUSIC SOUNDS`
+- Dernière étape validée : Étape 203
+- Module audio provisoirement clos : `04 - AUDIO MUSIC SOUNDS`
 - SKSE via MO2 : OK
 - Menu principal atteint : OK
 - Tests ingame limités à la salle de départ Skyrim Unbound : OK

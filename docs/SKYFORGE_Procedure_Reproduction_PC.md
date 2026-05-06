@@ -8,11 +8,11 @@
 
 ## État actuel validé
 
-- **Dernière étape validée :** Étape 185 — Patch ASIF pour RISE
+- **Dernière étape validée :** Étape 203 — Clôture provisoire audio
 - **Runtime :** Skyrim SE 1.5.97 Best of Both Worlds
 - **AE / Creation Club conservé :** oui
 - **Gestionnaire :** Mod Organizer 2 portable
-- **Module en cours :** 04 - AUDIO MUSIC SOUNDS
+- **Module clos provisoirement :** 04 - AUDIO MUSIC SOUNDS
 - **Validation :** SKSE via MO2 → menu principal → aucun message DLL bloquant → aucun master manquant → `Overwrite` vide
 
 ---
@@ -33,7 +33,8 @@
 12. [UI, HUD et menus — partie 3](procedure/07_ui_hud_menus_part_3.md)
 13. [Survival, immersion et roleplay](procedure/08_survival_immersion_roleplay.md)
 14. [Audio, musiques et sons](procedure/09_audio_music_sounds.md)
-15. [Changelog / validation](procedure/99_changelog_validation.md)
+15. [Audio, musiques et sons — partie 2](procedure/09_audio_music_sounds_part_2.md)
+16. [Changelog / validation](procedure/99_changelog_validation.md)
 
 ---
 

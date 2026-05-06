@@ -28,14 +28,15 @@
 7. [Bug fixes & engine patches — partie 3](procedure/04_bug_fixes_engine_patches_part_3.md)
 8. [Visual base meshes & textures](procedure/05_visual_base_meshes_textures.md)
 9. [Décisions différées et points à revoir](procedure/06_decisions_differees.md)
-10. [UI, HUD et menus](procedure/07_ui_hud_menus.md)
-11. [UI, HUD et menus — partie 2](procedure/07_ui_hud_menus_part_2.md)
-12. [UI, HUD et menus — partie 3](procedure/07_ui_hud_menus_part_3.md)
-13. [Survival, immersion et roleplay](procedure/08_survival_immersion_roleplay.md)
-14. [Audio, musiques et sons](procedure/09_audio_music_sounds.md)
-15. [Audio, musiques et sons — partie 2](procedure/09_audio_music_sounds_part_2.md)
-16. [Landscape, grass, trees & water](procedure/10_landscape_grass_trees_water.md)
-17. [Changelog / validation](procedure/99_changelog_validation.md)
+10. [Décisions différées et points à revoir — partie 2](procedure/06_decisions_differees_part_2.md)
+11. [UI, HUD et menus](procedure/07_ui_hud_menus.md)
+12. [UI, HUD et menus — partie 2](procedure/07_ui_hud_menus_part_2.md)
+13. [UI, HUD et menus — partie 3](procedure/07_ui_hud_menus_part_3.md)
+14. [Survival, immersion et roleplay](procedure/08_survival_immersion_roleplay.md)
+15. [Audio, musiques et sons](procedure/09_audio_music_sounds.md)
+16. [Audio, musiques et sons — partie 2](procedure/09_audio_music_sounds_part_2.md)
+17. [Landscape, grass, trees & water](procedure/10_landscape_grass_trees_water.md)
+18. [Changelog / validation](procedure/99_changelog_validation.md)
 
 ---
 

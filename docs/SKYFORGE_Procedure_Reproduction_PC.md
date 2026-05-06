@@ -8,11 +8,11 @@
 
 ## État actuel validé
 
-- **Dernière étape validée :** Étape 203 — Clôture provisoire audio
+- **Dernière étape validée :** Étape 220 — Happy Little Trees
 - **Runtime :** Skyrim SE 1.5.97 Best of Both Worlds
 - **AE / Creation Club conservé :** oui
 - **Gestionnaire :** Mod Organizer 2 portable
-- **Module clos provisoirement :** 04 - AUDIO MUSIC SOUNDS
+- **Module en cours :** 06 - LANDSCAPE GRASS TREES WATER
 - **Validation :** SKSE via MO2 → menu principal → aucun message DLL bloquant → aucun master manquant → `Overwrite` vide
 
 ---
@@ -34,7 +34,8 @@
 13. [Survival, immersion et roleplay](procedure/08_survival_immersion_roleplay.md)
 14. [Audio, musiques et sons](procedure/09_audio_music_sounds.md)
 15. [Audio, musiques et sons — partie 2](procedure/09_audio_music_sounds_part_2.md)
-16. [Changelog / validation](procedure/99_changelog_validation.md)
+16. [Landscape, grass, trees & water](procedure/10_landscape_grass_trees_water.md)
+17. [Changelog / validation](procedure/99_changelog_validation.md)
 
 ---
 

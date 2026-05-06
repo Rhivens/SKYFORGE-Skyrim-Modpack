@@ -4,10 +4,10 @@
 
 ---
 
-## État validé après l’étape 203
+## État validé après l’étape 220
 
 **Objectif :**  
-Confirmer que SKYFORGE reste stable après la clôture provisoire du module `04 - AUDIO MUSIC SOUNDS`.
+Confirmer que SKYFORGE reste stable après le contrôle du module `05 - VISUAL BASE MESHES TEXTURES` et l’ouverture du module `06 - LANDSCAPE GRASS TREES WATER` jusqu’à l’installation de `Happy Little Trees`.
 
 **Résultat validé :**
 
@@ -22,88 +22,62 @@ Confirmer que SKYFORGE reste stable après la clôture provisoire du module `04 
 
 **Dernière étape validée :**
 
-`Étape 203 — Clôture provisoire audio`
+`Étape 220 — Happy Little Trees`
 
-**Module clos provisoirement :**
+**Module en cours :**
 
-`04 - AUDIO MUSIC SOUNDS`
-
----
-
-## État UI/HUD/Menus
-
-Le module `03 - UI HUD MENUS` est provisoirement clos après l’étape 178.
-
-**Décisions UI importantes :**
-
-- `Vel’dun UI` reste l’interface principale actuelle de SKYFORGE.
-- `Edge UI` est abandonné et supprimé.
-- Le crosshair vanilla de Skyrim doit être conservé.
-- `QuickLoot IE` est différé / non installé.
-- Les patches Vel’dun UI restent différés jusqu’à confirmation / installation des mods parents concernés.
+`06 - LANDSCAPE GRASS TREES WATER`
 
 ---
 
-## Départ alternatif
+## État du module 05 - Visual base meshes & textures
 
-- `Skyrim Unbound Reborn - A REINSTALL PLUS TARD` est installé et validé.
-- `Skyrim Unbound` est le départ alternatif officiel de SKYFORGE.
-- Les tests ingame restent limités à la salle de départ.
-- Les sauvegardes de test / autosaves devront être supprimées avant la partie finale.
+**Étapes documentées :**
+
+- `Étape 204 — Vérification du socle SMIM`
+- `Étape 205 — Assorted Mesh Fixes déjà couvert`
+- `Étape 206 — Vérification des mesh fixes existants`
+- `Étape 207 — Mesh Patch for Various Mods`
+- `Étape 208 — Particle Patch`
+- `Étape 209 — Patch Particle / Unofficial Material Fix annulé / différé`
+- `Étape 210 — Contrôle final module 05 + correction audio`
+
+**État validé :**
+
+- `Static Mesh Improvement Mod` : OK
+- `Static Mesh improvement Mod - SMIM - Quality Addon` : OK
+- `Unofficial Material Fix` : OK
+- `Particle Patch.esp` actif : OK
+- Patches meshes utiles installés séparément : OK
+- `AcousticTemplateFixes_ReverbInteriorSounds.esp` réactivé : OK
 
 ---
 
-## Bloc audio final actif après étape 203
+## État du module 06 - Landscape / grass / trees / water
 
-- `Sound Record Distributor`
-- `Acoustic Space Improvement Fixes - SkyPatcher`
-- `Audio Overhaul for Skyrim (4.1.3) - A REINSTALL PLUS TARD`
-- `Immersive Sounds - Compendium - A REINSTALL PLUS TARD`
-- `Audio Overhaul - Immersive Sounds Integration (AOS - ISC Compatibility Patch)`
-- `Regional Sounds Expansion (SRD - Wilds Dungeons Towns Ambience Birds - Fixes)`
-- `Reverb Interior Sounds Expansion`
-- `Quiet Better Jumping for CGO - Audio Overhaul - Immersive Sounds Integration`
-- `Thundering Shouts`
-- `Authentic Wolf Howls and Aggro`
-- `More Painful Death Sounds SE`
-- `Update Plugin More Painful Death Sounds SE`
-- `50 Percent Chance More Painful Death Sounds SE`
-- `Blackreach Eerie Ambience`
-- `Nordic Winds`
-- `Ambient Warfare`
-- `Distant Rolling Thunder`
-- `The Sounds of Towns and Cities`
-- `Solstheim Exterior Soundscapes`
-- `Volkihar Soundscape Overhaul - A REINSTALL PLUS TARD`
-- `Revenant Spirits of the Soul Cairn`
-- `The Standing Sound Stones - A REINSTALL PLUS TARD`
-- `Bleeding Edge - Bladed Weapons SFX Overhaul - A REINSTALL PLUS TARD`
-- `Skullbreaker - Blunt Weapons SFX`
-- `Bulwark - Shield Audio Overhaul`
-- `Wildwood Echoes`
-- `Murder of Songbirds`
-- `Combat Music Fix NG Updated`
-- `New Game Sound on Continue (SKSE)`
-- `Still - Skyrim Inspired Music`
-- `Chapter II - Jeremy Soule Inspired Music`
-- `Melodies of Civilization - Skyrim Fan-Made Music`
-- `Hun Lovaas - Skyrim Fan-Made combat music`
-- `The Northerner Diaries - Immersive Edition (music by Jeremy Soule)`
-- `The Elder Songs - Complete - A REINSTALL PLUS TARD`
-- `Songs to Play Skyrim to - A Music Mod All in One`
-- `The Southerner Diaries - A Soundtrack Expansion`
-- `Symphonic Soundtrack - Extension HIGH QUALITY`
-- `Ragnarok - Viking Battle Music`
-- `BA Bard Songs`
+**Ordre actuel confirmé :**
 
-**Mods présents mais non actifs / différés :**
+```text
+[06 - LANDSCAPE GRASS TREES WATER]
+Terrain Fixes for CC Mods
+Landscape Fixes For Grass Mods
+Complementary Grass Fixes - A REINSTALL PLUS TARD
+Skyrim Landscape and Water Fixes - A REINSTALL PLUS TARD
+Majestic Mountains - A REINSTALL PLUS TARD
+Atlantean Landscape -Complete- 2K - A REINSTALL PLUS TARD (décoché)
+Happy Little Trees - A REINSTALL PLUS TARD
+Happy Little Trees - HLT Patch
+```
 
-- `Magic College Music - Songs for Academy - DECOCHE FORM 43`
-- `Phoenix Compendium - DIFFÉRÉ`
-- `Whispering Tomes of Apocrypha - DIFFÉRÉ`
-- `Nyghtfall - DIFFÉRÉ`
-- `Dark Era - DIFFÉRÉ`
-- `Music Mods Merged SSE Edition - EXCLU POUR L’INSTANT`
+**Mods / décisions importants :**
+
+- `Terrain Fixes for CC Mods` installé avec option `All CC Mods`.
+- `Landscape Fixes For Grass Mods` installé et marqué `A REINSTALL PLUS TARD`.
+- `Complementary Grass Fixes` installé en core uniquement, patches optionnels différés.
+- `Skyrim Landscape and Water Fixes` installé et marqué `A REINSTALL PLUS TARD`.
+- `Majestic Mountains` installé avec `Landscape ESM : AE version`, malgré le runtime 1.5.97, car le contenu AE / CC est conservé.
+- `Atlantean Landscape -Complete- 2K` est installé mais décoché à cause du master manquant `Parallax TXST Fixes.esp`.
+- `Happy Little Trees` installé en option `Default`, alternatives neige différées.
 
 ---
 
@@ -114,10 +88,10 @@ Le module `03 - UI HUD MENUS` est provisoirement clos après l’étape 178.
 - Les tests ingame restent limités à la salle de départ Skyrim Unbound tant que la base globale n’est pas suffisamment avancée.
 - Les sauvegardes techniques temporaires créées pour tester `Skyrim Unbound` devront être supprimées avant la vraie partie finale.
 - `AOS`, `ISC`, `Volkihar Soundscape Overhaul`, `The Standing Sound Stones`, `Bleeding Edge` et `The Elder Songs` gardent une logique de réinstallation future.
-- `Combat Music Fix NG Updated` et `New Game Sound on Continue (SKSE)` ont été testés individuellement car plugins SKSE / DLL.
 - `Magic College Music` est désactivé à cause du warning Form 43.
-- Les erreurs de liens corrigées pendant le module audio sont documentées dans les étapes correspondantes.
-- Corrections de nommage à faire dans MO2 : supprimer les doubles tirets sur `Audio Overhaul for Skyrim (4.1.3)` et `Bleeding Edge - Bladed Weapons SFX Overhaul`.
+- `Atlantean Landscape` reste décoché jusqu’au futur bloc `Parallax / Complex Terrain / ENB / textures paysage avancées`.
+- Textures 2K par défaut si disponibles ; 1K pour petits objets / optimisation ; 4K uniquement pour éléments très visibles si justifié ; 8K exclu par défaut.
+- Les patches `Complementary Grass Fixes`, `SLaWF`, `Majestic Mountains`, `Happy Little Trees` et autres éléments paysage seront revus selon les futurs modules villes / quêtes / herbes / météo / ENB.
 
 ---
 
@@ -125,18 +99,23 @@ Le module `03 - UI HUD MENUS` est provisoirement clos après l’étape 178.
 
 Reprendre à partir de :
 
-`Étape 204`
+`Étape 221`
+
+Sujet prévu :
+
+`Contrôle ordre + suite arbres / herbe / eau`
 
 État de départ :
 
-- Dernière étape validée : Étape 203
-- Module audio provisoirement clos : `04 - AUDIO MUSIC SOUNDS`
+- Dernière étape validée : Étape 220
+- Module en cours : `06 - LANDSCAPE GRASS TREES WATER`
 - SKSE via MO2 : OK
 - Menu principal atteint : OK
 - Tests ingame limités à la salle de départ Skyrim Unbound : OK
 - Aucun message DLL : OK
 - Aucun master manquant : OK
 - `Overwrite` vide : OK
+- `Atlantean Landscape` décoché : OK
 
 ---
 

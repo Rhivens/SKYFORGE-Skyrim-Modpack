@@ -243,6 +243,74 @@ L’étape 169 avait été omise lors de la première mise à jour 170–185. El
 
 ---
 
+## État validé après l’étape 203
+
+**Dernière étape validée :**  
+`Étape 203 — Clôture provisoire audio`
+
+**Module clos provisoirement :**  
+`04 - AUDIO MUSIC SOUNDS`
+
+**Résultat validé :**
+
+- SKSE lancé via MO2 : OK
+- Menu principal atteint : OK
+- Test ingame limité à la salle de départ Skyrim Unbound : OK
+- Aucun message DLL : OK
+- Aucun master manquant : OK
+- `Overwrite` vide : OK
+
+**Étapes ajoutées / documentées lors de cette mise à jour :**
+
+- `Étape 186 — Quiet Better Jumping`
+- `Étape 187 — Phoenix Compendium différé`
+- `Étape 188 — Thundering Shouts`
+- `Étape 189 — Bloc ambiance audio léger`
+- `Étape 190 — Bloc vents / guerre`
+- `Étape 191 — Bloc météo / villes / Solstheim`
+- `Étape 192 — Bloc Dawnguard / Soul Cairn / pierres`
+- `Étape 193 — Bloc combat SFX léger`
+- `Étape 194 — Bloc nature léger`
+- `Étape 195 — Combat Music Fix NG Updated`
+- `Étape 196 — New Game Sound on Continue`
+- `Étape 197 — Bloc musiques Skyrim-like léger`
+- `Étape 198 — Bloc musiques additionnelles 2`
+- `Étape 199 — Bloc musiques additionnelles 3`
+- `Étape 200 — Bloc musiques additionnelles 4`
+- `Étape 201 — Ragnarok / Dark Era`
+- `Étape 202 — Bardes / Collège`
+- `Étape 203 — Clôture provisoire audio`
+
+**Décisions ajoutées / confirmées lors de cette mise à jour :**
+
+- `Phoenix Compendium` est différé / non installé.
+- `Whispering Tomes of Apocrypha` est différé.
+- `Nyghtfall` est différé ; option probable plus tard : `With Vanilla Music - Nyghtfall`.
+- `Dark Era` est différé car la version trouvée dépend de `Personalized Music`.
+- `Music Mods Merged SSE Edition` est exclu pour l’instant.
+- `Magic College Music - Songs for Academy` est désactivé à cause du warning Form 43.
+- `Volkihar Soundscape Overhaul`, `The Standing Sound Stones`, `Bleeding Edge` et `The Elder Songs` gardent une logique de réinstallation future.
+- `Combat Music Fix NG Updated` et `New Game Sound on Continue (SKSE)` ont été testés individuellement car plugins SKSE / DLL.
+- Les conflits des mods de combat SFX contre `Immersive Sounds - Compendium` sont attendus / acceptés.
+- Corrections de nommage à faire dans MO2 pour `Audio Overhaul for Skyrim (4.1.3)` et `Bleeding Edge - Bladed Weapons SFX Overhaul`.
+- LOOT n’a pas été lancé.
+
+**Fichiers ajoutés lors de cette mise à jour :**
+
+- `docs/procedure/09_audio_music_sounds_part_2.md`
+
+**Fichiers mis à jour lors de cette mise à jour :**
+
+- `docs/SKYFORGE_Procedure_Reproduction_PC.md`
+- `docs/procedure/00_resume_etat_actuel.md`
+- `docs/procedure/06_decisions_differees.md`
+- `docs/procedure/99_changelog_validation.md`
+
+**Prochaine reprise :**  
+`Étape 204`
+
+---
+
 ## Rappel méthode
 
 - Avancer prudemment, par petits blocs.

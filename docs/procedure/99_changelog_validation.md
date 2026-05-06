@@ -311,6 +311,74 @@ L’étape 169 avait été omise lors de la première mise à jour 170–185. El
 
 ---
 
+## État validé après l’étape 220
+
+**Dernière étape validée :**  
+`Étape 220 — Happy Little Trees`
+
+**Module en cours :**  
+`06 - LANDSCAPE GRASS TREES WATER`
+
+**Résultat validé :**
+
+- SKSE lancé via MO2 : OK
+- Menu principal atteint : OK
+- Test ingame limité à la salle de départ Skyrim Unbound : OK
+- Aucun message DLL : OK
+- Aucun master manquant : OK
+- `Overwrite` vide : OK
+
+**Étapes ajoutées / documentées lors de cette mise à jour :**
+
+- `Étape 204 — Vérification du socle SMIM`
+- `Étape 205 — Assorted Mesh Fixes déjà couvert`
+- `Étape 206 — Vérification des mesh fixes existants`
+- `Étape 207 — Mesh Patch for Various Mods`
+- `Étape 208 — Particle Patch`
+- `Étape 209 — Patch Particle / Unofficial Material Fix annulé / différé`
+- `Étape 210 — Contrôle final module 05 + correction audio`
+- `Étape 211 — Ouverture du module 06`
+- `Étape 212 — Terrain Fixes for CC Mods`
+- `Étape 213 — Bloc paysage léger`
+- `Étape 214 — Contrôle plugins bloc herbe`
+- `Étape 215 — Skyrim Landscape and Water Fixes`
+- `Étape 216 — Contrôle ordre module 06`
+- `Étape 217 — Majestic Mountains`
+- `Étape 218 — Contrôle ordre après Majestic Mountains`
+- `Étape 219 — Atlantean Landscape suspendu proprement`
+- `Étape 220 — Happy Little Trees`
+
+**Décisions ajoutées / confirmées lors de cette mise à jour :**
+
+- `Assorted Mesh Fixes` reste dans `02 - BUG FIXES & ENGINE PATCHES` : ne pas réinstaller, ne pas déplacer.
+- Les patches de `Mesh Patch for Various Mods` restent séparés pour lisibilité MO2.
+- `Particle Patch` est installé en format BSA avec plugin `Particle Patch`.
+- `AcousticTemplateFixes_ReverbInteriorSounds.esp` a été réactivé.
+- `Landscape Fixes For Grass Mods`, `Complementary Grass Fixes`, `Skyrim Landscape and Water Fixes`, `Majestic Mountains`, `Happy Little Trees` gardent une logique `A REINSTALL PLUS TARD`.
+- `Atlantean Landscape -Complete- 2K` est installé mais décoché à cause du master manquant `Parallax TXST Fixes.esp`.
+- `Atlantean Landscape` est différé pour un futur bloc `Parallax / Complex Terrain / ENB / textures paysage avancées`.
+- Textures 2K par défaut si disponibles ; 1K pour petits objets / optimisation ; 4K uniquement pour éléments très visibles si justifié ; 8K exclu par défaut.
+- En Skyrim SE 1.5.97 Best of Both Worlds avec AE / CC conservé, le choix `AE version` de Majestic Mountains est correct.
+- Les alternatives neige de Happy Little Trees sont différées jusqu’au futur bloc neige / météo / ENB.
+- LOOT n’a pas été lancé.
+
+**Fichiers ajoutés lors de cette mise à jour :**
+
+- `docs/procedure/10_landscape_grass_trees_water.md`
+- `docs/procedure/06_decisions_differees_part_2.md`
+
+**Fichiers mis à jour lors de cette mise à jour :**
+
+- `docs/SKYFORGE_Procedure_Reproduction_PC.md`
+- `docs/procedure/00_resume_etat_actuel.md`
+- `docs/procedure/05_visual_base_meshes_textures.md`
+- `docs/procedure/99_changelog_validation.md`
+
+**Prochaine reprise :**  
+`Étape 221 — Contrôle ordre + suite arbres / herbe / eau`
+
+---
+
 ## Rappel méthode
 
 - Avancer prudemment, par petits blocs.
@@ -320,5 +388,5 @@ L’étape 169 avait été omise lors de la première mise à jour 170–185. El
 - Ne pas toucher au panneau droit sauf missing master.
 - Les tests ingame restent limités à la salle de départ Skyrim Unbound tant que la base globale n’est pas suffisamment avancée.
 - Ne pas installer de patch si le mod parent n’est pas installé ou officiellement retenu.
-- Garder les décisions différées dans `06_decisions_differees.md`.
+- Garder les décisions différées dans `06_decisions_differees.md` et `06_decisions_differees_part_2.md`.
 - Garder la numérotation chronologique globale, même quand les étapes sont reclassées dans des fichiers thématiques.

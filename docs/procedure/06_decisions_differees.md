@@ -4,7 +4,7 @@
 
 ---
 
-## Décisions importantes retenues après l’étape 185
+## Décisions importantes retenues après l’étape 203
 
 - LOOT / ordre de chargement global : différé.
 - Documentation : mise à jour groupée, pas étape par étape.
@@ -32,8 +32,10 @@
 - `HideUI` est différé.
 - `Photo Mode` est différé jusqu’aux futurs tests ingame / screenshots.
 - `Better AltTab` est à installer plus tard avec test individuel ALT+TAB en jeu.
-- `AOS` et `ISC` restent marqués `A REINSTALL PLUS TARD` pour choix FOMOD conditionnels ou subjectifs.
+- `AOS`, `ISC`, `Volkihar Soundscape Overhaul`, `The Standing Sound Stones`, `Bleeding Edge` et `The Elder Songs` gardent une logique de réinstallation future.
 - `ASIF` a été réinstallé avec le patch `RISE` activé.
+- `Magic College Music` est désactivé à cause du warning Form 43.
+- `Phoenix Compendium`, `Whispering Tomes of Apocrypha`, `Nyghtfall`, `Dark Era` et `Music Mods Merged SSE Edition` ne sont pas actifs à ce stade.
 
 ---
 
@@ -590,6 +592,134 @@ Les choix FOMOD sont conditionnels ou subjectifs et pourront être ajustés selo
 
 **Statut :**  
 Réinstallation / ajustement audio différé.
+
+---
+
+### 187. Phoenix Compendium
+
+**Décision :**  
+`Phoenix Compendium` est différé / non installé.
+
+**Raison :**
+
+- Contenu vocal anglais non prioritaire pour SKYFORGE FR.
+- Pas nécessaire pour Nolvus.
+- Pas utile pour Nefaram / SexLab.
+
+**Statut :**  
+Différé.
+
+---
+
+### 190. Whispering Tomes of Apocrypha
+
+**Décision :**  
+`Whispering Tomes of Apocrypha` est différé.
+
+**Raison :**  
+Sans options cochées il apportait peu, et les options utiles remplaçaient / silenciaient trop de sons.
+
+**Statut :**  
+Différé.
+
+---
+
+### 192. Volkihar Soundscape / Standing Sound Stones — réinstallation future
+
+**Décision :**
+
+- `Volkihar Soundscape Overhaul - A REINSTALL PLUS TARD` : à revoir avec futur Lux.
+- `The Standing Sound Stones - A REINSTALL PLUS TARD` : à revoir avec futur `Ryn’s Standing Stones`.
+
+**Statut :**  
+Réinstallation audio différée.
+
+---
+
+### 193. Bleeding Edge — réinstallation future
+
+**Décision :**  
+`Bleeding Edge - Bladed Weapons SFX Overhaul` reste marqué `A REINSTALL PLUS TARD`.
+
+**Raison :**  
+Pas de patch daggers SkyPatcher pour l’instant ; choix à revoir plus tard selon les besoins de SFX d’armes.
+
+**Statut :**  
+Réinstallation / patch différé.
+
+---
+
+### 198. Nyghtfall - Dark Fantasy Music
+
+**Décision :**  
+`Nyghtfall` est différé.
+
+**Raison :**  
+Trop dominant pour le setup actuel.
+
+**Note à retenir :**  
+À rappeler plus tard : choisir probablement `With Vanilla Music - Nyghtfall` si le mod est retenu.
+
+**Statut :**  
+Différé.
+
+---
+
+### 199. The Elder Songs — réinstallation future
+
+**Décision :**  
+`The Elder Songs - Complete` reste marqué `A REINSTALL PLUS TARD`.
+
+**Raison :**  
+Modules et patches de compatibilité à revoir plus tard selon la direction musicale finale.
+
+**Statut :**  
+Réinstallation / patches différés.
+
+---
+
+### 201. Dark Era / Music Mods Merged
+
+**Décisions :**
+
+- `Dark Era` différé car la version trouvée dépend de `Personalized Music`.
+- `Music Mods Merged SSE Edition` exclu pour l’instant.
+
+**Statut :**  
+Différé / exclu pour l’instant.
+
+---
+
+### 202. Magic College Music - Songs for Academy
+
+**Décision :**  
+`Magic College Music - Songs for Academy` est installé mais désactivé / différé.
+
+**Raison :**  
+Warning Form 43 détecté sur `MagiCollege.esp`.
+
+**Nom MO2 :**  
+`Magic College Music - Songs for Academy - DECOCHE FORM 43`
+
+**Action future :**  
+À remplacer plus tard par une alternative SE propre ou conversion CK si vraiment nécessaire.
+
+**Statut :**  
+Désactivé / différé.
+
+---
+
+### 203. Corrections de nommage audio
+
+**Corrections à faire dans MO2 :**
+
+- `Audio Overhaul for Skyrim (4.1.3) - - A REINSTALL PLUS TARD`  
+  → `Audio Overhaul for Skyrim (4.1.3) - A REINSTALL PLUS TARD`
+- `Bleeding Edge - Bladed Weapons SFX Overhaul - - A REINSTALL PLUS TARD`  
+  → `Bleeding Edge - Bladed Weapons SFX Overhaul - A REINSTALL PLUS TARD`
+
+**Statut :**  
+Nettoyage de nommage à faire dans MO2.
 
 ---
 

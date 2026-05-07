@@ -40,6 +40,18 @@
 
 ---
 
+## Documents de configuration
+
+1. [Règles de configuration SKYFORGE](configuration/00_regles_configuration.md)
+2. [Configurations moteur / SKSE](configuration/01_engine_skse_ini.md)
+3. [Configurations UI / HUD / menus](configuration/02_ui_hud_ini.md)
+4. [Configurations audio](configuration/03_audio_ini.md)
+5. [Configurations survival / immersion / roleplay](configuration/04_survival_immersion_mcm.md)
+6. [Configurations SexLab / Devious / adultes](configuration/05_sexlab_devious_mcm.md)
+7. [Configurations différées](configuration/99_configurations_differees.md)
+
+---
+
 ## Règle de classement
 
 La numérotation des étapes reste **chronologique et globale**.

@@ -49,6 +49,7 @@
 5. [Configurations survival / immersion / roleplay](configuration/04_survival_immersion_mcm.md)
 6. [Configurations SexLab / Devious / adultes](configuration/05_sexlab_devious_mcm.md)
 7. [Configurations différées](configuration/99_configurations_differees.md)
+8. [Changelog configuration](configuration/CHANGELOG_CONFIGURATION.md)
 
 ---
 

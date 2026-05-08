@@ -4,10 +4,10 @@
 
 ---
 
-## État validé après l’étape 220
+## État validé après l’étape 256
 
 **Objectif :**  
-Confirmer que SKYFORGE reste stable après le contrôle du module `05 - VISUAL BASE MESHES TEXTURES` et l’ouverture du module `06 - LANDSCAPE GRASS TREES WATER` jusqu’à l’installation de `Happy Little Trees`.
+Documenter la progression du module `06 - LANDSCAPE GRASS TREES WATER` depuis `Happy Little Trees` jusqu’au contrôle plugins relief.
 
 **Résultat validé :**
 
@@ -15,69 +15,117 @@ Confirmer que SKYFORGE reste stable après le contrôle du module `05 - VISUAL B
 - AE / Creation Club conservé : OK
 - SKSE lancé via MO2 : OK
 - Menu principal atteint : OK
-- Tests ingame limités à la salle de départ Skyrim Unbound : OK
+- Création personnage / tests visuels herbe et eau : OK
 - Aucun missing master bloquant signalé : OK
 - Aucun message DLL bloquant signalé sur les derniers tests : OK
 - `Overwrite` vide : OK
+- LOOT non lancé : OK
+- Panneau droit non modifié sauf contrôle master / plugins : OK
 
 **Dernière étape validée :**
 
-`Étape 220 — Happy Little Trees`
+`Étape 256 — Contrôle plugins relief`
 
 **Module en cours :**
 
 `06 - LANDSCAPE GRASS TREES WATER`
 
----
+**Profil stable actuel :**
 
-## État du module 05 - Visual base meshes & textures
+`SKYFORGE - Stable étape 237 herbe eau OK`
 
-**Étapes documentées :**
+**Compteur connu :**
 
-- `Étape 204 — Vérification du socle SMIM`
-- `Étape 205 — Assorted Mesh Fixes déjà couvert`
-- `Étape 206 — Vérification des mesh fixes existants`
-- `Étape 207 — Mesh Patch for Various Mods`
-- `Étape 208 — Particle Patch`
-- `Étape 209 — Patch Particle / Unofficial Material Fix annulé / différé`
-- `Étape 210 — Contrôle final module 05 + correction audio`
-
-**État validé :**
-
-- `Static Mesh Improvement Mod` : OK
-- `Static Mesh improvement Mod - SMIM - Quality Addon` : OK
-- `Unofficial Material Fix` : OK
-- `Particle Patch.esp` actif : OK
-- Patches meshes utiles installés séparément : OK
-- `AcousticTemplateFixes_ReverbInteriorSounds.esp` réactivé : OK
+- ESP + ESM non-light : `40` à l’étape 252
+- À redemander après les ajouts 253–256
 
 ---
 
 ## État du module 06 - Landscape / grass / trees / water
 
-**Ordre actuel confirmé :**
+**Étapes documentées dans le module :**
 
-```text
-[06 - LANDSCAPE GRASS TREES WATER]
-Terrain Fixes for CC Mods
-Landscape Fixes For Grass Mods
-Complementary Grass Fixes - A REINSTALL PLUS TARD
-Skyrim Landscape and Water Fixes - A REINSTALL PLUS TARD
-Majestic Mountains - A REINSTALL PLUS TARD
-Atlantean Landscape -Complete- 2K - A REINSTALL PLUS TARD (décoché)
-Happy Little Trees - A REINSTALL PLUS TARD
-Happy Little Trees - HLT Patch
-```
+- `Étape 211 — Ouverture du module 06`
+- `Étape 212 — Terrain Fixes for CC Mods`
+- `Étape 213 — Bloc paysage léger`
+- `Étape 214 — Contrôle plugins bloc herbe`
+- `Étape 215 — Skyrim Landscape and Water Fixes`
+- `Étape 216 — Contrôle ordre module 06`
+- `Étape 217 — Majestic Mountains`
+- `Étape 218 — Contrôle ordre après Majestic Mountains`
+- `Étape 219 — Atlantean Landscape suspendu proprement`
+- `Étape 220 — Happy Little Trees`
+- `Étape 221 — Contrôle ordre + suite arbres / herbe / eau`
+- `Étape 222 — Ancient Trees différé`
+- `Étape 223 — Dilon Vul`
+- `Étape 224 — Pack flore léger`
+- `Étape 225 — Pack herbe Cathedral + Origins`
+- `Étape 226 — Folkvangr`
+- `Étape 227 — QW’s Grass Patch 2`
+- `Étape 228 — Test visuel herbe`
+- `Étape 229 — Point stable herbe`
+- `Étape 230 — Pack ENB Complex Grass`
+- `Étape 231 — Contrôle plugins herbe`
+- `Étape 232 — Pack eau léger`
+- `Étape 233 — Contrôle plugins eau / pluie`
+- `Étape 234 — Point de stabilité court`
+- `Étape 235 — Water for ENB`
+- `Étape 236 — Contrôle plugins Water for ENB`
+- `Étape 237 — Test visuel eau en jeu`
+- `Étape 238 — Point stable paysage / eau`
+- `Étape 239 — Pack effets naturels léger`
+- `Étape 240 — Contrôle plugins effets naturels`
+- `Étape 241 — Pack petites corrections naturelles`
+- `Étape 242 — Contrôle plugins effets naturels`
+- `Étape 243 — Pack ciel léger`
+- `Étape 244 — Contrôle plugins ciel`
+- `Étape 245 — Pack Canticle Tree / Dawnguard`
+- `Étape 246 — Contrôle plugins Canticle`
+- `Étape 247 — Pack mondes DLC léger, version modifiée`
+- `Étape 248 — Contrôle plugins Apocrypha`
+- `Étape 249 — Pack petits détails naturels / monde`
+- `Étape 250 — Contrôle plugins détails naturels`
+- `Étape 251 — Pack léger Sovngarde + Hanging Moss`
+- `Étape 252 — Contrôle plugins Sovngarde / Moss`
+- `Étape 253 — Pack plantes léger`
+- `Étape 254 — Contrôle plugins plantes`
+- `Étape 255 — Pack relief léger`
+- `Étape 256 — Contrôle plugins relief`
 
-**Mods / décisions importants :**
+**État validé :**
 
-- `Terrain Fixes for CC Mods` installé avec option `All CC Mods`.
-- `Landscape Fixes For Grass Mods` installé et marqué `A REINSTALL PLUS TARD`.
-- `Complementary Grass Fixes` installé en core uniquement, patches optionnels différés.
-- `Skyrim Landscape and Water Fixes` installé et marqué `A REINSTALL PLUS TARD`.
-- `Majestic Mountains` installé avec `Landscape ESM : AE version`, malgré le runtime 1.5.97, car le contenu AE / CC est conservé.
-- `Atlantean Landscape -Complete- 2K` est installé mais décoché à cause du master manquant `Parallax TXST Fixes.esp`.
-- `Happy Little Trees` installé en option `Default`, alternatives neige différées.
+- Base paysage / relief / montagnes : installée et stable.
+- Arbres : `Happy Little Trees` et `Dilon Vul` installés et validés.
+- Herbe : Cathedral + Origins + Folkvangr + QW’s Grass Patch 2 installés et test visuel OK.
+- Eau : `GKB Waves Reborn`, `Splashes of Storms`, `Water for ENB` installés et test visuel cascade / eau OK.
+- Effets naturels / ciel / détails DLC : installés et validés.
+- Plantes et relief léger : installés et validés.
+
+---
+
+## Mods / décisions importants du module 06
+
+- `Atlantean Landscape -Complete- 2K - A REINSTALL PLUS TARD` reste installé mais décoché à cause du master manquant `Parallax TXST Fixes.esp`.
+- `Ancient Trees Of Skyrim - DIFFÉRÉ BETHESDA` reste différé jusqu’à résolution de l’accès Bethesda.
+- `Praedy's Soul Cairn - SE - DIFFERE SKELETON REPLACER` reste différé à cause du prérequis `Skeleton Replacer HD - SE`.
+- `Water for ENB - No Parallax - A REINSTALL PLUS TARD` est installé et validé avec les patches retenus.
+- `Snowy Surfaces Sound Collision and Aesthetics - A REINSTALL PLUS TARD` est installé avec choix Vanilla / Vanilla Standard Meshes / aucun patch.
+- `Remove Hanging Moss From Trees` a été installé en version `1.6`, car la version `1.5` n’était pas disponible.
+- `Unique Flowers & Plants.esp` est visible malgré le choix `ESM Version`; statut master-flagged ou ESP normal à vérifier plus tard.
+
+---
+
+## Points à vérifier lors de la prochaine reprise
+
+- Mettre à jour le compteur ESP + ESM après les étapes 253–256.
+- Vérifier si les plugins suivants sont ESPFE / light ou ESP normal :
+  - `Diverse Windmill Sails.esp`
+  - `mihailcrabshell.esp`
+  - `Remove Hanging Moss From Trees.esp`
+  - `Unique Flowers & Plants.esp`
+  - `waterplants.esp`
+  - `WAVY Waterfalls Effect.esp`
+  - `StormLightning.esp`
 
 ---
 
@@ -85,13 +133,12 @@ Happy Little Trees - HLT Patch
 
 - LOOT / ordre de chargement global : toujours différé.
 - Ne pas toucher au panneau droit sauf missing master.
-- Les tests ingame restent limités à la salle de départ Skyrim Unbound tant que la base globale n’est pas suffisamment avancée.
+- Les tests ingame restent courts et ciblés tant que la base globale n’est pas suffisamment avancée.
 - Les sauvegardes techniques temporaires créées pour tester `Skyrim Unbound` devront être supprimées avant la vraie partie finale.
-- `AOS`, `ISC`, `Volkihar Soundscape Overhaul`, `The Standing Sound Stones`, `Bleeding Edge` et `The Elder Songs` gardent une logique de réinstallation future.
-- `Magic College Music` est désactivé à cause du warning Form 43.
 - `Atlantean Landscape` reste décoché jusqu’au futur bloc `Parallax / Complex Terrain / ENB / textures paysage avancées`.
+- `Ancient Trees Of Skyrim` reste différé jusqu’à résolution Bethesda.
+- Les patches `Complementary Grass Fixes`, `SLaWF`, `Majestic Mountains`, `Happy Little Trees`, `Water for ENB` et autres éléments paysage pourront être revus selon les futurs modules villes / quêtes / herbes / météo / ENB.
 - Textures 2K par défaut si disponibles ; 1K pour petits objets / optimisation ; 4K uniquement pour éléments très visibles si justifié ; 8K exclu par défaut.
-- Les patches `Complementary Grass Fixes`, `SLaWF`, `Majestic Mountains`, `Happy Little Trees` et autres éléments paysage seront revus selon les futurs modules villes / quêtes / herbes / météo / ENB.
 
 ---
 
@@ -99,23 +146,25 @@ Happy Little Trees - HLT Patch
 
 Reprendre à partir de :
 
-`Étape 221`
+`Étape 257`
 
 Sujet prévu :
 
-`Contrôle ordre + suite arbres / herbe / eau`
+`Suite du module 06 - LANDSCAPE GRASS TREES WATER`
 
 État de départ :
 
-- Dernière étape validée : Étape 220
+- Dernière étape validée : Étape 256
 - Module en cours : `06 - LANDSCAPE GRASS TREES WATER`
+- Profil stable actuel : `SKYFORGE - Stable étape 237 herbe eau OK`
 - SKSE via MO2 : OK
 - Menu principal atteint : OK
-- Tests ingame limités à la salle de départ Skyrim Unbound : OK
 - Aucun message DLL : OK
 - Aucun master manquant : OK
 - `Overwrite` vide : OK
+- LOOT non lancé : OK
 - `Atlantean Landscape` décoché : OK
+- `Ancient Trees Of Skyrim` différé : OK
 
 ---
 

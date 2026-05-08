@@ -6,7 +6,7 @@ Cette partie complète `06_decisions_differees.md` à partir des décisions ajou
 
 ---
 
-## Décisions importantes ajoutées après l’étape 220
+## Décisions importantes ajoutées après l’étape 256
 
 - `Assorted Mesh Fixes` reste dans `02 - BUG FIXES & ENGINE PATCHES` : ne pas réinstaller, ne pas déplacer.
 - Les patches de `Mesh Patch for Various Mods` sont laissés en fichiers séparés pour une meilleure lisibilité MO2.
@@ -23,6 +23,13 @@ Cette partie complète `06_decisions_differees.md` à partir des décisions ajou
 - `Happy Little Trees` reste marqué `A REINSTALL PLUS TARD`.
 - Les alternatives neige de Happy Little Trees sont différées jusqu’au futur bloc neige / météo / ENB.
 - `Tree Billboards - HLT 1.01` n’est pas installé à ce stade.
+- `Ancient Trees Of Skyrim` est différé à cause de l’accès Bethesda temporairement impossible ; aucun miroir douteux ne doit être utilisé.
+- `Water for ENB - No Parallax - A REINSTALL PLUS TARD` est installé et validé, mais pourra être réinstallé plus tard selon le futur bloc ENB / parallax / météo.
+- `Snowy Surfaces Sound Collision and Aesthetics - A REINSTALL PLUS TARD` est installé sans patch et pourra être revu avec le futur bloc neige / météo.
+- `Praedy's Soul Cairn - SE` est différé à cause du prérequis `Skeleton Replacer HD - SE`.
+- `Remove Hanging Moss From Trees` est installé en version `1.6`, car la version `1.5` n’était pas disponible.
+- Le compteur ESP + ESM doit être redemandé après les étapes 253–256.
+- Les plugins récents du bloc paysage doivent être contrôlés plus tard pour vérifier leur statut ESPFE / light ou ESP normal.
 
 ---
 
@@ -205,3 +212,126 @@ Les alternatives neige seront revues plus tard avec le bloc neige / météo / EN
 
 **Statut :**  
 Installé, réinstallation future possible.
+
+---
+
+### Étape 222 — Ancient Trees Of Skyrim
+
+**Décision :**  
+`Ancient Trees Of Skyrim - DIFFÉRÉ BETHESDA`
+
+**Raison :**
+
+- Accès Bethesda temporairement impossible.
+- Ticket Bethesda ouvert.
+- Aucun miroir douteux utilisé.
+
+**Statut :**  
+Différé jusqu’à résolution Bethesda.
+
+---
+
+### Étape 235 — Water for ENB
+
+**Décision :**  
+`Water for ENB - No Parallax - A REINSTALL PLUS TARD` est installé et validé avec une sélection prudente.
+
+**Choix retenus :**
+
+- `Shades of Skyrim for ENB`
+- `No Parallax`
+- `Atlas Map Markers`
+- `Folkvangr`
+- `Generic Landscape Patch`
+- `Landscape Fixes For Grass Mods`
+- `Flat World Map : None`
+- `No Legacy iNeed Support`
+
+**Décision associée :**  
+Le mod pourra être réinstallé plus tard selon les choix ENB / parallax / météo / carte finale.
+
+**Statut :**  
+Installé, réinstallation future possible.
+
+---
+
+### Étape 239 — Snowy Surfaces Sound Collision and Aesthetics
+
+**Décision :**  
+`Snowy Surfaces Sound Collision and Aesthetics - A REINSTALL PLUS TARD` est installé sans patch.
+
+**Choix retenus :**
+
+- `Vanilla`
+- `Vanilla Standard Meshes`
+- Aucun patch
+
+**Décision associée :**  
+À revoir plus tard avec le futur bloc neige / météo / ENB.
+
+**Statut :**  
+Installé, réinstallation future possible.
+
+---
+
+### Étape 247 — Praedy's Soul Cairn - SE
+
+**Décision :**  
+`Praedy's Soul Cairn - SE - DIFFERE SKELETON REPLACER`
+
+**Raison :**  
+Le mod signale `Skeleton Replacer HD - SE` dans les requirements. Décision prudente : ne pas introduire ce prérequis maintenant.
+
+**Action future :**  
+Reprendre plus tard dans un mini-bloc dédié.
+
+**Statut :**  
+Différé.
+
+---
+
+### Étape 250 / 252 / 254 — Contrôle statut ESPFE des plugins paysage récents
+
+**Plugins à vérifier plus tard :**
+
+- `Diverse Windmill Sails.esp`
+- `mihailcrabshell.esp`
+- `Remove Hanging Moss From Trees.esp`
+- `Unique Flowers & Plants.esp`
+- `waterplants.esp`
+- `WAVY Waterfalls Effect.esp`
+- `StormLightning.esp`
+
+**Raison :**  
+Le statut ESPFE / light ou ESP normal doit être confirmé proprement dans MO2 / xEdit.
+
+**Statut :**  
+Vérification différée.
+
+---
+
+### Étape 252 — Compteur ESP + ESM
+
+**État connu :**  
+ESP + ESM non-light : `40` à l’étape 252.
+
+**Action future :**  
+Redemander le compteur après les ajouts 253–256.
+
+**Statut :**  
+Vérification différée.
+
+---
+
+### Étape 254 — Unique Flowers & Plants
+
+**Constat :**  
+Malgré le choix `Unique Flowers and Plants for Skyrim SE DLC Compatible ESM Version`, le plugin visible est :
+
+`Unique Flowers & Plants.esp`
+
+**Action future :**  
+Vérifier plus tard si le plugin est master-flagged ou ESP normal.
+
+**Statut :**  
+Vérification différée.

@@ -8,11 +8,13 @@
 
 ## État actuel validé
 
-- **Dernière étape validée :** Étape 220 — Happy Little Trees
+- **Dernière étape validée :** Étape 256 — Contrôle plugins relief
 - **Runtime :** Skyrim SE 1.5.97 Best of Both Worlds
 - **AE / Creation Club conservé :** oui
 - **Gestionnaire :** Mod Organizer 2 portable
 - **Module en cours :** 06 - LANDSCAPE GRASS TREES WATER
+- **Profil stable actuel :** SKYFORGE - Stable étape 237 herbe eau OK
+- **Compteur connu :** ESP + ESM non-light : 40 à l’étape 252, à redemander après les ajouts 253–256
 - **Validation :** SKSE via MO2 → menu principal → aucun message DLL bloquant → aucun master manquant → `Overwrite` vide
 
 ---
@@ -36,7 +38,8 @@
 15. [Audio, musiques et sons](procedure/09_audio_music_sounds.md)
 16. [Audio, musiques et sons — partie 2](procedure/09_audio_music_sounds_part_2.md)
 17. [Landscape, grass, trees & water](procedure/10_landscape_grass_trees_water.md)
-18. [Changelog / validation](procedure/99_changelog_validation.md)
+18. [Landscape, grass, trees & water — partie 2](procedure/10_landscape_grass_trees_water_part_2.md)
+19. [Changelog / validation](procedure/99_changelog_validation.md)
 
 ---
 
@@ -67,3 +70,20 @@ Quand un fichier devient trop lourd, une partie suivante peut être créée afin
 
 Lors de futures sessions d’installation, les nouvelles étapes peuvent être rédigées en vrac dans l’ordre de validation.
 Elles seront ensuite reclassées dans les fichiers thématiques correspondants.
+
+---
+
+## Prochaine reprise
+
+Reprendre à partir de :
+
+`Étape 257`
+
+Priorités de reprise :
+
+- Mettre à jour le compteur ESP + ESM après les étapes 253–256.
+- Vérifier le statut ESPFE / light ou ESP normal des plugins paysage ajoutés récemment.
+- Continuer le module `06 - LANDSCAPE GRASS TREES WATER`.
+- Ne pas lancer LOOT.
+- Garder `Atlantean Landscape` décoché.
+- Garder `Ancient Trees Of Skyrim` différé jusqu’à résolution Bethesda.

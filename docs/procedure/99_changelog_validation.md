@@ -379,6 +379,97 @@ L’étape 169 avait été omise lors de la première mise à jour 170–185. El
 
 ---
 
+## État validé après l’étape 256
+
+**Dernière étape validée :**  
+`Étape 256 — Contrôle plugins relief`
+
+**Module en cours :**  
+`06 - LANDSCAPE GRASS TREES WATER`
+
+**Profil stable actuel :**  
+`SKYFORGE - Stable étape 237 herbe eau OK`
+
+**Compteur connu :**  
+ESP + ESM non-light : `40` à l’étape 252. À redemander après les ajouts 253–256.
+
+**Résultat validé :**
+
+- SKSE lancé via MO2 : OK
+- Menu principal atteint : OK
+- Création personnage / tests visuels herbe et eau : OK
+- Aucun message DLL : OK
+- Aucun master manquant : OK
+- `Overwrite` vide : OK
+- LOOT non lancé : OK
+
+**Étapes ajoutées / documentées lors de cette mise à jour :**
+
+- `Étape 221 — Contrôle ordre + suite arbres / herbe / eau`
+- `Étape 222 — Ancient Trees différé`
+- `Étape 223 — Dilon Vul`
+- `Étape 224 — Pack flore léger`
+- `Étape 225 — Pack herbe Cathedral + Origins`
+- `Étape 226 — Folkvangr`
+- `Étape 227 — QW’s Grass Patch 2`
+- `Étape 228 — Test visuel herbe`
+- `Étape 229 — Point stable herbe`
+- `Étape 230 — Pack ENB Complex Grass`
+- `Étape 231 — Contrôle plugins herbe`
+- `Étape 232 — Pack eau léger`
+- `Étape 233 — Contrôle plugins eau / pluie`
+- `Étape 234 — Point de stabilité court`
+- `Étape 235 — Water for ENB`
+- `Étape 236 — Contrôle plugins Water for ENB`
+- `Étape 237 — Test visuel eau en jeu`
+- `Étape 238 — Point stable paysage / eau`
+- `Étape 239 — Pack effets naturels léger`
+- `Étape 240 — Contrôle plugins effets naturels`
+- `Étape 241 — Pack petites corrections naturelles`
+- `Étape 242 — Contrôle plugins effets naturels`
+- `Étape 243 — Pack ciel léger`
+- `Étape 244 — Contrôle plugins ciel`
+- `Étape 245 — Pack Canticle Tree / Dawnguard`
+- `Étape 246 — Contrôle plugins Canticle`
+- `Étape 247 — Pack mondes DLC léger, version modifiée`
+- `Étape 248 — Contrôle plugins Apocrypha`
+- `Étape 249 — Pack petits détails naturels / monde`
+- `Étape 250 — Contrôle plugins détails naturels`
+- `Étape 251 — Pack léger Sovngarde + Hanging Moss`
+- `Étape 252 — Contrôle plugins Sovngarde / Moss`
+- `Étape 253 — Pack plantes léger`
+- `Étape 254 — Contrôle plugins plantes`
+- `Étape 255 — Pack relief léger`
+- `Étape 256 — Contrôle plugins relief`
+
+**Décisions ajoutées / confirmées lors de cette mise à jour :**
+
+- `Ancient Trees Of Skyrim` est différé à cause de l’accès Bethesda temporairement impossible.
+- `Praedy's Soul Cairn - SE` est différé à cause du prérequis `Skeleton Replacer HD - SE`.
+- `Water for ENB - No Parallax - A REINSTALL PLUS TARD` est installé et validé, mais reste réinstallable plus tard selon ENB / parallax / météo.
+- `Snowy Surfaces Sound Collision and Aesthetics - A REINSTALL PLUS TARD` est installé sans patch et pourra être revu plus tard.
+- `Remove Hanging Moss From Trees` est installé en version `1.6`, car la version `1.5` n’était pas disponible.
+- Le statut ESPFE / light ou ESP normal de plusieurs plugins paysage reste à vérifier.
+- Le compteur ESP + ESM doit être redemandé après les étapes 253–256.
+- `Atlantean Landscape` reste décoché.
+- LOOT n’a pas été lancé.
+
+**Fichiers ajoutés lors de cette mise à jour :**
+
+- `docs/procedure/10_landscape_grass_trees_water_part_2.md`
+
+**Fichiers mis à jour lors de cette mise à jour :**
+
+- `docs/SKYFORGE_Procedure_Reproduction_PC.md`
+- `docs/procedure/00_resume_etat_actuel.md`
+- `docs/procedure/06_decisions_differees_part_2.md`
+- `docs/procedure/99_changelog_validation.md`
+
+**Prochaine reprise :**  
+`Étape 257`
+
+---
+
 ## Rappel méthode
 
 - Avancer prudemment, par petits blocs.
@@ -386,7 +477,7 @@ L’étape 169 avait été omise lors de la première mise à jour 170–185. El
 - Tester individuellement les DLL / SKSE sensibles, masters, FOMOD complexes ou sources externes.
 - Ne pas lancer LOOT pour l’instant.
 - Ne pas toucher au panneau droit sauf missing master.
-- Les tests ingame restent limités à la salle de départ Skyrim Unbound tant que la base globale n’est pas suffisamment avancée.
+- Les tests ingame restent courts et ciblés tant que la base globale n’est pas suffisamment avancée.
 - Ne pas installer de patch si le mod parent n’est pas installé ou officiellement retenu.
 - Garder les décisions différées dans `06_decisions_differees.md` et `06_decisions_differees_part_2.md`.
 - Garder la numérotation chronologique globale, même quand les étapes sont reclassées dans des fichiers thématiques.

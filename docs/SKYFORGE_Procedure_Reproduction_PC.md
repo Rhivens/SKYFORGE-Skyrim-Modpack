@@ -8,13 +8,13 @@
 
 ## État actuel validé
 
-- **Dernière étape validée :** Étape 256 — Contrôle plugins relief
+- **Dernière étape validée :** Étape 265 — Profil stable
 - **Runtime :** Skyrim SE 1.5.97 Best of Both Worlds
 - **AE / Creation Club conservé :** oui
 - **Gestionnaire :** Mod Organizer 2 portable
-- **Module en cours :** 06 - LANDSCAPE GRASS TREES WATER
-- **Profil stable actuel :** SKYFORGE - Stable étape 237 herbe eau OK
-- **Compteur connu :** ESP + ESM non-light : 40 à l’étape 252, à redemander après les ajouts 253–256
+- **Dernier module clôturé temporairement :** 06 - LANDSCAPE GRASS TREES WATER
+- **Profil stable actuel :** SKYFORGE - Stable étape 264 module 06 OK
+- **Compteur confirmé :** ESP + ESM non-light : 42
 - **Validation :** SKSE via MO2 → menu principal → aucun message DLL bloquant → aucun master manquant → `Overwrite` vide
 
 ---
@@ -39,7 +39,8 @@
 16. [Audio, musiques et sons — partie 2](procedure/09_audio_music_sounds_part_2.md)
 17. [Landscape, grass, trees & water](procedure/10_landscape_grass_trees_water.md)
 18. [Landscape, grass, trees & water — partie 2](procedure/10_landscape_grass_trees_water_part_2.md)
-19. [Changelog / validation](procedure/99_changelog_validation.md)
+19. [Landscape, grass, trees & water — partie 3](procedure/10_landscape_grass_trees_water_part_3.md)
+20. [Changelog / validation](procedure/99_changelog_validation.md)
 
 ---
 
@@ -77,13 +78,16 @@ Elles seront ensuite reclassées dans les fichiers thématiques correspondants.
 
 Reprendre à partir de :
 
-`Étape 257`
+`Étape 266`
 
-Priorités de reprise :
+Sujet prévu :
 
-- Mettre à jour le compteur ESP + ESM après les étapes 253–256.
-- Vérifier le statut ESPFE / light ou ESP normal des plugins paysage ajoutés récemment.
-- Continuer le module `06 - LANDSCAPE GRASS TREES WATER`.
+Ouverture du prochain module de construction SKYFORGE.
+
+Consignes maintenues :
+
 - Ne pas lancer LOOT.
-- Garder `Atlantean Landscape` décoché.
-- Garder `Ancient Trees Of Skyrim` différé jusqu’à résolution Bethesda.
+- Ne pas toucher au panneau droit sauf missing master.
+- Garder `Atlantean Landscape -Complete- 2K` décoché.
+- `Ancient Trees Of Skyrim` est abandonné / supprimé.
+- Continuer les tests courts SKSE / menu / masters / DLL / Overwrite.

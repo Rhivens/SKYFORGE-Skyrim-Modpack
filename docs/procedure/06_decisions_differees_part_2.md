@@ -6,7 +6,7 @@ Cette partie complète `06_decisions_differees.md` à partir des décisions ajou
 
 ---
 
-## Décisions importantes ajoutées après l’étape 256
+## Décisions importantes ajoutées après l’étape 265
 
 - `Assorted Mesh Fixes` reste dans `02 - BUG FIXES & ENGINE PATCHES` : ne pas réinstaller, ne pas déplacer.
 - Les patches de `Mesh Patch for Various Mods` sont laissés en fichiers séparés pour une meilleure lisibilité MO2.
@@ -23,13 +23,14 @@ Cette partie complète `06_decisions_differees.md` à partir des décisions ajou
 - `Happy Little Trees` reste marqué `A REINSTALL PLUS TARD`.
 - Les alternatives neige de Happy Little Trees sont différées jusqu’au futur bloc neige / météo / ENB.
 - `Tree Billboards - HLT 1.01` n’est pas installé à ce stade.
-- `Ancient Trees Of Skyrim` est différé à cause de l’accès Bethesda temporairement impossible ; aucun miroir douteux ne doit être utilisé.
+- `Ancient Trees Of Skyrim` est abandonné / supprimé après réévaluation des sources disponibles.
+- `The Omnibus - Terrain Complex Parallax AiO` est différé.
 - `Water for ENB - No Parallax - A REINSTALL PLUS TARD` est installé et validé, mais pourra être réinstallé plus tard selon le futur bloc ENB / parallax / météo.
 - `Snowy Surfaces Sound Collision and Aesthetics - A REINSTALL PLUS TARD` est installé sans patch et pourra être revu avec le futur bloc neige / météo.
 - `Praedy's Soul Cairn - SE` est différé à cause du prérequis `Skeleton Replacer HD - SE`.
 - `Remove Hanging Moss From Trees` est installé en version `1.6`, car la version `1.5` n’était pas disponible.
-- Le compteur ESP + ESM doit être redemandé après les étapes 253–256.
-- Les plugins récents du bloc paysage doivent être contrôlés plus tard pour vérifier leur statut ESPFE / light ou ESP normal.
+- Le compteur ESP + ESM non-light est confirmé à `42` après clôture temporaire du module 06.
+- Le module `06 - LANDSCAPE GRASS TREES WATER` est clôturé temporairement après création du profil stable `SKYFORGE - Stable étape 264 module 06 OK`.
 
 ---
 
@@ -215,22 +216,6 @@ Installé, réinstallation future possible.
 
 ---
 
-### Étape 222 — Ancient Trees Of Skyrim
-
-**Décision :**  
-`Ancient Trees Of Skyrim - DIFFÉRÉ BETHESDA`
-
-**Raison :**
-
-- Accès Bethesda temporairement impossible.
-- Ticket Bethesda ouvert.
-- Aucun miroir douteux utilisé.
-
-**Statut :**  
-Différé jusqu’à résolution Bethesda.
-
----
-
 ### Étape 235 — Water for ENB
 
 **Décision :**  
@@ -303,23 +288,29 @@ Différé.
 - `StormLightning.esp`
 
 **Raison :**  
-Le statut ESPFE / light ou ESP normal doit être confirmé proprement dans MO2 / xEdit.
+Le statut ESPFE / light ou ESP normal doit être confirmé proprement dans MO2 / xEdit si nécessaire.
 
 **Statut :**  
 Vérification différée.
 
 ---
 
-### Étape 252 — Compteur ESP + ESM
+### Étape 252 / 257 / 265 — Compteur ESP + ESM
 
-**État connu :**  
+**État initial :**  
 ESP + ESM non-light : `40` à l’étape 252.
 
-**Action future :**  
-Redemander le compteur après les ajouts 253–256.
+**État confirmé après reprise :**  
+ESP + ESM non-light : `42` à partir de l’étape 257.
+
+**Cohérence :**  
+Passage de `40` à `42` cohérent après ajout de :
+
+- `Unique Flowers & Plants.esp`
+- `waterplants.esp`
 
 **Statut :**  
-Vérification différée.
+Vérification levée / compteur confirmé.
 
 ---
 
@@ -331,7 +322,61 @@ Malgré le choix `Unique Flowers and Plants for Skyrim SE DLC Compatible ESM Ver
 `Unique Flowers & Plants.esp`
 
 **Action future :**  
-Vérifier plus tard si le plugin est master-flagged ou ESP normal.
+Vérifier plus tard si le plugin est master-flagged ou ESP normal si nécessaire.
 
 **Statut :**  
 Vérification différée.
+
+---
+
+### Étape 260 — The Omnibus - Terrain Complex Parallax AiO
+
+**Décision :**  
+`The Omnibus - Terrain Complex Parallax AiO` est différé.
+
+**Raison :**  
+À traiter plus tard dans une logique `Parallax / Complex Terrain / ENB / textures paysage avancées`, avec `Atlantean Landscape` et les choix graphiques avancés.
+
+**Statut :**  
+Différé.
+
+---
+
+### Étape 263 — Ancient Trees Of Skyrim
+
+**Décision finale :**  
+`Ancient Trees Of Skyrim` est abandonné et supprimé.
+
+**Constats :**
+
+- Source Bethesda constatée comme `Xbox only` côté interface.
+- Source Nexus trouvée mais page désactivée / archive non maintenue.
+
+**Raison :**  
+Ne pas utiliser de source douteuse ou non maintenue pour SKYFORGE.
+
+**Statut :**  
+Abandonné / supprimé.
+
+---
+
+### Étape 264 / 265 — Clôture temporaire du module 06
+
+**Décision :**  
+Le module `06 - LANDSCAPE GRASS TREES WATER` est clôturé temporairement.
+
+**Profil stable créé :**
+
+`SKYFORGE - Stable étape 264 module 06 OK`
+
+**État validé :**
+
+- SKSE via MO2 : OK
+- Menu principal atteint : OK
+- Aucun master manquant : OK
+- Aucun message DLL : OK
+- `Overwrite` vide : OK
+- ESP + ESM non-light : `42`
+
+**Statut :**  
+Module fermé temporairement.

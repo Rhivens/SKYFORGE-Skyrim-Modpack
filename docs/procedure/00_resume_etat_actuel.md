@@ -4,10 +4,10 @@
 
 ---
 
-## État validé après l’étape 256
+## État validé après l’étape 265
 
 **Objectif :**  
-Documenter la progression du module `06 - LANDSCAPE GRASS TREES WATER` depuis `Happy Little Trees` jusqu’au contrôle plugins relief.
+Clôturer temporairement le module `06 - LANDSCAPE GRASS TREES WATER` après contrôle du compteur plugins, vérifications finales et création du profil stable.
 
 **Résultat validé :**
 
@@ -15,29 +15,28 @@ Documenter la progression du module `06 - LANDSCAPE GRASS TREES WATER` depuis `H
 - AE / Creation Club conservé : OK
 - SKSE lancé via MO2 : OK
 - Menu principal atteint : OK
-- Création personnage / tests visuels herbe et eau : OK
 - Aucun missing master bloquant signalé : OK
-- Aucun message DLL bloquant signalé sur les derniers tests : OK
+- Aucun message DLL bloquant signalé : OK
 - `Overwrite` vide : OK
 - LOOT non lancé : OK
-- Panneau droit non modifié sauf contrôle master / plugins : OK
+- `Atlantean Landscape -Complete- 2K` décoché : OK
+- `Ancient Trees Of Skyrim` abandonné / supprimé : OK
 
 **Dernière étape validée :**
 
-`Étape 256 — Contrôle plugins relief`
+`Étape 265 — Profil stable`
 
-**Module en cours :**
+**Module clôturé temporairement :**
 
 `06 - LANDSCAPE GRASS TREES WATER`
 
 **Profil stable actuel :**
 
-`SKYFORGE - Stable étape 237 herbe eau OK`
+`SKYFORGE - Stable étape 264 module 06 OK`
 
-**Compteur connu :**
+**Compteur confirmé :**
 
-- ESP + ESM non-light : `40` à l’étape 252
-- À redemander après les ajouts 253–256
+- ESP + ESM non-light : `42`
 
 ---
 
@@ -91,6 +90,15 @@ Documenter la progression du module `06 - LANDSCAPE GRASS TREES WATER` depuis `H
 - `Étape 254 — Contrôle plugins plantes`
 - `Étape 255 — Pack relief léger`
 - `Étape 256 — Contrôle plugins relief`
+- `Étape 257 — Reprise et compteur plugins`
+- `Étape 258 — Bloc Canticle Tree`
+- `Étape 259 — Picta Series`
+- `Étape 260 — Snowy Surfaces / Omnibus`
+- `Étape 261 — Pack ambiance sauvage BOS`
+- `Étape 262 — Moulins / cascades`
+- `Étape 263 — Ancient Trees Of Skyrim`
+- `Étape 264 — Clôture module 06`
+- `Étape 265 — Profil stable`
 
 **État validé :**
 
@@ -100,32 +108,20 @@ Documenter la progression du module `06 - LANDSCAPE GRASS TREES WATER` depuis `H
 - Eau : `GKB Waves Reborn`, `Splashes of Storms`, `Water for ENB` installés et test visuel cascade / eau OK.
 - Effets naturels / ciel / détails DLC : installés et validés.
 - Plantes et relief léger : installés et validés.
+- Ambiance sauvage BOS : installée et validée.
+- Module 06 clôturé temporairement avec profil stable dédié.
 
 ---
 
 ## Mods / décisions importants du module 06
 
 - `Atlantean Landscape -Complete- 2K - A REINSTALL PLUS TARD` reste installé mais décoché à cause du master manquant `Parallax TXST Fixes.esp`.
-- `Ancient Trees Of Skyrim - DIFFÉRÉ BETHESDA` reste différé jusqu’à résolution de l’accès Bethesda.
+- `Ancient Trees Of Skyrim` est abandonné / supprimé après réévaluation des sources Bethesda et Nexus.
+- `The Omnibus - Terrain Complex Parallax AiO` est différé.
 - `Praedy's Soul Cairn - SE - DIFFERE SKELETON REPLACER` reste différé à cause du prérequis `Skeleton Replacer HD - SE`.
 - `Water for ENB - No Parallax - A REINSTALL PLUS TARD` est installé et validé avec les patches retenus.
 - `Snowy Surfaces Sound Collision and Aesthetics - A REINSTALL PLUS TARD` est installé avec choix Vanilla / Vanilla Standard Meshes / aucun patch.
 - `Remove Hanging Moss From Trees` a été installé en version `1.6`, car la version `1.5` n’était pas disponible.
-- `Unique Flowers & Plants.esp` est visible malgré le choix `ESM Version`; statut master-flagged ou ESP normal à vérifier plus tard.
-
----
-
-## Points à vérifier lors de la prochaine reprise
-
-- Mettre à jour le compteur ESP + ESM après les étapes 253–256.
-- Vérifier si les plugins suivants sont ESPFE / light ou ESP normal :
-  - `Diverse Windmill Sails.esp`
-  - `mihailcrabshell.esp`
-  - `Remove Hanging Moss From Trees.esp`
-  - `Unique Flowers & Plants.esp`
-  - `waterplants.esp`
-  - `WAVY Waterfalls Effect.esp`
-  - `StormLightning.esp`
 
 ---
 
@@ -136,7 +132,6 @@ Documenter la progression du module `06 - LANDSCAPE GRASS TREES WATER` depuis `H
 - Les tests ingame restent courts et ciblés tant que la base globale n’est pas suffisamment avancée.
 - Les sauvegardes techniques temporaires créées pour tester `Skyrim Unbound` devront être supprimées avant la vraie partie finale.
 - `Atlantean Landscape` reste décoché jusqu’au futur bloc `Parallax / Complex Terrain / ENB / textures paysage avancées`.
-- `Ancient Trees Of Skyrim` reste différé jusqu’à résolution Bethesda.
 - Les patches `Complementary Grass Fixes`, `SLaWF`, `Majestic Mountains`, `Happy Little Trees`, `Water for ENB` et autres éléments paysage pourront être revus selon les futurs modules villes / quêtes / herbes / météo / ENB.
 - Textures 2K par défaut si disponibles ; 1K pour petits objets / optimisation ; 4K uniquement pour éléments très visibles si justifié ; 8K exclu par défaut.
 
@@ -146,17 +141,18 @@ Documenter la progression du module `06 - LANDSCAPE GRASS TREES WATER` depuis `H
 
 Reprendre à partir de :
 
-`Étape 257`
+`Étape 266`
 
 Sujet prévu :
 
-`Suite du module 06 - LANDSCAPE GRASS TREES WATER`
+Ouverture du prochain module de construction SKYFORGE.
 
 État de départ :
 
-- Dernière étape validée : Étape 256
-- Module en cours : `06 - LANDSCAPE GRASS TREES WATER`
-- Profil stable actuel : `SKYFORGE - Stable étape 237 herbe eau OK`
+- Dernière étape validée : Étape 265
+- Module 06 clôturé temporairement : OK
+- Profil stable actuel : `SKYFORGE - Stable étape 264 module 06 OK`
+- ESP + ESM non-light : `42`
 - SKSE via MO2 : OK
 - Menu principal atteint : OK
 - Aucun message DLL : OK
@@ -164,7 +160,7 @@ Sujet prévu :
 - `Overwrite` vide : OK
 - LOOT non lancé : OK
 - `Atlantean Landscape` décoché : OK
-- `Ancient Trees Of Skyrim` différé : OK
+- `Ancient Trees Of Skyrim` abandonné / supprimé : OK
 
 ---
 

@@ -1,3 +1,7 @@
+<p align="center">
+  <img src="assets/branding/splash.png" alt="SKYFORGE" width="900">
+</p>
+
 # SKYFORGE
 
 Projet personnel de création d’un modpack **Skyrim Special Edition 1.5.97** basé sur une fusion raisonnée entre les références **Nolvus** et **Nefaram**.

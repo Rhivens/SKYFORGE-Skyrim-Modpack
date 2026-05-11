@@ -470,6 +470,69 @@ ESP + ESM non-light : `40` à l’étape 252. À redemander après les ajouts 25
 
 ---
 
+## État validé après l’étape 265
+
+**Dernière étape validée :**  
+`Étape 265 — Profil stable`
+
+**Module clôturé temporairement :**  
+`06 - LANDSCAPE GRASS TREES WATER`
+
+**Profil stable actuel :**  
+`SKYFORGE - Stable étape 264 module 06 OK`
+
+**Compteur confirmé :**  
+ESP + ESM non-light : `42`
+
+**Résultat validé :**
+
+- SKSE lancé via MO2 : OK
+- Menu principal atteint : OK
+- Aucun message DLL : OK
+- Aucun master manquant : OK
+- `Overwrite` vide : OK
+- LOOT non lancé : OK
+- `Atlantean Landscape -Complete- 2K` décoché : OK
+- `Ancient Trees Of Skyrim` abandonné / supprimé : OK
+
+**Étapes ajoutées / documentées lors de cette mise à jour :**
+
+- `Étape 257 — Reprise et compteur plugins`
+- `Étape 258 — Bloc Canticle Tree`
+- `Étape 259 — Picta Series`
+- `Étape 260 — Snowy Surfaces / Omnibus`
+- `Étape 261 — Pack ambiance sauvage BOS`
+- `Étape 262 — Moulins / cascades`
+- `Étape 263 — Ancient Trees Of Skyrim`
+- `Étape 264 — Clôture module 06`
+- `Étape 265 — Profil stable`
+
+**Décisions ajoutées / confirmées lors de cette mise à jour :**
+
+- Le compteur ESP + ESM non-light est confirmé à `42`.
+- `The Omnibus - Terrain Complex Parallax AiO` est différé.
+- `Ancient Trees Of Skyrim` est abandonné / supprimé après réévaluation des sources Bethesda et Nexus.
+- `Atlantean Landscape -Complete- 2K` reste décoché.
+- Le module `06 - LANDSCAPE GRASS TREES WATER` est clôturé temporairement.
+- Le profil stable `SKYFORGE - Stable étape 264 module 06 OK` a été créé.
+- LOOT n’a pas été lancé.
+
+**Fichiers ajoutés lors de cette mise à jour :**
+
+- `docs/procedure/10_landscape_grass_trees_water_part_3.md`
+
+**Fichiers mis à jour lors de cette mise à jour :**
+
+- `docs/SKYFORGE_Procedure_Reproduction_PC.md`
+- `docs/procedure/00_resume_etat_actuel.md`
+- `docs/procedure/06_decisions_differees_part_2.md`
+- `docs/procedure/99_changelog_validation.md`
+
+**Prochaine reprise :**  
+`Étape 266`
+
+---
+
 ## Rappel méthode
 
 - Avancer prudemment, par petits blocs.

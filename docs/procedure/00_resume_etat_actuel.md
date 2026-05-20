@@ -4,10 +4,10 @@
 
 ---
 
-## État validé après l’étape 265
+## État validé après l’étape 289
 
 **Objectif :**  
-Clôturer temporairement le module `06 - LANDSCAPE GRASS TREES WATER` après contrôle du compteur plugins, vérifications finales et création du profil stable.
+Documenter l’ouverture du module `07 - CITIES TOWNS INTERIORS LIGHTING` et la progression jusqu’à `Environs - Hroggar's House`.
 
 **Résultat validé :**
 
@@ -19,109 +19,78 @@ Clôturer temporairement le module `06 - LANDSCAPE GRASS TREES WATER` après con
 - Aucun message DLL bloquant signalé : OK
 - `Overwrite` vide : OK
 - LOOT non lancé : OK
+- LOD / DynDOLOD non générés : OK
 - `Atlantean Landscape -Complete- 2K` décoché : OK
-- `Ancient Trees Of Skyrim` abandonné / supprimé : OK
 
 **Dernière étape validée :**
 
-`Étape 265 — Profil stable`
+`Étape 289 — Environs Hroggar’s House`
 
-**Module clôturé temporairement :**
+**Module en cours :**
 
-`06 - LANDSCAPE GRASS TREES WATER`
+`07 - CITIES TOWNS INTERIORS LIGHTING`
 
-**Profil stable actuel :**
+**Dernier profil stable créé :**
 
-`SKYFORGE - Stable étape 264 module 06 OK`
+`SKYFORGE - Stable étape 275 villages Ivarstead OK`
 
 **Compteur confirmé :**
 
-- ESP + ESM non-light : `42`
+- ESP + ESM non-light : `55`
 
 ---
 
-## État du module 06 - Landscape / grass / trees / water
+## État du module 07 - Cities / towns / interiors / lighting
 
 **Étapes documentées dans le module :**
 
-- `Étape 211 — Ouverture du module 06`
-- `Étape 212 — Terrain Fixes for CC Mods`
-- `Étape 213 — Bloc paysage léger`
-- `Étape 214 — Contrôle plugins bloc herbe`
-- `Étape 215 — Skyrim Landscape and Water Fixes`
-- `Étape 216 — Contrôle ordre module 06`
-- `Étape 217 — Majestic Mountains`
-- `Étape 218 — Contrôle ordre après Majestic Mountains`
-- `Étape 219 — Atlantean Landscape suspendu proprement`
-- `Étape 220 — Happy Little Trees`
-- `Étape 221 — Contrôle ordre + suite arbres / herbe / eau`
-- `Étape 222 — Ancient Trees différé`
-- `Étape 223 — Dilon Vul`
-- `Étape 224 — Pack flore léger`
-- `Étape 225 — Pack herbe Cathedral + Origins`
-- `Étape 226 — Folkvangr`
-- `Étape 227 — QW’s Grass Patch 2`
-- `Étape 228 — Test visuel herbe`
-- `Étape 229 — Point stable herbe`
-- `Étape 230 — Pack ENB Complex Grass`
-- `Étape 231 — Contrôle plugins herbe`
-- `Étape 232 — Pack eau léger`
-- `Étape 233 — Contrôle plugins eau / pluie`
-- `Étape 234 — Point de stabilité court`
-- `Étape 235 — Water for ENB`
-- `Étape 236 — Contrôle plugins Water for ENB`
-- `Étape 237 — Test visuel eau en jeu`
-- `Étape 238 — Point stable paysage / eau`
-- `Étape 239 — Pack effets naturels léger`
-- `Étape 240 — Contrôle plugins effets naturels`
-- `Étape 241 — Pack petites corrections naturelles`
-- `Étape 242 — Contrôle plugins effets naturels`
-- `Étape 243 — Pack ciel léger`
-- `Étape 244 — Contrôle plugins ciel`
-- `Étape 245 — Pack Canticle Tree / Dawnguard`
-- `Étape 246 — Contrôle plugins Canticle`
-- `Étape 247 — Pack mondes DLC léger, version modifiée`
-- `Étape 248 — Contrôle plugins Apocrypha`
-- `Étape 249 — Pack petits détails naturels / monde`
-- `Étape 250 — Contrôle plugins détails naturels`
-- `Étape 251 — Pack léger Sovngarde + Hanging Moss`
-- `Étape 252 — Contrôle plugins Sovngarde / Moss`
-- `Étape 253 — Pack plantes léger`
-- `Étape 254 — Contrôle plugins plantes`
-- `Étape 255 — Pack relief léger`
-- `Étape 256 — Contrôle plugins relief`
-- `Étape 257 — Reprise et compteur plugins`
-- `Étape 258 — Bloc Canticle Tree`
-- `Étape 259 — Picta Series`
-- `Étape 260 — Snowy Surfaces / Omnibus`
-- `Étape 261 — Pack ambiance sauvage BOS`
-- `Étape 262 — Moulins / cascades`
-- `Étape 263 — Ancient Trees Of Skyrim`
-- `Étape 264 — Clôture module 06`
-- `Étape 265 — Profil stable`
+- `Étape 266 — Ouverture module 07`
+- `Étape 267 — Pack fondations Lux`
+- `Étape 268 — The Great Cities Resources`
+- `Étape 269 — The Great Town of Shor’s Stone`
+- `Étape 270 — The Great Village of Kynesgrove`
+- `Étape 271 — The Great Village of Old Hroldan`
+- `Étape 272 — The Great Town of Karthwasten`
+- `Étape 273 — Profil stable intermédiaire`
+- `Étape 274 — The Great Village of Mixwater Mill`
+- `Étape 275 — The Great Town of Ivarstead`
+- `Étape 276 — Profil stable intermédiaire`
+- `Étape 277 — Dragon Bridge différé`
+- `Étape 278 — The Great City of Rorikstead`
+- `Étape 279 — The Great City of Falkreath`
+- `Étape 280 — Dawnstar COTN installé puis corrigé plus tard`
+- `Étape 281 — Morthal COTN installé puis décoché plus tard`
+- `Étape 282 — Winterhold COTN installé puis remplacé`
+- `Étape 283 — Correction Winterhold vers Great City`
+- `Étape 284 — Correction Dawnstar vers Great City`
+- `Étape 285 — Morthal COTN décoché`
+- `Étape 286 — Lainalten`
+- `Étape 287 — Half-Moon Mill COTN Addon`
+- `Étape 288 — Anga’s Mill COTN Addon`
+- `Étape 289 — Environs Hroggar’s House`
 
 **État validé :**
 
-- Base paysage / relief / montagnes : installée et stable.
-- Arbres : `Happy Little Trees` et `Dilon Vul` installés et validés.
-- Herbe : Cathedral + Origins + Folkvangr + QW’s Grass Patch 2 installés et test visuel OK.
-- Eau : `GKB Waves Reborn`, `Splashes of Storms`, `Water for ENB` installés et test visuel cascade / eau OK.
-- Effets naturels / ciel / détails DLC : installés et validés.
-- Plantes et relief léger : installés et validés.
-- Ambiance sauvage BOS : installée et validée.
-- Module 06 clôturé temporairement avec profil stable dédié.
+- Socle Lux installé : `Lux Via`, `Lux Orbis`, `Lux`.
+- The Great Cities Resources installé.
+- Plusieurs villages / villes Great Cities installés et testés.
+- Corrections Winterhold / Dawnstar alignées vers les choix Great City / Nolvus Awakening.
+- `Cities of the North - Morthal` décoché, choix final Morthal à revoir.
+- `Environs - Hroggar's House` installé, patch collection sans option activée pour l’instant.
 
 ---
 
-## Mods / décisions importants du module 06
+## Mods / décisions importants du module 07
 
-- `Atlantean Landscape -Complete- 2K - A REINSTALL PLUS TARD` reste installé mais décoché à cause du master manquant `Parallax TXST Fixes.esp`.
-- `Ancient Trees Of Skyrim` est abandonné / supprimé après réévaluation des sources Bethesda et Nexus.
-- `The Omnibus - Terrain Complex Parallax AiO` est différé.
-- `Praedy's Soul Cairn - SE - DIFFERE SKELETON REPLACER` reste différé à cause du prérequis `Skeleton Replacer HD - SE`.
-- `Water for ENB - No Parallax - A REINSTALL PLUS TARD` est installé et validé avec les patches retenus.
-- `Snowy Surfaces Sound Collision and Aesthetics - A REINSTALL PLUS TARD` est installé avec choix Vanilla / Vanilla Standard Meshes / aucun patch.
-- `Remove Hanging Moss From Trees` a été installé en version `1.6`, car la version `1.5` n’était pas disponible.
+- `Lux Orbis - Patch Hub - A REINSTALL PLUS TARD` installé mais à compléter / réinstaller plus tard.
+- Les patch collections `The Great Town / Village / City` sont marquées `A COMPLETER PLUS TARD` et devront être reprises pendant la phase de patching.
+- `Dragon Bridge` est différé, à traiter plus tard avec routes / ponts / Lux / villes.
+- `The Great City Of Falkreath SSE Edition` est retenu en choix Nolvus ; éviter le mélange COTN / JK / patches complexes pour Falkreath.
+- `Cities of the North - Dawnstar` et son update sont décochés / remplacés par `The Great City Of Dawnstar`.
+- `Cities of the North - Winterhold` est décoché / remplacé par `The Great City Of Winterhold`.
+- `Cities of the North - Morthal` est décoché, choix à revoir.
+- `The Great Cities - CC Fishing Patch` est identifié mais différé.
+- LOD / DynDOLOD : à faire plus tard, pas maintenant.
 
 ---
 
@@ -132,7 +101,7 @@ Clôturer temporairement le module `06 - LANDSCAPE GRASS TREES WATER` après con
 - Les tests ingame restent courts et ciblés tant que la base globale n’est pas suffisamment avancée.
 - Les sauvegardes techniques temporaires créées pour tester `Skyrim Unbound` devront être supprimées avant la vraie partie finale.
 - `Atlantean Landscape` reste décoché jusqu’au futur bloc `Parallax / Complex Terrain / ENB / textures paysage avancées`.
-- Les patches `Complementary Grass Fixes`, `SLaWF`, `Majestic Mountains`, `Happy Little Trees`, `Water for ENB` et autres éléments paysage pourront être revus selon les futurs modules villes / quêtes / herbes / météo / ENB.
+- Les patch hubs / patch collections sont conservés pour la future phase de patching, pas finalisés maintenant.
 - Textures 2K par défaut si disponibles ; 1K pour petits objets / optimisation ; 4K uniquement pour éléments très visibles si justifié ; 8K exclu par défaut.
 
 ---
@@ -141,26 +110,24 @@ Clôturer temporairement le module `06 - LANDSCAPE GRASS TREES WATER` après con
 
 Reprendre à partir de :
 
-`Étape 266`
+`Étape 290`
 
 Sujet prévu :
 
-Ouverture du prochain module de construction SKYFORGE.
+Suite du module `07 - CITIES TOWNS INTERIORS LIGHTING`.
 
 État de départ :
 
-- Dernière étape validée : Étape 265
-- Module 06 clôturé temporairement : OK
-- Profil stable actuel : `SKYFORGE - Stable étape 264 module 06 OK`
-- ESP + ESM non-light : `42`
+- Dernière étape validée : Étape 289
+- Module en cours : `07 - CITIES TOWNS INTERIORS LIGHTING`
+- ESP + ESM non-light : `55`
 - SKSE via MO2 : OK
 - Menu principal atteint : OK
 - Aucun message DLL : OK
 - Aucun master manquant : OK
 - `Overwrite` vide : OK
 - LOOT non lancé : OK
-- `Atlantean Landscape` décoché : OK
-- `Ancient Trees Of Skyrim` abandonné / supprimé : OK
+- LOD / DynDOLOD non générés : OK
 
 ---
 

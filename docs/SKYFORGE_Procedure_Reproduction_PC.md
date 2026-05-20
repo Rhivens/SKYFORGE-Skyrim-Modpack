@@ -43,6 +43,7 @@
 20. [Landscape, grass, trees & water — partie 3](procedure/10_landscape_grass_trees_water_part_3.md)
 21. [Cities, towns, interiors & lighting](procedure/11_cities_towns_interiors_lighting.md)
 22. [Changelog / validation](procedure/99_changelog_validation.md)
+23. [Changelog / validation — partie 2](procedure/99_changelog_validation_part_2.md)
 
 ---
 

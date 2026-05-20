@@ -8,13 +8,13 @@
 
 ## État actuel validé
 
-- **Dernière étape validée :** Étape 265 — Profil stable
+- **Dernière étape validée :** Étape 289 — Environs Hroggar’s House
 - **Runtime :** Skyrim SE 1.5.97 Best of Both Worlds
 - **AE / Creation Club conservé :** oui
 - **Gestionnaire :** Mod Organizer 2 portable
-- **Dernier module clôturé temporairement :** 06 - LANDSCAPE GRASS TREES WATER
-- **Profil stable actuel :** SKYFORGE - Stable étape 264 module 06 OK
-- **Compteur confirmé :** ESP + ESM non-light : 42
+- **Module en cours :** 07 - CITIES TOWNS INTERIORS LIGHTING
+- **Dernier profil stable :** SKYFORGE - Stable étape 275 villages Ivarstead OK
+- **Compteur confirmé :** ESP + ESM non-light : 55
 - **Validation :** SKSE via MO2 → menu principal → aucun message DLL bloquant → aucun master manquant → `Overwrite` vide
 
 ---
@@ -31,16 +31,18 @@
 8. [Visual base meshes & textures](procedure/05_visual_base_meshes_textures.md)
 9. [Décisions différées et points à revoir](procedure/06_decisions_differees.md)
 10. [Décisions différées et points à revoir — partie 2](procedure/06_decisions_differees_part_2.md)
-11. [UI, HUD et menus](procedure/07_ui_hud_menus.md)
-12. [UI, HUD et menus — partie 2](procedure/07_ui_hud_menus_part_2.md)
-13. [UI, HUD et menus — partie 3](procedure/07_ui_hud_menus_part_3.md)
-14. [Survival, immersion et roleplay](procedure/08_survival_immersion_roleplay.md)
-15. [Audio, musiques et sons](procedure/09_audio_music_sounds.md)
-16. [Audio, musiques et sons — partie 2](procedure/09_audio_music_sounds_part_2.md)
-17. [Landscape, grass, trees & water](procedure/10_landscape_grass_trees_water.md)
-18. [Landscape, grass, trees & water — partie 2](procedure/10_landscape_grass_trees_water_part_2.md)
-19. [Landscape, grass, trees & water — partie 3](procedure/10_landscape_grass_trees_water_part_3.md)
-20. [Changelog / validation](procedure/99_changelog_validation.md)
+11. [Décisions différées et points à revoir — partie 3](procedure/06_decisions_differees_part_3.md)
+12. [UI, HUD et menus](procedure/07_ui_hud_menus.md)
+13. [UI, HUD et menus — partie 2](procedure/07_ui_hud_menus_part_2.md)
+14. [UI, HUD et menus — partie 3](procedure/07_ui_hud_menus_part_3.md)
+15. [Survival, immersion et roleplay](procedure/08_survival_immersion_roleplay.md)
+16. [Audio, musiques et sons](procedure/09_audio_music_sounds.md)
+17. [Audio, musiques et sons — partie 2](procedure/09_audio_music_sounds_part_2.md)
+18. [Landscape, grass, trees & water](procedure/10_landscape_grass_trees_water.md)
+19. [Landscape, grass, trees & water — partie 2](procedure/10_landscape_grass_trees_water_part_2.md)
+20. [Landscape, grass, trees & water — partie 3](procedure/10_landscape_grass_trees_water_part_3.md)
+21. [Cities, towns, interiors & lighting](procedure/11_cities_towns_interiors_lighting.md)
+22. [Changelog / validation](procedure/99_changelog_validation.md)
 
 ---
 
@@ -78,16 +80,17 @@ Elles seront ensuite reclassées dans les fichiers thématiques correspondants.
 
 Reprendre à partir de :
 
-`Étape 266`
+`Étape 290`
 
 Sujet prévu :
 
-Ouverture du prochain module de construction SKYFORGE.
+Suite du module `07 - CITIES TOWNS INTERIORS LIGHTING`.
 
 Consignes maintenues :
 
 - Ne pas lancer LOOT.
+- Ne pas générer LOD / DynDOLOD maintenant.
 - Ne pas toucher au panneau droit sauf missing master.
 - Garder `Atlantean Landscape -Complete- 2K` décoché.
-- `Ancient Trees Of Skyrim` est abandonné / supprimé.
+- Garder les patch hubs / patch collections marqués `A COMPLETER PLUS TARD` pour la future phase de patching.
 - Continuer les tests courts SKSE / menu / masters / DLL / Overwrite.

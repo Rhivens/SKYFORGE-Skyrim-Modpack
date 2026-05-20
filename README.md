@@ -12,29 +12,38 @@ SKYFORGE vise une installation Skyrim stable, cohérente, documentée étape par
 
 ## Suivre l’avancement du projet
 
-### ➜ [Lire le changelog / résumé de validation](docs/procedure/99_changelog_validation.md)
+### ➜ [Lire le dernier changelog / résumé de validation](docs/procedure/99_changelog_validation_part_2.md)
 
-C’est le meilleur point d’entrée pour suivre l’évolution du modpack : dernières étapes validées, modules terminés ou en cours, décisions importantes, état de stabilité et prochaine reprise.
+C’est le meilleur point d’entrée pour suivre l’évolution actuelle du modpack : dernières étapes validées, modules terminés ou en cours, décisions importantes, état de stabilité et prochaine reprise.
+
+> Le changelog historique principal reste disponible ici : [Changelog / validation — partie 1](docs/procedure/99_changelog_validation.md).
 
 ### Liens utiles
 
 - [Résumé de l’état actuel](docs/procedure/00_resume_etat_actuel.md)
 - [Procédure principale de reproduction](docs/SKYFORGE_Procedure_Reproduction_PC.md)
+- [Module 07 — Cities, towns, interiors & lighting](docs/procedure/11_cities_towns_interiors_lighting.md)
 - [Décisions différées et points à revoir](docs/procedure/06_decisions_differees.md)
 - [Décisions différées — partie 2](docs/procedure/06_decisions_differees_part_2.md)
+- [Décisions différées — partie 3](docs/procedure/06_decisions_differees_part_3.md)
+- [Audit de continuité des étapes](docs/procedure/98_audit_continuite_etapes.md)
 
 ---
 
 ## État actuel
 
+- **Dernière étape validée :** Étape 289 — Environs Hroggar’s House
+- **Module en cours :** 07 - CITIES TOWNS INTERIORS LIGHTING
+- **Compteur confirmé :** ESP + ESM non-light : 55
 - **Runtime :** Skyrim SE 1.5.97 Best of Both Worlds
 - **Contenus AE / Creation Club :** conservés
 - **Gestionnaire :** Mod Organizer 2 portable
 - **Méthode :** installation mod par mod ou par petits blocs cohérents
 - **Validation régulière :** SKSE via MO2 → menu principal → aucun master manquant → aucun message DLL bloquant → `Overwrite` vide
 - **LOOT :** non lancé pour l’instant
+- **LOD / DynDOLOD :** non générés pour l’instant
 
-L’état exact le plus récent est toujours consigné dans le [changelog](docs/procedure/99_changelog_validation.md) et dans le [résumé de l’état actuel](docs/procedure/00_resume_etat_actuel.md).
+L’état exact le plus récent est toujours consigné dans le [dernier changelog](docs/procedure/99_changelog_validation_part_2.md) et dans le [résumé de l’état actuel](docs/procedure/00_resume_etat_actuel.md).
 
 ---
 

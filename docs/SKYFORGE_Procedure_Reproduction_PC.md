@@ -42,8 +42,9 @@
 19. [Landscape, grass, trees & water — partie 2](procedure/10_landscape_grass_trees_water_part_2.md)
 20. [Landscape, grass, trees & water — partie 3](procedure/10_landscape_grass_trees_water_part_3.md)
 21. [Cities, towns, interiors & lighting](procedure/11_cities_towns_interiors_lighting.md)
-22. [Changelog / validation](procedure/99_changelog_validation.md)
-23. [Changelog / validation — partie 2](procedure/99_changelog_validation_part_2.md)
+22. [Audit de continuité des étapes](procedure/98_audit_continuite_etapes.md)
+23. [Changelog / validation](procedure/99_changelog_validation.md)
+24. [Changelog / validation — partie 2](procedure/99_changelog_validation_part_2.md)
 
 ---
 
@@ -54,7 +55,7 @@
 3. [Configurations UI / HUD / menus](configuration/02_ui_hud_ini.md)
 4. [Configurations audio](configuration/03_audio_ini.md)
 5. [Configurations survival / immersion / roleplay](configuration/04_survival_immersion_mcm.md)
-6. [Configurations SexLab / Devious / adultes](configuration/05_sexlab_devious_mcm.md)
+6. [Configurations frameworks spécifiques](configuration/05_sexlab_devious_mcm.md)
 7. [Configurations différées](configuration/99_configurations_differees.md)
 8. [Changelog configuration](configuration/CHANGELOG_CONFIGURATION.md)
 

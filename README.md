@@ -25,6 +25,7 @@ C’est le meilleur point d’entrée pour suivre l’évolution actuelle du mod
 - [Module 07 — Cities, towns, interiors & lighting](docs/procedure/11_cities_towns_interiors_lighting.md)
 - [Module 07 — Cities, towns, interiors & lighting — partie 2](docs/procedure/11_cities_towns_interiors_lighting_part_2.md)
 - [Module 07 — Cities, towns, interiors & lighting — partie 3](docs/procedure/11_cities_towns_interiors_lighting_part_3.md)
+- [Module 07 — Cities, towns, interiors & lighting — partie 4](docs/procedure/11_cities_towns_interiors_lighting_part_4.md)
 - [Décisions différées et points à revoir](docs/procedure/06_decisions_differees.md)
 - [Décisions différées — partie 2](docs/procedure/06_decisions_differees_part_2.md)
 - [Décisions différées — partie 3](docs/procedure/06_decisions_differees_part_3.md)
@@ -34,12 +35,12 @@ C’est le meilleur point d’entrée pour suivre l’évolution actuelle du mod
 
 ## État actuel
 
-- **Dernière étape validée :** Étape 314 — Pause GitHub Farmhouses
-- **Dernière étape d’installation validée :** Étape 313 — Profil stable Farmhouses
+- **Dernière étape validée :** Étape 319 — Pause GitHub Other Locations
+- **Dernière étape d’installation validée :** Étape 318 — Profil stable Other Locations
 - **Module en cours :** 07 - CITIES TOWNS INTERIORS LIGHTING
-- **Sous-bloc validé :** 07.2 - FARMHOUSES
-- **Profil stable actuel :** SKYFORGE - Stable étape 312 farmhouses OK
-- **Compteur confirmé :** ESP + ESM non-light : 76
+- **Sous-bloc validé :** 07.3 - OTHER LOCATIONS
+- **Profil stable actuel :** SKYFORGE - Stable étape 317 other locations OK
+- **Compteur confirmé :** ESP + ESM non-light : 77
 - **Runtime :** Skyrim SE 1.5.97 Best of Both Worlds
 - **Contenus AE / Creation Club :** conservés
 - **Gestionnaire :** Mod Organizer 2 portable

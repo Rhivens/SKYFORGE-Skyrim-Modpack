@@ -300,6 +300,76 @@ ESP + ESM non-light : `76`
 
 ---
 
+## État validé après l’étape 319
+
+**Dernière étape validée :**  
+`Étape 319 — Pause GitHub Other Locations`
+
+**Dernière étape d’installation validée :**  
+`Étape 318 — Profil stable Other Locations`
+
+**Module en cours :**  
+`07 - CITIES TOWNS INTERIORS LIGHTING`
+
+**Sous-bloc validé :**  
+`07.3 - OTHER LOCATIONS`
+
+**Profil stable actuel :**  
+`SKYFORGE - Stable étape 317 other locations OK`
+
+**Compteur confirmé :**  
+ESP + ESM non-light : `77`
+
+**Résultat validé :**
+
+- SKSE lancé via MO2 : OK
+- Menu principal atteint : OK
+- Aucun message DLL : OK
+- Aucun master manquant : OK
+- `Overwrite` vide : OK
+- LOOT non lancé : OK
+- LOD / DynDOLOD non générés : OK
+
+**Étapes ajoutées / documentées lors de cette mise à jour :**
+
+- `Étape 315 — Other Locations pack 1`
+- `Étape 316 — Other Locations pack 2`
+- `Étape 317 — Contrôle Other Locations`
+- `Étape 318 — Profil stable Other Locations`
+- `Étape 319 — Pause GitHub Other Locations`
+
+**Décisions ajoutées / confirmées lors de cette mise à jour :**
+
+- `Near Vanilla Project - College of Winterhold Floor` installé selon choix Nolvus.
+- `This Is Jorrvaskr` installé selon choix Nolvus, main file `v3.65`.
+- `This Is Jorrvaskr - KASA` non installé.
+- Aucun patch optionnel Jorrvaskr installé.
+- `JK's Fort Dawnguard` installé selon choix Nolvus, lien corrigé.
+- `JK's Castle Volkihar` installé selon choix Nolvus, lien corrigé.
+- Aucun patch Dawnguard / Volkihar installé.
+- Patches Lux / Lux Orbis / lighting / navmesh / Nolvus différés.
+- Profil stable `SKYFORGE - Stable étape 317 other locations OK` créé.
+- Aucun nouveau mod installé pendant l’étape 319.
+- LOOT n’a pas été lancé.
+- LOD / DynDOLOD ne sont pas générés à ce stade.
+
+**Fichiers ajoutés lors de cette mise à jour :**
+
+- `docs/procedure/11_cities_towns_interiors_lighting_part_4.md`
+
+**Fichiers mis à jour lors de cette mise à jour :**
+
+- `docs/SKYFORGE_Procedure_Reproduction_PC.md`
+- `docs/procedure/00_resume_etat_actuel.md`
+- `docs/procedure/99_changelog_validation_part_2.md`
+- `README.md`
+- `docs/procedure/06_decisions_differees_part_3.md`
+
+**Prochaine reprise :**  
+`Étape 320 — Suite module 07 : Cities / Towns / Interiors / Lighting`
+
+---
+
 ## Rappel méthode
 
 - Avancer prudemment, par petits blocs.

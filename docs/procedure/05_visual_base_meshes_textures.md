@@ -239,3 +239,43 @@ Le plugin était décoché et a été réactivé.
 
 **Statut :**  
 Étape 210 validée.
+
+---
+
+### 309. Création séparateur Parallax
+
+**Module :** 05 - VISUAL BASE MESHES TEXTURES
+
+**Objectif :**  
+Préparer un emplacement dédié aux futurs éléments Parallax globaux.
+
+**Séparateur créé :**
+
+`[05.1 - PARALLAX FRAMEWORK TEXTURES]`
+
+**Utilisation prévue :**
+
+- Frameworks / ressources globales Parallax.
+- Textures Parallax générales.
+- Patches Parallax globaux éventuels.
+
+**Note :**  
+Les options Parallax propres aux mods restent dans leur sous-bloc d’origine.
+
+**Exemple :**  
+`Northern Vanilla Farmhouses` reste dans `07.2 - FARMHOUSES`.
+
+**Consignes maintenues :**
+
+- LOOT non lancé.
+- LOD / DynDOLOD non générés.
+
+**Test jeu :**  
+Non requis.
+
+**Compteur :**
+
+- ESP + ESM non-light : `76`
+
+**Statut :**  
+Étape 309 validée.

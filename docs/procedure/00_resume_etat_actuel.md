@@ -4,10 +4,10 @@
 
 ---
 
-## État validé après l’étape 295
+## État validé après l’étape 307
 
 **Objectif :**  
-Documenter la suite du module `07 - CITIES TOWNS INTERIORS LIGHTING` après `Environs - Hroggar's House`, avec les ajouts Nolvus de Sunthgat, Oakwood, villages Schlitzohr et Laintar Dale.
+Documenter le bloc villages Darkwater puis le sous-bloc `07.1 - PLAYER HOMES`, incluant les étapes 296 à 306 et la pause GitHub demandée avant de poursuivre le module 07.
 
 **Résultat validé :**
 
@@ -24,19 +24,27 @@ Documenter la suite du module `07 - CITIES TOWNS INTERIORS LIGHTING` après `Env
 
 **Dernière étape validée :**
 
-`Étape 295 — Laintar Dale`
+`Étape 307 — Pause GitHub avant suite module 07`
+
+**Dernière étape d’installation validée :**
+
+`Étape 306 — Profil stable Player Homes`
 
 **Module en cours :**
 
 `07 - CITIES TOWNS INTERIORS LIGHTING`
 
-**Dernier profil stable connu :**
+**Sous-bloc validé :**
 
-`SKYFORGE - Stable étape 275 villages Ivarstead OK`
+`07.1 - PLAYER HOMES`
+
+**Profil stable actuel :**
+
+`SKYFORGE - Stable étape 305 player homes OK`
 
 **Compteur confirmé :**
 
-- ESP + ESM non-light : `65`
+- ESP + ESM non-light : `76`
 
 ---
 
@@ -74,6 +82,18 @@ Documenter la suite du module `07 - CITIES TOWNS INTERIORS LIGHTING` après `Env
 - `Étape 293 — Pack Schlitzohr villages 2`
 - `Étape 294 — Pack Schlitzohr villages 3`
 - `Étape 295 — Laintar Dale`
+- `Étape 296 — The Great Settlement of Darkwater Crossing`
+- `Étape 297 — Contrôle de continuité villages`
+- `Étape 298 — Profil stable villages Darkwater`
+- `Étape 299 — JK’s Riverfall Cottage Family Edition`
+- `Étape 300 — Sicarius’ Refuge SSE`
+- `Étape 301 — Ruska`
+- `Étape 302 — Wind Path SSE`
+- `Étape 303 — Hearthfire Multiple Adoptions`
+- `Étape 304 — Contrôle Player Homes`
+- `Étape 305 — Lakeview Manor - As It Should Be`
+- `Étape 306 — Profil stable Player Homes`
+- `Étape 307 — Pause GitHub avant suite module 07`
 
 **État validé :**
 
@@ -83,7 +103,8 @@ Documenter la suite du module `07 - CITIES TOWNS INTERIORS LIGHTING` après `Env
 - Corrections Winterhold / Dawnstar alignées vers les choix Great City / Nolvus Awakening.
 - `Cities of the North - Morthal` décoché, choix final Morthal à revoir.
 - `Environs - Hroggar's House` installé, patch collection sans option activée pour l’instant.
-- Sunthgat, Oakwood, packs Schlitzohr villages et Laintar Dale installés selon logique Nolvus.
+- Sunthgat, Oakwood, packs Schlitzohr villages, Laintar Dale et Darkwater Crossing installés selon logique Nolvus.
+- Sous-bloc `07.1 - PLAYER HOMES` validé avec profil stable dédié.
 
 ---
 
@@ -97,9 +118,13 @@ Documenter la suite du module `07 - CITIES TOWNS INTERIORS LIGHTING` après `Env
 - `Cities of the North - Winterhold` est décoché / remplacé par `The Great City Of Winterhold`.
 - `Cities of the North - Morthal` est décoché, choix à revoir.
 - `The Great Cities - CC Fishing Patch` est identifié mais différé.
-- Patches des nouveaux villages / settlements 290 à 295 différés.
+- Patches des nouveaux villages / settlements différés.
 - Version ESL de `Dunmer Settlements of Solstheim` retenue pour limiter l’impact sur le compteur non-light.
 - Patches Solstheim / Raven Rock / Tel Mithryn différés.
+- `Settings Loader Hearthfire Multiple Adoptions` annulé / introuvable.
+- Patch Verdant Sicarius zappé tant que `Verdant` n’est pas présent dans SKYFORGE.
+- `Lakeview Manor - As It Should Be` est un ajout externe Fabien, installé et validé.
+- Traduction FR du patch CC Fishing de Lakeview Manor non installée, jugée inutile.
 - LOD / DynDOLOD : à faire plus tard, pas maintenant.
 
 ---
@@ -120,7 +145,7 @@ Documenter la suite du module `07 - CITIES TOWNS INTERIORS LIGHTING` après `Env
 
 Reprendre à partir de :
 
-`Étape 296`
+`Étape 308`
 
 Sujet prévu :
 
@@ -128,9 +153,12 @@ Suite du module `07 - CITIES TOWNS INTERIORS LIGHTING`.
 
 État de départ :
 
-- Dernière étape validée : Étape 295
+- Dernière étape validée : Étape 307
+- Dernière étape d’installation validée : Étape 306
 - Module en cours : `07 - CITIES TOWNS INTERIORS LIGHTING`
-- ESP + ESM non-light : `65`
+- Sous-bloc Player Homes validé : OK
+- Profil stable actuel : `SKYFORGE - Stable étape 305 player homes OK`
+- ESP + ESM non-light : `76`
 - SKSE via MO2 : OK
 - Menu principal atteint : OK
 - Aucun message DLL : OK
@@ -155,7 +183,7 @@ Les sections suivantes seront documentées au fur et à mesure de la constructio
 8. Gameplay, combat, magie et perks.
 9. Quêtes, mondes, followers et extensions.
 10. Survie, immersion et roleplay.
-11. SexLab core et frameworks adultes.
+11. Frameworks spécifiques.
 12. Défaite, slavery, prostitution et systèmes Nefaram.
 13. Armures, vêtements, outfits et NSFW.
 14. Patches de compatibilité.

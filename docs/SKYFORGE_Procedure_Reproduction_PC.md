@@ -8,13 +8,13 @@
 
 ## État actuel validé
 
-- **Dernière étape validée :** Étape 289 — Environs Hroggar’s House
+- **Dernière étape validée :** Étape 295 — Laintar Dale
 - **Runtime :** Skyrim SE 1.5.97 Best of Both Worlds
 - **AE / Creation Club conservé :** oui
 - **Gestionnaire :** Mod Organizer 2 portable
 - **Module en cours :** 07 - CITIES TOWNS INTERIORS LIGHTING
 - **Dernier profil stable :** SKYFORGE - Stable étape 275 villages Ivarstead OK
-- **Compteur confirmé :** ESP + ESM non-light : 55
+- **Compteur confirmé :** ESP + ESM non-light : 65
 - **Validation :** SKSE via MO2 → menu principal → aucun message DLL bloquant → aucun master manquant → `Overwrite` vide
 
 ---
@@ -42,9 +42,10 @@
 19. [Landscape, grass, trees & water — partie 2](procedure/10_landscape_grass_trees_water_part_2.md)
 20. [Landscape, grass, trees & water — partie 3](procedure/10_landscape_grass_trees_water_part_3.md)
 21. [Cities, towns, interiors & lighting](procedure/11_cities_towns_interiors_lighting.md)
-22. [Audit de continuité des étapes](procedure/98_audit_continuite_etapes.md)
-23. [Changelog / validation](procedure/99_changelog_validation.md)
-24. [Changelog / validation — partie 2](procedure/99_changelog_validation_part_2.md)
+22. [Cities, towns, interiors & lighting — partie 2](procedure/11_cities_towns_interiors_lighting_part_2.md)
+23. [Audit de continuité des étapes](procedure/98_audit_continuite_etapes.md)
+24. [Changelog / validation](procedure/99_changelog_validation.md)
+25. [Changelog / validation — partie 2](procedure/99_changelog_validation_part_2.md)
 
 ---
 
@@ -82,7 +83,7 @@ Elles seront ensuite reclassées dans les fichiers thématiques correspondants.
 
 Reprendre à partir de :
 
-`Étape 290`
+`Étape 296`
 
 Sujet prévu :
 

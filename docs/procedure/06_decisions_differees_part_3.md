@@ -6,11 +6,13 @@ Cette partie complète les décisions différées à partir du module **07 - CIT
 
 ---
 
-## Décisions importantes ajoutées après l’étape 307
+## Décisions importantes ajoutées après l’étape 314
 
 - `Lux Orbis - Patch Hub - A REINSTALL PLUS TARD` est installé mais devra être complété / réinstallé plus tard selon les villes, villages, routes, intérieurs et patches retenus.
 - Les patch collections Great Town / Great Village / Great City sont conservées en `A COMPLETER PLUS TARD` pour la future phase de patching.
 - Les nouveaux villages / settlements ajoutés entre les étapes 290 et 298 gardent leurs patches différés.
+- Les patches Player Homes restent différés.
+- Les patches / LOD / DynDOLOD du sous-bloc `07.2 - FARMHOUSES` restent différés.
 - `Dragon Bridge` est différé, car la zone est plus complexe à patcher avec routes / ponts / Lux / villes.
 - `The Great City Of Falkreath SSE Edition` est retenu en choix Nolvus ; éviter le mélange COTN / JK / patchs complexes pour Falkreath.
 - `Cities of the North - Dawnstar` et `Cities of the North - Dawnstar - Update 1.4` sont décochés / remplacés par `The Great City Of Dawnstar SSE Edition`.
@@ -20,11 +22,13 @@ Cette partie complète les décisions différées à partir du module **07 - CIT
 - `3DNPC-TGCoMM Patch by WiZkiD` est différé jusqu’à installation éventuelle de `3DNPC`.
 - `Dunmer Settlements of Solstheim` est retenu en version ESL pour limiter l’impact sur le compteur non-light.
 - Les patches Solstheim / Raven Rock / Tel Mithryn sont différés.
-- Les patches Player Homes restent différés.
 - `Settings Loader Hearthfire Multiple Adoptions` est annulé / introuvable.
 - Patch Verdant de `Sicarius' Refuge SSE` zappé tant que `Verdant` n’est pas présent dans SKYFORGE.
 - `Lakeview Manor - As It Should Be` est un ajout externe Fabien, installé et validé.
 - Traduction FR du patch CC Fishing de Lakeview Manor non installée, jugée inutile par Fabien.
+- Parallax retenu pour la stack Farmhouses.
+- `Nordic Stonewalls v3.11` retenu au lieu de l’ancienne référence Nolvus `1.12`.
+- `Scarecrows of Skyrim - BOS - SOS Patch` installé mais décoché à cause du master manquant `Simplicity of Snow.esp`.
 - LOD / DynDOLOD ne sont pas générés pendant ce bloc ; à faire plus tard.
 
 ---
@@ -348,6 +352,71 @@ Traduction FR du patch CC Fishing jugée inutile par Fabien.
 
 **Statut :**  
 Ajout externe validé, patching complémentaire différé.
+
+---
+
+### Étapes 308 à 314 — Farmhouses
+
+**Mods concernés :**
+
+- `Northern Vanilla Farmhouses - FMF - Parallax - CHOIX NOLVUS`
+- `Unique Northern Vanilla Farmhouses - Non Snowy BOS - CHOIX NOLVUS`
+- `Nordic Stonewalls v3.11 - CHOIX NOLVUS`
+- `Classic HD Remastered Farmhouses - Complex Parallax - CHOIX NOLVUS`
+- `Stonewall Complex Parallax - CHOIX NOLVUS`
+- `SD's Farmhouse Fences SE - CHOIX NOLVUS`
+- `CC's HQ Carts 2K - CHOIX NOLVUS`
+- `CC's HQ Buckets 2K - CHOIX NOLVUS`
+- `HD Wheat 2K - CHOIX NOLVUS`
+- `Scarecrows of Skyrim - BOS`
+- `Iconic's REAL HAY - Redux 2K`
+- `R's Windmill`
+
+**Décisions :**
+
+- Parallax retenu pour la stack Farmhouses.
+- `Nordic Stonewalls v3.11` retenu au lieu de l’ancienne référence Nolvus `1.12`.
+- Patches / LOD / DynDOLOD différés.
+- Sous-bloc Farmhouses validé par profil `SKYFORGE - Stable étape 312 farmhouses OK`.
+
+**Statut :**  
+Sous-bloc Farmhouses validé, patching / LOD différés.
+
+---
+
+### Étape 309 — Séparateur Parallax
+
+**Décision :**  
+Créer le séparateur :
+
+`[05.1 - PARALLAX FRAMEWORK TEXTURES]`
+
+**Raison :**  
+Préparer un emplacement dédié aux futurs frameworks, ressources, textures et patches Parallax globaux.
+
+**Note :**  
+Les options Parallax propres aux mods restent dans leur sous-bloc d’origine, par exemple `Northern Vanilla Farmhouses` dans `07.2 - FARMHOUSES`.
+
+**Statut :**  
+Séparateur créé, usage futur différé.
+
+---
+
+### Étape 312 — Scarecrows of Skyrim - BOS - SOS Patch
+
+**Décision :**  
+`Scarecrows of Skyrim - BOS - SOS Patch - REQUIERT SIMPLICITY OF SNOW` est installé mais décoché.
+
+**Raison :**  
+Master manquant :
+
+`Simplicity of Snow.esp`
+
+**Action future :**  
+Réactiver le patch uniquement si `Simplicity of Snow.esp` devient actif dans SKYFORGE.
+
+**Statut :**  
+Installé mais décoché.
 
 ---
 

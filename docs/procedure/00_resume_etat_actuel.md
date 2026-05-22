@@ -4,10 +4,10 @@
 
 ---
 
-## État validé après l’étape 314
+## État validé après l’étape 319
 
 **Objectif :**  
-Documenter le sous-bloc `07.2 - FARMHOUSES`, incluant les étapes 308 à 313 et la pause GitHub demandée avant de poursuivre le module 07.
+Documenter le sous-bloc `07.3 - OTHER LOCATIONS`, incluant les étapes 315 à 318 et la pause GitHub demandée avant de poursuivre le module 07.
 
 **Résultat validé :**
 
@@ -15,7 +15,7 @@ Documenter le sous-bloc `07.2 - FARMHOUSES`, incluant les étapes 308 à 313 et 
 - AE / Creation Club conservé : OK
 - SKSE lancé via MO2 : OK
 - Menu principal atteint : OK
-- Aucun missing master bloquant signalé après désactivation du patch SOS : OK
+- Aucun missing master bloquant signalé : OK
 - Aucun message DLL bloquant signalé : OK
 - `Overwrite` vide : OK
 - LOOT non lancé : OK
@@ -24,11 +24,11 @@ Documenter le sous-bloc `07.2 - FARMHOUSES`, incluant les étapes 308 à 313 et 
 
 **Dernière étape validée :**
 
-`Étape 314 — Pause GitHub Farmhouses`
+`Étape 319 — Pause GitHub Other Locations`
 
 **Dernière étape d’installation validée :**
 
-`Étape 313 — Profil stable Farmhouses`
+`Étape 318 — Profil stable Other Locations`
 
 **Module en cours :**
 
@@ -36,15 +36,15 @@ Documenter le sous-bloc `07.2 - FARMHOUSES`, incluant les étapes 308 à 313 et 
 
 **Sous-bloc validé :**
 
-`07.2 - FARMHOUSES`
+`07.3 - OTHER LOCATIONS`
 
 **Profil stable actuel :**
 
-`SKYFORGE - Stable étape 312 farmhouses OK`
+`SKYFORGE - Stable étape 317 other locations OK`
 
 **Compteur confirmé :**
 
-- ESP + ESM non-light : `76`
+- ESP + ESM non-light : `77`
 
 ---
 
@@ -101,6 +101,11 @@ Documenter le sous-bloc `07.2 - FARMHOUSES`, incluant les étapes 308 à 313 et 
 - `Étape 312 — Farmhouses pack 4`
 - `Étape 313 — Profil stable Farmhouses`
 - `Étape 314 — Pause GitHub Farmhouses`
+- `Étape 315 — Other Locations pack 1`
+- `Étape 316 — Other Locations pack 2`
+- `Étape 317 — Contrôle Other Locations`
+- `Étape 318 — Profil stable Other Locations`
+- `Étape 319 — Pause GitHub Other Locations`
 
 **État validé :**
 
@@ -113,6 +118,7 @@ Documenter le sous-bloc `07.2 - FARMHOUSES`, incluant les étapes 308 à 313 et 
 - Sunthgat, Oakwood, packs Schlitzohr villages, Laintar Dale et Darkwater Crossing installés selon logique Nolvus.
 - Sous-bloc `07.1 - PLAYER HOMES` validé avec profil stable dédié.
 - Sous-bloc `07.2 - FARMHOUSES` validé avec options Parallax et profil stable dédié.
+- Sous-bloc `07.3 - OTHER LOCATIONS` validé avec profil stable dédié.
 
 ---
 
@@ -136,6 +142,10 @@ Documenter le sous-bloc `07.2 - FARMHOUSES`, incluant les étapes 308 à 313 et 
 - Parallax retenu pour la stack Farmhouses.
 - `Nordic Stonewalls v3.11` retenu au lieu de l’ancienne référence Nolvus `1.12`.
 - `Scarecrows of Skyrim - BOS - SOS Patch` installé mais décoché à cause du master manquant `Simplicity of Snow.esp`.
+- `This Is Jorrvaskr` : main file `v3.65` installé.
+- `This Is Jorrvaskr - KASA` non installé.
+- Aucun patch Jorrvaskr / Dawnguard / Volkihar installé à ce stade.
+- Liens corrigés pour `JK's Fort Dawnguard` et `JK's Castle Volkihar`.
 - LOD / DynDOLOD : à faire plus tard, pas maintenant.
 
 ---
@@ -156,7 +166,7 @@ Documenter le sous-bloc `07.2 - FARMHOUSES`, incluant les étapes 308 à 313 et 
 
 Reprendre à partir de :
 
-`Étape 315`
+`Étape 320`
 
 Sujet prévu :
 
@@ -164,16 +174,16 @@ Suite du module `07 - CITIES TOWNS INTERIORS LIGHTING`.
 
 État de départ :
 
-- Dernière étape validée : Étape 314
-- Dernière étape d’installation validée : Étape 313
+- Dernière étape validée : Étape 319
+- Dernière étape d’installation validée : Étape 318
 - Module en cours : `07 - CITIES TOWNS INTERIORS LIGHTING`
-- Sous-bloc Farmhouses validé : OK
-- Profil stable actuel : `SKYFORGE - Stable étape 312 farmhouses OK`
-- ESP + ESM non-light : `76`
+- Sous-bloc Other Locations validé : OK
+- Profil stable actuel : `SKYFORGE - Stable étape 317 other locations OK`
+- ESP + ESM non-light : `77`
 - SKSE via MO2 : OK
 - Menu principal atteint : OK
 - Aucun message DLL : OK
-- Aucun master manquant après désactivation du patch SOS : OK
+- Aucun master manquant : OK
 - `Overwrite` vide : OK
 - LOOT non lancé : OK
 - LOD / DynDOLOD non générés : OK

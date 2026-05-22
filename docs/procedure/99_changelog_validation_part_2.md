@@ -229,6 +229,77 @@ ESP + ESM non-light : `76`
 
 ---
 
+## État validé après l’étape 314
+
+**Dernière étape validée :**  
+`Étape 314 — Pause GitHub Farmhouses`
+
+**Dernière étape d’installation validée :**  
+`Étape 313 — Profil stable Farmhouses`
+
+**Module en cours :**  
+`07 - CITIES TOWNS INTERIORS LIGHTING`
+
+**Sous-bloc validé :**  
+`07.2 - FARMHOUSES`
+
+**Profil stable actuel :**  
+`SKYFORGE - Stable étape 312 farmhouses OK`
+
+**Compteur confirmé :**  
+ESP + ESM non-light : `76`
+
+**Résultat validé :**
+
+- SKSE lancé via MO2 : OK
+- Menu principal atteint : OK
+- Aucun message DLL : OK
+- Aucun master manquant après désactivation du patch SOS : OK
+- `Overwrite` vide : OK
+- LOOT non lancé : OK
+- LOD / DynDOLOD non générés : OK
+
+**Étapes ajoutées / documentées lors de cette mise à jour :**
+
+- `Étape 308 — Farmhouses pack 1`
+- `Étape 309 — Création séparateur Parallax`
+- `Étape 310 — Farmhouses pack 2`
+- `Étape 311 — Farmhouses pack 3`
+- `Étape 312 — Farmhouses pack 4`
+- `Étape 313 — Profil stable Farmhouses`
+- `Étape 314 — Pause GitHub Farmhouses`
+
+**Décisions ajoutées / confirmées lors de cette mise à jour :**
+
+- Parallax retenu pour la stack Farmhouses.
+- Séparateur `[05.1 - PARALLAX FRAMEWORK TEXTURES]` créé pour les futurs éléments Parallax globaux.
+- `Nordic Stonewalls v3.11` retenu au lieu de l’ancienne référence Nolvus `1.12`.
+- `Scarecrows of Skyrim - BOS - SOS Patch` installé mais décoché.
+- Raison du décochage : master manquant `Simplicity of Snow.esp`.
+- Patch SOS à réactiver plus tard si `Simplicity of Snow.esp` devient actif.
+- Patches / LOD / DynDOLOD différés.
+- Profil stable `SKYFORGE - Stable étape 312 farmhouses OK` créé.
+- Aucun nouveau mod installé pendant l’étape 314.
+- LOOT n’a pas été lancé.
+
+**Fichiers ajoutés lors de cette mise à jour :**
+
+- `docs/procedure/11_cities_towns_interiors_lighting_part_3.md`
+
+**Fichiers mis à jour lors de cette mise à jour :**
+
+- `docs/procedure/05_visual_base_meshes_textures.md`
+- `docs/SKYFORGE_Procedure_Reproduction_PC.md`
+- `docs/procedure/00_resume_etat_actuel.md`
+- `docs/procedure/99_changelog_validation_part_2.md`
+- `README.md`
+- `docs/procedure/06_decisions_differees_part_3.md`
+
+**Prochaine reprise :**  
+`Étape 315 — Suite module 07 : Cities / Towns / Interiors / Lighting`
+
+---
+
 ## Rappel méthode
 
 - Avancer prudemment, par petits blocs.

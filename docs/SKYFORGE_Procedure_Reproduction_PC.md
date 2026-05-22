@@ -8,16 +8,16 @@
 
 ## État actuel validé
 
-- **Dernière étape validée :** Étape 307 — Pause GitHub avant suite module 07
-- **Dernière étape d’installation validée :** Étape 306 — Profil stable Player Homes
+- **Dernière étape validée :** Étape 314 — Pause GitHub Farmhouses
+- **Dernière étape d’installation validée :** Étape 313 — Profil stable Farmhouses
 - **Runtime :** Skyrim SE 1.5.97 Best of Both Worlds
 - **AE / Creation Club conservé :** oui
 - **Gestionnaire :** Mod Organizer 2 portable
 - **Module en cours :** 07 - CITIES TOWNS INTERIORS LIGHTING
-- **Sous-bloc validé :** 07.1 - PLAYER HOMES
-- **Profil stable actuel :** SKYFORGE - Stable étape 305 player homes OK
+- **Sous-bloc validé :** 07.2 - FARMHOUSES
+- **Profil stable actuel :** SKYFORGE - Stable étape 312 farmhouses OK
 - **Compteur confirmé :** ESP + ESM non-light : 76
-- **Validation :** SKSE via MO2 → menu principal → aucun message DLL bloquant → aucun master manquant → `Overwrite` vide
+- **Validation :** SKSE via MO2 → menu principal → aucun message DLL bloquant → aucun master manquant après désactivation du patch SOS → `Overwrite` vide
 
 ---
 
@@ -45,9 +45,10 @@
 20. [Landscape, grass, trees & water — partie 3](procedure/10_landscape_grass_trees_water_part_3.md)
 21. [Cities, towns, interiors & lighting](procedure/11_cities_towns_interiors_lighting.md)
 22. [Cities, towns, interiors & lighting — partie 2](procedure/11_cities_towns_interiors_lighting_part_2.md)
-23. [Audit de continuité des étapes](procedure/98_audit_continuite_etapes.md)
-24. [Changelog / validation](procedure/99_changelog_validation.md)
-25. [Changelog / validation — partie 2](procedure/99_changelog_validation_part_2.md)
+23. [Cities, towns, interiors & lighting — partie 3](procedure/11_cities_towns_interiors_lighting_part_3.md)
+24. [Audit de continuité des étapes](procedure/98_audit_continuite_etapes.md)
+25. [Changelog / validation](procedure/99_changelog_validation.md)
+26. [Changelog / validation — partie 2](procedure/99_changelog_validation_part_2.md)
 
 ---
 
@@ -85,7 +86,7 @@ Elles seront ensuite reclassées dans les fichiers thématiques correspondants.
 
 Reprendre à partir de :
 
-`Étape 308`
+`Étape 315`
 
 Sujet prévu :
 
@@ -97,5 +98,6 @@ Consignes maintenues :
 - Ne pas générer LOD / DynDOLOD maintenant.
 - Ne pas toucher au panneau droit sauf missing master.
 - Garder `Atlantean Landscape -Complete- 2K` décoché.
+- Garder le patch `Scarecrows of Skyrim - BOS - SOS Patch` décoché tant que `Simplicity of Snow.esp` est absent.
 - Garder les patch hubs / patch collections marqués `A COMPLETER PLUS TARD` pour la future phase de patching.
 - Continuer les tests courts SKSE / menu / masters / DLL / Overwrite.

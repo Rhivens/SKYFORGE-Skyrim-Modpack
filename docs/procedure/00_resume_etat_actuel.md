@@ -4,10 +4,10 @@
 
 ---
 
-## État validé après l’étape 289
+## État validé après l’étape 295
 
 **Objectif :**  
-Documenter l’ouverture du module `07 - CITIES TOWNS INTERIORS LIGHTING` et la progression jusqu’à `Environs - Hroggar's House`.
+Documenter la suite du module `07 - CITIES TOWNS INTERIORS LIGHTING` après `Environs - Hroggar's House`, avec les ajouts Nolvus de Sunthgat, Oakwood, villages Schlitzohr et Laintar Dale.
 
 **Résultat validé :**
 
@@ -24,19 +24,19 @@ Documenter l’ouverture du module `07 - CITIES TOWNS INTERIORS LIGHTING` et la 
 
 **Dernière étape validée :**
 
-`Étape 289 — Environs Hroggar’s House`
+`Étape 295 — Laintar Dale`
 
 **Module en cours :**
 
 `07 - CITIES TOWNS INTERIORS LIGHTING`
 
-**Dernier profil stable créé :**
+**Dernier profil stable connu :**
 
 `SKYFORGE - Stable étape 275 villages Ivarstead OK`
 
 **Compteur confirmé :**
 
-- ESP + ESM non-light : `55`
+- ESP + ESM non-light : `65`
 
 ---
 
@@ -68,6 +68,12 @@ Documenter l’ouverture du module `07 - CITIES TOWNS INTERIORS LIGHTING` et la 
 - `Étape 287 — Half-Moon Mill COTN Addon`
 - `Étape 288 — Anga’s Mill COTN Addon`
 - `Étape 289 — Environs Hroggar’s House`
+- `Étape 290 — Sunthgat`
+- `Étape 291 — Oakwood`
+- `Étape 292 — Pack Schlitzohr villages 1`
+- `Étape 293 — Pack Schlitzohr villages 2`
+- `Étape 294 — Pack Schlitzohr villages 3`
+- `Étape 295 — Laintar Dale`
 
 **État validé :**
 
@@ -77,6 +83,7 @@ Documenter l’ouverture du module `07 - CITIES TOWNS INTERIORS LIGHTING` et la 
 - Corrections Winterhold / Dawnstar alignées vers les choix Great City / Nolvus Awakening.
 - `Cities of the North - Morthal` décoché, choix final Morthal à revoir.
 - `Environs - Hroggar's House` installé, patch collection sans option activée pour l’instant.
+- Sunthgat, Oakwood, packs Schlitzohr villages et Laintar Dale installés selon logique Nolvus.
 
 ---
 
@@ -90,6 +97,9 @@ Documenter l’ouverture du module `07 - CITIES TOWNS INTERIORS LIGHTING` et la 
 - `Cities of the North - Winterhold` est décoché / remplacé par `The Great City Of Winterhold`.
 - `Cities of the North - Morthal` est décoché, choix à revoir.
 - `The Great Cities - CC Fishing Patch` est identifié mais différé.
+- Patches des nouveaux villages / settlements 290 à 295 différés.
+- Version ESL de `Dunmer Settlements of Solstheim` retenue pour limiter l’impact sur le compteur non-light.
+- Patches Solstheim / Raven Rock / Tel Mithryn différés.
 - LOD / DynDOLOD : à faire plus tard, pas maintenant.
 
 ---
@@ -110,7 +120,7 @@ Documenter l’ouverture du module `07 - CITIES TOWNS INTERIORS LIGHTING` et la 
 
 Reprendre à partir de :
 
-`Étape 290`
+`Étape 296`
 
 Sujet prévu :
 
@@ -118,9 +128,9 @@ Suite du module `07 - CITIES TOWNS INTERIORS LIGHTING`.
 
 État de départ :
 
-- Dernière étape validée : Étape 289
+- Dernière étape validée : Étape 295
 - Module en cours : `07 - CITIES TOWNS INTERIORS LIGHTING`
-- ESP + ESM non-light : `55`
+- ESP + ESM non-light : `65`
 - SKSE via MO2 : OK
 - Menu principal atteint : OK
 - Aucun message DLL : OK

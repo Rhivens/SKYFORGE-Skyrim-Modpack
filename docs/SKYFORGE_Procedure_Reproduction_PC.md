@@ -8,13 +8,15 @@
 
 ## État actuel validé
 
-- **Dernière étape validée :** Étape 295 — Laintar Dale
+- **Dernière étape validée :** Étape 307 — Pause GitHub avant suite module 07
+- **Dernière étape d’installation validée :** Étape 306 — Profil stable Player Homes
 - **Runtime :** Skyrim SE 1.5.97 Best of Both Worlds
 - **AE / Creation Club conservé :** oui
 - **Gestionnaire :** Mod Organizer 2 portable
 - **Module en cours :** 07 - CITIES TOWNS INTERIORS LIGHTING
-- **Dernier profil stable :** SKYFORGE - Stable étape 275 villages Ivarstead OK
-- **Compteur confirmé :** ESP + ESM non-light : 65
+- **Sous-bloc validé :** 07.1 - PLAYER HOMES
+- **Profil stable actuel :** SKYFORGE - Stable étape 305 player homes OK
+- **Compteur confirmé :** ESP + ESM non-light : 76
 - **Validation :** SKSE via MO2 → menu principal → aucun message DLL bloquant → aucun master manquant → `Overwrite` vide
 
 ---
@@ -83,7 +85,7 @@ Elles seront ensuite reclassées dans les fichiers thématiques correspondants.
 
 Reprendre à partir de :
 
-`Étape 296`
+`Étape 308`
 
 Sujet prévu :
 

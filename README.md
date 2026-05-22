@@ -33,9 +33,12 @@ C’est le meilleur point d’entrée pour suivre l’évolution actuelle du mod
 
 ## État actuel
 
-- **Dernière étape validée :** Étape 295 — Laintar Dale
+- **Dernière étape validée :** Étape 307 — Pause GitHub avant suite module 07
+- **Dernière étape d’installation validée :** Étape 306 — Profil stable Player Homes
 - **Module en cours :** 07 - CITIES TOWNS INTERIORS LIGHTING
-- **Compteur confirmé :** ESP + ESM non-light : 65
+- **Sous-bloc validé :** 07.1 - PLAYER HOMES
+- **Profil stable actuel :** SKYFORGE - Stable étape 305 player homes OK
+- **Compteur confirmé :** ESP + ESM non-light : 76
 - **Runtime :** Skyrim SE 1.5.97 Best of Both Worlds
 - **Contenus AE / Creation Club :** conservés
 - **Gestionnaire :** Mod Organizer 2 portable
@@ -53,7 +56,7 @@ L’état exact le plus récent est toujours consigné dans le [dernier changelo
 Construire une installation Skyrim stable, cohérente et patchée proprement :
 
 - **Nolvus** sert de référence principale pour le socle technique, graphique, gameplay, UI, monde, villes, quêtes, combat et magie.
-- **Nefaram** sert de référence secondaire pour les systèmes SexLab, défaite, slavery, prostitution, outfits et roleplay adulte.
+- **Nefaram** sert de référence secondaire pour les systèmes avancés, immersion, roleplay, outfits et contraintes de compatibilité.
 
 Le but n’est pas de copier deux modlists complètes, mais d’en extraire les idées, les méthodes et les systèmes utiles pour bâtir un modpack personnel maîtrisé.
 

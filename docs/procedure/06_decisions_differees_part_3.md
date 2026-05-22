@@ -6,10 +6,11 @@ Cette partie complète les décisions différées à partir du module **07 - CIT
 
 ---
 
-## Décisions importantes ajoutées après l’étape 289
+## Décisions importantes ajoutées après l’étape 295
 
 - `Lux Orbis - Patch Hub - A REINSTALL PLUS TARD` est installé mais devra être complété / réinstallé plus tard selon les villes, villages, routes, intérieurs et patches retenus.
 - Les patch collections Great Town / Great Village / Great City sont conservées en `A COMPLETER PLUS TARD` pour la future phase de patching.
+- Les nouveaux villages / settlements ajoutés entre les étapes 290 et 295 gardent leurs patches différés.
 - `Dragon Bridge` est différé, car la zone est plus complexe à patcher avec routes / ponts / Lux / villes.
 - `The Great City Of Falkreath SSE Edition` est retenu en choix Nolvus ; éviter le mélange COTN / JK / patchs complexes pour Falkreath.
 - `Cities of the North - Dawnstar` et `Cities of the North - Dawnstar - Update 1.4` sont décochés / remplacés par `The Great City Of Dawnstar SSE Edition`.
@@ -17,6 +18,8 @@ Cette partie complète les décisions différées à partir du module **07 - CIT
 - `Cities of the North - Morthal` est décoché, choix final Morthal à revoir.
 - `The Great Cities - CC Fishing Patch` est identifié mais différé jusqu’à stabilisation du bloc Great Cities.
 - `3DNPC-TGCoMM Patch by WiZkiD` est différé jusqu’à installation éventuelle de `3DNPC`.
+- `Dunmer Settlements of Solstheim` est retenu en version ESL pour limiter l’impact sur le compteur non-light.
+- Les patches Solstheim / Raven Rock / Tel Mithryn sont différés.
 - LOD / DynDOLOD ne sont pas générés pendant ce bloc ; à faire plus tard.
 
 ---
@@ -34,13 +37,13 @@ Installé, réinstallation / complément différé.
 
 ---
 
-### Étapes 269 à 289 — Patch collections Great Cities / COTN / Environs
+### Étapes 269 à 295 — Patch collections Great Cities / COTN / Environs / villages
 
 **Décision :**  
-Les patch collections sont installées lorsqu’elles sont utiles, mais marquées `A COMPLETER PLUS TARD`.
+Les patch collections sont installées lorsqu’elles sont utiles, mais marquées `A COMPLETER PLUS TARD` ou `PATCHES A VOIR PLUS TARD`.
 
 **Raison :**  
-Les patchs doivent dépendre des mods réellement installés et de l’ordre final retenu pour les villes, villages, Lux / Lux Orbis, routes, AI Overhaul, Embers XD, Lanterns of Skyrim II, No Snow Under the Roof, Ryn’s modules, etc.
+Les patchs doivent dépendre des mods réellement installés et de l’ordre final retenu pour les villes, villages, Lux / Lux Orbis, routes, AI Overhaul, Embers XD, Lanterns of Skyrim II, No Snow Under the Roof, Ryn’s modules, Solstheim, Raven Rock, Tel Mithryn, etc.
 
 **Statut :**  
 Patching final différé.
@@ -194,6 +197,60 @@ Dans le FOMOD de la patch collection, tout est laissé décoché / `None`.
 
 **Statut :**  
 Patching différé.
+
+---
+
+### Étapes 290 à 295 — Villages / settlements Nolvus
+
+**Mods concernés :**
+
+- `Sunthgat - CHOIX NOLVUS - PATCHES A VOIR PLUS TARD`
+- `Oakwood - CHOIX NOLVUS - PATCHES A VOIR PLUS TARD`
+- `Reich Corigate - CHOIX NOLVUS - PATCHES A VOIR PLUS TARD`
+- `Granite Hill Village - CHOIX NOLVUS - PATCHES A VOIR PLUS TARD`
+- `Amber Guard - CHOIX NOLVUS - PATCHES A VOIR PLUS TARD`
+- `Dunpar Wall - CHOIX NOLVUS - PATCHES A VOIR PLUS TARD`
+- `Vernim Wood - CHOIX NOLVUS`
+- `Vernim Wood - USSEP Patch - CHOIX NOLVUS`
+- `Stonehills - CHOIX NOLVUS - PATCHES A VOIR PLUS TARD`
+- `Dunmer Settlements of Solstheim ESL - CHOIX NOLVUS - PATCHES A VOIR PLUS TARD`
+- `Amol Village - CHOIX NOLVUS - PATCHES A VOIR PLUS TARD`
+- `Laintar Dale - CHOIX NOLVUS - PATCHES A VOIR PLUS TARD`
+
+**Décision :**  
+Installés selon la logique Nolvus, mais patches différés sauf `Vernim Wood - USSEP Patch`.
+
+**Statut :**  
+Patching différé.
+
+---
+
+### Étape 293 — Vernim Wood USSEP Patch
+
+**Décision :**  
+`Vernim Wood - USSEP Patch - CHOIX NOLVUS` est installé.
+
+**Autres patches :**  
+Différés.
+
+**Statut :**  
+Patch USSEP validé, autres patches différés.
+
+---
+
+### Étape 294 — Dunmer Settlements of Solstheim ESL
+
+**Décision :**  
+Version ESL retenue pour limiter l’impact sur le compteur ESP + ESM non-light.
+
+**Patches différés :**
+
+- Solstheim
+- Raven Rock
+- Tel Mithryn
+
+**Statut :**  
+Version ESL validée, patches différés.
 
 ---
 

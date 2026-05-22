@@ -152,6 +152,83 @@ ESP + ESM non-light : `65`
 
 ---
 
+## État validé après l’étape 307
+
+**Dernière étape validée :**  
+`Étape 307 — Pause GitHub avant suite module 07`
+
+**Dernière étape d’installation validée :**  
+`Étape 306 — Profil stable Player Homes`
+
+**Module en cours :**  
+`07 - CITIES TOWNS INTERIORS LIGHTING`
+
+**Sous-bloc validé :**  
+`07.1 - PLAYER HOMES`
+
+**Profil stable actuel :**  
+`SKYFORGE - Stable étape 305 player homes OK`
+
+**Compteur confirmé :**  
+ESP + ESM non-light : `76`
+
+**Résultat validé :**
+
+- SKSE lancé via MO2 : OK
+- Menu principal atteint : OK
+- Aucun message DLL : OK
+- Aucun master manquant : OK
+- `Overwrite` vide : OK
+- LOOT non lancé : OK
+- LOD / DynDOLOD non générés : OK
+
+**Étapes ajoutées / documentées lors de cette mise à jour :**
+
+- `Étape 296 — The Great Settlement of Darkwater Crossing`
+- `Étape 297 — Contrôle de continuité villages`
+- `Étape 298 — Profil stable villages Darkwater`
+- `Étape 299 — JK’s Riverfall Cottage Family Edition`
+- `Étape 300 — Sicarius’ Refuge SSE`
+- `Étape 301 — Ruska`
+- `Étape 302 — Wind Path SSE`
+- `Étape 303 — Hearthfire Multiple Adoptions`
+- `Étape 304 — Contrôle Player Homes`
+- `Étape 305 — Lakeview Manor - As It Should Be`
+- `Étape 306 — Profil stable Player Homes`
+- `Étape 307 — Pause GitHub avant suite module 07`
+
+**Décisions ajoutées / confirmées lors de cette mise à jour :**
+
+- `The Great Settlement of Darkwater Crossing` installé selon choix Nolvus, patch collection installée mais sans option FOMOD activée.
+- `Granitehall` absent : OK.
+- Distinction `Laintar Dale` / `Lainalten` confirmée.
+- Profil stable `SKYFORGE - Stable étape 297 villages Darkwater OK` créé après le bloc villages.
+- Sous-bloc `07.1 - PLAYER HOMES` ouvert et validé.
+- `JK's Riverfall Cottage Family Edition`, `Sicarius' Refuge SSE`, `Ruska`, `Wind Path SSE` installés selon choix Nolvus.
+- `Hearthfire Multiple Adoptions and Custom Home Support SE` installé et placé au-dessus des Player Homes comme support système.
+- `Settings Loader Hearthfire Multiple Adoptions` annulé / introuvable.
+- Patch Verdant pour Sicarius non installé / zappé tant que `Verdant` n’est pas présent dans SKYFORGE.
+- `Lakeview Manor - As It Should Be` installé comme ajout externe Fabien.
+- Traduction FR du patch CC Fishing de Lakeview Manor non installée, non nécessaire.
+- Profil stable `SKYFORGE - Stable étape 305 player homes OK` créé.
+- Aucun nouveau mod installé pendant l’étape 307.
+- LOOT n’a pas été lancé.
+- LOD / DynDOLOD ne sont pas générés à ce stade.
+
+**Fichiers mis à jour lors de cette mise à jour :**
+
+- `docs/procedure/11_cities_towns_interiors_lighting_part_2.md`
+- `docs/SKYFORGE_Procedure_Reproduction_PC.md`
+- `docs/procedure/00_resume_etat_actuel.md`
+- `docs/procedure/99_changelog_validation_part_2.md`
+- `README.md`
+- `docs/procedure/06_decisions_differees_part_3.md`
+
+**Prochaine reprise :**  
+`Étape 308 — Suite module 07 : Cities / Towns / Interiors / Lighting`
+
+---
+
 ## Rappel méthode
 
 - Avancer prudemment, par petits blocs.

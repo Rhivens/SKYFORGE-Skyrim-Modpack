@@ -23,6 +23,7 @@ C’est le meilleur point d’entrée pour suivre l’évolution actuelle du mod
 - [Résumé de l’état actuel](docs/procedure/00_resume_etat_actuel.md)
 - [Procédure principale de reproduction](docs/SKYFORGE_Procedure_Reproduction_PC.md)
 - [Module 07 — Cities, towns, interiors & lighting](docs/procedure/11_cities_towns_interiors_lighting.md)
+- [Module 07 — Cities, towns, interiors & lighting — partie 2](docs/procedure/11_cities_towns_interiors_lighting_part_2.md)
 - [Décisions différées et points à revoir](docs/procedure/06_decisions_differees.md)
 - [Décisions différées — partie 2](docs/procedure/06_decisions_differees_part_2.md)
 - [Décisions différées — partie 3](docs/procedure/06_decisions_differees_part_3.md)
@@ -32,9 +33,9 @@ C’est le meilleur point d’entrée pour suivre l’évolution actuelle du mod
 
 ## État actuel
 
-- **Dernière étape validée :** Étape 289 — Environs Hroggar’s House
+- **Dernière étape validée :** Étape 295 — Laintar Dale
 - **Module en cours :** 07 - CITIES TOWNS INTERIORS LIGHTING
-- **Compteur confirmé :** ESP + ESM non-light : 55
+- **Compteur confirmé :** ESP + ESM non-light : 65
 - **Runtime :** Skyrim SE 1.5.97 Best of Both Worlds
 - **Contenus AE / Creation Club :** conservés
 - **Gestionnaire :** Mod Organizer 2 portable
@@ -96,4 +97,4 @@ Il ne contient pas et ne doit pas contenir :
 
 SKYFORGE est un projet personnel en construction. Les étapes documentées reflètent l’état validé au moment des tests, pas une recommandation universelle prête à l’emploi.
 
-Les choix techniques peuvent évoluer au fur et à mesure de l’installation des modules suivants : villes, éclairage, météo, ENB, animations, SexLab, gameplay, quêtes, patches finaux, BodySlide, Pandora / Nemesis, LOD et DynDOLOD.
+Les choix techniques peuvent évoluer au fur et à mesure de l’installation des modules suivants : villes, éclairage, météo, ENB, animations, gameplay, quêtes, patches finaux, BodySlide, Pandora / Nemesis, LOD et DynDOLOD.

@@ -4,10 +4,10 @@
 
 ---
 
-## État validé après l’étape 307
+## État validé après l’étape 314
 
 **Objectif :**  
-Documenter le bloc villages Darkwater puis le sous-bloc `07.1 - PLAYER HOMES`, incluant les étapes 296 à 306 et la pause GitHub demandée avant de poursuivre le module 07.
+Documenter le sous-bloc `07.2 - FARMHOUSES`, incluant les étapes 308 à 313 et la pause GitHub demandée avant de poursuivre le module 07.
 
 **Résultat validé :**
 
@@ -15,7 +15,7 @@ Documenter le bloc villages Darkwater puis le sous-bloc `07.1 - PLAYER HOMES`, i
 - AE / Creation Club conservé : OK
 - SKSE lancé via MO2 : OK
 - Menu principal atteint : OK
-- Aucun missing master bloquant signalé : OK
+- Aucun missing master bloquant signalé après désactivation du patch SOS : OK
 - Aucun message DLL bloquant signalé : OK
 - `Overwrite` vide : OK
 - LOOT non lancé : OK
@@ -24,11 +24,11 @@ Documenter le bloc villages Darkwater puis le sous-bloc `07.1 - PLAYER HOMES`, i
 
 **Dernière étape validée :**
 
-`Étape 307 — Pause GitHub avant suite module 07`
+`Étape 314 — Pause GitHub Farmhouses`
 
 **Dernière étape d’installation validée :**
 
-`Étape 306 — Profil stable Player Homes`
+`Étape 313 — Profil stable Farmhouses`
 
 **Module en cours :**
 
@@ -36,11 +36,11 @@ Documenter le bloc villages Darkwater puis le sous-bloc `07.1 - PLAYER HOMES`, i
 
 **Sous-bloc validé :**
 
-`07.1 - PLAYER HOMES`
+`07.2 - FARMHOUSES`
 
 **Profil stable actuel :**
 
-`SKYFORGE - Stable étape 305 player homes OK`
+`SKYFORGE - Stable étape 312 farmhouses OK`
 
 **Compteur confirmé :**
 
@@ -94,6 +94,13 @@ Documenter le bloc villages Darkwater puis le sous-bloc `07.1 - PLAYER HOMES`, i
 - `Étape 305 — Lakeview Manor - As It Should Be`
 - `Étape 306 — Profil stable Player Homes`
 - `Étape 307 — Pause GitHub avant suite module 07`
+- `Étape 308 — Farmhouses pack 1`
+- `Étape 309 — Création séparateur Parallax`
+- `Étape 310 — Farmhouses pack 2`
+- `Étape 311 — Farmhouses pack 3`
+- `Étape 312 — Farmhouses pack 4`
+- `Étape 313 — Profil stable Farmhouses`
+- `Étape 314 — Pause GitHub Farmhouses`
 
 **État validé :**
 
@@ -105,6 +112,7 @@ Documenter le bloc villages Darkwater puis le sous-bloc `07.1 - PLAYER HOMES`, i
 - `Environs - Hroggar's House` installé, patch collection sans option activée pour l’instant.
 - Sunthgat, Oakwood, packs Schlitzohr villages, Laintar Dale et Darkwater Crossing installés selon logique Nolvus.
 - Sous-bloc `07.1 - PLAYER HOMES` validé avec profil stable dédié.
+- Sous-bloc `07.2 - FARMHOUSES` validé avec options Parallax et profil stable dédié.
 
 ---
 
@@ -125,6 +133,9 @@ Documenter le bloc villages Darkwater puis le sous-bloc `07.1 - PLAYER HOMES`, i
 - Patch Verdant Sicarius zappé tant que `Verdant` n’est pas présent dans SKYFORGE.
 - `Lakeview Manor - As It Should Be` est un ajout externe Fabien, installé et validé.
 - Traduction FR du patch CC Fishing de Lakeview Manor non installée, jugée inutile.
+- Parallax retenu pour la stack Farmhouses.
+- `Nordic Stonewalls v3.11` retenu au lieu de l’ancienne référence Nolvus `1.12`.
+- `Scarecrows of Skyrim - BOS - SOS Patch` installé mais décoché à cause du master manquant `Simplicity of Snow.esp`.
 - LOD / DynDOLOD : à faire plus tard, pas maintenant.
 
 ---
@@ -145,7 +156,7 @@ Documenter le bloc villages Darkwater puis le sous-bloc `07.1 - PLAYER HOMES`, i
 
 Reprendre à partir de :
 
-`Étape 308`
+`Étape 315`
 
 Sujet prévu :
 
@@ -153,16 +164,16 @@ Suite du module `07 - CITIES TOWNS INTERIORS LIGHTING`.
 
 État de départ :
 
-- Dernière étape validée : Étape 307
-- Dernière étape d’installation validée : Étape 306
+- Dernière étape validée : Étape 314
+- Dernière étape d’installation validée : Étape 313
 - Module en cours : `07 - CITIES TOWNS INTERIORS LIGHTING`
-- Sous-bloc Player Homes validé : OK
-- Profil stable actuel : `SKYFORGE - Stable étape 305 player homes OK`
+- Sous-bloc Farmhouses validé : OK
+- Profil stable actuel : `SKYFORGE - Stable étape 312 farmhouses OK`
 - ESP + ESM non-light : `76`
 - SKSE via MO2 : OK
 - Menu principal atteint : OK
 - Aucun message DLL : OK
-- Aucun master manquant : OK
+- Aucun master manquant après désactivation du patch SOS : OK
 - `Overwrite` vide : OK
 - LOOT non lancé : OK
 - LOD / DynDOLOD non générés : OK

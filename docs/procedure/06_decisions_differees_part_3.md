@@ -6,13 +6,14 @@ Cette partie complète les décisions différées à partir du module **07 - CIT
 
 ---
 
-## Décisions importantes ajoutées après l’étape 314
+## Décisions importantes ajoutées après l’étape 319
 
 - `Lux Orbis - Patch Hub - A REINSTALL PLUS TARD` est installé mais devra être complété / réinstallé plus tard selon les villes, villages, routes, intérieurs et patches retenus.
 - Les patch collections Great Town / Great Village / Great City sont conservées en `A COMPLETER PLUS TARD` pour la future phase de patching.
 - Les nouveaux villages / settlements ajoutés entre les étapes 290 et 298 gardent leurs patches différés.
 - Les patches Player Homes restent différés.
 - Les patches / LOD / DynDOLOD du sous-bloc `07.2 - FARMHOUSES` restent différés.
+- Les patches du sous-bloc `07.3 - OTHER LOCATIONS` restent différés.
 - `Dragon Bridge` est différé, car la zone est plus complexe à patcher avec routes / ponts / Lux / villes.
 - `The Great City Of Falkreath SSE Edition` est retenu en choix Nolvus ; éviter le mélange COTN / JK / patchs complexes pour Falkreath.
 - `Cities of the North - Dawnstar` et `Cities of the North - Dawnstar - Update 1.4` sont décochés / remplacés par `The Great City Of Dawnstar SSE Edition`.
@@ -29,6 +30,9 @@ Cette partie complète les décisions différées à partir du module **07 - CIT
 - Parallax retenu pour la stack Farmhouses.
 - `Nordic Stonewalls v3.11` retenu au lieu de l’ancienne référence Nolvus `1.12`.
 - `Scarecrows of Skyrim - BOS - SOS Patch` installé mais décoché à cause du master manquant `Simplicity of Snow.esp`.
+- `This Is Jorrvaskr - KASA` non installé.
+- Aucun patch Jorrvaskr / Dawnguard / Volkihar installé à ce stade.
+- Liens corrigés pour `JK's Fort Dawnguard` et `JK's Castle Volkihar`.
 - LOD / DynDOLOD ne sont pas générés pendant ce bloc ; à faire plus tard.
 
 ---
@@ -417,6 +421,67 @@ Réactiver le patch uniquement si `Simplicity of Snow.esp` devient actif dans SK
 
 **Statut :**  
 Installé mais décoché.
+
+---
+
+### Étapes 315 à 319 — Other Locations
+
+**Mods concernés :**
+
+- `Near Vanilla Project - College of Winterhold Floor - CHOIX NOLVUS`
+- `This Is Jorrvaskr - CHOIX NOLVUS - PATCHES A VOIR PLUS TARD`
+- `JK's Fort Dawnguard - CHOIX NOLVUS - PATCHES A VOIR PLUS TARD`
+- `JK's Castle Volkihar - CHOIX NOLVUS - PATCHES A VOIR PLUS TARD`
+
+**Décisions :**
+
+- `This Is Jorrvaskr` main file `v3.65` installé.
+- `This Is Jorrvaskr - KASA` non installé.
+- Aucun patch optionnel Jorrvaskr installé.
+- Aucun patch `JK's Fort Dawnguard` installé.
+- Aucun patch `JK's Castle Volkihar` installé.
+- Patches Lux / Lux Orbis / lighting / navmesh / Nolvus différés.
+- Liens corrigés pour `JK's Fort Dawnguard` et `JK's Castle Volkihar`.
+
+**Statut :**  
+Sous-bloc Other Locations validé par profil `SKYFORGE - Stable étape 317 other locations OK`.
+
+---
+
+### Étape 315 — This Is Jorrvaskr
+
+**Décision :**  
+Main file `v3.65` installé.
+
+**Non installé :**
+
+- `This Is Jorrvaskr - KASA`
+
+**Patches :**  
+Aucun patch optionnel installé.
+
+**Statut :**  
+Installé, patches différés.
+
+---
+
+### Étape 316 — JK's Fort Dawnguard / JK's Castle Volkihar
+
+**Liens corrigés :**
+
+- `JK's Fort Dawnguard` : https://www.nexusmods.com/skyrimspecialedition/mods/110645
+- `JK's Castle Volkihar` : https://www.nexusmods.com/skyrimspecialedition/mods/116314
+
+**Patches :**
+
+- Lux
+- Lux Orbis
+- Lighting
+- Navmesh
+- Nolvus
+
+**Statut :**  
+Patches différés.
 
 ---
 

@@ -90,6 +90,68 @@ ESP + ESM non-light : `55`
 
 ---
 
+## État validé après l’étape 295
+
+**Dernière étape validée :**  
+`Étape 295 — Laintar Dale`
+
+**Module en cours :**  
+`07 - CITIES TOWNS INTERIORS LIGHTING`
+
+**Dernier profil stable connu :**  
+`SKYFORGE - Stable étape 275 villages Ivarstead OK`
+
+**Compteur confirmé :**  
+ESP + ESM non-light : `65`
+
+**Résultat validé :**
+
+- SKSE lancé via MO2 : OK
+- Menu principal atteint : OK
+- Aucun message DLL : OK
+- Aucun master manquant : OK
+- `Overwrite` vide : OK
+- LOOT non lancé : OK
+- LOD / DynDOLOD non générés : OK
+
+**Étapes ajoutées / documentées lors de cette mise à jour :**
+
+- `Étape 290 — Sunthgat`
+- `Étape 291 — Oakwood`
+- `Étape 292 — Pack Schlitzohr villages 1`
+- `Étape 293 — Pack Schlitzohr villages 2`
+- `Étape 294 — Pack Schlitzohr villages 3`
+- `Étape 295 — Laintar Dale`
+
+**Décisions ajoutées / confirmées lors de cette mise à jour :**
+
+- `Sunthgat` installé selon le choix Nolvus, patches différés.
+- `Oakwood` installé selon le choix Nolvus, lien Nexus corrigé, patches différés.
+- `Reich Corigate`, `Granite Hill Village` et `Amber Guard` installés selon la logique Schlitzohr / Nolvus, patches différés.
+- `Dunpar Wall`, `Vernim Wood` et `Vernim Wood - USSEP Patch` installés, autres patches différés.
+- `Stonehills`, `Dunmer Settlements of Solstheim ESL` et `Amol Village` installés.
+- Version ESL de `Dunmer Settlements of Solstheim` retenue pour limiter l’impact sur le compteur non-light.
+- Patches Solstheim / Raven Rock / Tel Mithryn différés.
+- `Laintar Dale` installé selon choix Nolvus, patches différés.
+- LOOT n’a pas été lancé.
+- LOD / DynDOLOD ne sont pas générés à ce stade.
+
+**Fichiers ajoutés lors de cette mise à jour :**
+
+- `docs/procedure/11_cities_towns_interiors_lighting_part_2.md`
+
+**Fichiers mis à jour lors de cette mise à jour :**
+
+- `docs/SKYFORGE_Procedure_Reproduction_PC.md`
+- `docs/procedure/00_resume_etat_actuel.md`
+- `docs/procedure/99_changelog_validation_part_2.md`
+- `README.md`
+
+**Prochaine reprise :**  
+`Étape 296 — Suite module 07 : Cities / Towns / Interiors / Lighting`
+
+---
+
 ## Rappel méthode
 
 - Avancer prudemment, par petits blocs.

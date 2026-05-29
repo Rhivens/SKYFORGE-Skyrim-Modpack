@@ -4,10 +4,10 @@
 
 ---
 
-## État validé après l’étape 319
+## État validé après l’étape 327
 
 **Objectif :**  
-Documenter le sous-bloc `07.3 - OTHER LOCATIONS`, incluant les étapes 315 à 318 et la pause GitHub demandée avant de poursuivre le module 07.
+Documenter le sous-bloc `07.4 - LANDS`, incluant les étapes 320 à 326, puis la pause technique Nexus.
 
 **Résultat validé :**
 
@@ -21,30 +21,27 @@ Documenter le sous-bloc `07.3 - OTHER LOCATIONS`, incluant les étapes 315 à 31
 - LOOT non lancé : OK
 - LOD / DynDOLOD non générés : OK
 - `Atlantean Landscape -Complete- 2K` décoché : OK
+- Installations suspendues temporairement à cause d’une instabilité Nexus : OK
 
 **Dernière étape validée :**
 
-`Étape 319 — Pause GitHub Other Locations`
+`Étape 327 — Pause technique Nexus`
 
 **Dernière étape d’installation validée :**
 
-`Étape 318 — Profil stable Other Locations`
+`Étape 326 — Ryn’s Standing Stones`
 
 **Module en cours :**
 
 `07 - CITIES TOWNS INTERIORS LIGHTING`
 
-**Sous-bloc validé :**
+**Sous-bloc en cours :**
 
-`07.3 - OTHER LOCATIONS`
-
-**Profil stable actuel :**
-
-`SKYFORGE - Stable étape 317 other locations OK`
+`07.4 - LANDS`
 
 **Compteur confirmé :**
 
-- ESP + ESM non-light : `77`
+- ESP + ESM non-light : `79`
 
 ---
 
@@ -106,47 +103,52 @@ Documenter le sous-bloc `07.3 - OTHER LOCATIONS`, incluant les étapes 315 à 31
 - `Étape 317 — Contrôle Other Locations`
 - `Étape 318 — Profil stable Other Locations`
 - `Étape 319 — Pause GitHub Other Locations`
+- `Étape 320 — Lands pack 1`
+- `Étape 321 — Lands pack 2`
+- `Étape 322 — Contrôle Lands pack 1-2`
+- `Étape 323 — Lands pack 3 : WiZkiD Signs`
+- `Étape 324 — Lands pack 4 : Temple Frescoes + Sepolcri`
+- `Étape 325 — Lands pack 5 : Imperial Forts`
+- `Étape 326 — Lands pack 6 : Ryn's Standing Stones`
+- `Étape 327 — Pause technique Nexus`
 
 **État validé :**
 
 - Socle Lux installé : `Lux Via`, `Lux Orbis`, `Lux`.
 - The Great Cities Resources installé.
 - Plusieurs villages / villes Great Cities installés et testés.
-- Corrections Winterhold / Dawnstar alignées vers les choix Great City / Nolvus Awakening.
-- `Cities of the North - Morthal` décoché, choix final Morthal à revoir.
-- `Environs - Hroggar's House` installé, patch collection sans option activée pour l’instant.
-- Sunthgat, Oakwood, packs Schlitzohr villages, Laintar Dale et Darkwater Crossing installés selon logique Nolvus.
 - Sous-bloc `07.1 - PLAYER HOMES` validé avec profil stable dédié.
 - Sous-bloc `07.2 - FARMHOUSES` validé avec options Parallax et profil stable dédié.
 - Sous-bloc `07.3 - OTHER LOCATIONS` validé avec profil stable dédié.
+- Sous-bloc `07.4 - LANDS` en cours, packs 1 à 6 validés.
 
 ---
 
 ## Mods / décisions importants du module 07
 
 - `Lux Orbis - Patch Hub - A REINSTALL PLUS TARD` installé mais à compléter / réinstaller plus tard.
-- Les patch collections `The Great Town / Village / City` sont marquées `A COMPLETER PLUS TARD` et devront être reprises pendant la phase de patching.
+- Les patch hubs / patch collections restent différés pour la future phase de patching.
 - `Dragon Bridge` est différé, à traiter plus tard avec routes / ponts / Lux / villes.
-- `The Great City Of Falkreath SSE Edition` est retenu en choix Nolvus ; éviter le mélange COTN / JK / patches complexes pour Falkreath.
-- `Cities of the North - Dawnstar` et son update sont décochés / remplacés par `The Great City Of Dawnstar`.
-- `Cities of the North - Winterhold` est décoché / remplacé par `The Great City Of Winterhold`.
 - `Cities of the North - Morthal` est décoché, choix à revoir.
 - `The Great Cities - CC Fishing Patch` est identifié mais différé.
-- Patches des nouveaux villages / settlements différés.
 - Version ESL de `Dunmer Settlements of Solstheim` retenue pour limiter l’impact sur le compteur non-light.
-- Patches Solstheim / Raven Rock / Tel Mithryn différés.
 - `Settings Loader Hearthfire Multiple Adoptions` annulé / introuvable.
 - Patch Verdant Sicarius zappé tant que `Verdant` n’est pas présent dans SKYFORGE.
 - `Lakeview Manor - As It Should Be` est un ajout externe Fabien, installé et validé.
-- Traduction FR du patch CC Fishing de Lakeview Manor non installée, jugée inutile.
 - Parallax retenu pour la stack Farmhouses.
 - `Nordic Stonewalls v3.11` retenu au lieu de l’ancienne référence Nolvus `1.12`.
 - `Scarecrows of Skyrim - BOS - SOS Patch` installé mais décoché à cause du master manquant `Simplicity of Snow.esp`.
 - `This Is Jorrvaskr` : main file `v3.65` installé.
 - `This Is Jorrvaskr - KASA` non installé.
 - Aucun patch Jorrvaskr / Dawnguard / Volkihar installé à ce stade.
-- Liens corrigés pour `JK's Fort Dawnguard` et `JK's Castle Volkihar`.
-- LOD / DynDOLOD : à faire plus tard, pas maintenant.
+- `My Road Signs are Beautiful - French` marqué `A REINSTALL PLUS TARD`.
+- `WiZkiD Signs` marqué `A REINSTALL PLUS TARD`.
+- `Solitude Temple Frescoes` installé en version Complete No Lanterns ESL.
+- `Sepolcri` installé en main file uniquement, patches différés.
+- `Imperial Forts Parallax Meshes` et `HD Remastered Imperial Forts - 2K` installés ; `Setting on Sulphur` non installé.
+- `Ryn's Lady Stone` et `Ryn's Standing Stones` installés, patches différés.
+- Pause technique Nexus : installations suspendues temporairement.
+- LOOT / LOD / DynDOLOD : toujours différés.
 
 ---
 
@@ -154,8 +156,8 @@ Documenter le sous-bloc `07.3 - OTHER LOCATIONS`, incluant les étapes 315 à 31
 
 - LOOT / ordre de chargement global : toujours différé.
 - Ne pas toucher au panneau droit sauf missing master.
+- Ne pas modifier MO2 / DLL pendant la pause Nexus.
 - Les tests ingame restent courts et ciblés tant que la base globale n’est pas suffisamment avancée.
-- Les sauvegardes techniques temporaires créées pour tester `Skyrim Unbound` devront être supprimées avant la vraie partie finale.
 - `Atlantean Landscape` reste décoché jusqu’au futur bloc `Parallax / Complex Terrain / ENB / textures paysage avancées`.
 - Les patch hubs / patch collections sont conservés pour la future phase de patching, pas finalisés maintenant.
 - Textures 2K par défaut si disponibles ; 1K pour petits objets / optimisation ; 4K uniquement pour éléments très visibles si justifié ; 8K exclu par défaut.
@@ -166,20 +168,19 @@ Documenter le sous-bloc `07.3 - OTHER LOCATIONS`, incluant les étapes 315 à 31
 
 Reprendre à partir de :
 
-`Étape 320`
+`Étape 328`
 
 Sujet prévu :
 
-Suite du module `07 - CITIES TOWNS INTERIORS LIGHTING`.
+Suite du module `07 - CITIES TOWNS INTERIORS LIGHTING`, quand Nexus sera stable.
 
 État de départ :
 
-- Dernière étape validée : Étape 319
-- Dernière étape d’installation validée : Étape 318
+- Dernière étape validée : Étape 327
+- Dernière étape d’installation validée : Étape 326
 - Module en cours : `07 - CITIES TOWNS INTERIORS LIGHTING`
-- Sous-bloc Other Locations validé : OK
-- Profil stable actuel : `SKYFORGE - Stable étape 317 other locations OK`
-- ESP + ESM non-light : `77`
+- Sous-bloc Lands en cours : OK
+- ESP + ESM non-light : `79`
 - SKSE via MO2 : OK
 - Menu principal atteint : OK
 - Aucun message DLL : OK
@@ -187,6 +188,7 @@ Suite du module `07 - CITIES TOWNS INTERIORS LIGHTING`.
 - `Overwrite` vide : OK
 - LOOT non lancé : OK
 - LOD / DynDOLOD non générés : OK
+- Nexus temporairement instable : installations suspendues
 
 ---
 

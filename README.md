@@ -31,6 +31,7 @@ C’est le meilleur point d’entrée pour suivre l’évolution actuelle du mod
 - [Décisions différées et points à revoir](docs/procedure/06_decisions_differees.md)
 - [Décisions différées — partie 2](docs/procedure/06_decisions_differees_part_2.md)
 - [Décisions différées — partie 3](docs/procedure/06_decisions_differees_part_3.md)
+- [Décisions différées — partie 4](docs/procedure/06_decisions_differees_part_4.md)
 - [Audit de continuité des étapes](docs/procedure/98_audit_continuite_etapes.md)
 
 ---

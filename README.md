@@ -26,6 +26,7 @@ C’est le meilleur point d’entrée pour suivre l’évolution actuelle du mod
 - [Module 07 — Cities, towns, interiors & lighting — partie 2](docs/procedure/11_cities_towns_interiors_lighting_part_2.md)
 - [Module 07 — Cities, towns, interiors & lighting — partie 3](docs/procedure/11_cities_towns_interiors_lighting_part_3.md)
 - [Module 07 — Cities, towns, interiors & lighting — partie 4](docs/procedure/11_cities_towns_interiors_lighting_part_4.md)
+- [Module 07 — Cities, towns, interiors & lighting — partie 5](docs/procedure/11_cities_towns_interiors_lighting_part_5.md)
 - [Décisions différées et points à revoir](docs/procedure/06_decisions_differees.md)
 - [Décisions différées — partie 2](docs/procedure/06_decisions_differees_part_2.md)
 - [Décisions différées — partie 3](docs/procedure/06_decisions_differees_part_3.md)
@@ -35,12 +36,12 @@ C’est le meilleur point d’entrée pour suivre l’évolution actuelle du mod
 
 ## État actuel
 
-- **Dernière étape validée :** Étape 319 — Pause GitHub Other Locations
-- **Dernière étape d’installation validée :** Étape 318 — Profil stable Other Locations
+- **Dernière étape validée :** Étape 327 — Pause technique Nexus
+- **Dernière étape d’installation validée :** Étape 326 — Ryn’s Standing Stones
 - **Module en cours :** 07 - CITIES TOWNS INTERIORS LIGHTING
-- **Sous-bloc validé :** 07.3 - OTHER LOCATIONS
-- **Profil stable actuel :** SKYFORGE - Stable étape 317 other locations OK
-- **Compteur confirmé :** ESP + ESM non-light : 77
+- **Sous-bloc en cours :** 07.4 - LANDS
+- **Compteur confirmé :** ESP + ESM non-light : 79
+- **Pause technique :** Nexus temporairement instable, installations suspendues
 - **Runtime :** Skyrim SE 1.5.97 Best of Both Worlds
 - **Contenus AE / Creation Club :** conservés
 - **Gestionnaire :** Mod Organizer 2 portable

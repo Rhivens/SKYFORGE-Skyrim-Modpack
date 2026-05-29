@@ -8,16 +8,16 @@
 
 ## État actuel validé
 
-- **Dernière étape validée :** Étape 319 — Pause GitHub Other Locations
-- **Dernière étape d’installation validée :** Étape 318 — Profil stable Other Locations
+- **Dernière étape validée :** Étape 327 — Pause technique Nexus
+- **Dernière étape d’installation validée :** Étape 326 — Ryn’s Standing Stones
 - **Runtime :** Skyrim SE 1.5.97 Best of Both Worlds
 - **AE / Creation Club conservé :** oui
 - **Gestionnaire :** Mod Organizer 2 portable
 - **Module en cours :** 07 - CITIES TOWNS INTERIORS LIGHTING
-- **Sous-bloc validé :** 07.3 - OTHER LOCATIONS
-- **Profil stable actuel :** SKYFORGE - Stable étape 317 other locations OK
-- **Compteur confirmé :** ESP + ESM non-light : 77
+- **Sous-bloc en cours :** 07.4 - LANDS
+- **Compteur confirmé :** ESP + ESM non-light : 79
 - **Validation :** SKSE via MO2 → menu principal → aucun message DLL bloquant → aucun master manquant → `Overwrite` vide
+- **Pause technique :** Nexus temporairement instable, installations suspendues
 
 ---
 
@@ -47,9 +47,10 @@
 22. [Cities, towns, interiors & lighting — partie 2](procedure/11_cities_towns_interiors_lighting_part_2.md)
 23. [Cities, towns, interiors & lighting — partie 3](procedure/11_cities_towns_interiors_lighting_part_3.md)
 24. [Cities, towns, interiors & lighting — partie 4](procedure/11_cities_towns_interiors_lighting_part_4.md)
-25. [Audit de continuité des étapes](procedure/98_audit_continuite_etapes.md)
-26. [Changelog / validation](procedure/99_changelog_validation.md)
-27. [Changelog / validation — partie 2](procedure/99_changelog_validation_part_2.md)
+25. [Cities, towns, interiors & lighting — partie 5](procedure/11_cities_towns_interiors_lighting_part_5.md)
+26. [Audit de continuité des étapes](procedure/98_audit_continuite_etapes.md)
+27. [Changelog / validation](procedure/99_changelog_validation.md)
+28. [Changelog / validation — partie 2](procedure/99_changelog_validation_part_2.md)
 
 ---
 
@@ -87,17 +88,18 @@ Elles seront ensuite reclassées dans les fichiers thématiques correspondants.
 
 Reprendre à partir de :
 
-`Étape 320`
+`Étape 328`
 
 Sujet prévu :
 
-Suite du module `07 - CITIES TOWNS INTERIORS LIGHTING`.
+Suite du module `07 - CITIES TOWNS INTERIORS LIGHTING`, quand Nexus sera stable.
 
 Consignes maintenues :
 
 - Ne pas lancer LOOT.
 - Ne pas générer LOD / DynDOLOD maintenant.
 - Ne pas toucher au panneau droit sauf missing master.
+- Ne pas modifier MO2 / DLL pendant la pause Nexus.
 - Garder `Atlantean Landscape -Complete- 2K` décoché.
 - Garder le patch `Scarecrows of Skyrim - BOS - SOS Patch` décoché tant que `Simplicity of Snow.esp` est absent.
 - Garder les patches Jorrvaskr / Dawnguard / Volkihar différés pour la future phase de patching.

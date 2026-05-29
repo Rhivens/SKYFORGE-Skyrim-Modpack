@@ -12,10 +12,11 @@ SKYFORGE vise une installation Skyrim stable, cohérente, documentée étape par
 
 ## Suivre l’avancement du projet
 
-### ➜ [Lire le dernier changelog / résumé de validation](docs/procedure/99_changelog_validation_part_2.md)
+### ➜ [Lire le dernier changelog / résumé de validation](docs/procedure/99_changelog_validation_part_3.md)
 
 C’est le meilleur point d’entrée pour suivre l’évolution actuelle du modpack : dernières étapes validées, modules terminés ou en cours, décisions importantes, état de stabilité et prochaine reprise.
 
+> Le changelog précédent reste disponible ici : [Changelog / validation — partie 2](docs/procedure/99_changelog_validation_part_2.md).  
 > Le changelog historique principal reste disponible ici : [Changelog / validation — partie 1](docs/procedure/99_changelog_validation.md).
 
 ### Liens utiles
@@ -50,7 +51,7 @@ C’est le meilleur point d’entrée pour suivre l’évolution actuelle du mod
 - **LOOT :** non lancé pour l’instant
 - **LOD / DynDOLOD :** non générés pour l’instant
 
-L’état exact le plus récent est toujours consigné dans le [dernier changelog](docs/procedure/99_changelog_validation_part_2.md) et dans le [résumé de l’état actuel](docs/procedure/00_resume_etat_actuel.md).
+L’état exact le plus récent est toujours consigné dans le [dernier changelog](docs/procedure/99_changelog_validation_part_3.md) et dans le [résumé de l’état actuel](docs/procedure/00_resume_etat_actuel.md).
 
 ---
 

@@ -51,6 +51,7 @@
 26. [Audit de continuité des étapes](procedure/98_audit_continuite_etapes.md)
 27. [Changelog / validation](procedure/99_changelog_validation.md)
 28. [Changelog / validation — partie 2](procedure/99_changelog_validation_part_2.md)
+29. [Changelog / validation — partie 3](procedure/99_changelog_validation_part_3.md)
 
 ---
 

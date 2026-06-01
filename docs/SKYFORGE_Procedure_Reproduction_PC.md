@@ -49,10 +49,11 @@
 24. [Cities, towns, interiors & lighting — partie 3](procedure/11_cities_towns_interiors_lighting_part_3.md)
 25. [Cities, towns, interiors & lighting — partie 4](procedure/11_cities_towns_interiors_lighting_part_4.md)
 26. [Cities, towns, interiors & lighting — partie 5](procedure/11_cities_towns_interiors_lighting_part_5.md)
-27. [Audit de continuité des étapes](procedure/98_audit_continuite_etapes.md)
-28. [Changelog / validation](procedure/99_changelog_validation.md)
-29. [Changelog / validation — partie 2](procedure/99_changelog_validation_part_2.md)
-30. [Changelog / validation — partie 3](procedure/99_changelog_validation_part_3.md)
+27. [Registre central de dette technique](procedure/97_registre_dette_technique.md)
+28. [Audit de continuité des étapes](procedure/98_audit_continuite_etapes.md)
+29. [Changelog / validation](procedure/99_changelog_validation.md)
+30. [Changelog / validation — partie 2](procedure/99_changelog_validation_part_2.md)
+31. [Changelog / validation — partie 3](procedure/99_changelog_validation_part_3.md)
 
 ---
 
@@ -83,6 +84,8 @@ Quand un fichier devient trop lourd, une partie suivante peut être créée afin
 
 Lors de futures sessions d’installation, les nouvelles étapes peuvent être rédigées en vrac dans l’ordre de validation.
 Elles seront ensuite reclassées dans les fichiers thématiques correspondants.
+
+Le registre central de dette technique doit être maintenu à chaque pause GitHub lorsqu’un nouvel élément est marqué `A REINSTALL PLUS TARD`, `PATCHES A VOIR PLUS TARD`, `A COMPLETER PLUS TARD`, `DECOCHE`, `MASTER MANQUANT`, `CHOIX A REVOIR`, ou `LOD / DynDOLOD différé`.
 
 ---
 

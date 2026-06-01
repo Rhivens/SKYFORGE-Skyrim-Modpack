@@ -45,7 +45,8 @@ ou, dans les étapes d’installation :
 | `Remplacement prévu` | Mod destiné à remplacer une version Nolvus / Nefaram. |
 | `Patch potentiel` | Patch peut-être nécessaire selon les choix futurs. |
 | `Version verrouillée` | Version maximale / exacte à respecter. |
-| `Installé` | Ajout personnel installé et validé. |
+| `Validé Nefaram` | Mod testé et fonctionnel dans l’ancien environnement Nefaram de Fabien, mais encore à vérifier dans SKYFORGE. |
+| `Installé` | Ajout personnel installé et validé dans SKYFORGE. |
 | `Abandonné` | Mod écarté après décision ou test. |
 
 ---
@@ -99,7 +100,40 @@ Elle pourra être modifiée par ajouts, suppressions ou changements de statut ap
 
 ---
 
-## 3. Presets RaceMenu — source manuelle
+## 3. Tenues / armures validées fonctionnelles dans Nefaram — Excel Fabien
+
+**Source générale :** ancien fichier Excel de suivi des ajouts Nefaram de Fabien.  
+**Statut par défaut :** `Validé Nefaram / À vérifier SKYFORGE`.  
+**Note :** ces tenues ont déjà été validées comme fonctionnelles dans Nefaram. Elles devront quand même être vérifiées dans SKYFORGE par rapport aux ajouts Nolvus, aux doublons éventuels, aux conflits de BodySlide, aux dépendances SMP / High Heels et aux patches nécessaires.
+
+| Mod / ressource | Source / lien | Version | Statut | Notes |
+|---|---|---:|---|---|
+| `Invicta Couture Black Rose BHUNP` | https://www.nexusmods.com/skyrimspecialedition/mods/173837 | `1.2` | Validé Nefaram / À vérifier SKYFORGE | Variante BHUNP. Vérifier si utile dans SKYFORGE orienté CBBE / 3BA. |
+| `Invicta Couture Black Rose CBBE 3BA` | https://www.nexusmods.com/skyrimspecialedition/mods/174115 | `1.2` | Validé Nefaram / À vérifier SKYFORGE | Variante CBBE / 3BA prioritaire probable. |
+| `[qdaro] Silver Witch 3BA SMP` | https://www.nexusmods.com/skyrimspecialedition/mods/172910 | `1.6` | Validé Nefaram / À vérifier SKYFORGE | 3BA / SMP. Vérifier exigences SMP / BodySlide. |
+| `Obi's Derketo Priestess Outfit 4K MAIN FILE` | https://www.nexusmods.com/skyrimspecialedition/mods/137642 | `1.0` | Validé Nefaram / À vérifier SKYFORGE | Main file 4K. Vérifier poids textures et intérêt 4K. |
+| `Derketo Priestess 3BA Patch (Bodyslides) 3BA` | https://www.nexusmods.com/skyrimspecialedition/mods/137642 | `1.2` | Validé Nefaram / À vérifier SKYFORGE | Patch BodySlide 3BA dépendant du main file Derketo. |
+| `DX Fetish Fashion Volume 2 SE - CBBE Physics - 3BA - BHUNP` | https://www.nexusmods.com/skyrimspecialedition/mods/70489 | `1.3` | Validé Nefaram / À vérifier SKYFORGE | Vérifier variante retenue CBBE / 3BA / BHUNP. |
+| `Invicta Couture Lingerie BHUNP SMP` | https://www.nexusmods.com/skyrimspecialedition/mods/145202 | `1.0` | Validé Nefaram / À vérifier SKYFORGE | Variante BHUNP / SMP. À comparer avec version CBBE 3BA. |
+| `Invicta Couture Lingerie CBBE 3BA` | https://www.nexusmods.com/skyrimspecialedition/mods/145126 | `1.3.1` | Validé Nefaram / À vérifier SKYFORGE | Variante CBBE / 3BA prioritaire probable. |
+| `Chain Bikini Armor - CBBE 3BA` | https://www.nexusmods.com/skyrimspecialedition/mods/152799 | `1.0` | Validé Nefaram / À vérifier SKYFORGE | CBBE / 3BA. |
+| `Dark Rebel 3BA` | https://www.nexusmods.com/skyrimspecialedition/mods/102957 | `1.0` | Validé Nefaram / À vérifier SKYFORGE | 3BA. |
+| `Shas' Chains and Silks (SMP-3BA)` | https://www.nexusmods.com/skyrimspecialedition/mods/143720 | `1.0` | Validé Nefaram / À vérifier SKYFORGE | Base SMP / 3BA. |
+| `Shas' Chains and Silks (SMP-3BA) Update 1.0.1` | https://www.nexusmods.com/skyrimspecialedition/mods/143720 | `1.0.1` | Validé Nefaram / À vérifier SKYFORGE | Update à installer après la base si retenue. |
+| `Minou Aradia Lace Dress - CBBE 3BBB` | https://www.nexusmods.com/skyrimspecialedition/mods/47021 | `1.1` | Validé Nefaram / À vérifier SKYFORGE | CBBE / 3BBB. Vérifier compatibilité 3BA. |
+| `Minou Aradia Bikini SE (3BAv2 - BHUNPv4 - UBE)` | https://www.nexusmods.com/skyrimspecialedition/mods/49209 | `1.1` | Validé Nefaram / À vérifier SKYFORGE | Plusieurs corps supportés. Retenir variante compatible SKYFORGE. |
+| `Aether CBBE 3BA` | https://www.nexusmods.com/skyrimspecialedition/mods/141993 | `1.1` | Validé Nefaram / À vérifier SKYFORGE | CBBE / 3BA. |
+| `Lady Ritual CBBE 3BA` | https://www.nexusmods.com/skyrimspecialedition/mods/164787 | `1.0` | Validé Nefaram / À vérifier SKYFORGE | CBBE / 3BA. |
+| `Bisquits Priestess of Mara` | https://www.nexusmods.com/skyrimspecialedition/mods/112974 | `1.2` | Validé Nefaram / À vérifier SKYFORGE | Vérifier corps / BodySlide requis. |
+| `MME Milk Harness v3-BHUNP-CBBE_3BA 1.1.0` | https://www.loverslab.com/files/file/38359-mme-milk-harness-v3-bhunp-cbbe_3ba/ | `1.1.0` | Validé Nefaram / À vérifier SKYFORGE | LoversLab. Vérifier dépendances MME / BodySlide / 3BA. |
+| `Vertigo Thigh High Boots - CBBE 3BA` | https://www.nexusmods.com/skyrimspecialedition/mods/129375 | `4.0` | Validé Nefaram / À vérifier SKYFORGE | CBBE / 3BA. Vérifier gestion talons / chaussures. |
+| `Vertigo Boots - Heels Sound` | https://www.nexusmods.com/skyrimspecialedition/mods/129375 | `4.0` | Validé Nefaram / À vérifier SKYFORGE | Complément son des talons. Vérifier dépendance / pertinence avec le mod principal. |
+| `RELICS OF THE TSAESCI` | https://www.nexusmods.com/skyrimspecialedition/mods/172596 | `1.1` | Validé Nefaram / À vérifier SKYFORGE | Armure / tenue à vérifier avec le load order SKYFORGE. |
+| `EGIL Annoying Bard` | https://www.nexusmods.com/skyrimspecialedition/mods/119578 | `1.0` | Validé Nefaram / À vérifier SKYFORGE | Prévoir le patch `Annoying Patch for JK's Bard College` si JK's Bard College est utilisé. |
+
+---
+
+## 4. Presets RaceMenu — source manuelle
 
 **Source générale :** Patreon / sites internet / Discord de modeurs.  
 **Format :** `.jslot`.  
@@ -124,7 +158,7 @@ Elle pourra être modifiée par ajouts, suppressions ou changements de statut ap
 
 ---
 
-## 4. Presets RaceMenu — Nexus / ajouts retrouvés Nefaram
+## 5. Presets RaceMenu — Nexus / ajouts retrouvés Nefaram
 
 **Source générale :** Nexus.  
 **Statut par défaut :** `Prévu / À tester`.
@@ -136,7 +170,7 @@ Elle pourra être modifiée par ajouts, suppressions ou changements de statut ap
 
 ---
 
-## 5. Presets BodySlide
+## 6. Presets BodySlide
 
 **Source générale :** Patreon / sites internet / Discord de modeurs.  
 **Statut par défaut :** `Prévu / À tester`.
@@ -147,7 +181,7 @@ Elle pourra être modifiée par ajouts, suppressions ou changements de statut ap
 
 ---
 
-## 6. Skin / corps / apparence joueur
+## 7. Skin / corps / apparence joueur
 
 | Mod / ressource | Type | Lien | Statut | Notes |
 |---|---|---|---|---|
@@ -155,7 +189,7 @@ Elle pourra être modifiée par ajouts, suppressions ou changements de statut ap
 
 ---
 
-## 7. QoL / gameplay personnel
+## 8. QoL / gameplay personnel
 
 | Mod | Type | Lien | Statut | Notes |
 |---|---|---|---|---|
@@ -166,7 +200,7 @@ Elle pourra être modifiée par ajouts, suppressions ou changements de statut ap
 
 ---
 
-## 8. Mods SexLab supplémentaires — source site / Patreon / Discord
+## 9. Mods SexLab supplémentaires — source site / Patreon / Discord
 
 **Source générale :** sites internet / Patreon / Discord de créateurs.  
 **Statut par défaut :** `Prévu / À vérifier`.
@@ -181,7 +215,7 @@ Elle pourra être modifiée par ajouts, suppressions ou changements de statut ap
 
 ---
 
-## 9. Mods SexLab supplémentaires — source LoversLab
+## 10. Mods SexLab supplémentaires — source LoversLab
 
 **Source générale :** LoversLab.  
 **Statut par défaut :** `Prévu / À tester`.
@@ -212,7 +246,7 @@ Elle pourra être modifiée par ajouts, suppressions ou changements de statut ap
 
 ---
 
-## 10. Animations / besoins liés au choix hygiène
+## 11. Animations / besoins liés au choix hygiène
 
 | Mod / ressource | Type | Source | Statut | Notes |
 |---|---|---|---|---|
@@ -220,7 +254,7 @@ Elle pourra être modifiée par ajouts, suppressions ou changements de statut ap
 
 ---
 
-## 11. Règles d’intégration futures
+## 12. Règles d’intégration futures
 
 Lorsqu’un ajout personnel est installé :
 
@@ -233,7 +267,7 @@ Lorsqu’un ajout personnel est installé :
 
 ---
 
-## 12. Points de vigilance globaux
+## 13. Points de vigilance globaux
 
 - Vérifier la compatibilité Skyrim SE 1.5.97 / Best of Both Worlds.
 - Vérifier les dépendances SKSE / DLL éventuelles.
@@ -245,12 +279,13 @@ Lorsqu’un ajout personnel est installé :
 - Vérifier les versions LoversLab / Nexus / Patreon si plusieurs sources existent.
 - Ne pas installer de patch ou hotfix si le mod parent n’est pas officiellement retenu.
 - Vérifier les chemins de configuration utilisateurs pour les mods qui écrivent dans `Documents\My Games\Skyrim Special Edition`.
+- Pour les tenues validées dans Nefaram, vérifier les doublons avec Nolvus, les conflits de fichiers, les variantes de corps inutiles et les patches éventuels avant intégration SKYFORGE.
 
 ---
 
-## 13. État initial du catalogue
+## 14. État initial du catalogue
 
-Première version créée à partir de la liste initiale fournie par Fabien, puis enrichie avec les anciens ajouts retrouvés dans son fichier Excel Nefaram.
+Première version créée à partir de la liste initiale fournie par Fabien, puis enrichie avec les anciens ajouts retrouvés dans son fichier Excel Nefaram et la liste Excel des tenues déjà validées fonctionnelles dans Nefaram.
 
 **État de référence du projet au moment de la création :**
 

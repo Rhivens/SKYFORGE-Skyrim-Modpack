@@ -31,6 +31,7 @@ Les détails complets restent documentés dans :
 - `docs/procedure/06_decisions_differees_part_2.md`
 - `docs/procedure/06_decisions_differees_part_3.md`
 - `docs/procedure/06_decisions_differees_part_4.md`
+- `docs/procedure/96_ajouts_personnels_skyforge.md`
 - les fichiers thématiques des modules concernés.
 
 ---
@@ -132,6 +133,22 @@ Les détails complets restent documentés dans :
 | 07.4 - Lands | 325 | Setting on Sulphur | `CHOIX_A_REVOIR` | Non installé, à vérifier plus tard. | Bloc parallax / shaders. | Audit parallax / shaders. | Faible | Non installé |
 | 07.4 - Lands | 326 | Ryn's Standing Stones patches | `PATCHES_A_REVOIR` | Patches multiples différés. | 3DNPC, Lux, Lux Orbis, Northern Roads, SLaWF, LOD / DynDOLOD, Nolvus. | Patching Lands / Ryn. | Haute | Ouvert |
 | 07.4 - Lands | 327 | Pause technique Nexus | `CHOIX_A_REVOIR` | Installations suspendues à cause de l’instabilité Nexus. | Nexus stable. | Reprise étape 328. | Haute | En pause |
+| 96 - Ajouts personnels / QoL | À venir | Bathing in Skyrim vs Dirt and Blood | `CHOIX_A_REVOIR` | Choix structurant à faire, nombreux patches / widgets / soap. | Survival, besoins, hygiène, Malignis Animations, Simple Inn Bath. | Avant module survival / besoins / hygiène. | Haute | Ouvert |
+| 96 - Ajouts personnels / QoL | À venir | Beeing Female NG | `CHOIX_A_REVOIR` | Remplacement possible du Fertility Mode optionnel de Nefaram. | Choix fertility / pregnancy / SexLab. | Avant module SexLab / pregnancy. | Moyenne | Ouvert |
+| 96 - Ajouts personnels / SexLab | À venir | BaboDialogue 6.11V - Hotfix ver2 | `VERIFICATION` | Remplacement prévu de BaboDialogue Nefaram 5.70. | BaboDialogue existant, patches, traductions, scripts. | Module SexLab / dialogues. | Haute | Ouvert |
+| 96 - Ajouts personnels / SexLab | À venir | Baka Motion Data Pack 1.76 / BakaFactory SLAL Animation 7.70 | `VERIFICATION` | Versions plus récentes que Nefaram à valider. | SLAL, SexLab, animations, éventuels patches. | Module animations SexLab. | Haute | Ouvert |
+| 96 - Ajouts personnels / SexLab | À venir | TNTR / Traps Need to be Real | `VERIFICATION` | Comparer source Patreon/Discord avec version Nexus. | Version Nexus éventuelle, traps, scripts. | Module traps / SexLab. | Moyenne | Ouvert |
+| 96 - Ajouts personnels / SexLab | À venir | SLHH Expansion 3.85 Hotfix | `PATCHES_A_REVOIR` | Hotfix pour SexLab Horrible Harassment à valider avec version retenue. | SexLab Horrible Harassment. | Module SLHH. | Moyenne | Ouvert |
+| 96 - Ajouts personnels / SexLab | À venir | E.E.T - Extra Evil Traps | `VERIFICATION` | Vérifier si version plus récente existe chez le créateur. | Source créateur / LoversLab. | Module traps. | Faible | Ouvert |
+| 96 - Ajouts personnels / SexLab | À venir | Sanguine Debauchery SE / SD+ | `CHOIX_A_REVOIR` | Vérifier conflits avec Practical Defeat et Acheron. | Practical Defeat, Acheron, Devious, slavery. | Module slavery / defeat. | Haute | Ouvert |
+| 96 - Ajouts personnels / SexLab | À venir | TDF SexLab Aroused Rape and Aroused Sexy Idles | `CHOIX_A_REVOIR` | Ne prendre que le module `Aroused Rape`. | SexLab Aroused, MCM, package modulaire. | Module SexLab arousal. | Moyenne | Ouvert |
+| 96 - Ajouts personnels / SexLab | À venir | SexLab Jail Rape + Serve Sentence patch | `PATCHES_A_REVOIR` | Patch peut-être nécessaire selon intégration de Serve Sentence. | Serve Sentence, prison, SexLab Jail Rape. | Module prison. | Moyenne | Ouvert |
+| 96 - Ajouts personnels / SexLab | À venir | Captive PlayerV1.6 | `CONFIG_A_REVOIR` | Mettre l’event à `0` dans Acheron ; usage seulement en cas de vente aux enchères. | Acheron, ventes aux enchères, captivity. | Module defeat / captivity. | Haute | Ouvert |
+| 96 - Ajouts personnels / SexLab | À venir | Private Needs - Orgasm | `VERIFICATION` | Version à verrouiller : ne pas installer au-dessus de `1.83`. | Private Needs, besoins, orgasms. | Module besoins / SexLab. | Haute | Version verrouillée |
+| 96 - Ajouts personnels / SexLab | À venir | Skooma Whore / Addicted / Patch | `CHOIX_A_REVOIR` | Choisir branche / version à garder. | Skooma Whore SE, Skooma Whore Addicted, patch. | Module addictions / SexLab. | Moyenne | Ouvert |
+| 96 - Ajouts personnels / SexLab | À venir | DeviousCarriages Redux CFTO Patch | `PATCHES_A_REVOIR` | Patch utile seulement si CFTO est retenu. | CFTO, DCarriage Redux. | Module travel / Devious. | Faible | Ouvert |
+| 96 - Ajouts personnels / SexLab | À venir | Rape Tattoos Continued | `CONFIG_A_REVOIR` | Fichier JSON à placer dans `Documents\My Games\Skyrim Special Edition\JCUser\rTats`. | JContainers / rTats / SlaveTats. | Module tattoos / overlays. | Moyenne | Ouvert |
+| 96 - Ajouts personnels / Animations | À venir | Malignis Animations | `CHOIX_A_REVOIR` | Dépend du choix `Dirt and Blood` ou `Bathing in Skyrim`. | Hygiène / besoins / animations. | Après décision hygiène. | Moyenne | Ouvert |
 | Global | Toutes | LOOT | `CHOIX_A_REVOIR` | LOOT non lancé volontairement. | Base modpack plus avancée. | Phase ordre de chargement / patching. | Haute | Différé |
 | Global | Toutes | LOD / TexGen / DynDOLOD | `LOD_DYNDOLOD` | Génération différée tant que paysages / villes / routes / arbres / patches ne sont pas stabilisés. | Villes, routes, arbres, paysages, patches finaux. | Phase LOD finale. | Haute | Différé |
 | Global | Toutes | Patches non installés sans mod parent | `PATCHES_A_REVOIR` | Règle de prudence : ne pas installer de patch si parent absent. | Mods parents. | Quand parent installé ou officiellement retenu. | Haute | Règle active |
@@ -180,6 +197,9 @@ Les détails complets restent documentés dans :
 - Farmhouses patches.
 - Jorrvaskr / Dawnguard / Volkihar patches.
 - Drinking Fountains / Road Signs / Sepolcri / Ryn’s Standing Stones patches.
+- SLHH Expansion hotfix.
+- SexLab Jail Rape / Serve Sentence patch.
+- DeviousCarriages Redux CFTO Patch.
 
 ### `LOD_DYNDOLOD`
 
@@ -194,6 +214,26 @@ Les détails complets restent documentés dans :
 - SSE Display Tweaks custom settings.
 - SSE Engine Fixes custom settings.
 - Papyrus Tweaks NG custom settings.
+- Captive Player / Acheron event à mettre à `0`.
+- Rape Tattoos Continued JSON dans `JCUser\rTats`.
+
+### `CHOIX_A_REVOIR`
+
+- Bathing in Skyrim vs Dirt and Blood.
+- Beeing Female NG vs Fertility Mode optionnel Nefaram.
+- Sanguine Debauchery SE / SD+ avec Practical Defeat et Acheron.
+- TDF SexLab Aroused Rape : ne garder que le module `Aroused Rape`.
+- Skooma Whore / Addicted / patch.
+- Malignis Animations selon le choix hygiène.
+
+### `VERIFICATION`
+
+- BaboDialogue 6.11V - Hotfix ver2 en remplacement de Nefaram 5.70.
+- Baka Motion Data Pack 1.76.
+- BakaFactory SLAL Animation 7.70.
+- TNTR / Traps Need to be Real.
+- E.E.T - Extra Evil Traps.
+- Private Needs - Orgasm, version maximum `1.83`.
 
 ---
 

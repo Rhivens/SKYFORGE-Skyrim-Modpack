@@ -51,10 +51,11 @@
 26. [Cities, towns, interiors & lighting — partie 5](procedure/11_cities_towns_interiors_lighting_part_5.md)
 27. [Ajouts personnels SKYFORGE](procedure/96_ajouts_personnels_skyforge.md)
 28. [Registre central de dette technique](procedure/97_registre_dette_technique.md)
-29. [Audit de continuité des étapes](procedure/98_audit_continuite_etapes.md)
-30. [Changelog / validation](procedure/99_changelog_validation.md)
-31. [Changelog / validation — partie 2](procedure/99_changelog_validation_part_2.md)
-32. [Changelog / validation — partie 3](procedure/99_changelog_validation_part_3.md)
+29. [Registre central de dette technique — partie 2](procedure/97_registre_dette_technique_part_2.md)
+30. [Audit de continuité des étapes](procedure/98_audit_continuite_etapes.md)
+31. [Changelog / validation](procedure/99_changelog_validation.md)
+32. [Changelog / validation — partie 2](procedure/99_changelog_validation_part_2.md)
+33. [Changelog / validation — partie 3](procedure/99_changelog_validation_part_3.md)
 
 ---
 

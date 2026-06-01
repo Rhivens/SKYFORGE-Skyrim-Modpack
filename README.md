@@ -23,6 +23,7 @@ C’est le meilleur point d’entrée pour suivre l’évolution actuelle du mod
 
 - [Résumé de l’état actuel](docs/procedure/00_resume_etat_actuel.md)
 - [Procédure principale de reproduction](docs/SKYFORGE_Procedure_Reproduction_PC.md)
+- [Ajouts personnels SKYFORGE](docs/procedure/96_ajouts_personnels_skyforge.md)
 - [Registre central de dette technique](docs/procedure/97_registre_dette_technique.md)
 - [Module 07 — Cities, towns, interiors & lighting](docs/procedure/11_cities_towns_interiors_lighting.md)
 - [Module 07 — Cities, towns, interiors & lighting — partie 2](docs/procedure/11_cities_towns_interiors_lighting_part_2.md)
@@ -55,6 +56,7 @@ C’est le meilleur point d’entrée pour suivre l’évolution actuelle du mod
 
 L’état exact le plus récent est toujours consigné dans le [dernier changelog](docs/procedure/99_changelog_validation_part_3.md) et dans le [résumé de l’état actuel](docs/procedure/00_resume_etat_actuel.md).
 
+Le suivi des ajouts personnels est centralisé dans le [catalogue des ajouts personnels SKYFORGE](docs/procedure/96_ajouts_personnels_skyforge.md).  
 Le suivi des éléments à reprendre plus tard est centralisé dans le [registre de dette technique](docs/procedure/97_registre_dette_technique.md).
 
 ---

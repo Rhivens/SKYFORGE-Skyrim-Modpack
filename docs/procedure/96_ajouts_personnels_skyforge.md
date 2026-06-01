@@ -44,6 +44,7 @@ ou, dans les étapes d’installation :
 | `À vérifier` | Mod ou version à comparer avec une autre source / version. |
 | `Remplacement prévu` | Mod destiné à remplacer une version Nolvus / Nefaram. |
 | `Patch potentiel` | Patch peut-être nécessaire selon les choix futurs. |
+| `Version verrouillée` | Version maximale / exacte à respecter. |
 | `Installé` | Ajout personnel installé et validé. |
 | `Abandonné` | Mod écarté après décision ou test. |
 
@@ -51,7 +52,7 @@ ou, dans les étapes d’installation :
 
 ## Note importante
 
-Cette première liste est **non exhaustive**.  
+Cette liste est **non exhaustive**.  
 Elle pourra être modifiée par ajouts, suppressions ou changements de statut après :
 
 - tests de compatibilité ;
@@ -98,7 +99,7 @@ Elle pourra être modifiée par ajouts, suppressions ou changements de statut ap
 
 ---
 
-## 3. Presets RaceMenu
+## 3. Presets RaceMenu — source manuelle
 
 **Source générale :** Patreon / sites internet / Discord de modeurs.  
 **Format :** `.jslot`.  
@@ -123,7 +124,19 @@ Elle pourra être modifiée par ajouts, suppressions ou changements de statut ap
 
 ---
 
-## 4. Presets BodySlide
+## 4. Presets RaceMenu — Nexus / ajouts retrouvés Nefaram
+
+**Source générale :** Nexus.  
+**Statut par défaut :** `Prévu / À tester`.
+
+| Preset | Format | Lien | Statut | Notes |
+|---|---|---|---|---|
+| `Tinraa - Walkuere - RM presets` | RaceMenu preset | https://www.nexusmods.com/skyrimspecialedition/mods/152874 | Prévu | Retrouvé dans les ajouts Nefaram de Fabien. Dépendances RaceMenu / High Poly Head / assets à vérifier. |
+| `Stoja - High Poly Nord Female Preset` | RaceMenu preset | https://www.nexusmods.com/skyrimspecialedition/mods/63577 | Prévu | Preset High Poly Nord. Vérifier requirements High Poly Head / hair / brows / eyes / sculpt. |
+
+---
+
+## 5. Presets BodySlide
 
 **Source générale :** Patreon / sites internet / Discord de modeurs.  
 **Statut par défaut :** `Prévu / À tester`.
@@ -134,12 +147,31 @@ Elle pourra être modifiée par ajouts, suppressions ou changements de statut ap
 
 ---
 
-## 5. Mods SexLab supplémentaires — source site / Patreon / Discord
+## 6. Skin / corps / apparence joueur
+
+| Mod / ressource | Type | Lien | Statut | Notes |
+|---|---|---|---|---|
+| `PB's Silky Skin` | Skin Player | https://www.nexusmods.com/skyrimspecialedition/mods/95818 | À tester | Version `2.0`. Skin pour le joueur. Vérifier compatibilité CBBE / 3BA / overlays / priorité textures. |
+
+---
+
+## 7. QoL / gameplay personnel
+
+| Mod | Type | Lien | Statut | Notes |
+|---|---|---|---|---|
+| `Xtended Stay - Rent Inn Room for Longer Time and Extend Time` | QoL gameplay | https://www.nexusmods.com/skyrimspecialedition/mods/78177 | Prévu | Permet de louer une chambre plus longtemps. Vérifier compatibilité survival / inn / needs. |
+| `Simple Inn Bath - 10 Gold ESL-Flagged Version` | QoL gameplay | https://www.nexusmods.com/skyrimspecialedition/mods/49014 | Prévu | Bain simple dans les auberges. À comparer avec le choix Bathing in Skyrim / Dirt and Blood. |
+| `Bathing in Skyrim` vs `Dirt and Blood` | Choix gameplay / hygiène | À déterminer | Choix à faire | Beaucoup de patches, widgets et logique soap. Décision structurante à prendre plus tard. |
+| `Beeing Female NG` | Gameplay / fertility | https://www.nexusmods.com/skyrimspecialedition/mods/168434 | À vérifier | Mod de remplacement possible du Fertility Mode inclus en option dans Nefaram. |
+
+---
+
+## 8. Mods SexLab supplémentaires — source site / Patreon / Discord
 
 **Source générale :** sites internet / Patreon / Discord de créateurs.  
 **Statut par défaut :** `Prévu / À vérifier`.
 
-| Mod | Source | Statut | Notes |
+| Mod | Source / lien | Statut | Notes |
 |---|---|---|---|
 | `BaboDialogue 6.11V - Hotfix ver2` | Site / Patreon / Discord | Remplacement prévu | Remplacement de la version Nefaram `5.70`. Compatibilité à valider. |
 | `Baka Motion Data Pack 1.76` | Site / Patreon / Discord | À vérifier | Version plus récente que Nefaram. Vérifier compatibilité animations / framework. |
@@ -149,29 +181,46 @@ Elle pourra être modifiée par ajouts, suppressions ou changements de statut ap
 
 ---
 
-## 6. Mods SexLab supplémentaires — source LoversLab
+## 9. Mods SexLab supplémentaires — source LoversLab
 
 **Source générale :** LoversLab.  
 **Statut par défaut :** `Prévu / À tester`.
 
-| Mod | Source | Statut | Notes |
+| Mod | Lien | Statut | Notes |
 |---|---|---|---|
 | `Sexy Adventures 0.7.4` | LoversLab | Prévu | À tester dans le bloc SexLab / roleplay. |
 | `O.M.N.O.M.S - Not So Obvious Mimics in Skyrim 1.3.0` | LoversLab | Prévu | À tester. Vérifier compatibilité traps / mimics / gameplay. |
 | `E.E.T - Extra Evil Traps 1.2.3` | LoversLab | À vérifier | Vérifier si version plus récente sur le site du créateur. |
 | `The Circle of Lust 2.0` | LoversLab | À tester | À tester avant intégration définitive. |
-| `Captive Followers 2.5` | LoversLab | Prévu | À tester avec systèmes followers / defeat / captivity. |
+| `Captive Followers 2.5` | https://www.loverslab.com/files/file/33620-captive-followers/ | Prévu | À tester avec systèmes followers / defeat / captivity. |
 | `SexLab Jail Rape 20190620` | LoversLab | À tester | À tester prudemment avec systèmes prison / sentence. |
 | `Sexlab Jail Rape x Serve Sentence patch 1.0.0` | LoversLab | Patch potentiel | Patch peut-être nécessaire selon intégration de Serve Sentence. |
 | `Sanguine Debauchery SE (SD+) (January 2025) 2025-12-24a` | LoversLab | À vérifier | Vérifier conflits avec Practical Defeat et Acheron. |
 | `TDF SexLab Aroused Rape and Aroused Sexy Idles v3.2` | LoversLab | À vérifier | Ne prendre que le module `Aroused Rape`. |
 | `Zaki Tattoo Pack LE/SE` | LoversLab | Prévu | Ressource SlaveTats / tatouages à vérifier. |
 | `Alpia Scribbles Slavetats Pack` | LoversLab | Prévu | Ressource SlaveTats à vérifier. |
-| `Captive Player` | LoversLab | Prévu | À tester avec systèmes captivity / defeat. |
+| `Captive PlayerV1.6` | https://www.loverslab.com/files/file/43497-captive-player/ | Prévu | Mettre à `0` l’event dans Acheron ; ne sera utilisé qu’en cas de vente aux enchères. |
+| `Rape Tattoos Continued` | https://www.loverslab.com/files/file/27999-rape-tattoos-continued/ | Prévu | Emplacement du fichier JSON : `C:\Users\Rhiven\Documents\My Games\Skyrim Special Edition\JCUser\rTats`. |
+| `Fade Tattoos Continued` | https://www.loverslab.com/files/file/27994-fade-tattoos-continued/ | Prévu | À vérifier avec le système tattoos / SlaveTats / JSON. |
+| `Devious Curses NG 0.8.5` | https://www.loverslab.com/files/file/41083-devious-curses-ng | Prévu | À tester avec Devious / Cursed Loot / defeat / slavery. |
+| `Skooma Whore SE v1.01` | https://www.loverslab.com/files/file/10093-skooma-whore-se/ | À vérifier | À comparer avec Skooma Whore Addicted / patch. |
+| `Skooma Whore Patch 1.05 SE` | https://www.loverslab.com/files/file/2229-skooma-whore-addicted-26072025/ | Patch potentiel | Patch lié à Skooma Whore Addicted. |
+| `Skooma Whore: Addicted 26/07/2025 V3.72 / Patch V1.0` | https://www.loverslab.com/files/file/2229-skooma-whore-addicted-26072025/ | À vérifier | À voir si Fabien garde cette version / branche. |
+| `Private Needs - Orgasm` | https://www.loverslab.com/files/file/39023-private-needs-orgasm/ | Version verrouillée | Ne pas installer de version au-dessus de `1.83`. |
+| `DCarriage Redux 1.0.5` | https://www.loverslab.com/files/file/38214-devious-carriages-redux/ | Prévu | À tester avec voyages / carriage / Devious. |
+| `DeviousCarriages Redux CFTO Patch` | https://www.loverslab.com/files/file/38214-devious-carriages-redux/ | Patch potentiel | Patch pour CFTO si CFTO est retenu. |
 
 ---
 
-## 7. Règles d’intégration futures
+## 10. Animations / besoins liés au choix hygiène
+
+| Mod / ressource | Type | Source | Statut | Notes |
+|---|---|---|---|---|
+| `Malignis Animations` | Animations | À préciser | À vérifier | Choix dépendant de `Dirt and Blood` ou `Bathing in Skyrim`. |
+
+---
+
+## 11. Règles d’intégration futures
 
 Lorsqu’un ajout personnel est installé :
 
@@ -184,7 +233,7 @@ Lorsqu’un ajout personnel est installé :
 
 ---
 
-## 8. Points de vigilance globaux
+## 12. Points de vigilance globaux
 
 - Vérifier la compatibilité Skyrim SE 1.5.97 / Best of Both Worlds.
 - Vérifier les dépendances SKSE / DLL éventuelles.
@@ -195,12 +244,13 @@ Lorsqu’un ajout personnel est installé :
 - Vérifier les conflits possibles avec Nefaram, Practical Defeat, Acheron, prison, slavery, prostitution, followers et captivity.
 - Vérifier les versions LoversLab / Nexus / Patreon si plusieurs sources existent.
 - Ne pas installer de patch ou hotfix si le mod parent n’est pas officiellement retenu.
+- Vérifier les chemins de configuration utilisateurs pour les mods qui écrivent dans `Documents\My Games\Skyrim Special Edition`.
 
 ---
 
-## 9. État initial du catalogue
+## 13. État initial du catalogue
 
-Première version créée à partir de la liste initiale fournie par Fabien.
+Première version créée à partir de la liste initiale fournie par Fabien, puis enrichie avec les anciens ajouts retrouvés dans son fichier Excel Nefaram.
 
 **État de référence du projet au moment de la création :**
 

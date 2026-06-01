@@ -70,13 +70,13 @@ ESP + ESM non-light : `79`
 
 - `docs/procedure/11_cities_towns_interiors_lighting_part_5.md`
 - `docs/procedure/99_changelog_validation_part_3.md`
+- `docs/procedure/06_decisions_differees_part_4.md`
 
 **Fichiers mis à jour lors de cette mise à jour :**
 
 - `docs/SKYFORGE_Procedure_Reproduction_PC.md`
 - `docs/procedure/00_resume_etat_actuel.md`
 - `README.md`
-- `docs/procedure/06_decisions_differees_part_3.md`
 
 **Prochaine reprise :**  
 `Étape 328 — Suite module 07 : Lands / Cities / Towns / Interiors / Lighting`, quand Nexus sera stable.

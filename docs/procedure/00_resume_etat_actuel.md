@@ -4,10 +4,10 @@
 
 ---
 
-## État validé après l’étape 327
+## État validé après l’étape 341
 
 **Objectif :**  
-Documenter le sous-bloc `07.4 - LANDS`, incluant les étapes 320 à 326, puis la pause technique Nexus.
+Documenter la reprise Nexus, les étapes 328 à 341, et la clôture du sous-bloc `07.4 - LANDS`.
 
 **Résultat validé :**
 
@@ -21,21 +21,22 @@ Documenter le sous-bloc `07.4 - LANDS`, incluant les étapes 320 à 326, puis la
 - LOOT non lancé : OK
 - LOD / DynDOLOD non générés : OK
 - `Atlantean Landscape -Complete- 2K` décoché : OK
-- Installations suspendues temporairement à cause d’une instabilité Nexus : OK
+- Sous-bloc `07.4 - LANDS` clôturé : OK
+- Profil stable créé : `SKYFORGE - Stable étape 341 lands installation terminée`
 
 **Dernière étape validée :**
 
-`Étape 327 — Pause technique Nexus`
+`Étape 341 — Contrôle final 07.4 LANDS et profil stable`
 
 **Dernière étape d’installation validée :**
 
-`Étape 326 — Ryn’s Standing Stones`
+`Étape 339 — Lands pack 9 : Orc Strongholds`
 
 **Module en cours :**
 
 `07 - CITIES TOWNS INTERIORS LIGHTING`
 
-**Sous-bloc en cours :**
+**Sous-bloc terminé :**
 
 `07.4 - LANDS`
 
@@ -111,6 +112,20 @@ Documenter le sous-bloc `07.4 - LANDS`, incluant les étapes 320 à 326, puis la
 - `Étape 325 — Lands pack 5 : Imperial Forts`
 - `Étape 326 — Lands pack 6 : Ryn's Standing Stones`
 - `Étape 327 — Pause technique Nexus`
+- `Étape 328 — Reprise Nexus / 07.4 LANDS`
+- `Étape 329 — Ryn’s Anise’s Cabin`
+- `Étape 330 — Lands pack 4 : petit groupe Ryn’s`
+- `Étape 331 — Lands pack 5 : Ryn’s suite courte`
+- `Étape 332 — Validation Lands pack 5`
+- `Étape 333 — Lands pack 6 : Valtheim / Bleak Falls / Farms`
+- `Étape 334 — Validation Lands pack 6`
+- `Étape 335 — Lands pack 7 : Ustengrav / Mistwatch / Karthspire / Western Watchtower`
+- `Étape 336 — Validation Lands pack 7 + note Mistwatch`
+- `Étape 337 — Lands pack 8 : Snow-Shod Farm + Robber’s Gorge`
+- `Étape 338 — Validation Lands pack 8`
+- `Étape 339 — Lands pack 9 : Orc Strongholds`
+- `Étape 340 — Validation Lands pack 9`
+- `Étape 341 — Contrôle final 07.4 LANDS et profil stable`
 
 **État validé :**
 
@@ -120,7 +135,7 @@ Documenter le sous-bloc `07.4 - LANDS`, incluant les étapes 320 à 326, puis la
 - Sous-bloc `07.1 - PLAYER HOMES` validé avec profil stable dédié.
 - Sous-bloc `07.2 - FARMHOUSES` validé avec options Parallax et profil stable dédié.
 - Sous-bloc `07.3 - OTHER LOCATIONS` validé avec profil stable dédié.
-- Sous-bloc `07.4 - LANDS` en cours, packs 1 à 6 validés.
+- Sous-bloc `07.4 - LANDS` terminé côté installation principale.
 
 ---
 
@@ -147,7 +162,11 @@ Documenter le sous-bloc `07.4 - LANDS`, incluant les étapes 320 à 326, puis la
 - `Sepolcri` installé en main file uniquement, patches différés.
 - `Imperial Forts Parallax Meshes` et `HD Remastered Imperial Forts - 2K` installés ; `Setting on Sulphur` non installé.
 - `Ryn's Lady Stone` et `Ryn's Standing Stones` installés, patches différés.
-- Pause technique Nexus : installations suspendues temporairement.
+- Suite Ryn’s du bloc Lands installée en petits groupes cohérents jusqu’à `Ryn's Robber's Gorge`.
+- `Ryn's Bleakwind Basin USSEP Patch` installé.
+- `Ryn's Mistwatch Folly` : patch optionnel `Missing Tower Base Fix` identifié, différé sauf bug constaté.
+- Orc Strongholds installés en modules séparés ; version AIO non installée.
+- Patches Lands complexes Lux / Lux Orbis / Lux Via / Northern Roads / eFPS / Folkvangr / LOD / DynDOLOD / Nolvus différés.
 - LOOT / LOD / DynDOLOD : toujours différés.
 
 ---
@@ -156,7 +175,6 @@ Documenter le sous-bloc `07.4 - LANDS`, incluant les étapes 320 à 326, puis la
 
 - LOOT / ordre de chargement global : toujours différé.
 - Ne pas toucher au panneau droit sauf missing master.
-- Ne pas modifier MO2 / DLL pendant la pause Nexus.
 - Les tests ingame restent courts et ciblés tant que la base globale n’est pas suffisamment avancée.
 - `Atlantean Landscape` reste décoché jusqu’au futur bloc `Parallax / Complex Terrain / ENB / textures paysage avancées`.
 - Les patch hubs / patch collections sont conservés pour la future phase de patching, pas finalisés maintenant.
@@ -168,18 +186,19 @@ Documenter le sous-bloc `07.4 - LANDS`, incluant les étapes 320 à 326, puis la
 
 Reprendre à partir de :
 
-`Étape 328`
+`Étape 342`
 
 Sujet prévu :
 
-Suite du module `07 - CITIES TOWNS INTERIORS LIGHTING`, quand Nexus sera stable.
+Suite du module `07 - CITIES TOWNS INTERIORS LIGHTING`, après clôture du sous-bloc `07.4 - LANDS`.
 
 État de départ :
 
-- Dernière étape validée : Étape 327
-- Dernière étape d’installation validée : Étape 326
+- Dernière étape validée : Étape 341
+- Dernière étape d’installation validée : Étape 339
 - Module en cours : `07 - CITIES TOWNS INTERIORS LIGHTING`
-- Sous-bloc Lands en cours : OK
+- Sous-bloc `07.4 - LANDS` terminé côté installation principale
+- Profil stable : `SKYFORGE - Stable étape 341 lands installation terminée`
 - ESP + ESM non-light : `79`
 - SKSE via MO2 : OK
 - Menu principal atteint : OK
@@ -188,7 +207,6 @@ Suite du module `07 - CITIES TOWNS INTERIORS LIGHTING`, quand Nexus sera stable.
 - `Overwrite` vide : OK
 - LOOT non lancé : OK
 - LOD / DynDOLOD non générés : OK
-- Nexus temporairement instable : installations suspendues
 
 ---
 

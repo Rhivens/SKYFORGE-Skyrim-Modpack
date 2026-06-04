@@ -8,16 +8,18 @@
 
 ## État actuel validé
 
-- **Dernière étape validée :** Étape 327 — Pause technique Nexus
-- **Dernière étape d’installation validée :** Étape 326 — Ryn’s Standing Stones
+- **Dernière étape validée :** Étape 341 — Contrôle final 07.4 LANDS et profil stable
+- **Dernière étape d’installation validée :** Étape 339 — Lands pack 9 : Orc Strongholds
 - **Runtime :** Skyrim SE 1.5.97 Best of Both Worlds
 - **AE / Creation Club conservé :** oui
 - **Gestionnaire :** Mod Organizer 2 portable
 - **Module en cours :** 07 - CITIES TOWNS INTERIORS LIGHTING
-- **Sous-bloc en cours :** 07.4 - LANDS
+- **Sous-bloc terminé :** 07.4 - LANDS
+- **Profil stable créé :** SKYFORGE - Stable étape 341 lands installation terminée
 - **Compteur confirmé :** ESP + ESM non-light : 79
 - **Validation :** SKSE via MO2 → menu principal → aucun message DLL bloquant → aucun master manquant → `Overwrite` vide
-- **Pause technique :** Nexus temporairement instable, installations suspendues
+- **LOOT :** non lancé
+- **LOD / DynDOLOD :** non générés
 
 ---
 
@@ -35,27 +37,30 @@
 10. [Décisions différées et points à revoir — partie 2](procedure/06_decisions_differees_part_2.md)
 11. [Décisions différées et points à revoir — partie 3](procedure/06_decisions_differees_part_3.md)
 12. [Décisions différées et points à revoir — partie 4](procedure/06_decisions_differees_part_4.md)
-13. [UI, HUD et menus](procedure/07_ui_hud_menus.md)
-14. [UI, HUD et menus — partie 2](procedure/07_ui_hud_menus_part_2.md)
-15. [UI, HUD et menus — partie 3](procedure/07_ui_hud_menus_part_3.md)
-16. [Survival, immersion et roleplay](procedure/08_survival_immersion_roleplay.md)
-17. [Audio, musiques et sons](procedure/09_audio_music_sounds.md)
-18. [Audio, musiques et sons — partie 2](procedure/09_audio_music_sounds_part_2.md)
-19. [Landscape, grass, trees & water](procedure/10_landscape_grass_trees_water.md)
-20. [Landscape, grass, trees & water — partie 2](procedure/10_landscape_grass_trees_water_part_2.md)
-21. [Landscape, grass, trees & water — partie 3](procedure/10_landscape_grass_trees_water_part_3.md)
-22. [Cities, towns, interiors & lighting](procedure/11_cities_towns_interiors_lighting.md)
-23. [Cities, towns, interiors & lighting — partie 2](procedure/11_cities_towns_interiors_lighting_part_2.md)
-24. [Cities, towns, interiors & lighting — partie 3](procedure/11_cities_towns_interiors_lighting_part_3.md)
-25. [Cities, towns, interiors & lighting — partie 4](procedure/11_cities_towns_interiors_lighting_part_4.md)
-26. [Cities, towns, interiors & lighting — partie 5](procedure/11_cities_towns_interiors_lighting_part_5.md)
-27. [Ajouts personnels SKYFORGE](procedure/96_ajouts_personnels_skyforge.md)
-28. [Registre central de dette technique](procedure/97_registre_dette_technique.md)
-29. [Registre central de dette technique — partie 2](procedure/97_registre_dette_technique_part_2.md)
-30. [Audit de continuité des étapes](procedure/98_audit_continuite_etapes.md)
-31. [Changelog / validation](procedure/99_changelog_validation.md)
-32. [Changelog / validation — partie 2](procedure/99_changelog_validation_part_2.md)
-33. [Changelog / validation — partie 3](procedure/99_changelog_validation_part_3.md)
+13. [Décisions différées et points à revoir — partie 5](procedure/06_decisions_differees_part_5.md)
+14. [UI, HUD et menus](procedure/07_ui_hud_menus.md)
+15. [UI, HUD et menus — partie 2](procedure/07_ui_hud_menus_part_2.md)
+16. [UI, HUD et menus — partie 3](procedure/07_ui_hud_menus_part_3.md)
+17. [Survival, immersion et roleplay](procedure/08_survival_immersion_roleplay.md)
+18. [Audio, musiques et sons](procedure/09_audio_music_sounds.md)
+19. [Audio, musiques et sons — partie 2](procedure/09_audio_music_sounds_part_2.md)
+20. [Landscape, grass, trees & water](procedure/10_landscape_grass_trees_water.md)
+21. [Landscape, grass, trees & water — partie 2](procedure/10_landscape_grass_trees_water_part_2.md)
+22. [Landscape, grass, trees & water — partie 3](procedure/10_landscape_grass_trees_water_part_3.md)
+23. [Cities, towns, interiors & lighting](procedure/11_cities_towns_interiors_lighting.md)
+24. [Cities, towns, interiors & lighting — partie 2](procedure/11_cities_towns_interiors_lighting_part_2.md)
+25. [Cities, towns, interiors & lighting — partie 3](procedure/11_cities_towns_interiors_lighting_part_3.md)
+26. [Cities, towns, interiors & lighting — partie 4](procedure/11_cities_towns_interiors_lighting_part_4.md)
+27. [Cities, towns, interiors & lighting — partie 5](procedure/11_cities_towns_interiors_lighting_part_5.md)
+28. [Cities, towns, interiors & lighting — partie 6](procedure/11_cities_towns_interiors_lighting_part_6.md)
+29. [Ajouts personnels SKYFORGE](procedure/96_ajouts_personnels_skyforge.md)
+30. [Registre central de dette technique](procedure/97_registre_dette_technique.md)
+31. [Registre central de dette technique — partie 2](procedure/97_registre_dette_technique_part_2.md)
+32. [Audit de continuité des étapes](procedure/98_audit_continuite_etapes.md)
+33. [Changelog / validation](procedure/99_changelog_validation.md)
+34. [Changelog / validation — partie 2](procedure/99_changelog_validation_part_2.md)
+35. [Changelog / validation — partie 3](procedure/99_changelog_validation_part_3.md)
+36. [Changelog / validation — partie 4](procedure/99_changelog_validation_part_4.md)
 
 ---
 
@@ -97,20 +102,20 @@ Le registre central de dette technique doit être maintenu à chaque pause GitHu
 
 Reprendre à partir de :
 
-`Étape 328`
+`Étape 342`
 
 Sujet prévu :
 
-Suite du module `07 - CITIES TOWNS INTERIORS LIGHTING`, quand Nexus sera stable.
+Suite du module `07 - CITIES TOWNS INTERIORS LIGHTING`, après clôture du sous-bloc `07.4 - LANDS`.
 
 Consignes maintenues :
 
 - Ne pas lancer LOOT.
 - Ne pas générer LOD / DynDOLOD maintenant.
 - Ne pas toucher au panneau droit sauf missing master.
-- Ne pas modifier MO2 / DLL pendant la pause Nexus.
 - Garder `Atlantean Landscape -Complete- 2K` décoché.
 - Garder le patch `Scarecrows of Skyrim - BOS - SOS Patch` décoché tant que `Simplicity of Snow.esp` est absent.
 - Garder les patches Jorrvaskr / Dawnguard / Volkihar différés pour la future phase de patching.
 - Garder les patch hubs / patch collections marqués `A COMPLETER PLUS TARD` pour la future phase de patching.
+- Garder les patches Lands complexes différés : Lux / Lux Orbis / Lux Via / Northern Roads / eFPS / LOD / DynDOLOD / Nolvus.
 - Continuer les tests courts SKSE / menu / masters / DLL / Overwrite.

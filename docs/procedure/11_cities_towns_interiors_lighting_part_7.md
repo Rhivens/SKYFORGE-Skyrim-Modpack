@@ -4,10 +4,8 @@
 
 Suite du module **07 - CITIES TOWNS INTERIORS LIGHTING**, sous-bloc **07.5 - RUINS**.
 
-Cette partie documente l’ouverture du sous-bloc Ruins et sa validation initiale.
-
 ---
 
-## Sous-bloc 07.5 — Ruins
+## Sous-bloc 07.5 — RUINS
 
 ### 342. Reprise SKYFORGE / ouverture 

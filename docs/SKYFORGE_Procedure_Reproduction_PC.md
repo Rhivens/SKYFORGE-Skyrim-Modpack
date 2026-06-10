@@ -8,14 +8,14 @@
 
 ## État actuel validé
 
-- **Dernière étape validée :** Étape 341 — Contrôle final 07.4 LANDS et profil stable
-- **Dernière étape d’installation validée :** Étape 339 — Lands pack 9 : Orc Strongholds
+- **Dernière étape validée :** Étape 346 — Contrôle final 07.5 RUINS et profil stable
+- **Dernière étape d’installation validée :** Étape 345 — RUINS pack 2
 - **Runtime :** Skyrim SE 1.5.97 Best of Both Worlds
 - **AE / Creation Club conservé :** oui
 - **Gestionnaire :** Mod Organizer 2 portable
 - **Module en cours :** 07 - CITIES TOWNS INTERIORS LIGHTING
-- **Sous-bloc terminé :** 07.4 - LANDS
-- **Profil stable créé :** SKYFORGE - Stable étape 341 lands installation terminée
+- **Sous-bloc terminé :** 07.5 - RUINS
+- **Profil stable créé :** SKYFORGE - Stable étape 346 ruins OK
 - **Compteur confirmé :** ESP + ESM non-light : 79
 - **Validation :** SKSE via MO2 → menu principal → aucun message DLL bloquant → aucun master manquant → `Overwrite` vide
 - **LOOT :** non lancé
@@ -53,14 +53,16 @@
 26. [Cities, towns, interiors & lighting — partie 4](procedure/11_cities_towns_interiors_lighting_part_4.md)
 27. [Cities, towns, interiors & lighting — partie 5](procedure/11_cities_towns_interiors_lighting_part_5.md)
 28. [Cities, towns, interiors & lighting — partie 6](procedure/11_cities_towns_interiors_lighting_part_6.md)
-29. [Ajouts personnels SKYFORGE](procedure/96_ajouts_personnels_skyforge.md)
-30. [Registre central de dette technique](procedure/97_registre_dette_technique.md)
-31. [Registre central de dette technique — partie 2](procedure/97_registre_dette_technique_part_2.md)
-32. [Audit de continuité des étapes](procedure/98_audit_continuite_etapes.md)
-33. [Changelog / validation](procedure/99_changelog_validation.md)
-34. [Changelog / validation — partie 2](procedure/99_changelog_validation_part_2.md)
-35. [Changelog / validation — partie 3](procedure/99_changelog_validation_part_3.md)
-36. [Changelog / validation — partie 4](procedure/99_changelog_validation_part_4.md)
+29. [Cities, towns, interiors & lighting — partie 7](procedure/11_cities_towns_interiors_lighting_part_7.md)
+30. [Ajouts personnels SKYFORGE](procedure/96_ajouts_personnels_skyforge.md)
+31. [Registre central de dette technique](procedure/97_registre_dette_technique.md)
+32. [Registre central de dette technique — partie 2](procedure/97_registre_dette_technique_part_2.md)
+33. [Audit de continuité des étapes](procedure/98_audit_continuite_etapes.md)
+34. [Changelog / validation](procedure/99_changelog_validation.md)
+35. [Changelog / validation — partie 2](procedure/99_changelog_validation_part_2.md)
+36. [Changelog / validation — partie 3](procedure/99_changelog_validation_part_3.md)
+37. [Changelog / validation — partie 4](procedure/99_changelog_validation_part_4.md)
+38. [Changelog / validation — partie 5](procedure/99_changelog_validation_part_5.md)
 
 ---
 
@@ -102,11 +104,11 @@ Le registre central de dette technique doit être maintenu à chaque pause GitHu
 
 Reprendre à partir de :
 
-`Étape 342`
+`Étape 347`
 
 Sujet prévu :
 
-Suite du module `07 - CITIES TOWNS INTERIORS LIGHTING`, après clôture du sous-bloc `07.4 - LANDS`.
+Suite du module `07 - CITIES TOWNS INTERIORS LIGHTING`, après clôture du sous-bloc `07.5 - RUINS`.
 
 Consignes maintenues :
 
@@ -117,5 +119,5 @@ Consignes maintenues :
 - Garder le patch `Scarecrows of Skyrim - BOS - SOS Patch` décoché tant que `Simplicity of Snow.esp` est absent.
 - Garder les patches Jorrvaskr / Dawnguard / Volkihar différés pour la future phase de patching.
 - Garder les patch hubs / patch collections marqués `A COMPLETER PLUS TARD` pour la future phase de patching.
-- Garder les patches Lands complexes différés : Lux / Lux Orbis / Lux Via / Northern Roads / eFPS / LOD / DynDOLOD / Nolvus.
+- Garder les patches Lands / Ruins complexes différés : Lux / Lux Orbis / Lux Via / Northern Roads / eFPS / LOD / DynDOLOD / Nolvus.
 - Continuer les tests courts SKSE / menu / masters / DLL / Overwrite.

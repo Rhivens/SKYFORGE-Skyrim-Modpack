@@ -1,10 +1,11 @@
-# Cities, towns, interiors & lighting - partie 7
+# 07.5 - RUINS
 
-> Procedure personnelle du projet SKYFORGE. Aucun mod, archive Nexus, fichier Bethesda, fichier Creation Club, fichier SKSE, ENB ou element soumis a redistribution restreinte n'est inclus dans ce depot.
+Etapes 342 a 346.
 
-Suite du module 07 - CITIES TOWNS INTERIORS LIGHTING.
-Sous-bloc documente : 07.5 - RUINS.
+342 - Reprise apres 07.4 LANDS. Profil de travail. Controle initial OK. Compteur non-light 79.
 
----
+343 - RUINS pack 1. Installation Rustic Relief et Rustic Relief - Parallax. Aucun plugin.
 
-## 342. Reprise SKYFORGE - ouverture
+344 - Validation pack 1. SKSE menu OK. Masters OK. DLL OK. Overwrite vide. Compteur 79.
+
+345 - RUINS pack 2. Installation CleverCharff Nordic Ruins 2K, Gorgeous

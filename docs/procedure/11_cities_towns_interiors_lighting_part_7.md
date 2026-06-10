@@ -1,24 +1,11 @@
 # 07.5 - RUINS
 
-> Module : **07 - CITIES TOWNS INTERIORS LIGHTING**  
-> Sous-bloc : **07.5 - RUINS**  
-> Étapes documentées : **342 à 346**
+Etapes 342 a 346.
 
----
+Etat de reprise : etape 341 validee, 07.4 LANDS termine, separateur 07.5 RUINS cree, compteur non-light 79, LOOT non lance, LOD/DynDOLOD non generes.
 
-## État de reprise
+342 - Reprise. Controle initial OK : SKSE/menu OK, aucun master manquant, aucun message DLL, Overwrite vide, compteur 79.
 
-- Dernière étape validée avant reprise : `341 — Contrôle final 07.4 LANDS et profil stable`
-- Sous-bloc terminé : `07.4 - LANDS`
-- Nouveau séparateur créé dans MO2 : `07.5 - RUINS`
-- Profil stable de départ : `SKYFORGE - Stable étape 341 lands installation terminée`
-- Compteur ESP + ESM non-light : `79`
-- LOOT non lancé
-- LOD / DynDOLOD non générés
-- Règle maintenue : main files d’abord, patches complexes différés.
+343 - RUINS pack 1. Installation de Rustic Relief et Rustic Relief - Parallax. Ordre MO2 : Parallax apres Rustic Relief. Aucun plugin attendu.
 
----
-
-## Étape 342 — Reprise et ouverture de 07.5 RUINS
-
-Objectif : reprendre après
+344 - Validation pack 1. Etape 343 validee. Aucun plugin ajoute. Compteur 79. LOOT et LOD non lances

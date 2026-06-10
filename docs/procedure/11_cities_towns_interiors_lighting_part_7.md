@@ -1,13 +1,16 @@
 # 07.5 - RUINS
 
-Etapes 342 a 346.
+> Sous-bloc du module **07 - CITIES TOWNS INTERIORS LIGHTING**.  
+> Objectif : documenter l’ouverture, l’installation et la clôture du sous-bloc **07.5 - RUINS**.
 
-342 - Reprise apres 07.4 LANDS. Controle initial OK. Compteur 79.
+---
 
-343 - Rustic Relief + Rustic Relief Parallax. Aucun plugin.
+## État de reprise
 
-344 - Validation pack 1. SKSE OK. Masters OK. DLL OK. Overwrite vide. Compteur 79.
-
-345 - CleverCharff Nordic Ruins 2K + Gorgeous Ruin Door 2K + Tower Ruins Retexture. Aucun patch.
-
-346 - RUINS OK. Profil stable : SKYFORGE Stable 346 ruins OK.
+- Dernière étape validée avant reprise : `Étape 341 — Contrôle final 07.4 LANDS et profil stable`
+- Sous-bloc terminé : `07.4 - LANDS`
+- Nouveau sous-bloc ouvert : `07.5 - RUINS`
+- Profil stable de départ : `SKYFORGE - Stable étape 341 lands installation terminée`
+- Compteur ESP + ESM non-light : `79`
+- LOOT : non lancé
+- LOD / DynDO

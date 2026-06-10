@@ -10,6 +10,4 @@
 
 * **Dernière étape validée avant reprise :** Étape 346 — Contrôle final 07.5 RUINS et profil stable
 * **Sous-bloc terminé avant reprise :** 07.5 - RUINS
-* **Nouveau sous-bloc ouvert :** 07.6 - INTERIORS
-* **Profil stable précédent :** SKYFORGE - Stable étape 346 ruins OK
-* **Comp
+* **Nouveau sous-bloc :** 07

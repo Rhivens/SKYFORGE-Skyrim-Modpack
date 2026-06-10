@@ -47,17 +47,15 @@ C’est le meilleur point d’entrée pour suivre l’évolution actuelle du mod
 
 - **Dernière étape validée :** Étape 346 — Contrôle final 07.5 RUINS et profil stable
 - **Dernière étape d’installation validée :** Étape 345 — RUINS pack 2
-- **Module en cours :** 07 - CITIES TOWNS INTERIORS LIGHTING
-- **Sous-bloc terminé :** 07.5 - RUINS
-- **Profil stable créé :** SKYFORGE - Stable étape 346 ruins OK
-- **Compteur confirmé :** ESP + ESM non-light : 79
-- **Runtime :** Skyrim SE 1.5.97 Best of Both Worlds
-- **Contenus AE / Creation Club :** conservés
-- **Gestionnaire :** Mod Organizer 2 portable
-- **Méthode :** installation mod par mod ou par petits blocs cohérents
-- **Validation régulière :** SKSE via MO2 → menu principal → aucun master manquant → aucun message DLL bloquant → `Overwrite` vide
-- **LOOT :** non lancé pour l’instant
-- **LOD / DynDOLOD :** non générés pour l’instant
+- **Dernière étape validée : Étape 357 — INTERIORS pack 9 : Whiterun EEK + JK
+- **Module en cours : 07 - CITIES TOWNS INTERIORS LIGHTING
+- **Sous-bloc en cours : 07.6 - INTERIORS
+- **Prochaine étape attendue : Étape 358
+- **Compteur ESP + ESM non-light : 82
+- **Runtime : Skyrim SE 1.5.97 Best of Both Worlds
+- **AE / Creation Club : conservé
+- **LOOT : non lancé
+- **LOD / DynDOLOD : non générés
 
 L’état exact le plus récent est toujours consigné dans le [dernier changelog](docs/procedure/99_changelog_validation_part_5.md) et dans le [résumé de l’état actuel](docs/procedure/00_resume_etat_actuel.md).
 

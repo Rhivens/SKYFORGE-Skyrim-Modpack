@@ -8,3 +8,6 @@ Cette partie documente l’ouverture du sous-bloc Ruins et sa validation initial
 
 ---
 
+## Sous-bloc 07.5 — Ruins
+
+### 342. Reprise SKYFORGE / ouverture 

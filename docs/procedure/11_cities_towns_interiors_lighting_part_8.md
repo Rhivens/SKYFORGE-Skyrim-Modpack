@@ -9,5 +9,4 @@
 ## État de reprise
 
 * **Dernière étape validée avant reprise :** Étape 346 — Contrôle final 07.5 RUINS et profil stable
-* **Sous-bloc terminé avant reprise :** 07.5 - RUINS
-* **Nouveau sous-bloc :** 07
+* **Sous-bloc terminé avant reprise :** 07.5

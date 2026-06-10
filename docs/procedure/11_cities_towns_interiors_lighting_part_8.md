@@ -2,7 +2,7 @@
 
 > Procédure personnelle du projet **SKYFORGE**.
 > Sous-bloc documenté : **07.6 - INTERIORS**.
-> Étapes couvertes : **348 à 357**.
+> Étapes couvertes : **347 à 357**.
 
 ---
 
@@ -16,6 +16,56 @@
 * **LOOT :** non lancé
 * **LOD / DynDOLOD :** non générés
 * **Règle maintenue :** main files d’abord, patches complexes différés
+
+---
+
+# Étape 347 — Ouverture 07.6 INTERIORS
+
+## Objectif
+
+Ouvrir le sous-bloc suivant après `07.5 - RUINS` et préparer le premier pack sans installer tout de suite.
+
+## Source Nolvus
+
+Dans l’export Nolvus, après `[5.12.2 RUINS]`, le bloc suivant est bien `[5.13 INTERIORS]`.
+
+Il commence par :
+
+* Legacy Safehouse Plus ;
+* Legacy of the Dragonborn - Follower Room Patches ;
+* Underground - A Dungeon Texture Overhaul ;
+* Underground - Complex Parallax Addon.
+
+## Décision
+
+Les mods liés à Legacy of the Dragonborn sont différés tant que LOTD n’est pas intégré.
+
+Premier candidat logique pour l’installation suivante :
+
+* Underground - A Dungeon Texture Overhaul ;
+* Underground - Complex Parallax Addon.
+
+Règle maintenue :
+
+* textures d’abord ;
+* gros mods / patches ensuite ;
+* ne pas lancer LOOT ;
+* ne pas générer LOD / DynDOLOD.
+
+## Actions
+
+* Créer / vérifier le séparateur MO2 :
+
+  * `07.6 - INTERIORS`
+* Ne rien installer encore.
+* Noter que les mods Legacy of the Dragonborn sont à différer tant que LOTD n’est pas intégré.
+
+## Résultat attendu
+
+* Aucun changement technique.
+* Overwrite vide.
+* Compteur ESP + ESM non-light maintenu à 79.
+* Prêt pour Étape 348 — INTERIORS pack 1 : Underground.
 
 ---
 

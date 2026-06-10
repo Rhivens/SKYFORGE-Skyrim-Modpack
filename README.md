@@ -12,54 +12,54 @@ SKYFORGE vise une installation Skyrim stable, cohérente, documentée étape par
 
 ## Suivre l’avancement du projet
 
-### ➜ [Lire le dernier changelog / résumé de validation](docs/procedure/99_changelog_validation_part_5.md)
+### ➜ [Lire le dernier changelog / résumé de validation](docs/procedure/99_changelog_validation_part_6.md)
 
 C’est le meilleur point d’entrée pour suivre l’évolution actuelle du modpack : dernières étapes validées, modules terminés ou en cours, décisions importantes, état de stabilité et prochaine reprise.
 
-> Le changelog précédent reste disponible ici : [Changelog / validation — partie 4](docs/procedure/99_changelog_validation_part_4.md).  
+> Le changelog précédent reste disponible ici : [Changelog / validation — partie 5](docs/procedure/99_changelog_validation_part_5.md).
 > Le changelog historique principal reste disponible ici : [Changelog / validation — partie 1](docs/procedure/99_changelog_validation.md).
 
 ### Liens utiles
 
-- [Résumé de l’état actuel](docs/procedure/00_resume_etat_actuel.md)
-- [Procédure principale de reproduction](docs/SKYFORGE_Procedure_Reproduction_PC.md)
-- [Ajouts personnels SKYFORGE](docs/procedure/96_ajouts_personnels_skyforge.md)
-- [Registre central de dette technique](docs/procedure/97_registre_dette_technique.md)
-- [Registre central de dette technique — partie 2](docs/procedure/97_registre_dette_technique_part_2.md)
-- [Module 07 — Cities, towns, interiors & lighting](docs/procedure/11_cities_towns_interiors_lighting.md)
-- [Module 07 — Cities, towns, interiors & lighting — partie 2](docs/procedure/11_cities_towns_interiors_lighting_part_2.md)
-- [Module 07 — Cities, towns, interiors & lighting — partie 3](docs/procedure/11_cities_towns_interiors_lighting_part_3.md)
-- [Module 07 — Cities, towns, interiors & lighting — partie 4](docs/procedure/11_cities_towns_interiors_lighting_part_4.md)
-- [Module 07 — Cities, towns, interiors & lighting — partie 5](docs/procedure/11_cities_towns_interiors_lighting_part_5.md)
-- [Module 07 — Cities, towns, interiors & lighting — partie 6](docs/procedure/11_cities_towns_interiors_lighting_part_6.md)
-- [Module 07 — Cities, towns, interiors & lighting — partie 7](docs/procedure/11_cities_towns_interiors_lighting_part_7.md)
-- [Décisions différées et points à revoir](docs/procedure/06_decisions_differees.md)
-- [Décisions différées — partie 2](docs/procedure/06_decisions_differees_part_2.md)
-- [Décisions différées — partie 3](docs/procedure/06_decisions_differees_part_3.md)
-- [Décisions différées — partie 4](docs/procedure/06_decisions_differees_part_4.md)
-- [Décisions différées — partie 5](docs/procedure/06_decisions_differees_part_5.md)
-- [Changelog / validation — partie 5](docs/procedure/99_changelog_validation_part_5.md)
-- [Audit de continuité des étapes](docs/procedure/98_audit_continuite_etapes.md)
+* [Résumé de l’état actuel](docs/procedure/00_resume_etat_actuel.md)
+* [Procédure principale de reproduction](docs/SKYFORGE_Procedure_Reproduction_PC.md)
+* [Ajouts personnels SKYFORGE](docs/procedure/96_ajouts_personnels_skyforge.md)
+* [Registre central de dette technique](docs/procedure/97_registre_dette_technique.md)
+* [Registre central de dette technique — partie 2](docs/procedure/97_registre_dette_technique_part_2.md)
+* [Module 07 — Cities, towns, interiors & lighting](docs/procedure/11_cities_towns_interiors_lighting.md)
+* [Module 07 — Cities, towns, interiors & lighting — partie 2](docs/procedure/11_cities_towns_interiors_lighting_part_2.md)
+* [Module 07 — Cities, towns, interiors & lighting — partie 3](docs/procedure/11_cities_towns_interiors_lighting_part_3.md)
+* [Module 07 — Cities, towns, interiors & lighting — partie 4](docs/procedure/11_cities_towns_interiors_lighting_part_4.md)
+* [Module 07 — Cities, towns, interiors & lighting — partie 5](docs/procedure/11_cities_towns_interiors_lighting_part_5.md)
+* [Module 07 — Cities, towns, interiors & lighting — partie 6](docs/procedure/11_cities_towns_interiors_lighting_part_6.md)
+* [Module 07 — Cities, towns, interiors & lighting — partie 7](docs/procedure/11_cities_towns_interiors_lighting_part_7.md)
+* [Module 07 — Cities, towns, interiors & lighting — partie 8](docs/procedure/11_cities_towns_interiors_lighting_part_8.md)
+* [Décisions différées et points à revoir](docs/procedure/06_decisions_differees.md)
+* [Décisions différées — partie 2](docs/procedure/06_decisions_differees_part_2.md)
+* [Décisions différées — partie 3](docs/procedure/06_decisions_differees_part_3.md)
+* [Décisions différées — partie 4](docs/procedure/06_decisions_differees_part_4.md)
+* [Décisions différées — partie 5](docs/procedure/06_decisions_differees_part_5.md)
+* [Changelog / validation — partie 6](docs/procedure/99_changelog_validation_part_6.md)
+* [Audit de continuité des étapes](docs/procedure/98_audit_continuite_etapes.md)
 
 ---
 
 ## État actuel
 
-- **Dernière étape validée :** Étape 346 — Contrôle final 07.5 RUINS et profil stable
-- **Dernière étape d’installation validée :** Étape 345 — RUINS pack 2
-- **Dernière étape validée : Étape 357 — INTERIORS pack 9 : Whiterun EEK + JK
-- **Module en cours : 07 - CITIES TOWNS INTERIORS LIGHTING
-- **Sous-bloc en cours : 07.6 - INTERIORS
-- **Prochaine étape attendue : Étape 358
-- **Compteur ESP + ESM non-light : 82
-- **Runtime : Skyrim SE 1.5.97 Best of Both Worlds
-- **AE / Creation Club : conservé
-- **LOOT : non lancé
-- **LOD / DynDOLOD : non générés
+* **Dernière étape validée :** Étape 357 — INTERIORS pack 9 : Whiterun EEK + JK
+* **Dernière étape d’installation validée :** Étape 357 — INTERIORS pack 9 : Whiterun EEK + JK
+* **Module en cours :** 07 - CITIES TOWNS INTERIORS LIGHTING
+* **Sous-bloc en cours :** 07.6 - INTERIORS
+* **Prochaine étape attendue :** Étape 358
+* **Compteur ESP + ESM non-light :** 82
+* **Runtime :** Skyrim SE 1.5.97 Best of Both Worlds
+* **AE / Creation Club :** conservé
+* **LOOT :** non lancé
+* **LOD / DynDOLOD :** non générés
 
-L’état exact le plus récent est toujours consigné dans le [dernier changelog](docs/procedure/99_changelog_validation_part_5.md) et dans le [résumé de l’état actuel](docs/procedure/00_resume_etat_actuel.md).
+L’état exact le plus récent est toujours consigné dans le [dernier changelog](docs/procedure/99_changelog_validation_part_6.md) et dans le [résumé de l’état actuel](docs/procedure/00_resume_etat_actuel.md).
 
-Le suivi des ajouts personnels est centralisé dans le [catalogue des ajouts personnels SKYFORGE](docs/procedure/96_ajouts_personnels_skyforge.md).  
+Le suivi des ajouts personnels est centralisé dans le [catalogue des ajouts personnels SKYFORGE](docs/procedure/96_ajouts_personnels_skyforge.md).
 Le suivi des éléments à reprendre plus tard est centralisé dans le [registre de dette technique](docs/procedure/97_registre_dette_technique.md) et sa [partie 2 dédiée aux ajouts personnels / tenues](docs/procedure/97_registre_dette_technique_part_2.md).
 
 ---

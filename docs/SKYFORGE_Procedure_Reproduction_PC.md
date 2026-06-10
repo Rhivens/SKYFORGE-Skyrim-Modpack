@@ -68,7 +68,7 @@ Décision sur l’incident : surveillance uniquement, pas de réparation MO2, pa
 27. [Cities, towns, interiors & lighting — partie 5](procedure/11_cities_towns_interiors_lighting_part_5.md)
 28. [Cities, towns, interiors & lighting — partie 6](procedure/11_cities_towns_interiors_lighting_part_6.md)
 29. [Cities, towns, interiors & lighting — partie 7](procedure/11_cities_towns_interiors_lighting_part_7.md)
-30. docs/procedure/11_cities_towns_interiors_lighting_part_8.md — étapes 347 à 357, ouverture et avancement 07.6 INTERIORS
+30. [Cities, towns, interiors & lighting — partie 8](procedure/11_cities_towns_interiors_lighting_part_8.md)
 31. [Ajouts personnels SKYFORGE](procedure/96_ajouts_personnels_skyforge.md)
 32. [Registre central de dette technique](procedure/97_registre_dette_technique.md)
 33. [Registre central de dette technique — partie 2](procedure/97_registre_dette_technique_part_2.md)
@@ -78,7 +78,7 @@ Décision sur l’incident : surveillance uniquement, pas de réparation MO2, pa
 37. [Changelog / validation — partie 3](procedure/99_changelog_validation_part_3.md)
 38. [Changelog / validation — partie 4](procedure/99_changelog_validation_part_4.md)
 39. [Changelog / validation — partie 5](procedure/99_changelog_validation_part_5.md)
-40. docs/procedure/99_changelog_validation_part_6.md — changelog étapes 347 à 357
+40. [Changelog / validation — partie 6](procedure/99_changelog_validation_part_6.md)
 
 ---
 

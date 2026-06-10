@@ -12,11 +12,11 @@ SKYFORGE vise une installation Skyrim stable, cohérente, documentée étape par
 
 ## Suivre l’avancement du projet
 
-### ➜ [Lire le dernier changelog / résumé de validation](docs/procedure/99_changelog_validation_part_4.md)
+### ➜ [Lire le dernier changelog / résumé de validation](docs/procedure/99_changelog_validation_part_5.md)
 
 C’est le meilleur point d’entrée pour suivre l’évolution actuelle du modpack : dernières étapes validées, modules terminés ou en cours, décisions importantes, état de stabilité et prochaine reprise.
 
-> Le changelog précédent reste disponible ici : [Changelog / validation — partie 3](docs/procedure/99_changelog_validation_part_3.md).  
+> Le changelog précédent reste disponible ici : [Changelog / validation — partie 4](docs/procedure/99_changelog_validation_part_4.md).  
 > Le changelog historique principal reste disponible ici : [Changelog / validation — partie 1](docs/procedure/99_changelog_validation.md).
 
 ### Liens utiles
@@ -32,22 +32,24 @@ C’est le meilleur point d’entrée pour suivre l’évolution actuelle du mod
 - [Module 07 — Cities, towns, interiors & lighting — partie 4](docs/procedure/11_cities_towns_interiors_lighting_part_4.md)
 - [Module 07 — Cities, towns, interiors & lighting — partie 5](docs/procedure/11_cities_towns_interiors_lighting_part_5.md)
 - [Module 07 — Cities, towns, interiors & lighting — partie 6](docs/procedure/11_cities_towns_interiors_lighting_part_6.md)
+- [Module 07 — Cities, towns, interiors & lighting — partie 7](docs/procedure/11_cities_towns_interiors_lighting_part_7.md)
 - [Décisions différées et points à revoir](docs/procedure/06_decisions_differees.md)
 - [Décisions différées — partie 2](docs/procedure/06_decisions_differees_part_2.md)
 - [Décisions différées — partie 3](docs/procedure/06_decisions_differees_part_3.md)
 - [Décisions différées — partie 4](docs/procedure/06_decisions_differees_part_4.md)
 - [Décisions différées — partie 5](docs/procedure/06_decisions_differees_part_5.md)
+- [Changelog / validation — partie 5](docs/procedure/99_changelog_validation_part_5.md)
 - [Audit de continuité des étapes](docs/procedure/98_audit_continuite_etapes.md)
 
 ---
 
 ## État actuel
 
-- **Dernière étape validée :** Étape 341 — Contrôle final 07.4 LANDS et profil stable
-- **Dernière étape d’installation validée :** Étape 339 — Lands pack 9 : Orc Strongholds
+- **Dernière étape validée :** Étape 346 — Contrôle final 07.5 RUINS et profil stable
+- **Dernière étape d’installation validée :** Étape 345 — RUINS pack 2
 - **Module en cours :** 07 - CITIES TOWNS INTERIORS LIGHTING
-- **Sous-bloc terminé :** 07.4 - LANDS
-- **Profil stable créé :** SKYFORGE - Stable étape 341 lands installation terminée
+- **Sous-bloc terminé :** 07.5 - RUINS
+- **Profil stable créé :** SKYFORGE - Stable étape 346 ruins OK
 - **Compteur confirmé :** ESP + ESM non-light : 79
 - **Runtime :** Skyrim SE 1.5.97 Best of Both Worlds
 - **Contenus AE / Creation Club :** conservés
@@ -57,7 +59,7 @@ C’est le meilleur point d’entrée pour suivre l’évolution actuelle du mod
 - **LOOT :** non lancé pour l’instant
 - **LOD / DynDOLOD :** non générés pour l’instant
 
-L’état exact le plus récent est toujours consigné dans le [dernier changelog](docs/procedure/99_changelog_validation_part_4.md) et dans le [résumé de l’état actuel](docs/procedure/00_resume_etat_actuel.md).
+L’état exact le plus récent est toujours consigné dans le [dernier changelog](docs/procedure/99_changelog_validation_part_5.md) et dans le [résumé de l’état actuel](docs/procedure/00_resume_etat_actuel.md).
 
 Le suivi des ajouts personnels est centralisé dans le [catalogue des ajouts personnels SKYFORGE](docs/procedure/96_ajouts_personnels_skyforge.md).  
 Le suivi des éléments à reprendre plus tard est centralisé dans le [registre de dette technique](docs/procedure/97_registre_dette_technique.md) et sa [partie 2 dédiée aux ajouts personnels / tenues](docs/procedure/97_registre_dette_technique_part_2.md).

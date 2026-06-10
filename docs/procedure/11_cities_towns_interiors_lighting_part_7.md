@@ -10,4 +10,4 @@ Etapes 342 a 346.
 
 345 - Pack 2. CleverCharff Nordic Ruins 2K, Gorgeous Ruin Door 2K, Tower Ruins Retexture. Aucun patch.
 
-346 - Controle final RUINS OK
+346 - Controle final RUINS OK. Profil stable cree : SKYFORGE - Stable etape 346

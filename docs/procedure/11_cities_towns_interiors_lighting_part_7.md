@@ -8,4 +8,6 @@ Suite du module **07 - CITIES TOWNS INTERIORS LIGHTING**, sous-bloc **07.5 - RUI
 
 ## Sous-bloc 07.5 — RUINS
 
-### 342. Reprise SKYFORGE / ouverture 
+| Étape | Objet | Résultat |
+|---:|---|---|
+| 342

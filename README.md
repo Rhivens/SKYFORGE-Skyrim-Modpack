@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="assets/branding/splash.png" alt="SKYFORGE" width="900">
+  <img src="assets/branding/Logo Skyforge NSFW.png" alt="SKYFORGE" width="900">
 </p>
 
 # SKYFORGE

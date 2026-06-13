@@ -12,11 +12,11 @@ SKYFORGE vise une installation Skyrim stable, cohérente, documentée étape par
 
 ## Suivre l’avancement du projet
 
-### ➜ [Lire le dernier changelog / résumé de validation](docs/procedure/99_changelog_validation_part_6.md)
+### ➜ [Lire le dernier changelog / résumé de validation](docs/procedure/99_changelog_validation_part_8.md)
 
 C’est le meilleur point d’entrée pour suivre l’évolution actuelle du modpack : dernières étapes validées, modules terminés ou en cours, décisions importantes, état de stabilité et prochaine reprise.
 
-> Le changelog précédent reste disponible ici : [Changelog / validation — partie 5](docs/procedure/99_changelog_validation_part_5.md).
+> Le changelog précédent reste disponible ici : [Changelog / validation — partie 7](docs/procedure/99_changelog_validation_part_7.md).
 > Le changelog historique principal reste disponible ici : [Changelog / validation — partie 1](docs/procedure/99_changelog_validation.md).
 
 ### Liens utiles
@@ -34,30 +34,34 @@ C’est le meilleur point d’entrée pour suivre l’évolution actuelle du mod
 * [Module 07 — Cities, towns, interiors & lighting — partie 6](docs/procedure/11_cities_towns_interiors_lighting_part_6.md)
 * [Module 07 — Cities, towns, interiors & lighting — partie 7](docs/procedure/11_cities_towns_interiors_lighting_part_7.md)
 * [Module 07 — Cities, towns, interiors & lighting — partie 8](docs/procedure/11_cities_towns_interiors_lighting_part_8.md)
+* [Module 07 — Cities, towns, interiors & lighting — partie 9](docs/procedure/11_cities_towns_interiors_lighting_part_9.md)
+* [Module 08 — Body, race & NPC appearance — partie 1](docs/procedure/12_body_race_npc_appearance_part_1.md)
 * [Décisions différées et points à revoir](docs/procedure/06_decisions_differees.md)
 * [Décisions différées — partie 2](docs/procedure/06_decisions_differees_part_2.md)
 * [Décisions différées — partie 3](docs/procedure/06_decisions_differees_part_3.md)
 * [Décisions différées — partie 4](docs/procedure/06_decisions_differees_part_4.md)
 * [Décisions différées — partie 5](docs/procedure/06_decisions_differees_part_5.md)
 * [Changelog / validation — partie 6](docs/procedure/99_changelog_validation_part_6.md)
+* [Changelog / validation — partie 7](docs/procedure/99_changelog_validation_part_7.md)
+* [Changelog / validation — partie 8](docs/procedure/99_changelog_validation_part_8.md)
 * [Audit de continuité des étapes](docs/procedure/98_audit_continuite_etapes.md)
 
 ---
 
 ## État actuel
 
-* **Dernière étape validée :** Étape 357 — INTERIORS pack 9 : Whiterun EEK + JK
-* **Dernière étape d’installation validée :** Étape 357 — INTERIORS pack 9 : Whiterun EEK + JK
-* **Module en cours :** 07 - CITIES TOWNS INTERIORS LIGHTING
-* **Sous-bloc en cours :** 07.6 - INTERIORS
-* **Prochaine étape attendue :** Étape 358
-* **Compteur ESP + ESM non-light :** 82
+* **Dernière étape validée :** Étape 383 — 08.2 pack yeux / sourcils
+* **Dernière étape d’installation validée :** Étape 383 — 08.2 pack yeux / sourcils
+* **Module en cours :** 08 - BODY RACE NPC APPEARANCE
+* **Sous-bloc en cours :** 08.2 - HAIR / EYES / BROWS / OVERLAYS
+* **Prochaine étape attendue :** Étape 384
+* **Compteur ESP + ESM non-light :** 95
 * **Runtime :** Skyrim SE 1.5.97 Best of Both Worlds
 * **AE / Creation Club :** conservé
 * **LOOT :** non lancé
 * **LOD / DynDOLOD :** non générés
 
-L’état exact le plus récent est toujours consigné dans le [dernier changelog](docs/procedure/99_changelog_validation_part_6.md) et dans le [résumé de l’état actuel](docs/procedure/00_resume_etat_actuel.md).
+L’état exact le plus récent est toujours consigné dans le [dernier changelog](docs/procedure/99_changelog_validation_part_8.md) et dans le [résumé de l’état actuel](docs/procedure/00_resume_etat_actuel.md).
 
 Le suivi des ajouts personnels est centralisé dans le [catalogue des ajouts personnels SKYFORGE](docs/procedure/96_ajouts_personnels_skyforge.md).
 Le suivi des éléments à reprendre plus tard est centralisé dans le [registre de dette technique](docs/procedure/97_registre_dette_technique.md) et sa [partie 2 dédiée aux ajouts personnels / tenues](docs/procedure/97_registre_dette_technique_part_2.md).
@@ -69,7 +73,7 @@ Le suivi des éléments à reprendre plus tard est centralisé dans le [registre
 Construire une installation Skyrim stable, cohérente et patchée proprement :
 
 - **Nolvus** sert de référence principale pour le socle technique, graphique, gameplay, UI, monde, villes, quêtes, combat et magie.
-- **Nefaram** sert de référence secondaire pour les systèmes avancés, immersion, roleplay, outfits et contraintes de compatibilité.
+- **Nefaram** sert de référence majeure pour les systèmes avancés, immersion, roleplay, outfits, contraintes de compatibilité et les bases corporelles / visuelles compatibles SexLab-ready du module 08.
 
 Le but n’est pas de copier deux modlists complètes, mais d’en extraire les idées, les méthodes et les systèmes utiles pour bâtir un modpack personnel maîtrisé.
 

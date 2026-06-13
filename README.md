@@ -37,6 +37,7 @@ C’est le meilleur point d’entrée pour suivre l’évolution actuelle du mod
 * [Module 07 — Cities, towns, interiors & lighting — partie 9](docs/procedure/11_cities_towns_interiors_lighting_part_9.md)
 * [Module 08 — Body, race & NPC appearance — partie 1](docs/procedure/12_body_race_npc_appearance_part_1.md)
 * [Module 08 — Body, race & NPC appearance — partie 2](docs/procedure/12_body_race_npc_appearance_part_2.md)
+* [Module 09 — Animations, skeleton & physics — partie 1](docs/procedure/09_animations_skeleton_physics_part_1.md)
 * [Décisions différées et points à revoir](docs/procedure/06_decisions_differees.md)
 * [Décisions différées — partie 2](docs/procedure/06_decisions_differees_part_2.md)
 * [Décisions différées — partie 3](docs/procedure/06_decisions_differees_part_3.md)
@@ -54,10 +55,11 @@ C’est le meilleur point d’entrée pour suivre l’évolution actuelle du mod
 
 * **Dernière étape validée :** Étape 401 — Ajout CBPC pour 3BA
 * **Dernière étape d’installation validée :** Étape 401 — Ajout CBPC pour 3BA
-* **Module en cours :** 08 - BODY RACE NPC APPEARANCE
-* **Sous-bloc en cours :** 08.3 - BODY / SKINS / BODYSLIDE
-* **Bloc physique lié :** 09 - ANIMATIONS SKELETON PHYSICS ouvert ponctuellement pour FSMP / CBPC
-* **Prochaine étape attendue :** suite du bloc 08.3 ou préparation contrôlée BodySlide / presets / OBody / isolation skin PJ
+* **Séparateur actuellement ouvert :** 09 - ANIMATIONS SKELETON PHYSICS
+* **Module parent lié :** 08 - BODY RACE NPC APPEARANCE
+* **Sous-bloc parent lié :** 08.3 - BODY / SKINS / BODYSLIDE
+* **Note de transition :** l’étape 401 appartient au séparateur 09, même si elle complète techniquement la configuration 3BA du bloc 08.3.
+* **Prochaine étape attendue :** Étape 402 — à déterminer selon reprise : poursuite 09 physics / skeleton ou retour contrôlé 08.3 BodySlide / presets / OBody / isolation skin PJ
 * **Compteur ESP + ESM non-light :** 102
 * **Runtime :** Skyrim SE 1.5.97 Best of Both Worlds
 * **AE / Creation Club :** conservé

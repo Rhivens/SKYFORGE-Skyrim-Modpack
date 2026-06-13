@@ -3,12 +3,13 @@
 ## Situation générale
 
 - **Dernière étape d’installation validée :** Étape 401 — Ajout CBPC pour 3BA
-- **Module en cours :** 08 - BODY RACE NPC APPEARANCE
-- **Sous-bloc en cours :** 08.3 - BODY / SKINS / BODYSLIDE
-- **Bloc physique lié :** 09 - ANIMATIONS SKELETON PHYSICS ouvert ponctuellement pour FSMP / CBPC
+- **Séparateur actuellement ouvert :** 09 - ANIMATIONS SKELETON PHYSICS
+- **Module parent lié :** 08 - BODY RACE NPC APPEARANCE
+- **Sous-bloc parent lié :** 08.3 - BODY / SKINS / BODYSLIDE
+- **Raison de transition :** l’étape 401 installe CBPC dans le séparateur 09, même si elle complète techniquement la configuration 3BA installée dans 08.3.
 - **Dernier module clôturé :** 07 - CITIES TOWNS INTERIORS LIGHTING
 - **Dernier sous-bloc clôturé :** 08.2 - HAIR / EYES / BROWS / OVERLAYS terminé provisoirement après overlays / tattoos / eyes / brows
-- **Prochaine étape attendue :** suite du bloc 08.3 ou préparation contrôlée BodySlide / presets / OBody / isolation skin PJ selon validation
+- **Prochaine étape attendue :** Étape 402 — à déterminer selon reprise : poursuite 09 physics / skeleton ou retour contrôlé 08.3 BodySlide / presets / OBody / isolation skin PJ
 
 ## État technique validé
 
@@ -25,6 +26,24 @@
 - **LOOT :** non lancé
 - **DynDOLOD / LOD :** non générés
 - **BodySlide Output :** non généré
+
+## Fichiers de reprise prioritaires
+
+À lire en priorité pour reprendre sans confusion :
+
+1. `docs/procedure/00_resume_etat_actuel.md`
+2. `docs/procedure/99_changelog_validation_part_9.md`
+3. `docs/procedure/12_body_race_npc_appearance_part_2.md`
+4. `docs/procedure/09_animations_skeleton_physics_part_1.md`
+
+## Note de transition importante — Étape 401
+
+L’étape 401 doit être comprise comme une **étape de transition entre deux séparateurs** :
+
+- elle reste liée à **08.3 BODY / SKINS / BODYSLIDE**, car CBPC complète le choix CBBE 3BA / SMP + CBPC Lite ;
+- mais le mod installé, **CBPC - Physics with Collisions**, appartient bien au séparateur **09 - ANIMATIONS SKELETON PHYSICS**.
+
+Pour éviter toute ambiguïté lors des reprises, le séparateur 09 est donc considéré comme officiellement ouvert à partir de l’étape 401.
 
 ## Règle de priorité module 08
 
@@ -54,7 +73,7 @@ Pour le module 08 - BODY RACE NPC APPEARANCE :
 - Étape 398 — Unique Player / Unique Character différé.
 - Étape 399 — BnP Female Skin + small update validés comme skin féminine globale / NPC temporaire.
 - Étape 400 — Préparation isolation PJ sans installation.
-- Étape 401 — CBPC installé pour compléter la configuration 3BA SMP + CBPC Lite.
+- Étape 401 — CBPC installé dans le séparateur 09 pour compléter la configuration 3BA SMP + CBPC Lite.
 
 ## Décisions et différés importants
 
@@ -80,6 +99,7 @@ Pour le module 08 - BODY RACE NPC APPEARANCE :
 
 ### Module 09 — Animations / skeleton / physics
 
+- **Séparateur 09 :** officiellement ouvert à partir de l’étape 401.
 - **FSMP :** déjà validé, Skyrim 1.5.97 / NOT CUDA / AVX2 / FSMP MCM installé.
 - **CBPC :** installé comme moteur physique complémentaire requis par 3BA SMP + CBPC Lite.
 - **XPMSSE :** non encore installé, à intégrer avant animations / SexLab / skeleton avancé.

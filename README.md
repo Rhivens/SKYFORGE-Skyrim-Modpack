@@ -23,6 +23,7 @@ C’est le meilleur point d’entrée pour suivre l’évolution actuelle du mod
 
 * [Résumé de l’état actuel](docs/procedure/00_resume_etat_actuel.md)
 * [Procédure principale de reproduction](docs/SKYFORGE_Procedure_Reproduction_PC.md)
+* [Snapshot Load Order MO2 — panneau gauche — étape 401](docs/configuration/SKYFORGE_Load_Order_MO2_panneau_gauche_etape_401.md)
 * [Ajouts personnels SKYFORGE](docs/procedure/96_ajouts_personnels_skyforge.md)
 * [Registre central de dette technique](docs/procedure/97_registre_dette_technique.md)
 * [Registre central de dette technique — partie 2](docs/procedure/97_registre_dette_technique_part_2.md)

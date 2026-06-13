@@ -12,11 +12,11 @@ SKYFORGE vise une installation Skyrim stable, cohérente, documentée étape par
 
 ## Suivre l’avancement du projet
 
-### ➜ [Lire le dernier changelog / résumé de validation](docs/procedure/99_changelog_validation_part_8.md)
+### ➜ [Lire le dernier changelog / résumé de validation](docs/procedure/99_changelog_validation_part_9.md)
 
 C’est le meilleur point d’entrée pour suivre l’évolution actuelle du modpack : dernières étapes validées, modules terminés ou en cours, décisions importantes, état de stabilité et prochaine reprise.
 
-> Le changelog précédent reste disponible ici : [Changelog / validation — partie 7](docs/procedure/99_changelog_validation_part_7.md).
+> Le changelog précédent reste disponible ici : [Changelog / validation — partie 8](docs/procedure/99_changelog_validation_part_8.md).
 > Le changelog historique principal reste disponible ici : [Changelog / validation — partie 1](docs/procedure/99_changelog_validation.md).
 
 ### Liens utiles
@@ -36,6 +36,7 @@ C’est le meilleur point d’entrée pour suivre l’évolution actuelle du mod
 * [Module 07 — Cities, towns, interiors & lighting — partie 8](docs/procedure/11_cities_towns_interiors_lighting_part_8.md)
 * [Module 07 — Cities, towns, interiors & lighting — partie 9](docs/procedure/11_cities_towns_interiors_lighting_part_9.md)
 * [Module 08 — Body, race & NPC appearance — partie 1](docs/procedure/12_body_race_npc_appearance_part_1.md)
+* [Module 08 — Body, race & NPC appearance — partie 2](docs/procedure/12_body_race_npc_appearance_part_2.md)
 * [Décisions différées et points à revoir](docs/procedure/06_decisions_differees.md)
 * [Décisions différées — partie 2](docs/procedure/06_decisions_differees_part_2.md)
 * [Décisions différées — partie 3](docs/procedure/06_decisions_differees_part_3.md)
@@ -44,24 +45,27 @@ C’est le meilleur point d’entrée pour suivre l’évolution actuelle du mod
 * [Changelog / validation — partie 6](docs/procedure/99_changelog_validation_part_6.md)
 * [Changelog / validation — partie 7](docs/procedure/99_changelog_validation_part_7.md)
 * [Changelog / validation — partie 8](docs/procedure/99_changelog_validation_part_8.md)
+* [Changelog / validation — partie 9](docs/procedure/99_changelog_validation_part_9.md)
 * [Audit de continuité des étapes](docs/procedure/98_audit_continuite_etapes.md)
 
 ---
 
 ## État actuel
 
-* **Dernière étape validée :** Étape 383 — 08.2 pack yeux / sourcils
-* **Dernière étape d’installation validée :** Étape 383 — 08.2 pack yeux / sourcils
+* **Dernière étape validée :** Étape 401 — Ajout CBPC pour 3BA
+* **Dernière étape d’installation validée :** Étape 401 — Ajout CBPC pour 3BA
 * **Module en cours :** 08 - BODY RACE NPC APPEARANCE
-* **Sous-bloc en cours :** 08.2 - HAIR / EYES / BROWS / OVERLAYS
-* **Prochaine étape attendue :** Étape 384
-* **Compteur ESP + ESM non-light :** 95
+* **Sous-bloc en cours :** 08.3 - BODY / SKINS / BODYSLIDE
+* **Bloc physique lié :** 09 - ANIMATIONS SKELETON PHYSICS ouvert ponctuellement pour FSMP / CBPC
+* **Prochaine étape attendue :** suite du bloc 08.3 ou préparation contrôlée BodySlide / presets / OBody / isolation skin PJ
+* **Compteur ESP + ESM non-light :** 102
 * **Runtime :** Skyrim SE 1.5.97 Best of Both Worlds
 * **AE / Creation Club :** conservé
 * **LOOT :** non lancé
 * **LOD / DynDOLOD :** non générés
+* **BodySlide Output :** non généré
 
-L’état exact le plus récent est toujours consigné dans le [dernier changelog](docs/procedure/99_changelog_validation_part_8.md) et dans le [résumé de l’état actuel](docs/procedure/00_resume_etat_actuel.md).
+L’état exact le plus récent est toujours consigné dans le [dernier changelog](docs/procedure/99_changelog_validation_part_9.md) et dans le [résumé de l’état actuel](docs/procedure/00_resume_etat_actuel.md).
 
 Le suivi des ajouts personnels est centralisé dans le [catalogue des ajouts personnels SKYFORGE](docs/procedure/96_ajouts_personnels_skyforge.md).
 Le suivi des éléments à reprendre plus tard est centralisé dans le [registre de dette technique](docs/procedure/97_registre_dette_technique.md) et sa [partie 2 dédiée aux ajouts personnels / tenues](docs/procedure/97_registre_dette_technique_part_2.md).

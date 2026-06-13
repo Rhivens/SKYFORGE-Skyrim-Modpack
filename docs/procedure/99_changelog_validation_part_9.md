@@ -2,18 +2,35 @@
 
 ## Périmètre
 
-Cette partie couvre la progression SKYFORGE du module **08 - BODY RACE NPC APPEARANCE**, depuis la fin du sous-bloc overlays RaceMenu jusqu'au début du socle body / skins / physics.
+Cette partie couvre la progression SKYFORGE des étapes **384 à 401**.
 
-Étapes concernées : **384 à 401**.
+Elle concerne principalement :
+
+- la fin du sous-bloc **08.2 - HAIR / EYES / BROWS / OVERLAYS** ;
+- l'ouverture du sous-bloc **08.3 - BODY / SKINS / BODYSLIDE** ;
+- puis l'ouverture officielle du séparateur **09 - ANIMATIONS SKELETON PHYSICS** à l'étape 401.
+
+## Note importante de structure
+
+L'étape 401 est une étape de transition :
+
+- elle complète techniquement le choix **CBBE 3BA / SMP + CBPC Lite** fait dans le bloc 08.3 ;
+- mais le mod installé, **CBPC - Physics with Collisions**, appartient bien au séparateur **09 - ANIMATIONS SKELETON PHYSICS**.
+
+Pour éviter toute ambiguïté lors des reprises futures, l'étape 401 est donc aussi documentée dans :
+
+```text
+docs/procedure/09_animations_skeleton_physics_part_1.md
+```
 
 ---
 
 ## État final validé
 
 - **Dernière étape validée :** Étape 401 — Ajout CBPC pour 3BA
-- **Module en cours :** 08 - BODY RACE NPC APPEARANCE
-- **Sous-bloc en cours :** 08.3 - BODY / SKINS / BODYSLIDE
-- **Bloc physique lié :** 09 - ANIMATIONS SKELETON PHYSICS ouvert ponctuellement pour FSMP / CBPC
+- **Séparateur actuellement ouvert :** 09 - ANIMATIONS SKELETON PHYSICS
+- **Module parent lié :** 08 - BODY RACE NPC APPEARANCE
+- **Sous-bloc parent lié :** 08.3 - BODY / SKINS / BODYSLIDE
 - **SKSE / menu principal :** OK
 - **Masters manquants :** aucun
 - **Plugins cochés :** OK
@@ -25,9 +42,9 @@ Cette partie couvre la progression SKYFORGE du module **08 - BODY RACE NPC APPEA
 
 ---
 
-## Étapes validées
+# Étapes validées
 
-### Étape 384 — Pack overlays RaceMenu 1
+## Étape 384 — Pack overlays RaceMenu 1
 
 Ajout du premier bloc d'overlays RaceMenu :
 
@@ -42,7 +59,7 @@ Décision : Just Blood reste provisoire comme sang visuel léger ; Dirt & Blood 
 
 Validation : compteur non-light passé à **99**.
 
-### Étape 385 — Pack overlays RaceMenu 2
+## Étape 385 — Pack overlays RaceMenu 2
 
 Ajout du second bloc overlays / bodypaint :
 
@@ -54,7 +71,7 @@ Correction Sakora : archive imbriquée corrigée via **Set as `<data>` directory
 
 Validation : compteur non-light passé à **101**.
 
-### Étape 386 — Tattoos utiles, sans tanlines ni pubes
+## Étape 386 — Tattoos utiles, sans tanlines ni pubes
 
 Ajout :
 
@@ -70,19 +87,19 @@ Différé : Lyru SlaveTats jusqu'au bloc SexLab / SlaveTats.
 
 Validation : compteur non-light stable à **101**.
 
-### Étape 387 — Clôture overlays NSFW inutiles
+## Étape 387 — Clôture overlays NSFW inutiles
 
 Aucune installation.
 
 Décision : exclusion définitive des tanlines / pubic hair overlays / pubes replacers pour SKYFORGE.
 
-### Étape 388 — Ouverture 08.3 BODY / SKINS / BODYSLIDE
+## Étape 388 — Ouverture 08.3 BODY / SKINS / BODYSLIDE
 
 Création du séparateur **08.3 BODY- SKINS- BODYSLIDE**.
 
 Aucun BodySlide output généré.
 
-### Étape 389 — CBBE
+## Étape 389 — CBBE
 
 Installation :
 
@@ -93,7 +110,7 @@ Choix importants : Curvy, Underwear None, Vanilla Outfits coché, Face Pack coch
 
 Validation : compteur non-light stable à **101**.
 
-### Étape 390 — CBBE 3BA / 3BBB
+## Étape 390 — CBBE 3BA / 3BBB
 
 Installation :
 
@@ -103,7 +120,7 @@ Choix importants : Pre-built Body mesh, CBPC Performance Balanced, SMP and CBPC 
 
 Validation : compteur non-light stable à **101**.
 
-### Étape 391 — The New Gentleman
+## Étape 391 — The New Gentleman
 
 Installation :
 
@@ -115,7 +132,7 @@ Décision : TNG retenu en logique Nefaram, mais à surveiller pour éviter le pr
 
 Validation : compteur non-light passé à **102**.
 
-### Étape 392 — TNG : Overwrite, DLL fix et exclusions adultes
+## Étape 392 — TNG : Overwrite, DLL fix et exclusions adultes
 
 Correction : fichier généré `SKSE/Plugins/TheNewGentleman5.ini` sorti de l'Overwrite vers le mod dédié :
 
@@ -131,7 +148,7 @@ Exclusions confirmées :
 
 Validation : Overwrite vide, compteur non-light **102**.
 
-### Étape 393 — Skin féminin PJ
+## Étape 393 — Skin féminin PJ
 
 Installation :
 
@@ -141,7 +158,7 @@ Décision : PB's Silky Skin est le choix pour le PJ féminin à terme. BNP n'est
 
 Validation : compteur non-light stable à **102**.
 
-### Étape 394 — Skin masculin TNG
+## Étape 394 — Skin masculin TNG
 
 Installation :
 
@@ -151,7 +168,7 @@ Décision : skin masculin validé avec TNG, sans futa / Gender Bender / patch ad
 
 Validation : compteur non-light stable à **102**.
 
-### Étape 395 — Ressources / patches body différés
+## Étape 395 — Ressources / patches body différés
 
 Aucune installation.
 
@@ -159,23 +176,23 @@ Différés : CBBE AE-CC Outfits, No Rim Lighting, Normal Map Options, options SO
 
 Exclus : The New Gentlewoman, SL Gender Bender, contenu Futanari / Female Schlong / Gender Bender, tanlines / pubes.
 
-### Étape 396 — Décision OBody NG
+## Étape 396 — Décision OBody NG
 
 Décision Fabien : **OBody NG souhaité plus tard** pour diversité corporelle NPC, mais intégration différée après base body / skins / presets BodySlide stabilisée.
 
-### Étape 397 — Décision skins PJ / NPC
+## Étape 397 — Décision skins PJ / NPC
 
 Décision : PB's Silky Skin sera réservé au PJ féminin à terme ; les NPC féminins auront une autre skin dédiée.
 
 Isolation future prévue via Unique Player / Unique Character ou équivalent.
 
-### Étape 398 — Unique Player différé
+## Étape 398 — Unique Player différé
 
 Décision : ne pas installer Unique Player / Unique Character maintenant.
 
 Raison : attendre choix skin NPC féminine, BodySlide, OBody et stabilisation des fichiers meshes / textures.
 
-### Étape 399 — Skin NPC féminine globale
+## Étape 399 — Skin NPC féminine globale
 
 Installation :
 
@@ -186,13 +203,13 @@ Décision : BnP Female devient la skin féminine globale / NPC temporaire. PB re
 
 Validation : compteur non-light stable à **102**.
 
-### Étape 400 — Préparation isolation PJ
+## Étape 400 — Préparation isolation PJ
 
 Aucune installation.
 
 Décision : documenter la logique PB = PJ à terme, BnP = NPC / globale temporaire, isolation plus tard via Unique Player / Character.
 
-### Étape 401 — CBPC pour 3BA
+## Étape 401 — CBPC pour 3BA / ouverture du séparateur 09
 
 Installation :
 
@@ -208,10 +225,11 @@ Validation : compteur non-light stable à **102**.
 
 ---
 
-## Décisions structurantes
+# Décisions structurantes
 
 - Le bloc 08.2 overlays / tattoos est provisoirement clôturé.
-- Le bloc 08.3 BODY / SKINS / BODYSLIDE est ouvert.
+- Le bloc 08.3 BODY / SKINS / BODYSLIDE est ouvert depuis l'étape 388.
+- Le séparateur 09 ANIMATIONS SKELETON PHYSICS est officiellement ouvert depuis l'étape 401.
 - CBBE + 3BA + TNG forment la base body actuelle.
 - PB's Silky Skin est réservé au PJ féminin à terme.
 - BnP Female Skin sert de skin féminine globale / NPC temporaire.
@@ -224,7 +242,7 @@ Validation : compteur non-light stable à **102**.
 
 ---
 
-## Différés majeurs
+# Différés majeurs
 
 - BodySlide Output
 - Presets BodySlide
@@ -240,7 +258,7 @@ Validation : compteur non-light stable à **102**.
 
 ---
 
-## Exclusions confirmées
+# Exclusions confirmées
 
 - Futanari
 - Female Schlong

@@ -22,7 +22,8 @@ Ce fichier remplace l’état ciblé provisoire des blocs 09 / 10 créé juste a
 ## Notes de lecture
 
 - Les lignes terminées par `- FR` correspondent aux traductions personnelles de Fabien.
-- Les traductions `- FR` peuvent rester décochées volontairement tant que le modpack n’est pas stabilisé.
+- Tous les mods dont le nom se termine par `- FR` sont volontairement **décochés pour le moment**, tant que le modpack n’est pas stabilisé.
+- Ces traductions seront activées plus tard par petits groupes contrôlés, avec test SKSE / menu après chaque groupe.
 - Les mentions `A REINSTALL PLUS TARD`, `PATCHES A VOIR PLUS TARD`, `A COMPLETER PLUS TARD`, `DECOCHE`, etc. sont conservées telles qu’elles apparaissent dans MO2.
 - Ce snapshot sert de référence anti-doublon avant toute proposition de nouvelle étape.
 
@@ -701,9 +702,9 @@ TK Dodge SE
 TK Dodge RE - Script Free - - FOMOD A REVOIR PLUS TARD
 Sound For TK Dodge SE
 Smooth TK Dodge Attack - DAR REQUIREMENT COUVERT PAR OAR
-Comprehensive Attack Rate Patch - SKSE
 [10 - GAMEPLAY COMBAT MAGIC PERKS]
 Valhalla Combat
+Comprehensive Attack Rate Patch - SKSE
 [11 - QUESTS WORLDS FOLLOWERS]
 [12 - SURVIVAL IMMERSION ROLEPLAY]
 Skyrim Unbound Reborn - A REINSTALL PLUS TARD

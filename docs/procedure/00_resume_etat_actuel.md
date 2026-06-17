@@ -2,12 +2,12 @@
 
 ## Situation générale
 
-- **Dernière étape d’installation validée :** Étape 409 — Mini-pack combat Nolvus léger
+- **Dernière étape validée :** Étape 414 — Nettoyage d’état après diagnostic stabilité
 - **Séparateur actuellement ouvert :** 10 - GAMEPLAY COMBAT MAGIC PERKS
 - **Séparateur précédent actif :** 09 - ANIMATIONS SKELETON PHYSICS
-- **Module parent lié :** 09 / 10 — animations, skeleton, physics et début combat gameplay
-- **Dernier bloc technique consolidé :** 09 - ANIMATIONS SKELETON PHYSICS, fondations installées jusqu’à TK Dodge / OAR / Pandora préparé
-- **Prochaine étape attendue :** Étape 410 — à déterminer après audit du bloc combat / animations, sans doublon avec les mods déjà installés
+- **Module actif :** animations / dodge / combat léger Nolvus Awakening
+- **Dernier profil stable :** étape 414
+- **Prochaine étape attendue :** à déterminer après reprise depuis GitHub, sans nouvelle installation massive.
 
 ## État technique validé
 
@@ -16,6 +16,7 @@
 - **MO2 :** portable
 - **SKSE via MO2 :** OK
 - **Menu principal :** OK
+- **Test en jeu limité après restauration :** OK, pas de crash constaté
 - **Masters manquants :** aucun
 - **Messages DLL bloquants :** aucun signalé
 - **Plugins cochés :** OK
@@ -24,43 +25,37 @@
 - **LOOT :** non lancé
 - **DynDOLOD / LOD :** non générés
 - **BodySlide Output :** non généré
-- **Pandora :** installé et configuré, mais non lancé / non généré
+- **Pandora :** généré avec succès, Output actif
+- **CrashLogger :** actif avec PDB support 1.5.97
 
 ## Fichiers de reprise prioritaires
 
 À lire en priorité pour reprendre sans confusion :
 
 1. `docs/procedure/00_resume_etat_actuel.md`
-2. `docs/procedure/99_changelog_validation_part_10.md`
-3. `docs/procedure/09_animations_skeleton_physics_part_1.md`
-4. `docs/procedure/10_gameplay_combat_magic_perks_part_1.md`
-5. `docs/configuration/SKYFORGE_Load_Order_MO2_panneau_gauche_etape_409.md`
+2. `docs/procedure/99_changelog_validation_part_11.md`
+3. `docs/procedure/09_animations_skeleton_physics_part_2.md`
+4. `docs/procedure/10_stabilisation_etape_412_414.md`
+5. `docs/procedure/10_gameplay_combat_magic_perks_part_1.md`
+6. `docs/procedure/09_animations_skeleton_physics_part_1.md`
+7. `docs/configuration/SKYFORGE_Load_Order_MO2_panneau_gauche_etape_409.md`
 
-## Note de transition importante — Étapes 401 à 409
+## Étapes récentes validées
 
-L’étape 401 a ouvert officiellement le séparateur **09 - ANIMATIONS SKELETON PHYSICS** avec CBPC.
+- **Étape 410 :** vérification FOMOD combat / dodge avant Pandora. TK Dodge RE confirmé en installation minimale. Precision revalidé avec option TK Dodge / Ultimate Combat. Aucun nouveau mod installé. Compteur 106.
+- **Étape 411 :** première génération Pandora contrôlée. Chemin Skyrim Data corrigé vers le Data utilisé par l’instance MO2 portable SKYFORGE. Génération réussie avec 42 animations ajoutées. Pandora Output actif. Compteur 106.
+- **Étape 412 :** diagnostic initial du crash post-Pandora. Crash logging corrigé avec CrashLogger complet + PDB support 1.5.97.
+- **Étape 413 :** isolation du coupable. Mod fautif confirmé : `Dunmeri Furniture in Gray Quarter - PATCHES A VOIR PLUS TARD`, à garder décoché / différé.
+- **Étape 414 :** nettoyage d’état. Overwrite vidé, CrashLogger actif, outil temporaire supprimé, EngineFixes restauré, profil stable restauré.
 
-Les étapes 402 à 407 ont ensuite installé les fondations skeleton / animations / dodge :
+## Décisions structurantes actuelles
 
-- XPMSSE ;
-- Open Animation Replacer ;
-- Animation Motion Revolution ;
-- Payload Interpreter ;
-- Paired Animation Improvements ;
-- Universal Behaviour Runtime - Auto Skeleton Patch ;
-- Pandora Behaviour Engine Plus ;
-- Precision ;
-- True Directional Movement ;
-- TK Dodge SE / Sound For TK Dodge SE / TK Dodge RE.
-
-L’étape 408 a ouvert le séparateur **10 - GAMEPLAY COMBAT MAGIC PERKS** avec Valhalla Combat.
-
-L’étape 409 a ajouté un mini-pack combat Nolvus léger réparti entre :
-
-- le bloc 09 pour **Smooth TK Dodge Attack** ;
-- le bloc 10 pour **Comprehensive Attack Rate Patch - SKSE**.
-
-Le snapshot MO2 complet étape 409 a été corrigé pour refléter ce placement : **Comprehensive Attack Rate Patch - SKSE** est placé sous **Valhalla Combat** dans le séparateur 10.
+- **Nolvus Awakening** est la référence principale pour combat / dodge / animations combat.
+- **Nefaram** reste la référence principale pour Body compatible adulte / SexLab futur / systèmes adultes différés.
+- **Pandora Behaviour Engine Plus** est le générateur retenu.
+- **Nemesis** n’est pas retenu comme générateur principal.
+- Les réglages TK Dodge RE doivent être des réglages SKYFORGE propres, inspirés de Nolvus Awakening mais adaptés au modpack.
+- Ne pas dépendre des fichiers Nolvus Awakening locaux, sauf besoin futur de comparaison avancée.
 
 ## Règle anti-doublon SKYFORGE
 
@@ -81,149 +76,48 @@ Ces mods `- FR` restent volontairement **décochés pour le moment**, tant que l
 
 Ils seront activés plus tard par petits groupes contrôlés, avec test SKSE / menu après chaque groupe.
 
-Leur présence dans le panneau gauche MO2 ne doit donc pas être interprétée comme une erreur ou un oubli.
+Leur présence dans le panneau gauche MO2 ne doit pas être interprétée comme une erreur ou un oubli.
 
-## Étapes récentes validées
-
-- Étape 401 — CBPC installé dans le séparateur 09 pour compléter la configuration 3BA SMP + CBPC Lite.
-- Étape 402 — XPMSSE 5.06 installé comme skeleton de référence ; plugin `XPMSE.esp` ajouté ; compteur 103.
-- Étape 403 — Fondations animations modernes : Open Animation Replacer, OAR Output, AMR, Payload Interpreter, Paired Animation Improvements ; compteur 103.
-- Étape 404 — Pandora Behaviour Engine Plus préparé avec Auto Skeleton Patch et Output dédié ; Pandora non généré ; compteur 104.
-- Étape 405 — Precision installé avec FOMOD `None`, Precision Creatures différé ; compteur 104.
-- Étape 406 — True Directional Movement installé ; compteur 104.
-- Étape 407 — Base dodge Nolvus : TK Dodge SE, Sound For TK Dodge SE, TK Dodge RE ; compteur 105.
-- Étape 408 — Valhalla Combat installé dans le bloc 10 ; compteur 106.
-- Étape 409 — Smooth TK Dodge Attack + Comprehensive Attack Rate Patch - SKSE ; compteur 106.
-
-## Décisions et différés importants
-
-### Module 08.3 — Body / skins / BodySlide
-
-- **CBBE :** installé, morphs et BodySlide output différés.
-- **CBBE 3BA :** installé, options SOS / collisions adultes à revoir plus tard.
-- **TNG :** installé en logique Nefaram ; à surveiller pour éviter le problème de trou mesh sexe vu ailleurs.
-- **TNG dll fix Nefaram :** différé jusqu’à vérification de version / compatibilité.
-- **PB's Silky Skin :** choix skin PJ féminin à terme, actuellement écrasé probablement par BnP tant que l’isolation PJ n’est pas faite.
-- **BnP Female Skin :** skin féminine globale / NPC temporaire.
-- **Tempered Skins for Males :** skin masculin validé avec TNG.
-- **OBody NG :** souhaité pour diversité NPC, mais différé après presets BodySlide et base stabilisée.
-- **Unique Player / Unique Character :** différé après choix skin NPC / BodySlide / OBody.
-- **BodySlide Output :** non généré.
-
-### Module 09 — Animations / skeleton / physics
-
-- **FSMP :** déjà validé, Skyrim 1.5.97 / NOT CUDA / AVX2 / FSMP MCM installé.
-- **CBPC :** installé comme moteur physique complémentaire requis par 3BA SMP + CBPC Lite.
-- **XPMSSE :** installé étape 402, FOMOD à vérifier plus tard pour Weapon Styles / patches spécifiques.
-- **Open Animation Replacer :** installé, INI isolés dans `SKYFORGE - Open Animation Replacer Output`.
-- **Pandora Behaviour Engine Plus :** générateur retenu à la place de Nemesis ; installé mais non lancé.
-- **Precision :** installé, option TK Dodge RE à vérifier plus tard.
-- **TK Dodge RE :** installé avec FOMOD minimal ; base dodge Nolvus présente.
-- **Smooth TK Dodge Attack :** installé, requirement DAR considéré couvert par OAR ; à vérifier après génération Pandora / test dodge en jeu.
-
-### Module 10 — Gameplay / combat / magic / perks
-
-- **Valhalla Combat :** installé comme premier overhaul combat majeur issu de la logique Nolvus.
-- **Comprehensive Attack Rate Patch - SKSE :** installé après Valhalla Combat selon la procédure de l’étape 409 ; placement corrigé dans le snapshot MO2 étape 409.
-- Le bloc 10 est désormais ouvert.
-
-### Différés / points à revoir
+## Vigilances restantes
 
 - **BodySlide Output :** non généré.
-- **Pandora :** non lancé / non généré.
+- **XPMSSE :** FOMOD à revoir plus tard avant SexLab / animations avancées / styles d’armes.
+- **Smooth TK Dodge Attack :** à confirmer par test en jeu limité.
+- **LeveledList Crash Fix AE + 1.5 :** à vérifier hors urgence.
 - **LOOT :** non lancé.
 - **DynDOLOD / LOD :** non générés.
-- **XPMSSE :** FOMOD à vérifier plus tard.
-- **Paired Animation Improvements :** optionnels à revoir seulement si besoin.
-- **A-Pose Bug Fix - Universal Behavior Runtime :** différé.
-- **Precision Creatures :** différé, compatibilité Pandora / requirements Nemesis à vérifier.
-- **Precision / TK Dodge RE :** compatibilité à vérifier après génération Pandora / bloc combat.
-- **TK Dodge RE :** FOMOD à revoir plus tard.
+- **Mods `- FR` :** toujours décochés volontairement.
+- **Mod fautif CTD étape 413 :** `Dunmeri Furniture in Gray Quarter - PATCHES A VOIR PLUS TARD` doit rester décoché / différé.
 
-### Exclusions adultes confirmées
+## Mods explicitement décochés / différés à conserver
 
-- Aucun contenu Futanari.
-- Aucun Female Schlong.
-- Aucun Gender Bender.
-- The New Gentlewoman exclu.
-- SL Gender Bender for TNG exclu.
-- Tanlines / pubes / pubic hair overlays exclus.
+- `Dunmeri Furniture in Gray Quarter - PATCHES A VOIR PLUS TARD`
+- `Kris's Papyrus Extender - DECOCHE RESERVE`
+- `ENB Extender Skyrim - DECOCHE RESERVE ENB`
+- `Magic College Music - Songs for Academy - DECOCHE FORM 43`
+- `Atlantean Landscape -Complete- 2K - A REINSTALL PLUS TARD`
+- `Cities of the North - Morthal - DECOCHE CHOIX A REVOIR`
+- `Scarecrows of Skyrim - BOS - SOS Patch - REQUIERT SIMPLICTY OF SNOW`
+- `MuJointFix - Sexlab Ostim Patch - DECOCHE RESERVE SEXLAB`
+- tous les mods terminés par `- FR`
 
-## Vigilances conservées
+## Outils non lancés à ce stade
 
-- **Nolvus Awakening :** référence principale pour combat / dodge / animations combat.
-- **Nefaram :** référence principale pour NSFW / SexLab / defeat / slavery / prostitution.
-- **Breezehome :** version Nefaram à vérifier / privilégier lors du bloc maisons.
-- **Temple de Dibella :** contrôle futur avec quêtes adultes, PNJ, scènes, marqueurs, navmesh et lighting.
-- **Snazzy Furniture and Clutter Overhaul :** aucun addon de maison joueur coché.
-- **Simple Children :** exclu, bloquait au chargement avant menu ; remplacé par RS Children Overhaul.
-
-## Vigilances figées après audit étape 409
-
-Audit effectué après validation de l’étape 409 afin de vérifier la cohérence de l’état SKYFORGE avec les références Nolvus Awakening, Nefaram et les instructions officielles du projet.
-
-### Verdict général
-
-- **État étape 409 :** cohérent.
-- **Erreur certaine détectée :** aucune.
-- **Compteur ESP + ESM non-light :** 106.
-- **Référence combat / gameplay :** Nolvus Awakening.
-- **Référence body / compatibilité adulte :** Nefaram.
-- **Générateur animations retenu :** Pandora Behaviour Engine Plus.
-- **Pandora :** installé et préparé, mais non généré.
-- **BodySlide Output :** non généré.
-- **LOOT :** non lancé.
-- **DynDOLOD / LOD :** non générés.
-
-### Vigilances critiques
-
-- **Pandora installé mais non généré :** ne pas considérer les animations, dodge ou comportements combat comme validés en jeu.
-- **BodySlide Output non généré :** 3BA / 3BBB est installé, mais le body final n’est pas figé.
-- **Precision + TK Dodge RE :** compatibilité FOMOD / patch à revoir avant validation combat.
-- **XPMSSE :** FOMOD minimal à recontrôler avant SexLab, animations avancées ou styles d’armes.
-- **LeveledList Crash Fix AE + LeveledList Crash Fix for Skyrim 1.5 :** vérifier manuellement l’absence de doublon DLL ou fonctionnel.
-
-### Vigilances simples
-
-- **Smooth TK Dodge Attack :** vérifier que Open Animation Replacer couvre correctement l’ancien requirement Dynamic Animation Replacer.
-- **S.L.A.C.K. :** surveiller la stabilité des cosaves.
-- **KiLoader / Light Placer / Terrain Helper CS-ENB / ENB Terrain Blending Fix :** cohérents avec la logique ENB future, mais installés tôt.
-- **UI / HUD :** plusieurs entrées restent marquées “à réinstaller”, “à configurer” ou “à revoir plus tard”.
-- **Plugins non-light :** compteur confortable à 106, mais surveillance à maintenir.
-
-### Points à vérifier manuellement par Fabien
-
-- FOMOD TK Dodge RE.
-- FOMOD Precision après présence de TK Dodge RE.
-- FOMOD XPMSSE.
-- Logs SKSE après prochain test menu.
-- Overwrite : doit rester vide hors logs ou fichiers attendus.
-
-### Corrections de formulation à conserver
-
-- Remplacer les mentions structurantes “Nolvus” par **“Nolvus Awakening”** lorsque la référence est importante.
-- Marquer clairement que **Nolvus Ascension n’est pas utilisé** sauf demande explicite.
-- Rappeler que les mods terminés par **“- FR”** sont des traductions personnelles volontairement décochées pour le moment.
-- Rappeler que **Pandora est le générateur retenu**, mais que la génération est différée.
-- Rappeler que **BodySlide Output est différé**, donc que le body final n’est pas figé.
-
-### Interdits temporaires avant étape 410
-
-- Ne pas installer de nouveau mod tant que les vigilances étape 409 ne sont pas prises en compte.
-- Ne pas lancer LOOT.
-- Ne pas générer DynDOLOD / LOD.
-- Ne pas activer les traductions “- FR”.
-- Ne pas installer SexLab, defeat, slavery, prostitution ou prison.
-- Ne pas empiler un autre overhaul combat majeur.
-- Ne pas remplacer la base CBBE / 3BA par HIMBO, BHUNP, UBE ou autre logique body.
-- Ne pas passer sur Nemesis comme générateur principal.
+- LOOT
+- DynDOLOD / LOD
+- BodySlide
 
 ## Dernier état stable
 
-Profil stable étape 409 :
+Profil stable étape 414 :
 
 - SKSE / menu principal : OK
+- Test en jeu limité : OK
 - Aucun master manquant
+- Aucun message DLL bloquant
 - Plugins cochés
 - Overwrite vide
+- EngineFixes restauré
+- CrashLogger actif
+- Pandora Output actif
 - Compteur ESP + ESM non-light : 106

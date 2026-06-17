@@ -2,14 +2,12 @@
 
 ## Situation générale
 
-- **Dernière étape d’installation validée :** Étape 401 — Ajout CBPC pour 3BA
-- **Séparateur actuellement ouvert :** 09 - ANIMATIONS SKELETON PHYSICS
-- **Module parent lié :** 08 - BODY RACE NPC APPEARANCE
-- **Sous-bloc parent lié :** 08.3 - BODY / SKINS / BODYSLIDE
-- **Raison de transition :** l’étape 401 installe CBPC dans le séparateur 09, même si elle complète techniquement la configuration 3BA installée dans 08.3.
-- **Dernier module clôturé :** 07 - CITIES TOWNS INTERIORS LIGHTING
-- **Dernier sous-bloc clôturé :** 08.2 - HAIR / EYES / BROWS / OVERLAYS terminé provisoirement après overlays / tattoos / eyes / brows
-- **Prochaine étape attendue :** Étape 402 — à déterminer selon reprise : poursuite 09 physics / skeleton ou retour contrôlé 08.3 BodySlide / presets / OBody / isolation skin PJ
+- **Dernière étape d’installation validée :** Étape 409 — Mini-pack combat Nolvus léger
+- **Séparateur actuellement ouvert :** 10 - GAMEPLAY COMBAT MAGIC PERKS
+- **Séparateur précédent actif :** 09 - ANIMATIONS SKELETON PHYSICS
+- **Module parent lié :** 09 / 10 — animations, skeleton, physics et début combat gameplay
+- **Dernier bloc technique consolidé :** 09 - ANIMATIONS SKELETON PHYSICS, fondations installées jusqu’à TK Dodge / OAR / Pandora préparé
+- **Prochaine étape attendue :** Étape 410 — à déterminer après audit du bloc combat / animations, sans doublon avec les mods déjà installés
 
 ## État technique validé
 
@@ -22,75 +20,78 @@
 - **Messages DLL bloquants :** aucun signalé
 - **Plugins cochés :** OK
 - **Overwrite :** vide
-- **Compteur ESP + ESM non-light :** 102
+- **Compteur ESP + ESM non-light :** 106
 - **LOOT :** non lancé
 - **DynDOLOD / LOD :** non générés
 - **BodySlide Output :** non généré
+- **Pandora :** installé et configuré, mais non lancé / non généré
 
 ## Fichiers de reprise prioritaires
 
 À lire en priorité pour reprendre sans confusion :
 
 1. `docs/procedure/00_resume_etat_actuel.md`
-2. `docs/procedure/99_changelog_validation_part_9.md`
-3. `docs/procedure/12_body_race_npc_appearance_part_2.md`
-4. `docs/procedure/09_animations_skeleton_physics_part_1.md`
+2. `docs/procedure/99_changelog_validation_part_10.md`
+3. `docs/procedure/09_animations_skeleton_physics_part_1.md`
+4. `docs/procedure/10_gameplay_combat_magic_perks_part_1.md`
+5. `docs/configuration/SKYFORGE_Load_Order_MO2_blocs_09_10_etape_409.md`
 
-## Note de transition importante — Étape 401
+## Note de transition importante — Étapes 401 à 409
 
-L’étape 401 doit être comprise comme une **étape de transition entre deux séparateurs** :
+L’étape 401 a ouvert officiellement le séparateur **09 - ANIMATIONS SKELETON PHYSICS** avec CBPC.
 
-- elle reste liée à **08.3 BODY / SKINS / BODYSLIDE**, car CBPC complète le choix CBBE 3BA / SMP + CBPC Lite ;
-- mais le mod installé, **CBPC - Physics with Collisions**, appartient bien au séparateur **09 - ANIMATIONS SKELETON PHYSICS**.
+Les étapes 402 à 407 ont ensuite installé les fondations skeleton / animations / dodge :
 
-Pour éviter toute ambiguïté lors des reprises, le séparateur 09 est donc considéré comme officiellement ouvert à partir de l’étape 401.
+- XPMSSE ;
+- Open Animation Replacer ;
+- Animation Motion Revolution ;
+- Payload Interpreter ;
+- Paired Animation Improvements ;
+- Universal Behaviour Runtime - Auto Skeleton Patch ;
+- Pandora Behaviour Engine Plus ;
+- Precision ;
+- True Directional Movement ;
+- TK Dodge SE / Sound For TK Dodge SE / TK Dodge RE.
 
-## Règle de priorité module 08
+L’étape 408 a ouvert le séparateur **10 - GAMEPLAY COMBAT MAGIC PERKS** avec Valhalla Combat.
 
-Pour le module 08 - BODY RACE NPC APPEARANCE :
+L’étape 409 a ajouté un mini-pack combat Nolvus léger réparti entre :
 
-- Nefaram reste la référence principale pour corps, RaceMenu, presets, skins, cheveux, yeux, brows, visual NPC, body physics, overlays / tattoos et bases compatibles SexLab.
-- Nolvus reste consulté pour conserver les améliorations utiles ou les patches cohérents.
-- Aucun bloc adulte complet maintenant : on prépare seulement la base corporelle / visuelle.
-- Installation progressive, petits packs, test SKSE / menu après chaque groupe.
+- le bloc 09 pour **Smooth TK Dodge Attack** ;
+- le bloc 10 pour **Comprehensive Attack Rate Patch - SKSE**.
+
+## Règle anti-doublon SKYFORGE
+
+Avant toute nouvelle proposition d’installation, vérifier dans GitHub :
+
+- ce résumé d’état actuel ;
+- le fichier thématique du module en cours ;
+- le dernier changelog de validation ;
+- le dernier snapshot / état MO2 documenté.
+
+Ne jamais reproposer un mod déjà présent dans le snapshot ou les fichiers de procédure.
 
 ## Étapes récentes validées
 
-- Étape 384 — Pack overlays RaceMenu 1 : Just Blood Lite, Lamenthia, Community Overlays 1/2, Skin Feature Overlays, Female Makeup Suite.
-- Étape 385 — Pack overlays RaceMenu 2 : Community Overlays 3, Yyvengar Bodypaint, Sakora's Make Over Kit.
-- Étape 386 — Lyru's Tattoo Pack Collection, tanlines / pubes exclus.
-- Étape 387 — Clôture overlays NSFW inutiles, exclusions confirmées.
-- Étape 388 — Ouverture 08.3 BODY / SKINS / BODYSLIDE.
-- Étape 389 — CBBE v2.0.3 + RoughSpun / Prisoner Bloody Fix.
-- Étape 390 — CBBE 3BA / 3BBB v2.48.
-- Étape 391 — The New Gentleman v4.2.5 validé.
-- Étape 392 — TNG Generated INI sorti de l'Overwrite ; TNG dll fix Nefaram différé ; futanari / female schlong / gender bender exclus.
-- Étape 393 — PB's Silky Skin for CBBE validé comme skin PJ féminin à terme.
-- Étape 394 — Tempered Skins for Males - SOS Full Version validé comme skin masculin avec TNG.
-- Étape 395 — Ressources / patches body différés ou exclus.
-- Étape 396 — Décision Fabien : OBody NG souhaité plus tard pour diversité corporelle NPC.
-- Étape 397 — Décision skins PJ / NPC : PB pour PJ à terme, NPC féminins avec skin dédiée.
-- Étape 398 — Unique Player / Unique Character différé.
-- Étape 399 — BnP Female Skin + small update validés comme skin féminine globale / NPC temporaire.
-- Étape 400 — Préparation isolation PJ sans installation.
 - Étape 401 — CBPC installé dans le séparateur 09 pour compléter la configuration 3BA SMP + CBPC Lite.
+- Étape 402 — XPMSSE 5.06 installé comme skeleton de référence ; plugin `XPMSE.esp` ajouté ; compteur 103.
+- Étape 403 — Fondations animations modernes : Open Animation Replacer, OAR Output, AMR, Payload Interpreter, Paired Animation Improvements ; compteur 103.
+- Étape 404 — Pandora Behaviour Engine Plus préparé avec Auto Skeleton Patch et Output dédié ; Pandora non généré ; compteur 104.
+- Étape 405 — Precision installé avec FOMOD `None`, Precision Creatures différé ; compteur 104.
+- Étape 406 — True Directional Movement installé ; compteur 104.
+- Étape 407 — Base dodge Nolvus : TK Dodge SE, Sound For TK Dodge SE, TK Dodge RE ; compteur 105.
+- Étape 408 — Valhalla Combat installé dans le bloc 10 ; compteur 106.
+- Étape 409 — Smooth TK Dodge Attack + Comprehensive Attack Rate Patch - SKSE ; compteur 106.
 
 ## Décisions et différés importants
-
-### Module 08.2 — Overlays / tattoos / hygiène
-
-- **Just Blood - Dirt and Blood Lite :** gardé provisoirement comme sang visuel léger.
-- **Dirt & Blood complet / Bathing in Skyrim Renewed :** différés dans un futur sous-bloc hygiène / bain.
-- **Lyru's Tattoo Pack Collection :** installé ; version SlaveTats différée jusqu'au bloc SexLab / SlaveTats.
-- **Tanlines / pubes / pubic hair overlays :** exclus par choix Fabien.
 
 ### Module 08.3 — Body / skins / BodySlide
 
 - **CBBE :** installé, morphs et BodySlide output différés.
 - **CBBE 3BA :** installé, options SOS / collisions adultes à revoir plus tard.
 - **TNG :** installé en logique Nefaram ; à surveiller pour éviter le problème de trou mesh sexe vu ailleurs.
-- **TNG dll fix Nefaram :** différé jusqu'à vérification de version / compatibilité.
-- **PB's Silky Skin :** choix skin PJ féminin à terme, actuellement écrasé probablement par BnP tant que l'isolation PJ n'est pas faite.
+- **TNG dll fix Nefaram :** différé jusqu’à vérification de version / compatibilité.
+- **PB's Silky Skin :** choix skin PJ féminin à terme, actuellement écrasé probablement par BnP tant que l’isolation PJ n’est pas faite.
 - **BnP Female Skin :** skin féminine globale / NPC temporaire.
 - **Tempered Skins for Males :** skin masculin validé avec TNG.
 - **OBody NG :** souhaité pour diversité NPC, mais différé après presets BodySlide et base stabilisée.
@@ -99,10 +100,33 @@ Pour le module 08 - BODY RACE NPC APPEARANCE :
 
 ### Module 09 — Animations / skeleton / physics
 
-- **Séparateur 09 :** officiellement ouvert à partir de l’étape 401.
 - **FSMP :** déjà validé, Skyrim 1.5.97 / NOT CUDA / AVX2 / FSMP MCM installé.
 - **CBPC :** installé comme moteur physique complémentaire requis par 3BA SMP + CBPC Lite.
-- **XPMSSE :** non encore installé, à intégrer avant animations / SexLab / skeleton avancé.
+- **XPMSSE :** installé étape 402, FOMOD à vérifier plus tard pour Weapon Styles / patches spécifiques.
+- **Open Animation Replacer :** installé, INI isolés dans `SKYFORGE - Open Animation Replacer Output`.
+- **Pandora Behaviour Engine Plus :** générateur retenu à la place de Nemesis ; installé mais non lancé.
+- **Precision :** installé, option TK Dodge RE à vérifier plus tard.
+- **TK Dodge RE :** installé avec FOMOD minimal ; base dodge Nolvus présente.
+- **Smooth TK Dodge Attack :** installé, requirement DAR considéré couvert par OAR ; à vérifier après génération Pandora / test dodge en jeu.
+
+### Module 10 — Gameplay / combat / magic / perks
+
+- **Valhalla Combat :** installé comme premier overhaul combat majeur issu de la logique Nolvus.
+- **Comprehensive Attack Rate Patch - SKSE :** installé sous Valhalla Combat.
+- Le bloc 10 est désormais ouvert.
+
+### Différés / points à revoir
+
+- **BodySlide Output :** non généré.
+- **Pandora :** non lancé / non généré.
+- **LOOT :** non lancé.
+- **DynDOLOD / LOD :** non générés.
+- **XPMSSE :** FOMOD à vérifier plus tard.
+- **Paired Animation Improvements :** optionnels à revoir seulement si besoin.
+- **A-Pose Bug Fix - Universal Behavior Runtime :** différé.
+- **Precision Creatures :** différé, compatibilité Pandora / requirements Nemesis à vérifier.
+- **Precision / TK Dodge RE :** compatibilité à vérifier après génération Pandora / bloc combat.
+- **TK Dodge RE :** FOMOD à revoir plus tard.
 
 ### Exclusions adultes confirmées
 
@@ -113,30 +137,21 @@ Pour le module 08 - BODY RACE NPC APPEARANCE :
 - SL Gender Bender for TNG exclu.
 - Tanlines / pubes / pubic hair overlays exclus.
 
-### Module 07.6 INTERIORS
-
-Les gros patchers du bloc INTERIORS restent différés :
-
-- JK’s Interiors Patch Collection
-- JK’s Guild HQ Interiors Patch Collection
-- GG’s Thieves Guild HQ Patch Collection
-- Lux / Lux Orbis / Lux Via patches
-- eFPS / Northern Roads / LOTD patches
-
 ## Vigilances conservées
 
+- **Nolvus Awakening :** référence principale pour combat / dodge / animations combat.
+- **Nefaram :** référence principale pour NSFW / SexLab / defeat / slavery / prostitution.
 - **Breezehome :** version Nefaram à vérifier / privilégier lors du bloc maisons.
 - **Temple de Dibella :** contrôle futur avec quêtes adultes, PNJ, scènes, marqueurs, navmesh et lighting.
 - **Snazzy Furniture and Clutter Overhaul :** aucun addon de maison joueur coché.
-- **Paintings for the College of Winterhold :** exclu / différé, requirement Ultimate College of Winterhold non retenu actuellement.
 - **Simple Children :** exclu, bloquait au chargement avant menu ; remplacé par RS Children Overhaul.
 
 ## Dernier état stable
 
-Profil stable étape 401 :
+Profil stable étape 409 :
 
 - SKSE / menu principal : OK
 - Aucun master manquant
 - Plugins cochés
 - Overwrite vide
-- Compteur ESP + ESM non-light : 102
+- Compteur ESP + ESM non-light : 106

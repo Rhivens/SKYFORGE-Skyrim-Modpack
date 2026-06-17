@@ -2,12 +2,12 @@
 
 ## Situation générale
 
-- **Dernière étape validée :** Étape 414 — Nettoyage d’état après diagnostic stabilité
+- **Dernière étape validée :** Étape 415 — Validation gameplay post-CTD
 - **Séparateur actuellement ouvert :** 10 - GAMEPLAY COMBAT MAGIC PERKS
 - **Séparateur précédent actif :** 09 - ANIMATIONS SKELETON PHYSICS
 - **Module actif :** animations / dodge / combat léger Nolvus Awakening
-- **Dernier profil stable :** étape 414
-- **Prochaine étape attendue :** à déterminer après reprise depuis GitHub, sans nouvelle installation massive.
+- **Dernier profil stable :** étape 415
+- **Prochaine étape attendue :** reprise prudente par petit bloc gameplay / combat, après lecture GitHub.
 
 ## État technique validé
 
@@ -16,7 +16,7 @@
 - **MO2 :** portable
 - **SKSE via MO2 :** OK
 - **Menu principal :** OK
-- **Test en jeu limité après restauration :** OK, pas de crash constaté
+- **Test gameplay post-CTD :** OK, pas de crash reproduit lors du test limité
 - **Masters manquants :** aucun
 - **Messages DLL bloquants :** aucun signalé
 - **Plugins cochés :** OK
@@ -34,11 +34,12 @@
 
 1. `docs/procedure/00_resume_etat_actuel.md`
 2. `docs/procedure/99_changelog_validation_part_11.md`
-3. `docs/procedure/09_animations_skeleton_physics_part_2.md`
-4. `docs/procedure/10_stabilisation_etape_412_414.md`
-5. `docs/procedure/10_gameplay_combat_magic_perks_part_1.md`
-6. `docs/procedure/09_animations_skeleton_physics_part_1.md`
-7. `docs/configuration/SKYFORGE_Load_Order_MO2_panneau_gauche_etape_409.md`
+3. `docs/procedure/10_validation_gameplay_post_ctd_etape_415.md`
+4. `docs/procedure/09_animations_skeleton_physics_part_2.md`
+5. `docs/procedure/10_stabilisation_etape_412_414.md`
+6. `docs/procedure/10_gameplay_combat_magic_perks_part_1.md`
+7. `docs/procedure/09_animations_skeleton_physics_part_1.md`
+8. `docs/configuration/SKYFORGE_Load_Order_MO2_panneau_gauche_etape_409.md`
 
 ## Étapes récentes validées
 
@@ -47,6 +48,7 @@
 - **Étape 412 :** diagnostic initial du crash post-Pandora. Crash logging corrigé avec CrashLogger complet + PDB support 1.5.97.
 - **Étape 413 :** isolation du coupable. Mod fautif confirmé : `Dunmeri Furniture in Gray Quarter - PATCHES A VOIR PLUS TARD`, à garder décoché / différé.
 - **Étape 414 :** nettoyage d’état. Overwrite vidé, CrashLogger actif, outil temporaire supprimé, EngineFixes restauré, profil stable restauré.
+- **Étape 415 :** validation gameplay post-CTD. Aucun nouveau mod installé. Test limité OK. Vigilance Smooth TK Dodge Attack levée. Compteur 106.
 
 ## Décisions structurantes actuelles
 
@@ -78,11 +80,15 @@ Ils seront activés plus tard par petits groupes contrôlés, avec test SKSE / m
 
 Leur présence dans le panneau gauche MO2 ne doit pas être interprétée comme une erreur ou un oubli.
 
+## Vigilances levées récemment
+
+- **Pandora installé mais non généré :** levée à l’étape 411.
+- **Smooth TK Dodge Attack à confirmer en jeu :** levée à l’étape 415 dans le cadre du test gameplay limité post-CTD.
+
 ## Vigilances restantes
 
 - **BodySlide Output :** non généré.
 - **XPMSSE :** FOMOD à revoir plus tard avant SexLab / animations avancées / styles d’armes.
-- **Smooth TK Dodge Attack :** à confirmer par test en jeu limité.
 - **LeveledList Crash Fix AE + 1.5 :** à vérifier hors urgence.
 - **LOOT :** non lancé.
 - **DynDOLOD / LOD :** non générés.
@@ -109,10 +115,10 @@ Leur présence dans le panneau gauche MO2 ne doit pas être interprétée comme 
 
 ## Dernier état stable
 
-Profil stable étape 414 :
+Profil stable étape 415 :
 
 - SKSE / menu principal : OK
-- Test en jeu limité : OK
+- Test gameplay limité post-CTD : OK
 - Aucun master manquant
 - Aucun message DLL bloquant
 - Plugins cochés

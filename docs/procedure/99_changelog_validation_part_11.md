@@ -2,7 +2,7 @@
 
 ## Périmètre
 
-Cette partie couvre la progression SKYFORGE des étapes **410 à 414**.
+Cette partie couvre la progression SKYFORGE des étapes **410 à 415**.
 
 Elle concerne principalement :
 
@@ -10,15 +10,16 @@ Elle concerne principalement :
 - la première génération Pandora contrôlée ;
 - le diagnostic du crash apparu après génération Pandora ;
 - l’isolation du mod fautif ;
-- le nettoyage d’état et le retour à un profil stable.
+- le nettoyage d’état et le retour à un profil stable ;
+- la validation gameplay post-CTD et la levée de la vigilance Smooth TK Dodge Attack.
 
 ## État final validé
 
-- **Dernière étape validée :** Étape 414 — Nettoyage d’état après diagnostic stabilité
+- **Dernière étape validée :** Étape 415 — Validation gameplay post-CTD
 - **Séparateur actuellement ouvert :** 10 - GAMEPLAY COMBAT MAGIC PERKS
 - **Séparateur précédent actif :** 09 - ANIMATIONS SKELETON PHYSICS
 - **SKSE / menu principal :** OK
-- **Test en jeu limité après restauration :** OK, pas de crash constaté
+- **Test gameplay post-CTD :** OK, pas de crash reproduit lors du test limité
 - **Masters manquants :** aucun
 - **Messages DLL bloquants :** aucun signalé
 - **Plugins cochés :** OK
@@ -37,6 +38,7 @@ Elle concerne principalement :
 - **Étape 412 :** diagnostic initial du crash après génération Pandora. Le problème n’est pas attribué directement à Pandora Output, TK Dodge RE, TDM ou RaceMenu. CrashLogger final corrigé / activé.
 - **Étape 413 :** isolation du coupable. Le problème est lié à la chaîne New Gnisis Cornerclub / patch mobilier Dunmeri / Lux / Distinct Interiors / Snazzy / Skyrim Unbound. Le mod fautif confirmé est décoché.
 - **Étape 414 :** nettoyage d’état. Overwrite vidé, CrashLogger actif, outil temporaire supprimé, EngineFixes restauré, profil stable restauré.
+- **Étape 415 :** validation gameplay post-CTD. Aucun nouveau mod installé. Test limité OK. Vigilance **Smooth TK Dodge Attack à confirmer en jeu** levée. Compteur : 106.
 
 ## Décisions structurantes
 
@@ -68,11 +70,15 @@ bTreeLodReferenceCaching = true
 
 Le test après restauration n’a pas reproduit le crash.
 
+## Vigilances levées
+
+- Pandora installé mais non généré : levée à l’étape 411.
+- Smooth TK Dodge Attack à confirmer en jeu : levée à l’étape 415.
+
 ## Vigilances restantes
 
 - BodySlide Output non généré.
 - XPMSSE FOMOD à revoir plus tard avant SexLab / animations avancées.
-- Smooth TK Dodge Attack à confirmer en jeu.
 - LeveledList Crash Fix AE + 1.5 à vérifier hors urgence.
 - LOOT non lancé.
 - DynDOLOD / LOD non générés.
@@ -82,6 +88,7 @@ Le test après restauration n’a pas reproduit le crash.
 
 Pour le détail complet des étapes :
 
+- `docs/procedure/10_validation_gameplay_post_ctd_etape_415.md`
 - `docs/procedure/09_animations_skeleton_physics_part_2.md`
 - `docs/procedure/10_stabilisation_etape_412_414.md`
 - `docs/procedure/09_animations_skeleton_physics_part_1.md`

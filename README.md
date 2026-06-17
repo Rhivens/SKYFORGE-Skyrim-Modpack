@@ -24,6 +24,7 @@ C’est le meilleur point d’entrée pour suivre l’évolution actuelle du mod
 * [Résumé de l’état actuel](docs/procedure/00_resume_etat_actuel.md)
 * [Procédure principale de reproduction](docs/SKYFORGE_Procedure_Reproduction_PC.md)
 * [Snapshot Load Order MO2 — panneau gauche — étape 401](docs/configuration/SKYFORGE_Load_Order_MO2_panneau_gauche_etape_401.md)
+* [Snapshot Load Order MO2 — panneau gauche — étape 409](docs/configuration/SKYFORGE_Load_Order_MO2_panneau_gauche_etape_409.md)
 * [État MO2 ciblé — blocs 09 / 10 — étape 409](docs/configuration/SKYFORGE_Load_Order_MO2_blocs_09_10_etape_409.md)
 * [Ajouts personnels SKYFORGE](docs/procedure/96_ajouts_personnels_skyforge.md)
 * [Registre central de dette technique](docs/procedure/97_registre_dette_technique.md)
@@ -70,6 +71,7 @@ C’est le meilleur point d’entrée pour suivre l’évolution actuelle du mod
 * **LOD / DynDOLOD :** non générés
 * **BodySlide Output :** non généré
 * **Pandora :** installé et configuré, mais non lancé / non généré
+* **Dernier snapshot MO2 complet :** [panneau gauche étape 409](docs/configuration/SKYFORGE_Load_Order_MO2_panneau_gauche_etape_409.md)
 
 L’état exact le plus récent est toujours consigné dans le [dernier changelog](docs/procedure/99_changelog_validation_part_10.md) et dans le [résumé de l’état actuel](docs/procedure/00_resume_etat_actuel.md).
 

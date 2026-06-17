@@ -34,7 +34,7 @@
 2. `docs/procedure/99_changelog_validation_part_10.md`
 3. `docs/procedure/09_animations_skeleton_physics_part_1.md`
 4. `docs/procedure/10_gameplay_combat_magic_perks_part_1.md`
-5. `docs/configuration/SKYFORGE_Load_Order_MO2_blocs_09_10_etape_409.md`
+5. `docs/configuration/SKYFORGE_Load_Order_MO2_panneau_gauche_etape_409.md`
 
 ## Note de transition importante — Étapes 401 à 409
 
@@ -59,6 +59,10 @@ L’étape 409 a ajouté un mini-pack combat Nolvus léger réparti entre :
 
 - le bloc 09 pour **Smooth TK Dodge Attack** ;
 - le bloc 10 pour **Comprehensive Attack Rate Patch - SKSE**.
+
+### Point de vigilance snapshot MO2 étape 409
+
+Le snapshot complet du panneau gauche fourni après l’étape 409 montre **Comprehensive Attack Rate Patch - SKSE** placé dans le séparateur 09, juste avant le séparateur 10. La procédure de l’étape 409 le documente comme destiné au bloc 10 sous Valhalla Combat. Ce décalage est à vérifier lors de la prochaine reprise avant toute nouvelle installation.
 
 ## Règle anti-doublon SKYFORGE
 
@@ -112,7 +116,7 @@ Ne jamais reproposer un mod déjà présent dans le snapshot ou les fichiers de 
 ### Module 10 — Gameplay / combat / magic / perks
 
 - **Valhalla Combat :** installé comme premier overhaul combat majeur issu de la logique Nolvus.
-- **Comprehensive Attack Rate Patch - SKSE :** installé sous Valhalla Combat.
+- **Comprehensive Attack Rate Patch - SKSE :** installé après Valhalla Combat selon la procédure de l’étape 409, mais son placement réel dans le snapshot MO2 complet étape 409 est à vérifier car il apparaît encore avant le séparateur 10.
 - Le bloc 10 est désormais ouvert.
 
 ### Différés / points à revoir
@@ -127,6 +131,7 @@ Ne jamais reproposer un mod déjà présent dans le snapshot ou les fichiers de 
 - **Precision Creatures :** différé, compatibilité Pandora / requirements Nemesis à vérifier.
 - **Precision / TK Dodge RE :** compatibilité à vérifier après génération Pandora / bloc combat.
 - **TK Dodge RE :** FOMOD à revoir plus tard.
+- **Placement MO2 de Comprehensive Attack Rate Patch - SKSE :** à vérifier / déplacer sous le séparateur 10 si Fabien confirme que le panneau gauche doit refléter la procédure.
 
 ### Exclusions adultes confirmées
 

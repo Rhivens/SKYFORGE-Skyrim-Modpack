@@ -158,6 +158,66 @@ Leur présence dans le panneau gauche MO2 ne doit donc pas être interprétée c
 - **Snazzy Furniture and Clutter Overhaul :** aucun addon de maison joueur coché.
 - **Simple Children :** exclu, bloquait au chargement avant menu ; remplacé par RS Children Overhaul.
 
+## Vigilances figées après audit étape 409
+
+Audit effectué après validation de l’étape 409 afin de vérifier la cohérence de l’état SKYFORGE avec les références Nolvus Awakening, Nefaram et les instructions officielles du projet.
+
+### Verdict général
+
+- **État étape 409 :** cohérent.
+- **Erreur certaine détectée :** aucune.
+- **Compteur ESP + ESM non-light :** 106.
+- **Référence combat / gameplay :** Nolvus Awakening.
+- **Référence body / compatibilité adulte :** Nefaram.
+- **Générateur animations retenu :** Pandora Behaviour Engine Plus.
+- **Pandora :** installé et préparé, mais non généré.
+- **BodySlide Output :** non généré.
+- **LOOT :** non lancé.
+- **DynDOLOD / LOD :** non générés.
+
+### Vigilances critiques
+
+- **Pandora installé mais non généré :** ne pas considérer les animations, dodge ou comportements combat comme validés en jeu.
+- **BodySlide Output non généré :** 3BA / 3BBB est installé, mais le body final n’est pas figé.
+- **Precision + TK Dodge RE :** compatibilité FOMOD / patch à revoir avant validation combat.
+- **XPMSSE :** FOMOD minimal à recontrôler avant SexLab, animations avancées ou styles d’armes.
+- **LeveledList Crash Fix AE + LeveledList Crash Fix for Skyrim 1.5 :** vérifier manuellement l’absence de doublon DLL ou fonctionnel.
+
+### Vigilances simples
+
+- **Smooth TK Dodge Attack :** vérifier que Open Animation Replacer couvre correctement l’ancien requirement Dynamic Animation Replacer.
+- **S.L.A.C.K. :** surveiller la stabilité des cosaves.
+- **KiLoader / Light Placer / Terrain Helper CS-ENB / ENB Terrain Blending Fix :** cohérents avec la logique ENB future, mais installés tôt.
+- **UI / HUD :** plusieurs entrées restent marquées “à réinstaller”, “à configurer” ou “à revoir plus tard”.
+- **Plugins non-light :** compteur confortable à 106, mais surveillance à maintenir.
+
+### Points à vérifier manuellement par Fabien
+
+- FOMOD TK Dodge RE.
+- FOMOD Precision après présence de TK Dodge RE.
+- FOMOD XPMSSE.
+- Logs SKSE après prochain test menu.
+- Overwrite : doit rester vide hors logs ou fichiers attendus.
+
+### Corrections de formulation à conserver
+
+- Remplacer les mentions structurantes “Nolvus” par **“Nolvus Awakening”** lorsque la référence est importante.
+- Marquer clairement que **Nolvus Ascension n’est pas utilisé** sauf demande explicite.
+- Rappeler que les mods terminés par **“- FR”** sont des traductions personnelles volontairement décochées pour le moment.
+- Rappeler que **Pandora est le générateur retenu**, mais que la génération est différée.
+- Rappeler que **BodySlide Output est différé**, donc que le body final n’est pas figé.
+
+### Interdits temporaires avant étape 410
+
+- Ne pas installer de nouveau mod tant que les vigilances étape 409 ne sont pas prises en compte.
+- Ne pas lancer LOOT.
+- Ne pas générer DynDOLOD / LOD.
+- Ne pas activer les traductions “- FR”.
+- Ne pas installer SexLab, defeat, slavery, prostitution ou prison.
+- Ne pas empiler un autre overhaul combat majeur.
+- Ne pas remplacer la base CBBE / 3BA par HIMBO, BHUNP, UBE ou autre logique body.
+- Ne pas passer sur Nemesis comme générateur principal.
+
 ## Dernier état stable
 
 Profil stable étape 409 :

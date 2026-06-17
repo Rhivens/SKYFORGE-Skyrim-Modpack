@@ -60,9 +60,7 @@ L’étape 409 a ajouté un mini-pack combat Nolvus léger réparti entre :
 - le bloc 09 pour **Smooth TK Dodge Attack** ;
 - le bloc 10 pour **Comprehensive Attack Rate Patch - SKSE**.
 
-### Point de vigilance snapshot MO2 étape 409
-
-Le snapshot complet du panneau gauche fourni après l’étape 409 montre **Comprehensive Attack Rate Patch - SKSE** placé dans le séparateur 09, juste avant le séparateur 10. La procédure de l’étape 409 le documente comme destiné au bloc 10 sous Valhalla Combat. Ce décalage est à vérifier lors de la prochaine reprise avant toute nouvelle installation.
+Le snapshot MO2 complet étape 409 a été corrigé pour refléter ce placement : **Comprehensive Attack Rate Patch - SKSE** est placé sous **Valhalla Combat** dans le séparateur 10.
 
 ## Règle anti-doublon SKYFORGE
 
@@ -74,6 +72,16 @@ Avant toute nouvelle proposition d’installation, vérifier dans GitHub :
 - le dernier snapshot / état MO2 documenté.
 
 Ne jamais reproposer un mod déjà présent dans le snapshot ou les fichiers de procédure.
+
+## Règle traductions personnelles FR
+
+Tous les mods dont le nom se termine par `- FR` sont des traductions personnelles de Fabien.
+
+Ces mods `- FR` restent volontairement **décochés pour le moment**, tant que le modpack n’est pas stabilisé.
+
+Ils seront activés plus tard par petits groupes contrôlés, avec test SKSE / menu après chaque groupe.
+
+Leur présence dans le panneau gauche MO2 ne doit donc pas être interprétée comme une erreur ou un oubli.
 
 ## Étapes récentes validées
 
@@ -116,7 +124,7 @@ Ne jamais reproposer un mod déjà présent dans le snapshot ou les fichiers de 
 ### Module 10 — Gameplay / combat / magic / perks
 
 - **Valhalla Combat :** installé comme premier overhaul combat majeur issu de la logique Nolvus.
-- **Comprehensive Attack Rate Patch - SKSE :** installé après Valhalla Combat selon la procédure de l’étape 409, mais son placement réel dans le snapshot MO2 complet étape 409 est à vérifier car il apparaît encore avant le séparateur 10.
+- **Comprehensive Attack Rate Patch - SKSE :** installé après Valhalla Combat selon la procédure de l’étape 409 ; placement corrigé dans le snapshot MO2 étape 409.
 - Le bloc 10 est désormais ouvert.
 
 ### Différés / points à revoir
@@ -131,7 +139,6 @@ Ne jamais reproposer un mod déjà présent dans le snapshot ou les fichiers de 
 - **Precision Creatures :** différé, compatibilité Pandora / requirements Nemesis à vérifier.
 - **Precision / TK Dodge RE :** compatibilité à vérifier après génération Pandora / bloc combat.
 - **TK Dodge RE :** FOMOD à revoir plus tard.
-- **Placement MO2 de Comprehensive Attack Rate Patch - SKSE :** à vérifier / déplacer sous le séparateur 10 si Fabien confirme que le panneau gauche doit refléter la procédure.
 
 ### Exclusions adultes confirmées
 

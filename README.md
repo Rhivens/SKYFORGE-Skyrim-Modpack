@@ -12,11 +12,11 @@ SKYFORGE vise une installation Skyrim stable, cohérente, documentée étape par
 
 ## Suivre l’avancement du projet
 
-### ➜ [Lire le dernier changelog / résumé de validation](docs/procedure/99_changelog_validation_part_9.md)
+### ➜ [Lire le dernier changelog / résumé de validation](docs/procedure/99_changelog_validation_part_10.md)
 
 C’est le meilleur point d’entrée pour suivre l’évolution actuelle du modpack : dernières étapes validées, modules terminés ou en cours, décisions importantes, état de stabilité et prochaine reprise.
 
-> Le changelog précédent reste disponible ici : [Changelog / validation — partie 8](docs/procedure/99_changelog_validation_part_8.md).
+> Le changelog précédent reste disponible ici : [Changelog / validation — partie 9](docs/procedure/99_changelog_validation_part_9.md).
 > Le changelog historique principal reste disponible ici : [Changelog / validation — partie 1](docs/procedure/99_changelog_validation.md).
 
 ### Liens utiles
@@ -24,6 +24,7 @@ C’est le meilleur point d’entrée pour suivre l’évolution actuelle du mod
 * [Résumé de l’état actuel](docs/procedure/00_resume_etat_actuel.md)
 * [Procédure principale de reproduction](docs/SKYFORGE_Procedure_Reproduction_PC.md)
 * [Snapshot Load Order MO2 — panneau gauche — étape 401](docs/configuration/SKYFORGE_Load_Order_MO2_panneau_gauche_etape_401.md)
+* [État MO2 ciblé — blocs 09 / 10 — étape 409](docs/configuration/SKYFORGE_Load_Order_MO2_blocs_09_10_etape_409.md)
 * [Ajouts personnels SKYFORGE](docs/procedure/96_ajouts_personnels_skyforge.md)
 * [Registre central de dette technique](docs/procedure/97_registre_dette_technique.md)
 * [Registre central de dette technique — partie 2](docs/procedure/97_registre_dette_technique_part_2.md)
@@ -39,6 +40,7 @@ C’est le meilleur point d’entrée pour suivre l’évolution actuelle du mod
 * [Module 08 — Body, race & NPC appearance — partie 1](docs/procedure/12_body_race_npc_appearance_part_1.md)
 * [Module 08 — Body, race & NPC appearance — partie 2](docs/procedure/12_body_race_npc_appearance_part_2.md)
 * [Module 09 — Animations, skeleton & physics — partie 1](docs/procedure/09_animations_skeleton_physics_part_1.md)
+* [Module 10 — Gameplay, combat, magic & perks — partie 1](docs/procedure/10_gameplay_combat_magic_perks_part_1.md)
 * [Décisions différées et points à revoir](docs/procedure/06_decisions_differees.md)
 * [Décisions différées — partie 2](docs/procedure/06_decisions_differees_part_2.md)
 * [Décisions différées — partie 3](docs/procedure/06_decisions_differees_part_3.md)
@@ -48,27 +50,28 @@ C’est le meilleur point d’entrée pour suivre l’évolution actuelle du mod
 * [Changelog / validation — partie 7](docs/procedure/99_changelog_validation_part_7.md)
 * [Changelog / validation — partie 8](docs/procedure/99_changelog_validation_part_8.md)
 * [Changelog / validation — partie 9](docs/procedure/99_changelog_validation_part_9.md)
+* [Changelog / validation — partie 10](docs/procedure/99_changelog_validation_part_10.md)
 * [Audit de continuité des étapes](docs/procedure/98_audit_continuite_etapes.md)
 
 ---
 
 ## État actuel
 
-* **Dernière étape validée :** Étape 401 — Ajout CBPC pour 3BA
-* **Dernière étape d’installation validée :** Étape 401 — Ajout CBPC pour 3BA
-* **Séparateur actuellement ouvert :** 09 - ANIMATIONS SKELETON PHYSICS
-* **Module parent lié :** 08 - BODY RACE NPC APPEARANCE
-* **Sous-bloc parent lié :** 08.3 - BODY / SKINS / BODYSLIDE
-* **Note de transition :** l’étape 401 appartient au séparateur 09, même si elle complète techniquement la configuration 3BA du bloc 08.3.
-* **Prochaine étape attendue :** Étape 402 — à déterminer selon reprise : poursuite 09 physics / skeleton ou retour contrôlé 08.3 BodySlide / presets / OBody / isolation skin PJ
-* **Compteur ESP + ESM non-light :** 102
+* **Dernière étape validée :** Étape 409 — Mini-pack combat Nolvus léger
+* **Dernière étape d’installation validée :** Étape 409 — Mini-pack combat Nolvus léger
+* **Séparateur actuellement ouvert :** 10 - GAMEPLAY COMBAT MAGIC PERKS
+* **Séparateur précédent actif :** 09 - ANIMATIONS SKELETON PHYSICS
+* **Note de transition :** le bloc 09 reste actif pour les animations / skeleton / physics / dodge, tandis que le bloc 10 est ouvert pour le gameplay combat.
+* **Prochaine étape attendue :** Étape 410 — à déterminer après audit GitHub du bloc 09 / 10 et vérification anti-doublon.
+* **Compteur ESP + ESM non-light :** 106
 * **Runtime :** Skyrim SE 1.5.97 Best of Both Worlds
 * **AE / Creation Club :** conservé
 * **LOOT :** non lancé
 * **LOD / DynDOLOD :** non générés
 * **BodySlide Output :** non généré
+* **Pandora :** installé et configuré, mais non lancé / non généré
 
-L’état exact le plus récent est toujours consigné dans le [dernier changelog](docs/procedure/99_changelog_validation_part_9.md) et dans le [résumé de l’état actuel](docs/procedure/00_resume_etat_actuel.md).
+L’état exact le plus récent est toujours consigné dans le [dernier changelog](docs/procedure/99_changelog_validation_part_10.md) et dans le [résumé de l’état actuel](docs/procedure/00_resume_etat_actuel.md).
 
 Le suivi des ajouts personnels est centralisé dans le [catalogue des ajouts personnels SKYFORGE](docs/procedure/96_ajouts_personnels_skyforge.md).
 Le suivi des éléments à reprendre plus tard est centralisé dans le [registre de dette technique](docs/procedure/97_registre_dette_technique.md) et sa [partie 2 dédiée aux ajouts personnels / tenues](docs/procedure/97_registre_dette_technique_part_2.md).

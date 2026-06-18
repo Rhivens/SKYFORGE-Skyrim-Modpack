@@ -2,12 +2,12 @@
 
 ## Situation générale
 
-- **Dernière étape validée :** Étape 425 — No Spinning Death Animation Merged LITE
+- **Dernière étape validée :** Étape 434 — A Closer Look SSE
 - **Séparateur actuellement ouvert :** 10 - GAMEPLAY COMBAT MAGIC PERKS
 - **Séparateur précédent actif :** 09 - ANIMATIONS SKELETON PHYSICS
-- **Module actif :** gameplay / combat léger Nolvus Awakening, avec ajout ponctuel documenté en animations à l’étape 425
-- **Dernier profil stable :** étape 425
-- **Prochaine étape attendue :** étape 426, reprise prudente par petit bloc après lecture GitHub.
+- **Module actif :** gameplay / combat léger et confort issu de Nolvus Awakening
+- **Dernier profil stable :** étape 434
+- **Prochaine étape attendue :** étape 435, reprise prudente par petit bloc après lecture GitHub.
 
 ## État technique validé
 
@@ -32,38 +32,40 @@
 À lire en priorité pour reprendre sans confusion :
 
 1. `docs/procedure/00_resume_etat_actuel.md`
-2. `docs/procedure/99_changelog_validation_part_12.md`
-3. `docs/procedure/10_gameplay_combat_magic_perks_part_2.md`
-4. `docs/procedure/09_animations_skeleton_physics_part_3.md`
-5. `docs/procedure/99_changelog_validation_part_11.md`
-6. `docs/procedure/10_validation_gameplay_post_ctd_etape_415.md`
-7. `docs/procedure/09_animations_skeleton_physics_part_2.md`
-8. `docs/procedure/10_stabilisation_etape_412_414.md`
-9. `docs/procedure/10_gameplay_combat_magic_perks_part_1.md`
-10. `docs/procedure/09_animations_skeleton_physics_part_1.md`
-11. `docs/configuration/SKYFORGE_Load_Order_MO2_panneau_gauche_etape_409.md`
+2. `docs/procedure/99_changelog_validation_part_13.md`
+3. `docs/procedure/10_gameplay_combat_magic_perks_part_3.md`
+4. `docs/procedure/99_changelog_validation_part_12.md`
+5. `docs/procedure/10_gameplay_combat_magic_perks_part_2.md`
+6. `docs/procedure/09_animations_skeleton_physics_part_3.md`
+7. `docs/procedure/99_changelog_validation_part_11.md`
+8. `docs/procedure/10_validation_gameplay_post_ctd_etape_415.md`
+9. `docs/procedure/09_animations_skeleton_physics_part_2.md`
+10. `docs/procedure/10_stabilisation_etape_412_414.md`
+11. `docs/procedure/10_gameplay_combat_magic_perks_part_1.md`
+12. `docs/procedure/09_animations_skeleton_physics_part_1.md`
+13. `docs/configuration/SKYFORGE_Load_Order_MO2_panneau_gauche_etape_409.md`
 
 ## Étapes récentes validées
 
-- **Étape 416 :** `Wait Your Turn - Enemy Circling Behaviour`, issu de Nolvus Awakening. Test menu atteint OK. Compteur 106.
-- **Étape 417 :** `NPCs Take Cover - Smarter Anti-Cheese AI`, issu de Nolvus Awakening. Test menu atteint OK. Compteur 106.
-- **Étape 418 :** `NPC No Block - Exhaustion` + `NPC No Block Exhaustion - MCM`. Test menu atteint OK. Compteur 106.
-- **Étape 419 :** `Stagger Effect Fix NG`, placé dans `02 - BUG FIXES & ENGINE PATCHES` sous `OnMagicEffectApply Replacer`. Test menu atteint OK. Compteur 106.
-- **Étape 420 :** `3rd Person Camera Stagger Remover` + `Block Enchantments`. Incident Windows isolé au premier lancement, puis tests isolés réussis et non-reproduction. Étape validée. Compteur 106.
-- **Étape 421 :** `Archery Locational Damage`, option FOMOD `Simple`. Test menu atteint OK. Compteur 106.
-- **Étape 422 :** `Bow Charge Plus`, fichier principal uniquement, patch complémentaire non installé. Test menu atteint OK. Compteur 106.
-- **Étape 423 :** `VioLens - A Killmove Mod SE` + `VioLens - A Killmove Mod SE - Settings Loader`. Test menu atteint OK. Compteur 107.
-- **Étape 424 :** `No BS AI Projectile Dodge`. Test menu atteint OK. Compteur 108.
-- **Étape 425 :** `No Spinning Death Animation Merged LITE`, placé dans `09 - ANIMATIONS SKELETON PHYSICS` sous `SKYFORGE - Pandora Output`. Test menu atteint OK. Compteur 108.
+- **Étape 426 :** test gameplay ciblé post-ajouts combat / archerie, 15 minutes. Aucun CTD, aucun reboot, combats et MCM OK. Anomalie graphique non bloquante dans Giant Inn de Riverwood. Compteur 108.
+- **Étape 427 :** `NPCs Use Potions` + `NPCs Use Potions - SKYFORGE Config`. FOMOD limité au profil actuel. Incident écran noir non reproduit, non bloquant. Test menu atteint OK. Compteur 108.
+- **Étape 428 :** `Smart Optimal Salves - Optimal Potion Hotkey MCM` + `Optimal Potion Hotkey MCM - Settings Loader`. Hotkeys non configurées maintenant. Test menu atteint OK. Compteur 108.
+- **Étape 429 :** `Simple Offence Suppression` + `Simple Offence Suppression MCM - Block Friendly Fire`. MCM non configuré maintenant. Test menu atteint OK. Compteur 108.
+- **Étape 430 :** `I’m Talkin’ Here` + `Instantly Skip Dialogue NG`. Aucun patch follower ajouté pour l’instant. Test menu atteint OK. Compteur 108.
+- **Étape 431 :** `Disable Follower Collision` + `I’m Walkin’ Here` version `1.5.0` compatible Skyrim `1.5.50 - 1.5.97`. Test menu atteint OK. Compteur 108.
+- **Étape 432 :** `No Furniture Camera` + `Pick Up Radius`. MCM non configuré maintenant. Test menu atteint OK. Compteur 108.
+- **Étape 433 :** annulée pour doublons déjà installés : `Use Or Take SKSE`, `Read Or Take SKSE`, `Favorite Misc Items`. Aucune installation. Compteur inchangé.
+- **Étape 434 :** `A Closer Look SSE`, version SSE. Version NG non installée par prudence avec Skyrim SE 1.5.97. Test menu atteint OK. Compteur 108.
 
 ## Décisions structurantes actuelles
 
-- **Nolvus Awakening** est la référence principale pour combat / dodge / animations combat.
+- **Nolvus Awakening** est la référence principale pour combat / dodge / animations combat / confort gameplay léger.
 - **Nefaram** reste la référence principale pour Body compatible adulte / compatibilité future / systèmes spécialisés différés.
 - **Pandora Behaviour Engine Plus** est le générateur retenu.
 - **Nemesis** n’est pas retenu comme générateur principal.
 - Les réglages TK Dodge RE doivent être des réglages SKYFORGE propres, inspirés de Nolvus Awakening mais adaptés au modpack.
 - Ne pas dépendre des fichiers Nolvus Awakening locaux, sauf besoin futur de comparaison avancée.
+- Les réglages MCM non urgents seront repris plus tard avec la logique Startup Save / MCM Recorder.
 
 ## Règle anti-doublon SKYFORGE
 
@@ -75,6 +77,12 @@ Avant toute nouvelle proposition d’installation, vérifier dans GitHub :
 - le dernier snapshot / état MO2 documenté.
 
 Ne jamais reproposer un mod déjà présent dans le snapshot ou les fichiers de procédure.
+
+L’étape 433 documente explicitement les doublons suivants comme déjà installés :
+
+- `Use Or Take SKSE`
+- `Read Or Take SKSE`
+- `Favorite Misc Items`
 
 ## Règle traductions personnelles FR
 
@@ -105,10 +113,33 @@ Conclusion actuelle :
 
 - incident isolé ;
 - non reproduit après retour état 419, tests isolés 420A / 420B et retests ;
+- aucune récidive signalée sur les étapes 426 à 434 ;
 - pas de preuve de malware ;
 - pas de preuve de mod Skyrim fautif ;
 - pas de preuve que MO2 / SKYFORGE soit directement responsable ;
 - MSI Center / services bas niveau à surveiller uniquement si récidive.
+
+## Incidents / anomalies récents non bloquants
+
+### Étape 420 — Block Enchantments
+
+`Block Enchantments` reste validé malgré le warning MO2 transitoire `Plugin not found: blockenchantments.esl` observé auparavant.
+
+Le plugin était visible et actif dans le panneau droit MO2, chargé en FE / ESL-light, sans master manquant ni crash reproduit.
+
+### Étape 426 — Riverwood Giant Inn
+
+Anomalie graphique non bloquante : objets flottants à l’emplacement de l’ancien comptoir dans la cellule Giant Inn de Riverwood.
+
+Décision : à corriger plus tard, sans bloquer le module combat / gameplay.
+
+### Étape 427 — écran noir non reproductible
+
+Un écran noir / blocage avant menu a été observé au premier lancement après installation de `NPCs Use Potions`.
+
+Après relance, l’incident ne s’est pas reproduit et le menu principal a été atteint normalement.
+
+Décision : vigilance mineure, non bloquante.
 
 ## Vigilances levées récemment
 
@@ -126,6 +157,9 @@ Conclusion actuelle :
 - **Mod fautif CTD étape 413 :** `Dunmeri Furniture in Gray Quarter - PATCHES A VOIR PLUS TARD` doit rester décoché / différé.
 - **Incident Windows étape 420 :** à surveiller uniquement si récidive.
 - **Precision - Creatures :** reste différé.
+- **Bug graphique Riverwood Giant Inn :** objets flottants à corriger plus tard.
+- **MCM non configurés des étapes 428, 429, 432 et 434 :** à reprendre plus tard avec Startup Save / MCM Recorder.
+- **FOMOD NPCs Use Potions :** à revoir plus tard si ajout officiel de nouveaux mondes, quêtes, donjons ou créatures compatibles.
 
 ## Mods explicitement décochés / différés à conserver
 
@@ -148,7 +182,7 @@ Conclusion actuelle :
 
 ## Dernier état stable
 
-Profil stable étape 425 :
+Profil stable étape 434 :
 
 - SKSE / menu principal : OK
 - Aucun master manquant

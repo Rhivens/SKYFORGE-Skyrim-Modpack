@@ -4,79 +4,79 @@
 
 # SKYFORGE
 
-Projet personnel de création d’un modpack **Skyrim Special Edition 1.5.97** basé sur une fusion raisonnée entre les références **Nolvus** et **Nefaram**.
+Projet personnel de création d’un modpack **Skyrim Special Edition 1.5.97** basé sur une fusion raisonnée entre les références **Nolvus Awakening** et **Nefaram**.
 
-SKYFORGE vise une installation Skyrim stable, cohérente, documentée étape par étape, avec une approche prudente : installation progressive, tests réguliers, décisions différées quand un choix dépend de modules futurs.
+SKYFORGE vise une installation Skyrim stable, cohérente et documentée étape par étape, avec une approche prudente : installation progressive, tests réguliers, décisions différées quand un choix dépend de modules futurs, et validation explicite avant toute mise à jour structurelle.
 
 ---
 
 ## Suivre l’avancement du projet
 
-### ➜ [Lire le dernier changelog / résumé de validation](docs/procedure/99_changelog_validation_part_10.md)
+### ➜ [Lire le dernier changelog / résumé de validation](docs/procedure/99_changelog_validation_part_14.md)
 
-C’est le meilleur point d’entrée pour suivre l’évolution actuelle du modpack : dernières étapes validées, modules terminés ou en cours, décisions importantes, état de stabilité et prochaine reprise.
+C’est le meilleur point d’entrée pour suivre l’évolution récente du modpack : dernières étapes validées, modules terminés ou en cours, décisions importantes, état de stabilité et prochaine reprise.
 
-> Le changelog précédent reste disponible ici : [Changelog / validation — partie 9](docs/procedure/99_changelog_validation_part_9.md).
+> Le changelog précédent reste disponible ici : [Changelog / validation — partie 13](docs/procedure/99_changelog_validation_part_13.md).  
 > Le changelog historique principal reste disponible ici : [Changelog / validation — partie 1](docs/procedure/99_changelog_validation.md).
 
-### Liens utiles
+### Liens de reprise prioritaires
 
 * [Résumé de l’état actuel](docs/procedure/00_resume_etat_actuel.md)
+* [Snapshot Load Order MO2 — panneau gauche — étape 450](docs/configuration/SKYFORGE_Load_Order_MO2_panneau_gauche_etape_450.md)
+* [Module 10 — Gameplay, combat, magic & perks — partie 4](docs/procedure/10_gameplay_combat_magic_perks_part_4.md)
+* [Vigilances Body / Skins / BodySlide](docs/configuration/08_body_skins_bodyslide_vigilances.md)
 * [Procédure principale de reproduction](docs/SKYFORGE_Procedure_Reproduction_PC.md)
-* [Snapshot Load Order MO2 — panneau gauche — étape 401](docs/configuration/SKYFORGE_Load_Order_MO2_panneau_gauche_etape_401.md)
+
+### Snapshots historiques utiles
+
+* [Snapshot Load Order MO2 — panneau gauche — étape 434](docs/configuration/SKYFORGE_Load_Order_MO2_panneau_gauche_etape_434.md)
 * [Snapshot Load Order MO2 — panneau gauche — étape 409](docs/configuration/SKYFORGE_Load_Order_MO2_panneau_gauche_etape_409.md)
 * [État MO2 ciblé — blocs 09 / 10 — étape 409](docs/configuration/SKYFORGE_Load_Order_MO2_blocs_09_10_etape_409.md)
+* [Snapshot Load Order MO2 — panneau gauche — étape 401](docs/configuration/SKYFORGE_Load_Order_MO2_panneau_gauche_etape_401.md)
+
+Ces snapshots plus anciens sont conservés comme jalons historiques. Le snapshot courant de comparaison anti-doublon est celui de l’**étape 450**.
+
+### Autres fichiers de suivi
+
 * [Ajouts personnels SKYFORGE](docs/procedure/96_ajouts_personnels_skyforge.md)
 * [Registre central de dette technique](docs/procedure/97_registre_dette_technique.md)
 * [Registre central de dette technique — partie 2](docs/procedure/97_registre_dette_technique_part_2.md)
-* [Module 07 — Cities, towns, interiors & lighting](docs/procedure/11_cities_towns_interiors_lighting.md)
-* [Module 07 — Cities, towns, interiors & lighting — partie 2](docs/procedure/11_cities_towns_interiors_lighting_part_2.md)
-* [Module 07 — Cities, towns, interiors & lighting — partie 3](docs/procedure/11_cities_towns_interiors_lighting_part_3.md)
-* [Module 07 — Cities, towns, interiors & lighting — partie 4](docs/procedure/11_cities_towns_interiors_lighting_part_4.md)
-* [Module 07 — Cities, towns, interiors & lighting — partie 5](docs/procedure/11_cities_towns_interiors_lighting_part_5.md)
-* [Module 07 — Cities, towns, interiors & lighting — partie 6](docs/procedure/11_cities_towns_interiors_lighting_part_6.md)
-* [Module 07 — Cities, towns, interiors & lighting — partie 7](docs/procedure/11_cities_towns_interiors_lighting_part_7.md)
-* [Module 07 — Cities, towns, interiors & lighting — partie 8](docs/procedure/11_cities_towns_interiors_lighting_part_8.md)
-* [Module 07 — Cities, towns, interiors & lighting — partie 9](docs/procedure/11_cities_towns_interiors_lighting_part_9.md)
-* [Module 08 — Body, race & NPC appearance — partie 1](docs/procedure/12_body_race_npc_appearance_part_1.md)
-* [Module 08 — Body, race & NPC appearance — partie 2](docs/procedure/12_body_race_npc_appearance_part_2.md)
-* [Module 09 — Animations, skeleton & physics — partie 1](docs/procedure/09_animations_skeleton_physics_part_1.md)
-* [Module 10 — Gameplay, combat, magic & perks — partie 1](docs/procedure/10_gameplay_combat_magic_perks_part_1.md)
+* [Audit de continuité des étapes](docs/procedure/98_audit_continuite_etapes.md)
 * [Décisions différées et points à revoir](docs/procedure/06_decisions_differees.md)
 * [Décisions différées — partie 2](docs/procedure/06_decisions_differees_part_2.md)
 * [Décisions différées — partie 3](docs/procedure/06_decisions_differees_part_3.md)
 * [Décisions différées — partie 4](docs/procedure/06_decisions_differees_part_4.md)
 * [Décisions différées — partie 5](docs/procedure/06_decisions_differees_part_5.md)
-* [Changelog / validation — partie 6](docs/procedure/99_changelog_validation_part_6.md)
-* [Changelog / validation — partie 7](docs/procedure/99_changelog_validation_part_7.md)
-* [Changelog / validation — partie 8](docs/procedure/99_changelog_validation_part_8.md)
-* [Changelog / validation — partie 9](docs/procedure/99_changelog_validation_part_9.md)
-* [Changelog / validation — partie 10](docs/procedure/99_changelog_validation_part_10.md)
-* [Audit de continuité des étapes](docs/procedure/98_audit_continuite_etapes.md)
 
 ---
 
 ## État actuel
 
-* **Dernière étape validée :** Étape 409 — Mini-pack combat Nolvus léger
-* **Dernière étape d’installation validée :** Étape 409 — Mini-pack combat Nolvus léger
-* **Séparateur actuellement ouvert :** 10 - GAMEPLAY COMBAT MAGIC PERKS
-* **Séparateur précédent actif :** 09 - ANIMATIONS SKELETON PHYSICS
-* **Note de transition :** le bloc 09 reste actif pour les animations / skeleton / physics / dodge, tandis que le bloc 10 est ouvert pour le gameplay combat.
-* **Prochaine étape attendue :** Étape 410 — à déterminer après audit GitHub du bloc 09 / 10 et vérification anti-doublon.
-* **Compteur ESP + ESM non-light :** 106
+* **Dernière étape documentée :** Étape 450 — clôture provisoire du bloc `10 - GAMEPLAY COMBAT MAGIC PERKS`
+* **Prochaine étape attendue :** Étape 451 — ouverture / audit du bloc `10.1 - RACES WEREBEASTS VAMPIRES`
+* **Snapshot MO2 courant :** [panneau gauche étape 450](docs/configuration/SKYFORGE_Load_Order_MO2_panneau_gauche_etape_450.md)
+* **Compteur ESP + ESM non-light post-450 :** 110
 * **Runtime :** Skyrim SE 1.5.97 Best of Both Worlds
 * **AE / Creation Club :** conservé
+* **MO2 :** portable
 * **LOOT :** non lancé
 * **LOD / DynDOLOD :** non générés
 * **BodySlide Output :** non généré
-* **Pandora :** installé et configuré, mais non lancé / non généré
-* **Dernier snapshot MO2 complet :** [panneau gauche étape 409](docs/configuration/SKYFORGE_Load_Order_MO2_panneau_gauche_etape_409.md)
+* **Pandora :** généré depuis l’étape 411, Output actif ; ne pas relancer sauf demande explicite ou besoin technique
+* **Mods `- FR` personnels :** présents dans le panneau gauche mais décochés sauf indication contraire explicite
 
-L’état exact le plus récent est toujours consigné dans le [dernier changelog](docs/procedure/99_changelog_validation_part_10.md) et dans le [résumé de l’état actuel](docs/procedure/00_resume_etat_actuel.md).
+L’état exact le plus récent est toujours consigné dans le [résumé de l’état actuel](docs/procedure/00_resume_etat_actuel.md), le [dernier changelog](docs/procedure/99_changelog_validation_part_14.md) et le [snapshot MO2 courant](docs/configuration/SKYFORGE_Load_Order_MO2_panneau_gauche_etape_450.md).
 
-Le suivi des ajouts personnels est centralisé dans le [catalogue des ajouts personnels SKYFORGE](docs/procedure/96_ajouts_personnels_skyforge.md).
-Le suivi des éléments à reprendre plus tard est centralisé dans le [registre de dette technique](docs/procedure/97_registre_dette_technique.md) et sa [partie 2 dédiée aux ajouts personnels / tenues](docs/procedure/97_registre_dette_technique_part_2.md).
+---
+
+## Règles de lecture importantes
+
+* Le snapshot **étape 450** est la référence courante pour vérifier si un mod est déjà installé.
+* Les snapshots **401**, **409** et **434** sont des jalons historiques, pas des références courantes anti-doublon.
+* Les mods dont le nom se termine par `- FR` sont des traductions personnelles et restent décochés tant que le modpack n’est pas stabilisé.
+* Certains séparateurs sont volontairement vides : ils préparent les modules futurs et ne doivent pas être interprétés comme des erreurs.
+* Les mentions `A REINSTALLER PLUS TARD`, `PATCHES A VOIR PLUS TARD`, `A COMPLETER PLUS TARD`, `DECOCHE`, `RESERVE` ou équivalentes font partie de la nomenclature MO2 SKYFORGE.
+* Les mises à jour GitHub sont effectuées uniquement quand Fabien le décide.
 
 ---
 
@@ -84,10 +84,10 @@ Le suivi des éléments à reprendre plus tard est centralisé dans le [registre
 
 Construire une installation Skyrim stable, cohérente et patchée proprement :
 
-- **Nolvus** sert de référence principale pour le socle technique, graphique, gameplay, UI, monde, villes, quêtes, combat et magie.
-- **Nefaram** sert de référence majeure pour les systèmes avancés, immersion, roleplay, outfits, contraintes de compatibilité et les bases corporelles / visuelles compatibles SexLab-ready du module 08.
+- **Nolvus Awakening** sert de référence principale pour le socle technique, graphique, gameplay, UI, monde, villes, quêtes, combat, magie et confort gameplay léger.
+- **Nefaram** sert de référence majeure pour les futurs systèmes spécialisés, la cohérence Body / tenues / BodySlide, les bases corporelles et les compatibilités adultes différées.
 
-Le but n’est pas de copier deux modlists complètes, mais d’en extraire les idées, les méthodes et les systèmes utiles pour bâtir un modpack personnel maîtrisé.
+Le but n’est pas de copier deux modlists complètes aveuglément, mais d’en extraire les idées, les méthodes et les systèmes utiles pour bâtir un modpack personnel maîtrisé.
 
 ---
 
@@ -129,4 +129,4 @@ Il ne contient pas et ne doit pas contenir :
 
 SKYFORGE est un projet personnel en construction. Les étapes documentées reflètent l’état validé au moment des tests, pas une recommandation universelle prête à l’emploi.
 
-Les choix techniques peuvent évoluer au fur et à mesure de l’installation des modules suivants : villes, éclairage, météo, ENB, animations, gameplay, quêtes, patches finaux, BodySlide, Pandora / Nemesis, LOD et DynDOLOD.
+Les choix techniques peuvent évoluer au fur et à mesure de l’installation des modules suivants : races, lycanthropie, vampires, quêtes, followers, survie, systèmes spécialisés, tenues, BodySlide, patches finaux, LOD et DynDOLOD.

@@ -2,26 +2,25 @@
 
 ## Situation générale
 
-- **Dernière étape documentée :** Étape 450 — Clôture du bloc 7.8 Misc Gameplay
-- **Dernière étape validée avant snapshot load order :** Étape 450, sous réserve de confirmation du prochain snapshot MO2 panneau gauche
-- **Séparateur clôturé provisoirement :** 10 - GAMEPLAY COMBAT MAGIC PERKS
-- **Prochain séparateur prévu :** 11 - RACES WEREBEASTS VAMPIRES
-- **Séparateur précédent actif :** 09 - ANIMATIONS SKELETON PHYSICS
-- **Module actif terminé :** gameplay / combat léger / misc gameplay inspiré de Nolvus Awakening
-- **Prochaine étape attendue :** création / validation du nouveau snapshot load order après réception du panneau gauche MO2 complet, puis reprise en étape 451 ou bloc 11 selon décision de Fabien.
+- **Dernière étape documentée :** Étape 450 — Clôture provisoire du bloc `10 - GAMEPLAY COMBAT MAGIC PERKS`
+- **Dernier snapshot MO2 panneau gauche courant :** `docs/configuration/SKYFORGE_Load_Order_MO2_panneau_gauche_etape_450.md`
+- **Snapshot précédent :** `docs/configuration/SKYFORGE_Load_Order_MO2_panneau_gauche_etape_434.md`, désormais jalon historique
+- **Séparateur clôturé provisoirement :** `10 - GAMEPLAY COMBAT MAGIC PERKS`
+- **Prochain séparateur prévu :** `10.1 - RACES WEREBEASTS VAMPIRES`
+- **Prochaine étape attendue :** Étape 451, ouverture / audit du bloc `10.1 - RACES WEREBEASTS VAMPIRES`, sauf décision contraire de Fabien.
 
 ## État technique validé
 
 - **Runtime :** Skyrim SE 1.5.97 Best of Both Worlds
 - **AE / Creation Club :** conservé
 - **MO2 :** portable
-- **SKSE via MO2 :** OK
+- **SKSE via MO2 :** OK sur les tests documentés
 - **Menu principal :** OK sur les tests documentés
-- **Masters manquants :** aucun sur les tests validés, avec correction du master `Taunt Your Enemies.esp` à l'étape 441
+- **Masters manquants :** aucun sur les tests validés, après correction du master `Taunt Your Enemies.esp` à l'étape 441
 - **Messages DLL bloquants :** aucun signalé
 - **Plugins cochés :** OK sur les tests documentés
 - **Overwrite :** vide sur les derniers états explicitement indiqués
-- **Compteur ESP + ESM non-light :** à confirmer avec le prochain snapshot MO2 panneau gauche
+- **Compteur ESP + ESM non-light final post-450 :** à confirmer par Fabien via le panneau droit MO2
 - **Dernier compteur explicite dans les notes transmises :** 109 à l'étape 446
 - **LOOT :** non lancé
 - **DynDOLOD / LOD :** non générés
@@ -34,16 +33,17 @@
 À lire en priorité pour reprendre sans confusion :
 
 1. `docs/procedure/00_resume_etat_actuel.md`
-2. `docs/procedure/99_changelog_validation_part_14.md`
-3. `docs/procedure/10_gameplay_combat_magic_perks_part_4.md`
-4. `docs/configuration/08_body_skins_bodyslide_vigilances.md`
-5. `docs/configuration/SKYFORGE_Load_Order_MO2_panneau_gauche_etape_434.md` — dernier snapshot courant disponible en attendant le futur snapshot post-450
-6. `docs/procedure/99_changelog_validation_part_13.md`
-7. `docs/procedure/10_gameplay_combat_magic_perks_part_3.md`
-8. `docs/procedure/99_changelog_validation_part_12.md`
-9. `docs/procedure/10_gameplay_combat_magic_perks_part_2.md`
-10. `docs/procedure/09_animations_skeleton_physics_part_3.md`
-11. `docs/configuration/SKYFORGE_Load_Order_MO2_panneau_gauche_etape_409.md` — jalon historique, ne plus utiliser comme snapshot courant.
+2. `docs/configuration/SKYFORGE_Load_Order_MO2_panneau_gauche_etape_450.md`
+3. `docs/procedure/99_changelog_validation_part_14.md`
+4. `docs/procedure/10_gameplay_combat_magic_perks_part_4.md`
+5. `docs/configuration/08_body_skins_bodyslide_vigilances.md`
+6. `docs/configuration/SKYFORGE_Load_Order_MO2_panneau_gauche_etape_434.md` — jalon historique post-434, ne plus utiliser comme référence courante
+7. `docs/procedure/99_changelog_validation_part_13.md`
+8. `docs/procedure/10_gameplay_combat_magic_perks_part_3.md`
+9. `docs/procedure/99_changelog_validation_part_12.md`
+10. `docs/procedure/10_gameplay_combat_magic_perks_part_2.md`
+11. `docs/procedure/09_animations_skeleton_physics_part_3.md`
+12. `docs/configuration/SKYFORGE_Load_Order_MO2_panneau_gauche_etape_409.md` — jalon historique ancien, ne plus utiliser comme snapshot courant.
 
 ## Étapes récentes validées / documentées
 
@@ -51,7 +51,7 @@
 - **Étape 436 :** `Simplest Horses - Main File`. Patch `Simplest Horses - Animated Whistling Patch` différé à cette étape. Test menu OK. Compteur 108.
 - **Étape 437 :** `No Need to Ask... Bounty Is Served`. Test menu OK. Compteur 108.
 - **Étape 438 :** `State Your Claw`, `Food For The Thirsty`, `Switch Camera During Dialogue`. Option `Food For The Thirsty - Default`, option `Immersive Interactions` différée. Test menu OK. Compteur 108.
-- **Étape 439 :** `Dragon Claws Auto-Unlock` + `Take a Peek - New Stealth Mechanic`. Patcher Dragon Claws et patch Simply Knock différés. Placement / compteur à confirmer avec le prochain snapshot.
+- **Étape 439 :** `Dragon Claws Auto-Unlock` + `Take a Peek - New Stealth Mechanic`. Patcher Dragon Claws et patch Simply Knock différés.
 - **Étape 440 :** `Classic Sprinting Redone (Latest version for SE)` version 2.2. Version AE non retenue. `Instantly Skip Dialogue NG` non réinstallé car déjà présent.
 - **Étape 441 :** `Taunt Your Enemies` + `Remote Interactions`. Correction du master manquant `Taunt Your Enemies.esp` après proposition initiale de `Remote Interactions` seul.
 - **Étape 442 :** `Vampire Lords Can Fly` exclu. Fabien ne prévoit pas de jouer vampire. Aucune installation. Compteur 108.
@@ -59,10 +59,10 @@
 - **Étape 444 :** clôture provisoire du bloc misc gameplay léger. `Sky Parkour`, `Skyrim's Paraglider`, `Gamepad++` et assimilés différés à ce moment. Compteur 109.
 - **Étape 445 :** `SkyParkour v3`, patch Pandora / CRC32 Cache et `SkyParkour v3 - SKYFORGE ini`. Fichier INI isolé. Génération Pandora dédiée.
 - **Étape 446 :** `Skyrim's Paraglider` exclu. Fichiers associés non installés. Note future ajoutée pour `Dirty Deeds Missives 1.4.2`. Compteur 109.
-- **Étape 447 :** non documentée dans le lot transmis. `Headhunter - Bounties Redone` apparaît dans la clôture de l'étape 450 comme installé / validé ; présence et placement à confirmer avec le prochain snapshot MO2.
-- **Étape 448 :** `Nether's Follower Framework` 2.8.6b + `Nether's Follower Framework - Settings Loader`. FOMOD à revoir plus tard pour Interesting NPCs / RDO / options SPID / No Team Magic Damage / compatibilités systèmes spécialisés futurs.
+- **Étape 447 :** bloc détaillé absent du lot transmis, mais `Headhunter - Bounties Redone - FOMOD & PATCHES A REVOIR PLUS TARD` est présent dans le snapshot panneau gauche étape 450. Présence confirmée côté MO2.
+- **Étape 448 :** `Nether's Follower Framework` 2.8.6b + `Nether's Follower Framework - Legacy Settings Loader`. FOMOD à revoir plus tard pour Interesting NPCs / RDO / options SPID / No Team Magic Damage / compatibilités systèmes spécialisés futurs.
 - **Étape 449 :** `Animated Whistling` + `Simplest Horses - Animated Whistling Patch`. Patch Simplest Horses précédemment différé désormais installé.
-- **Étape 450 :** clôture provisoire du bloc `10 - GAMEPLAY COMBAT MAGIC PERKS` / `7.8 Misc Gameplay`. Nouveau séparateur prévu : `[11 - RACES WEREBEASTS VAMPIRES]`.
+- **Étape 450 :** clôture provisoire du bloc `10 - GAMEPLAY COMBAT MAGIC PERKS` / `7.8 Misc Gameplay`. Nouveau séparateur prévu : `[10.1 - RACES WEREBEASTS VAMPIRES]`.
 
 ## Décisions structurantes actuelles
 
@@ -83,16 +83,17 @@ Avant toute nouvelle proposition d'installation, vérifier dans GitHub :
 - le dernier changelog de validation ;
 - le dernier snapshot / état MO2 documenté.
 
-Le snapshot courant disponible reste pour l'instant :
+Le snapshot courant est désormais :
 
-- `docs/configuration/SKYFORGE_Load_Order_MO2_panneau_gauche_etape_434.md`
+- `docs/configuration/SKYFORGE_Load_Order_MO2_panneau_gauche_etape_450.md`
 
 Important :
 
-- un nouveau snapshot post-450 doit être créé après réception du nouveau load order complet ;
-- le snapshot étape 409 reste conservé comme historique, mais ne doit plus servir de référence principale de comparaison ;
-- ne jamais reproposer un mod déjà présent dans le snapshot ou les fichiers de procédure ;
-- après réception du load order post-450, le nouveau snapshot devra remplacer le snapshot 434 comme référence pratique courante.
+- le snapshot étape 450 remplace le snapshot étape 434 comme référence pratique courante ;
+- le snapshot étape 434 reste conservé comme jalon historique post-434 ;
+- le snapshot étape 409 reste conservé comme jalon historique ancien ;
+- ne jamais reproposer un mod déjà présent dans le snapshot courant ou les fichiers de procédure ;
+- le panneau gauche MO2 ne permet pas de confirmer seul le compteur ESP + ESM non-light : ce compteur doit être donné par Fabien depuis le panneau droit MO2.
 
 ## Règle traductions personnelles FR
 
@@ -103,6 +104,25 @@ Ces mods `- FR` restent volontairement **décochés pour le moment**, tant que l
 Ils seront activés plus tard par petits groupes contrôlés, avec test SKSE / menu après chaque groupe.
 
 Leur présence dans le panneau gauche MO2 ne doit pas être interprétée comme une erreur ou un oubli.
+
+## Séparateurs vides
+
+Certains séparateurs sont volontairement présents mais encore vides dans le snapshot MO2 panneau gauche.
+
+Ce n'est pas une anomalie : ils préparent les blocs futurs.
+
+Exemples actuels :
+
+- `10.1 - RACES WEREBEASTS VAMPIRES`
+- `11 - QUESTS WORLDS FOLLOWERS`
+- `11.1 - FOLLOWERS NPCS DIALOGUES`
+- `13.1 - SEXLAB ANIMATIONS ADULT RESOURCES`
+- `14 - DEVIOUS DEFEAT SLAVERY PROSTITUTION`
+- `15 - ARMORS CLOTHES OUTFITS NSFW`
+- `15.1 - BODYSLIDE OUTPUTS OUTFITS`
+- `16 - PATCHES CONFLICT RESOLUTION`
+- `17 - DYNDOLOD OUTPUTS GENERATED FILES`
+- `19 - TRADUCTIONS FR`
 
 ## Notes futures importantes
 
@@ -167,9 +187,7 @@ Correction : installation de `Taunt Your Enemies`, puis validation du mini-bloc.
 
 ## Vigilances restantes
 
-- **Nouveau snapshot post-450 :** à créer après réception du load order complet.
-- **Compteur ESP + ESM non-light final post-450 :** à confirmer avec le prochain snapshot.
-- **Étape 447 / Headhunter :** bloc détaillé absent du lot transmis ; présence / placement à confirmer avec le prochain snapshot MO2.
+- **Compteur ESP + ESM non-light final post-450 :** à confirmer par Fabien via le panneau droit MO2.
 - **BodySlide Output :** non généré.
 - **XPMSSE :** FOMOD à revoir plus tard avant animations avancées / styles d'armes.
 - **LeveledList Crash Fix AE + 1.5 :** à vérifier hors urgence.
@@ -183,17 +201,18 @@ Correction : installation de `Taunt Your Enemies`, puis validation du mini-bloc.
 - **MCM non configurés des étapes 428, 429, 432 et 434 :** à reprendre plus tard avec Startup Save / MCM Recorder.
 - **FOMOD NPCs Use Potions :** à revoir plus tard si ajout officiel de nouveaux mondes, quêtes, donjons ou créatures compatibles.
 - **Patchs conditionnels du bloc misc gameplay :** à revoir plus tard selon les mods installés.
+- **Headhunter - Bounties Redone :** présent dans le snapshot 450 ; FOMOD et patches à revoir plus tard.
 
 ## Mods explicitement décochés / différés à conserver
 
 - `Dunmeri Furniture in Gray Quarter - PATCHES A VOIR PLUS TARD`
 - `Kris's Papyrus Extender - DECOCHE RESERVE`
 - `ENB Extender Skyrim - DECOCHE RESERVE ENB`
-- `Magic College Music - Songs for Academy - DECOCHE FORM 43`
-- `Atlantean Landscape -Complete- 2K - A REINSTALL PLUS TARD`
+- `Magic College Music - Songs for Academy - DECOCHE - FORM 43`
+- `Atlantean Landscape -Complete- 2K - A REINSTALLER PLUS TARD`
 - `Cities of the North - Morthal - DECOCHE CHOIX A REVOIR`
-- `Scarecrows of Skyrim - BOS - SOS Patch - REQUIERT SIMPLICTY OF SNOW`
-- `MuJointFix - Sexlab Ostim Patch - DECOCHE RESERVE`
+- `Scarecrows of Skyrim - BOS - SOS Patch - DECOCHE REQUIERT SIMPLICITY OF SNOW`
+- `MuJointFix - Sexlab Ostim Patch - DECOCHE RESERVE SEXLAB`
 - tous les mods terminés par `- FR`
 
 ## Outils non lancés / non relancés à ce stade
@@ -208,9 +227,10 @@ Correction : installation de `Taunt Your Enemies`, puis validation du mini-bloc.
 État documenté après étape 450 :
 
 - Bloc `10 - GAMEPLAY COMBAT MAGIC PERKS` clôturé provisoirement
-- Prochain bloc prévu : `[11 - RACES WEREBEASTS VAMPIRES]`
+- Snapshot courant : `docs/configuration/SKYFORGE_Load_Order_MO2_panneau_gauche_etape_450.md`
+- Prochain bloc prévu : `[10.1 - RACES WEREBEASTS VAMPIRES]`
 - SKSE / menu principal : OK sur les tests documentés
 - Overwrite : vide sur les derniers états explicitement indiqués
 - CrashLogger actif
 - Pandora Output actif
-- Compteur final post-450 : à confirmer avec le prochain snapshot load order
+- Compteur final post-450 : à confirmer par Fabien via panneau droit MO2

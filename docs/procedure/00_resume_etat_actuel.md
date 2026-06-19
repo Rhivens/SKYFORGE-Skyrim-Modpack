@@ -2,12 +2,13 @@
 
 ## Situation générale
 
-- **Dernière étape validée :** Étape 434 — A Closer Look SSE
-- **Séparateur actuellement ouvert :** 10 - GAMEPLAY COMBAT MAGIC PERKS
+- **Dernière étape documentée :** Étape 450 — Clôture du bloc 7.8 Misc Gameplay
+- **Dernière étape validée avant snapshot load order :** Étape 450, sous réserve de confirmation du prochain snapshot MO2 panneau gauche
+- **Séparateur clôturé provisoirement :** 10 - GAMEPLAY COMBAT MAGIC PERKS
+- **Prochain séparateur prévu :** 11 - RACES WEREBEASTS VAMPIRES
 - **Séparateur précédent actif :** 09 - ANIMATIONS SKELETON PHYSICS
-- **Module actif :** gameplay / combat léger et confort issu de Nolvus Awakening
-- **Dernier profil stable :** étape 434
-- **Prochaine étape attendue :** étape 435, reprise prudente par petit bloc après lecture GitHub.
+- **Module actif terminé :** gameplay / combat léger / misc gameplay inspiré de Nolvus Awakening
+- **Prochaine étape attendue :** création / validation du nouveau snapshot load order après réception du panneau gauche MO2 complet, puis reprise en étape 451 ou bloc 11 selon décision de Fabien.
 
 ## État technique validé
 
@@ -15,16 +16,17 @@
 - **AE / Creation Club :** conservé
 - **MO2 :** portable
 - **SKSE via MO2 :** OK
-- **Menu principal :** OK
-- **Masters manquants :** aucun
+- **Menu principal :** OK sur les tests documentés
+- **Masters manquants :** aucun sur les tests validés, avec correction du master `Taunt Your Enemies.esp` à l'étape 441
 - **Messages DLL bloquants :** aucun signalé
-- **Plugins cochés :** OK
-- **Overwrite :** vide
-- **Compteur ESP + ESM non-light :** 108
+- **Plugins cochés :** OK sur les tests documentés
+- **Overwrite :** vide sur les derniers états explicitement indiqués
+- **Compteur ESP + ESM non-light :** à confirmer avec le prochain snapshot MO2 panneau gauche
+- **Dernier compteur explicite dans les notes transmises :** 109 à l'étape 446
 - **LOOT :** non lancé
 - **DynDOLOD / LOD :** non générés
 - **BodySlide Output :** non généré
-- **Pandora :** généré avec succès à l’étape 411, Output actif, non relancé depuis
+- **Pandora :** généré avec succès à l'étape 411, Output actif ; génération dédiée utilisée pour SkyParkour v3 à l'étape 445
 - **CrashLogger :** actif avec PDB support 1.5.97
 
 ## Fichiers de reprise prioritaires
@@ -32,99 +34,108 @@
 À lire en priorité pour reprendre sans confusion :
 
 1. `docs/procedure/00_resume_etat_actuel.md`
-2. `docs/configuration/SKYFORGE_Load_Order_MO2_panneau_gauche_etape_434.md`
-3. `docs/procedure/99_changelog_validation_part_13.md`
-4. `docs/procedure/10_gameplay_combat_magic_perks_part_3.md`
-5. `docs/procedure/99_changelog_validation_part_12.md`
-6. `docs/procedure/10_gameplay_combat_magic_perks_part_2.md`
-7. `docs/procedure/09_animations_skeleton_physics_part_3.md`
-8. `docs/procedure/99_changelog_validation_part_11.md`
-9. `docs/procedure/10_validation_gameplay_post_ctd_etape_415.md`
-10. `docs/procedure/09_animations_skeleton_physics_part_2.md`
-11. `docs/procedure/10_stabilisation_etape_412_414.md`
-12. `docs/procedure/10_gameplay_combat_magic_perks_part_1.md`
-13. `docs/procedure/09_animations_skeleton_physics_part_1.md`
-14. `docs/configuration/SKYFORGE_Load_Order_MO2_panneau_gauche_etape_409.md` — jalon historique, ne plus utiliser comme snapshot courant.
+2. `docs/procedure/99_changelog_validation_part_14.md`
+3. `docs/procedure/10_gameplay_combat_magic_perks_part_4.md`
+4. `docs/configuration/08_body_skins_bodyslide_vigilances.md`
+5. `docs/configuration/SKYFORGE_Load_Order_MO2_panneau_gauche_etape_434.md` — dernier snapshot courant disponible en attendant le futur snapshot post-450
+6. `docs/procedure/99_changelog_validation_part_13.md`
+7. `docs/procedure/10_gameplay_combat_magic_perks_part_3.md`
+8. `docs/procedure/99_changelog_validation_part_12.md`
+9. `docs/procedure/10_gameplay_combat_magic_perks_part_2.md`
+10. `docs/procedure/09_animations_skeleton_physics_part_3.md`
+11. `docs/configuration/SKYFORGE_Load_Order_MO2_panneau_gauche_etape_409.md` — jalon historique, ne plus utiliser comme snapshot courant.
 
-## Étapes récentes validées
+## Étapes récentes validées / documentées
 
-- **Étape 426 :** test gameplay ciblé post-ajouts combat / archerie, 15 minutes. Aucun CTD, aucun reboot, combats et MCM OK. Anomalie graphique non bloquante dans Giant Inn de Riverwood. Compteur 108.
-- **Étape 427 :** `NPCs Use Potions` + `NPCs Use Potions - SKYFORGE Config`. FOMOD limité au profil actuel. Incident écran noir non reproduit, non bloquant. Test menu atteint OK. Compteur 108.
-- **Étape 428 :** `Smart Optimal Salves - Optimal Potion Hotkey MCM` + `Optimal Potion Hotkey MCM - Settings Loader`. Hotkeys non configurées maintenant. Test menu atteint OK. Compteur 108.
-- **Étape 429 :** `Simple Offence Suppression` + `Simple Offence Suppression MCM - Block Friendly Fire`. MCM non configuré maintenant. Test menu atteint OK. Compteur 108.
-- **Étape 430 :** `I’m Talkin’ Here` + `Instantly Skip Dialogue NG`. Aucun patch follower ajouté pour l’instant. Test menu atteint OK. Compteur 108.
-- **Étape 431 :** `Disable Follower Collision` + `I’m Walkin’ Here` version `1.5.0` compatible Skyrim `1.5.50 - 1.5.97`. Test menu atteint OK. Compteur 108.
-- **Étape 432 :** `No Furniture Camera` + `Pick Up Radius`. MCM non configuré maintenant. Test menu atteint OK. Compteur 108.
-- **Étape 433 :** annulée pour doublons déjà installés : `Use Or Take SKSE`, `Read Or Take SKSE`, `Favorite Misc Items`. Aucune installation. Compteur inchangé.
-- **Étape 434 :** `A Closer Look SSE`, version SSE. Version NG non installée par prudence avec Skyrim SE 1.5.97. Test menu atteint OK. Compteur 108.
+- **Étape 435 :** reprise contrôlée post-snapshot 434. Aucune installation. Test menu OK. Compteur 108.
+- **Étape 436 :** `Simplest Horses - Main File`. Patch `Simplest Horses - Animated Whistling Patch` différé à cette étape. Test menu OK. Compteur 108.
+- **Étape 437 :** `No Need to Ask... Bounty Is Served`. Test menu OK. Compteur 108.
+- **Étape 438 :** `State Your Claw`, `Food For The Thirsty`, `Switch Camera During Dialogue`. Option `Food For The Thirsty - Default`, option `Immersive Interactions` différée. Test menu OK. Compteur 108.
+- **Étape 439 :** `Dragon Claws Auto-Unlock` + `Take a Peek - New Stealth Mechanic`. Patcher Dragon Claws et patch Simply Knock différés. Placement / compteur à confirmer avec le prochain snapshot.
+- **Étape 440 :** `Classic Sprinting Redone (Latest version for SE)` version 2.2. Version AE non retenue. `Instantly Skip Dialogue NG` non réinstallé car déjà présent.
+- **Étape 441 :** `Taunt Your Enemies` + `Remote Interactions`. Correction du master manquant `Taunt Your Enemies.esp` après proposition initiale de `Remote Interactions` seul.
+- **Étape 442 :** `Vampire Lords Can Fly` exclu. Fabien ne prévoit pas de jouer vampire. Aucune installation. Compteur 108.
+- **Étape 443 :** `Skyrim's Got Talent - Improve As a Bard`. `BA Bard Songs` déjà présent. Patchs optionnels et `Flute Animation Fix` différés. Compteur courant indiqué à 109 avant l'étape 444.
+- **Étape 444 :** clôture provisoire du bloc misc gameplay léger. `Sky Parkour`, `Skyrim's Paraglider`, `Gamepad++` et assimilés différés à ce moment. Compteur 109.
+- **Étape 445 :** `SkyParkour v3`, patch Pandora / CRC32 Cache et `SkyParkour v3 - SKYFORGE ini`. Fichier INI isolé. Génération Pandora dédiée.
+- **Étape 446 :** `Skyrim's Paraglider` exclu. Fichiers associés non installés. Note future ajoutée pour `Dirty Deeds Missives 1.4.2`. Compteur 109.
+- **Étape 447 :** non documentée dans le lot transmis. `Headhunter - Bounties Redone` apparaît dans la clôture de l'étape 450 comme installé / validé ; présence et placement à confirmer avec le prochain snapshot MO2.
+- **Étape 448 :** `Nether's Follower Framework` 2.8.6b + `Nether's Follower Framework - Settings Loader`. FOMOD à revoir plus tard pour Interesting NPCs / RDO / options SPID / No Team Magic Damage / compatibilités systèmes spécialisés futurs.
+- **Étape 449 :** `Animated Whistling` + `Simplest Horses - Animated Whistling Patch`. Patch Simplest Horses précédemment différé désormais installé.
+- **Étape 450 :** clôture provisoire du bloc `10 - GAMEPLAY COMBAT MAGIC PERKS` / `7.8 Misc Gameplay`. Nouveau séparateur prévu : `[11 - RACES WEREBEASTS VAMPIRES]`.
 
 ## Décisions structurantes actuelles
 
-- **Nolvus Awakening** est la référence principale pour combat / dodge / animations combat / confort gameplay léger.
-- **Nefaram** reste la référence principale pour Body compatible adulte / compatibilité future / systèmes spécialisés différés.
+- **Nolvus Awakening** reste la référence principale pour combat / dodge / animations combat / confort gameplay léger / misc gameplay.
+- **Nefaram** reste la référence principale pour les futurs blocs Body, tenues, BodySlide et cohérence de bodies.
 - **Pandora Behaviour Engine Plus** est le générateur retenu.
-- **Nemesis** n’est pas retenu comme générateur principal.
+- **Nemesis** n'est pas retenu comme générateur principal.
 - Les réglages TK Dodge RE doivent être des réglages SKYFORGE propres, inspirés de Nolvus Awakening mais adaptés au modpack.
-- Ne pas dépendre des fichiers Nolvus Awakening locaux, sauf besoin futur de comparaison avancée.
 - Les réglages MCM non urgents seront repris plus tard avec la logique Startup Save / MCM Recorder.
+- Ne pas dépendre des fichiers Nolvus Awakening locaux, sauf besoin futur de comparaison avancée.
 
 ## Règle anti-doublon SKYFORGE
 
-Avant toute nouvelle proposition d’installation, vérifier dans GitHub :
+Avant toute nouvelle proposition d'installation, vérifier dans GitHub :
 
-- ce résumé d’état actuel ;
+- ce résumé d'état actuel ;
 - le fichier thématique du module en cours ;
 - le dernier changelog de validation ;
 - le dernier snapshot / état MO2 documenté.
 
-Le snapshot courant à utiliser est désormais :
+Le snapshot courant disponible reste pour l'instant :
 
 - `docs/configuration/SKYFORGE_Load_Order_MO2_panneau_gauche_etape_434.md`
 
-Le snapshot étape 409 reste conservé comme historique, mais ne doit plus servir de référence principale de comparaison.
+Important :
 
-Ne jamais reproposer un mod déjà présent dans le snapshot ou les fichiers de procédure.
-
-L’étape 433 documente explicitement les doublons suivants comme déjà installés :
-
-- `Use Or Take SKSE`
-- `Read Or Take SKSE`
-- `Favorite Misc Items`
+- un nouveau snapshot post-450 doit être créé après réception du nouveau load order complet ;
+- le snapshot étape 409 reste conservé comme historique, mais ne doit plus servir de référence principale de comparaison ;
+- ne jamais reproposer un mod déjà présent dans le snapshot ou les fichiers de procédure ;
+- après réception du load order post-450, le nouveau snapshot devra remplacer le snapshot 434 comme référence pratique courante.
 
 ## Règle traductions personnelles FR
 
 Tous les mods dont le nom se termine par `- FR` sont des traductions personnelles de Fabien.
 
-Ces mods `- FR` restent volontairement **décochés pour le moment**, tant que le modpack n’est pas stabilisé.
+Ces mods `- FR` restent volontairement **décochés pour le moment**, tant que le modpack n'est pas stabilisé.
 
 Ils seront activés plus tard par petits groupes contrôlés, avec test SKSE / menu après chaque groupe.
 
 Leur présence dans le panneau gauche MO2 ne doit pas être interprétée comme une erreur ou un oubli.
 
-## Incident Windows isolé — étape 420
+## Notes futures importantes
 
-Un redémarrage complet Windows est survenu au premier lancement de l’étape 420.
+### PB's Silky Skin — SKYFORGE PLAYER SKIN OVERRIDE
 
-Éléments observés :
+Une note dédiée a été créée dans :
 
-- Kernel-Power 41 ;
-- BugCheck `0x00000050 PAGE_FAULT_IN_NONPAGED_AREA` ;
-- dump : `C:\WINDOWS\Minidump\061726-8609-01.dmp` ;
-- WinDbg :
-  - `PROCESS_NAME: SkyrimSE.exe` ;
-  - `IMAGE_NAME: ntkrnlmp.exe` ;
-  - `FAILURE_BUCKET_ID: AV_nt!MiSystemFault` ;
-  - pile incluant `Ntfs!NtfsCommonDirectoryControl`.
+- `docs/configuration/08_body_skins_bodyslide_vigilances.md`
 
-Conclusion actuelle :
+Objectif :
 
-- incident isolé ;
-- non reproduit après retour état 419, tests isolés 420A / 420B et retests ;
-- aucune récidive signalée sur les étapes 426 à 434 ;
-- pas de preuve de malware ;
-- pas de preuve de mod Skyrim fautif ;
-- pas de preuve que MO2 / SKYFORGE soit directement responsable ;
-- MSI Center / services bas niveau à surveiller uniquement si récidive.
+- éviter les problèmes de brillance excessive / shiny sur la skin du personnage joueur ;
+- surveiller les textures spéculaires `*_s.dds` du corps, des mains et de la tête ;
+- prévoir plus tard un mod override dédié pour la skin PJ lors du bloc Body / Outfits / BodySlide.
+
+### Dirty Deeds Missives 1.4.2
+
+À auditer plus tard lors du bloc Missives / patches final :
+
+- compatibilité avec `Headhunter - Bounties Redone` ;
+- compatibilité avec `Missives` ;
+- compatibilité avec les patchs `Headhunter - Missives` ;
+- compatibilité Bruma / Solstheim / Wyrmstooth si utilisés ;
+- conflits éventuels sur jobs de primes, notes, quêtes radiant, aliases ou récompenses ;
+- nécessité éventuelle d'un patch SKYFORGE dédié.
+
+### Nether's Follower Framework
+
+À revoir plus tard pour :
+
+- options Interesting NPCs / RDO ;
+- options SPID / No Team Magic Damage ;
+- compatibilités followers, IA, dialogues et systèmes spécialisés différés.
 
 ## Incidents / anomalies récents non bloquants
 
@@ -136,7 +147,7 @@ Le plugin était visible et actif dans le panneau droit MO2, chargé en FE / ESL
 
 ### Étape 426 — Riverwood Giant Inn
 
-Anomalie graphique non bloquante : objets flottants à l’emplacement de l’ancien comptoir dans la cellule Giant Inn de Riverwood.
+Anomalie graphique non bloquante : objets flottants à l'emplacement de l'ancien comptoir dans la cellule Giant Inn de Riverwood.
 
 Décision : à corriger plus tard, sans bloquer le module combat / gameplay.
 
@@ -144,19 +155,23 @@ Décision : à corriger plus tard, sans bloquer le module combat / gameplay.
 
 Un écran noir / blocage avant menu a été observé au premier lancement après installation de `NPCs Use Potions`.
 
-Après relance, l’incident ne s’est pas reproduit et le menu principal a été atteint normalement.
+Après relance, l'incident ne s'est pas reproduit et le menu principal a été atteint normalement.
 
 Décision : vigilance mineure, non bloquante.
 
-## Vigilances levées récemment
+### Étape 441 — Remote Interactions
 
-- **Pandora installé mais non généré :** levée à l’étape 411.
-- **Smooth TK Dodge Attack à confirmer en jeu :** levée à l’étape 415 dans le cadre du test gameplay limité post-CTD.
+`Remote Interactions` seul a provoqué un master manquant `Taunt Your Enemies.esp`.
+
+Correction : installation de `Taunt Your Enemies`, puis validation du mini-bloc.
 
 ## Vigilances restantes
 
+- **Nouveau snapshot post-450 :** à créer après réception du load order complet.
+- **Compteur ESP + ESM non-light final post-450 :** à confirmer avec le prochain snapshot.
+- **Étape 447 / Headhunter :** bloc détaillé absent du lot transmis ; présence / placement à confirmer avec le prochain snapshot MO2.
 - **BodySlide Output :** non généré.
-- **XPMSSE :** FOMOD à revoir plus tard avant animations avancées / styles d’armes.
+- **XPMSSE :** FOMOD à revoir plus tard avant animations avancées / styles d'armes.
 - **LeveledList Crash Fix AE + 1.5 :** à vérifier hors urgence.
 - **LOOT :** non lancé.
 - **DynDOLOD / LOD :** non générés.
@@ -167,6 +182,7 @@ Décision : vigilance mineure, non bloquante.
 - **Bug graphique Riverwood Giant Inn :** objets flottants à corriger plus tard.
 - **MCM non configurés des étapes 428, 429, 432 et 434 :** à reprendre plus tard avec Startup Save / MCM Recorder.
 - **FOMOD NPCs Use Potions :** à revoir plus tard si ajout officiel de nouveaux mondes, quêtes, donjons ou créatures compatibles.
+- **Patchs conditionnels du bloc misc gameplay :** à revoir plus tard selon les mods installés.
 
 ## Mods explicitement décochés / différés à conserver
 
@@ -185,17 +201,16 @@ Décision : vigilance mineure, non bloquante.
 - LOOT
 - DynDOLOD / LOD
 - BodySlide
-- Pandora non relancé depuis l’étape 411
+- Pandora ne doit pas être relancé sauf demande explicite ou besoin technique d'un mod d'animation / comportement
 
 ## Dernier état stable
 
-Profil stable étape 434 :
+État documenté après étape 450 :
 
-- SKSE / menu principal : OK
-- Aucun master manquant
-- Aucun message DLL bloquant
-- Plugins cochés
-- Overwrite vide
+- Bloc `10 - GAMEPLAY COMBAT MAGIC PERKS` clôturé provisoirement
+- Prochain bloc prévu : `[11 - RACES WEREBEASTS VAMPIRES]`
+- SKSE / menu principal : OK sur les tests documentés
+- Overwrite : vide sur les derniers états explicitement indiqués
 - CrashLogger actif
 - Pandora Output actif
-- Compteur ESP + ESM non-light : 108
+- Compteur final post-450 : à confirmer avec le prochain snapshot load order

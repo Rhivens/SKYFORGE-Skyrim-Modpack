@@ -32,18 +32,19 @@
 À lire en priorité pour reprendre sans confusion :
 
 1. `docs/procedure/00_resume_etat_actuel.md`
-2. `docs/procedure/99_changelog_validation_part_13.md`
-3. `docs/procedure/10_gameplay_combat_magic_perks_part_3.md`
-4. `docs/procedure/99_changelog_validation_part_12.md`
-5. `docs/procedure/10_gameplay_combat_magic_perks_part_2.md`
-6. `docs/procedure/09_animations_skeleton_physics_part_3.md`
-7. `docs/procedure/99_changelog_validation_part_11.md`
-8. `docs/procedure/10_validation_gameplay_post_ctd_etape_415.md`
-9. `docs/procedure/09_animations_skeleton_physics_part_2.md`
-10. `docs/procedure/10_stabilisation_etape_412_414.md`
-11. `docs/procedure/10_gameplay_combat_magic_perks_part_1.md`
-12. `docs/procedure/09_animations_skeleton_physics_part_1.md`
-13. `docs/configuration/SKYFORGE_Load_Order_MO2_panneau_gauche_etape_409.md`
+2. `docs/configuration/SKYFORGE_Load_Order_MO2_panneau_gauche_etape_434.md`
+3. `docs/procedure/99_changelog_validation_part_13.md`
+4. `docs/procedure/10_gameplay_combat_magic_perks_part_3.md`
+5. `docs/procedure/99_changelog_validation_part_12.md`
+6. `docs/procedure/10_gameplay_combat_magic_perks_part_2.md`
+7. `docs/procedure/09_animations_skeleton_physics_part_3.md`
+8. `docs/procedure/99_changelog_validation_part_11.md`
+9. `docs/procedure/10_validation_gameplay_post_ctd_etape_415.md`
+10. `docs/procedure/09_animations_skeleton_physics_part_2.md`
+11. `docs/procedure/10_stabilisation_etape_412_414.md`
+12. `docs/procedure/10_gameplay_combat_magic_perks_part_1.md`
+13. `docs/procedure/09_animations_skeleton_physics_part_1.md`
+14. `docs/configuration/SKYFORGE_Load_Order_MO2_panneau_gauche_etape_409.md` — jalon historique, ne plus utiliser comme snapshot courant.
 
 ## Étapes récentes validées
 
@@ -75,6 +76,12 @@ Avant toute nouvelle proposition d’installation, vérifier dans GitHub :
 - le fichier thématique du module en cours ;
 - le dernier changelog de validation ;
 - le dernier snapshot / état MO2 documenté.
+
+Le snapshot courant à utiliser est désormais :
+
+- `docs/configuration/SKYFORGE_Load_Order_MO2_panneau_gauche_etape_434.md`
+
+Le snapshot étape 409 reste conservé comme historique, mais ne doit plus servir de référence principale de comparaison.
 
 Ne jamais reproposer un mod déjà présent dans le snapshot ou les fichiers de procédure.
 

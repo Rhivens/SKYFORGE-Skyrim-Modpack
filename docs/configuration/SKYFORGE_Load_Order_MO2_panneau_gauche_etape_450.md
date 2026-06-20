@@ -767,8 +767,49 @@ No BS AI Projectile Dodge
 VioLens - A Killmove Mod SE
 VioLens - A Killmove Mod SE - Settings Loader
 [10.1 - RACES WEREBEASTS VAMPIRES]
+Aetherius - A Race Overhaul - FOMOD A REVOIR PLUS TARD
+Aetherius - Race Menu Racial Passive Descriptions
+Mundus - A Standing Stone Overhaul
+Sacrosanct - Vampires of Skyrim
+Cover Your Head - Sacrosanct
+Sun Affects NPC Vampires
+Manbeast - A Werewolf Overhaul
 [11 - QUESTS WORLDS FOLLOWERS]
 [11.1 - FOLLOWERS NPCS DIALOGUES]
+Bandit Lines Expansion
+Civil War Lines Expansion
+Forsworn and Thalmor Lines Expansion
+Vampire Lines Expansion
+Brawl Lines Expansion and Fixes
+NPCs React To Necromancy (And More)
+NPCs React To Invisibility
+Bow of Shadows (CC) - Invisibility Patch
+NPCs React To Frenzy
+Carriages and Stables Dialogue Bundle
+Show NPC Disposition Relationship Rank
+Dialogue Window Auto Close Exit Begone
+Scared of Shootings - NPCs react to aiming bows
+Dialogue Expansion - Windhelm
+Dialogue Expansion - Shor's Stone
+Dialogue Expansion - Khajiit Caravans
+Neutral Whiterun Guards
+Truly Neutral Prisoners
+More Sensible Quartermasters
+Robber's Gorge Fixes - FOMOD À REVOIR PLUS TARD
+Guard Dialogue Overhaul SE
+Guard Dialogue Overhaul MCM
+GuardsTalk
+Misc Dialogue Edits - FOMOD À REVOIR PLUS TARD
+More Dialogue Options - FOMOD À REVOIR PLUS TARD
+Relationship Dialogue Overhaul - RDO SE
+Cutting Room Floor - FOMOD À REVOIR PLUS TARD
+RDO - CRF and USSEP Patches Final
+AI Overhaul SSE - FOMOD À REVOIR PLUS TARD
+AI Overhaul - Relationship Dialogue Overhaul Patch
+AI Overhaul - Cutting Room Floor Patch
+Run For Your Lives
+Realistic Conversations
+SPID NPC Trap Safety
 [12 - SURVIVAL IMMERSION ROLEPLAY]
 Skyrim Unbound Reborn - ALTERNATE START - A REINSTALLER PLUS TARD
 [13 - SEXLAB CORE ADULT FRAMEWORKS]

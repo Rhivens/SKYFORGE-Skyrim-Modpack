@@ -12,20 +12,22 @@ SKYFORGE vise une installation Skyrim stable, cohérente et documentée étape p
 
 ## Suivre l’avancement du projet
 
-### ➜ [Lire le dernier changelog / résumé de validation](docs/procedure/99_changelog_validation_part_15.md)
+### ➜ [Lire le dernier changelog / résumé de validation](docs/procedure/99_changelog_validation_part_16.md)
 
 C’est le meilleur point d’entrée pour suivre l’évolution récente du modpack : dernières étapes validées, modules terminés ou en cours, décisions importantes, état de stabilité et prochaine reprise.
 
-> Le changelog précédent reste disponible ici : [Changelog / validation — partie 14](docs/procedure/99_changelog_validation_part_14.md).  
+> Le changelog précédent reste disponible ici : [Changelog / validation — partie 15](docs/procedure/99_changelog_validation_part_15.md).  
 > Le changelog historique principal reste disponible ici : [Changelog / validation — partie 1](docs/procedure/99_changelog_validation.md).
 
 ### Liens de reprise prioritaires
 
 * [Résumé de l’état actuel](docs/procedure/00_resume_etat_actuel.md)
-* [Changelog / validation — partie 15](docs/procedure/99_changelog_validation_part_15.md)
+* [Règles MO2 SKYFORGE](docs/procedure/01_regles_mo2_skyforge.md)
+* [Changelog / validation — partie 16](docs/procedure/99_changelog_validation_part_16.md)
+* [Module 11.2 — Custom followers & companions — partie 1](docs/procedure/11_2_custom_followers_companions_part_1.md)
+* [Module 11.1 — Followers, NPCs & dialogues — partie 2](docs/procedure/11_1_followers_npcs_dialogues_part_2.md)
 * [Module 11.1 — Followers, NPCs & dialogues — partie 1](docs/procedure/11_1_followers_npcs_dialogues_part_1.md)
 * [Snapshot Load Order MO2 — panneau gauche — étape 480](docs/configuration/SKYFORGE_Load_Order_MO2_panneau_gauche_etape_480.md)
-* [Module 10.1 — Races, werebeasts & vampires](docs/procedure/10_1_races_werebeasts_vampires.md)
 * [Règle vampire SKYFORGE](docs/configuration/09_regle_vampire_skyforge.md)
 * [Vigilances Body / Skins / BodySlide](docs/configuration/08_body_skins_bodyslide_vigilances.md)
 * [Procédure principale de reproduction](docs/SKYFORGE_Procedure_Reproduction_PC.md)
@@ -38,7 +40,7 @@ C’est le meilleur point d’entrée pour suivre l’évolution récente du mod
 * [État MO2 ciblé — blocs 09 / 10 — étape 409](docs/configuration/SKYFORGE_Load_Order_MO2_blocs_09_10_etape_409.md)
 * [Snapshot Load Order MO2 — panneau gauche — étape 401](docs/configuration/SKYFORGE_Load_Order_MO2_panneau_gauche_etape_401.md)
 
-Ces snapshots plus anciens sont conservés comme jalons historiques. Le snapshot courant de comparaison anti-doublon est celui de l’**étape 480**.
+Ces snapshots plus anciens sont conservés comme jalons historiques. Le snapshot courant de comparaison anti-doublon reste celui de l’**étape 480** jusqu’au prochain snapshot post-509 fourni par Fabien.
 
 ### Autres fichiers de suivi
 
@@ -56,31 +58,31 @@ Ces snapshots plus anciens sont conservés comme jalons historiques. Le snapshot
 
 ## État actuel
 
-* **Dernière étape documentée :** Étape 480 — SPID NPC Trap Safety / audit doublon NPC AI Process Position Fix
-* **Prochaine étape attendue :** Étape 481 — suite du bloc `11.1 - FOLLOWERS NPCS DIALOGUES`, sauf décision contraire de Fabien
-* **Bloc en cours :** `11.1 - FOLLOWERS NPCS DIALOGUES`
-* **Bloc récemment clôturé :** `10.1 - RACES WEREBEASTS VAMPIRES`, clôturé provisoirement à l’étape 458
-* **Snapshot MO2 courant :** [panneau gauche étape 480](docs/configuration/SKYFORGE_Load_Order_MO2_panneau_gauche_etape_480.md)
-* **Note snapshot :** snapshot consolidé ; les blocs inchangés renvoient au snapshot étape 450, les blocs modifiés post-450 sont listés directement dans le fichier étape 480
-* **Compteur ESP + ESM non-light post-480 :** 119
+* **Dernière étape documentée :** Étape 509 — Mythos SE Redux exclu définitivement
+* **Prochaine étape attendue :** Étape 510 — suite du bloc `11.2 - CUSTOM FOLLOWERS COMPANIONS`, sauf décision contraire de Fabien
+* **Bloc en cours :** `11.2 - CUSTOM FOLLOWERS COMPANIONS`
+* **Bloc récemment clôturé :** `11.1 - FOLLOWERS NPCS DIALOGUES`, clôturé provisoirement à l’étape 490
+* **Snapshot MO2 courant :** [panneau gauche étape 480](docs/configuration/SKYFORGE_Load_Order_MO2_panneau_gauche_etape_480.md), en attente du snapshot post-509
+* **Compteur ESP + ESM non-light post-509 :** 128
 * **Runtime :** Skyrim SE 1.5.97 Best of Both Worlds
 * **AE / Creation Club :** conservé
 * **MO2 :** portable
 * **LOOT :** non lancé
 * **LOD / DynDOLOD :** non générés
 * **BodySlide Output :** non généré
-* **Pandora :** généré depuis l’étape 411, Output actif ; non relancé pendant les étapes 451 à 480
+* **Pandora :** généré depuis l’étape 411, Output actif ; non relancé pendant les étapes 451 à 509
 * **Mods `- FR` personnels :** présents dans le panneau gauche mais décochés sauf indication contraire explicite
 
-L’état exact le plus récent est toujours consigné dans le [résumé de l’état actuel](docs/procedure/00_resume_etat_actuel.md), le [dernier changelog](docs/procedure/99_changelog_validation_part_15.md) et les fichiers thématiques du module en cours.
+L’état exact le plus récent est toujours consigné dans le [résumé de l’état actuel](docs/procedure/00_resume_etat_actuel.md), le [dernier changelog](docs/procedure/99_changelog_validation_part_16.md) et les fichiers thématiques du module en cours.
 
 ---
 
 ## Règles de lecture importantes
 
-* Le snapshot **étape 480** est la référence courante pour vérifier si un mod est déjà installé.
-* Le snapshot **étape 450** reste un jalon historique post-450 et une base pour les blocs inchangés dans le snapshot consolidé 480.
+* Le snapshot **étape 480** est la référence courante pour vérifier si un mod est déjà installé jusqu’au prochain snapshot post-509.
+* Le snapshot **étape 450** reste un jalon historique post-450.
 * Les snapshots **401**, **409** et **434** sont des jalons historiques, pas des références courantes anti-doublon.
+* Les conventions MO2 sont centralisées dans [Règles MO2 SKYFORGE](docs/procedure/01_regles_mo2_skyforge.md).
 * Les mods dont le nom se termine par `- FR` sont des traductions personnelles et restent décochés tant que le modpack n’est pas stabilisé.
 * Certains séparateurs sont volontairement vides : ils préparent les modules futurs et ne doivent pas être interprétés comme des erreurs.
 * Les mentions `A REINSTALLER PLUS TARD`, `PATCHES A VOIR PLUS TARD`, `A COMPLETER PLUS TARD`, `DECOCHE`, `RESERVE` ou équivalentes font partie de la nomenclature MO2 SKYFORGE.
@@ -118,23 +120,4 @@ Ce dépôt sert uniquement à stocker des fichiers légers liés au projet :
 - checklists ;
 - fichiers de configuration ;
 - correctifs personnels éventuels ;
-- scripts éventuels.
-
-Il ne contient pas et ne doit pas contenir :
-
-- archives de mods ;
-- textures ;
-- meshes ;
-- dossiers complets MO2 ;
-- backups Skyrim ;
-- fichiers Bethesda / Creation Club ;
-- fichiers SKSE ;
-- fichiers provenant directement de mods soumis à permissions.
-
----
-
-## Notes importantes
-
-SKYFORGE est un projet personnel en construction. Les étapes documentées reflètent l’état validé au moment des tests, pas une recommandation universelle prête à l’emploi.
-
-Les choix techniques peuvent évoluer au fur et à mesure de l’installation des modules suivants : dialogues, quêtes, followers, survie, systèmes spécialisés, tenues, BodySlide, patches finaux, LOD et DynDOLOD.
+- scripts ou ressources légères créés spécifiquement pour SKYFORGE.

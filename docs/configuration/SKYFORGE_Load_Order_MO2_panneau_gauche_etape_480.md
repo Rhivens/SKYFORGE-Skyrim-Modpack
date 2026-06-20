@@ -2,7 +2,7 @@
 
 Snapshot de référence du panneau gauche MO2 après validation de l'étape 480.
 
-> Note technique : le snapshot brut complet fourni par Fabien contient des séparateurs et noms de mods issus de futurs blocs spécialisés. Pour éviter les blocages d'écriture du connecteur GitHub, ce fichier documente la reprise post-480 sous forme consolidée : les blocs inchangés restent couverts par le snapshot étape 450, et les blocs modifiés depuis l'étape 450 sont reproduits ci-dessous.
+> Note technique : ce fichier contient le snapshot brut complet du panneau gauche MO2 après validation de l’étape 480. Il remplace le snapshot étape 450 comme référence courante anti-doublon. Le snapshot 450 reste conservé comme jalon historique.
 
 ## Statut
 
@@ -19,6 +19,7 @@ Snapshot de référence du panneau gauche MO2 après validation de l'étape 480.
 - Les mentions `A REINSTALLER PLUS TARD`, `PATCHES A VOIR PLUS TARD`, `A COMPLETER PLUS TARD`, `DECOCHE`, `RESERVE`, `FOMOD A REVOIR PLUS TARD` ou équivalentes font partie de la nomenclature MO2 SKYFORGE.
 - Le panneau gauche MO2 ne permet pas de recalculer seul le compteur ESP + ESM non-light : le compteur est celui communiqué par Fabien depuis le panneau droit MO2.
 
+```txt
 [00 - BASE GAME]
 [01 - SKSE PLUGINS & CORE UTILITIES]
 Address Library for SKSE Plugins 1.5.97

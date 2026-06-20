@@ -24,20 +24,21 @@ C’est le meilleur point d’entrée pour suivre l’évolution récente du mod
 * [Résumé de l’état actuel](docs/procedure/00_resume_etat_actuel.md)
 * [Changelog / validation — partie 15](docs/procedure/99_changelog_validation_part_15.md)
 * [Module 11.1 — Followers, NPCs & dialogues — partie 1](docs/procedure/11_1_followers_npcs_dialogues_part_1.md)
+* [Snapshot Load Order MO2 — panneau gauche — étape 480](docs/configuration/SKYFORGE_Load_Order_MO2_panneau_gauche_etape_480.md)
 * [Module 10.1 — Races, werebeasts & vampires](docs/procedure/10_1_races_werebeasts_vampires.md)
-* [Snapshot Load Order MO2 — panneau gauche — étape 450](docs/configuration/SKYFORGE_Load_Order_MO2_panneau_gauche_etape_450.md)
 * [Règle vampire SKYFORGE](docs/configuration/09_regle_vampire_skyforge.md)
 * [Vigilances Body / Skins / BodySlide](docs/configuration/08_body_skins_bodyslide_vigilances.md)
 * [Procédure principale de reproduction](docs/SKYFORGE_Procedure_Reproduction_PC.md)
 
 ### Snapshots historiques utiles
 
+* [Snapshot Load Order MO2 — panneau gauche — étape 450](docs/configuration/SKYFORGE_Load_Order_MO2_panneau_gauche_etape_450.md)
 * [Snapshot Load Order MO2 — panneau gauche — étape 434](docs/configuration/SKYFORGE_Load_Order_MO2_panneau_gauche_etape_434.md)
 * [Snapshot Load Order MO2 — panneau gauche — étape 409](docs/configuration/SKYFORGE_Load_Order_MO2_panneau_gauche_etape_409.md)
 * [État MO2 ciblé — blocs 09 / 10 — étape 409](docs/configuration/SKYFORGE_Load_Order_MO2_blocs_09_10_etape_409.md)
 * [Snapshot Load Order MO2 — panneau gauche — étape 401](docs/configuration/SKYFORGE_Load_Order_MO2_panneau_gauche_etape_401.md)
 
-Ces snapshots plus anciens sont conservés comme jalons historiques. Le snapshot courant de comparaison anti-doublon reste celui de l’**étape 450** tant qu’un nouveau panneau gauche complet post-480 n’est pas fourni.
+Ces snapshots plus anciens sont conservés comme jalons historiques. Le snapshot courant de comparaison anti-doublon est celui de l’**étape 480**.
 
 ### Autres fichiers de suivi
 
@@ -59,8 +60,8 @@ Ces snapshots plus anciens sont conservés comme jalons historiques. Le snapshot
 * **Prochaine étape attendue :** Étape 481 — suite du bloc `11.1 - FOLLOWERS NPCS DIALOGUES`, sauf décision contraire de Fabien
 * **Bloc en cours :** `11.1 - FOLLOWERS NPCS DIALOGUES`
 * **Bloc récemment clôturé :** `10.1 - RACES WEREBEASTS VAMPIRES`, clôturé provisoirement à l’étape 458
-* **Snapshot MO2 courant :** [panneau gauche étape 450](docs/configuration/SKYFORGE_Load_Order_MO2_panneau_gauche_etape_450.md)
-* **Note snapshot :** aucun nouveau snapshot panneau gauche complet post-480 n’a encore été fourni
+* **Snapshot MO2 courant :** [panneau gauche étape 480](docs/configuration/SKYFORGE_Load_Order_MO2_panneau_gauche_etape_480.md)
+* **Note snapshot :** snapshot consolidé ; les blocs inchangés renvoient au snapshot étape 450, les blocs modifiés post-450 sont listés directement dans le fichier étape 480
 * **Compteur ESP + ESM non-light post-480 :** 119
 * **Runtime :** Skyrim SE 1.5.97 Best of Both Worlds
 * **AE / Creation Club :** conservé
@@ -77,7 +78,8 @@ L’état exact le plus récent est toujours consigné dans le [résumé de l’
 
 ## Règles de lecture importantes
 
-* Le snapshot **étape 450** reste la référence courante pour vérifier si un mod est déjà installé, tant qu’un snapshot post-480 n’a pas été créé.
+* Le snapshot **étape 480** est la référence courante pour vérifier si un mod est déjà installé.
+* Le snapshot **étape 450** reste un jalon historique post-450 et une base pour les blocs inchangés dans le snapshot consolidé 480.
 * Les snapshots **401**, **409** et **434** sont des jalons historiques, pas des références courantes anti-doublon.
 * Les mods dont le nom se termine par `- FR` sont des traductions personnelles et restent décochés tant que le modpack n’est pas stabilisé.
 * Certains séparateurs sont volontairement vides : ils préparent les modules futurs et ne doivent pas être interprétés comme des erreurs.

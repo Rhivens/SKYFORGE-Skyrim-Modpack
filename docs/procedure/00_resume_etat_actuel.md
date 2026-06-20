@@ -4,7 +4,7 @@
 
 - **Dernière étape documentée :** Étape 480 — SPID NPC Trap Safety / audit doublon NPC AI Process Position Fix
 - **Dernier snapshot MO2 panneau gauche courant :** `docs/configuration/SKYFORGE_Load_Order_MO2_panneau_gauche_etape_480.md`
-- **Note snapshot :** le snapshot étape 480 est une version consolidée validée. Les blocs inchangés renvoient au snapshot étape 450 ; les blocs modifiés post-450 sont listés directement dans le fichier 480. Le snapshot brut complet peut être ajouté manuellement si besoin.
+- **Note snapshot :** le snapshot étape 480 contient désormais le snapshot brut complet du panneau gauche MO2 et remplace le snapshot étape 450 comme référence courante anti-doublon.
 - **Snapshot précédent :** `docs/configuration/SKYFORGE_Load_Order_MO2_panneau_gauche_etape_450.md`, désormais jalon historique post-450
 - **Blocs clôturés récemment :**
   - `10 - GAMEPLAY COMBAT MAGIC PERKS` — clôturé provisoirement à l'étape 450
@@ -35,17 +35,18 @@
 À lire en priorité pour reprendre sans confusion :
 
 1. `docs/procedure/00_resume_etat_actuel.md`
-2. `docs/procedure/99_changelog_validation_part_15.md`
-3. `docs/procedure/11_1_followers_npcs_dialogues_part_1.md`
-4. `docs/configuration/SKYFORGE_Load_Order_MO2_panneau_gauche_etape_480.md`
-5. `docs/procedure/10_1_races_werebeasts_vampires.md`
-6. `docs/configuration/09_regle_vampire_skyforge.md`
-7. `docs/procedure/99_changelog_validation_part_14.md`
-8. `docs/procedure/10_gameplay_combat_magic_perks_part_4.md`
-9. `docs/configuration/08_body_skins_bodyslide_vigilances.md`
-10. `docs/configuration/SKYFORGE_Load_Order_MO2_panneau_gauche_etape_450.md` — jalon historique post-450
-11. `docs/configuration/SKYFORGE_Load_Order_MO2_panneau_gauche_etape_434.md` — jalon historique post-434
-12. `docs/configuration/SKYFORGE_Load_Order_MO2_panneau_gauche_etape_409.md` — jalon historique ancien
+2. `docs/procedure/01_regles_mo2_skyforge.md`
+3. `docs/procedure/99_changelog_validation_part_15.md`
+4. `docs/procedure/11_1_followers_npcs_dialogues_part_1.md`
+5. `docs/configuration/SKYFORGE_Load_Order_MO2_panneau_gauche_etape_480.md`
+6. `docs/procedure/10_1_races_werebeasts_vampires.md`
+7. `docs/configuration/09_regle_vampire_skyforge.md`
+8. `docs/procedure/99_changelog_validation_part_14.md`
+9. `docs/procedure/10_gameplay_combat_magic_perks_part_4.md`
+10. `docs/configuration/08_body_skins_bodyslide_vigilances.md`
+11. `docs/configuration/SKYFORGE_Load_Order_MO2_panneau_gauche_etape_450.md` — jalon historique post-450
+12. `docs/configuration/SKYFORGE_Load_Order_MO2_panneau_gauche_etape_434.md` — jalon historique post-434
+13. `docs/configuration/SKYFORGE_Load_Order_MO2_panneau_gauche_etape_409.md` — jalon historique ancien
 
 ## Étapes récentes validées / documentées
 
@@ -89,6 +90,7 @@
 
 - **Nolvus Awakening** reste la référence principale pour socle technique, gameplay, UI, confort, dialogues et cohérence générale.
 - **Nefaram** reste une référence majeure pour les choix NPC / dialogues / systèmes spécialisés et pour les futurs blocs Body, tenues, BodySlide et cohérence de bodies.
+- **Règles MO2 SKYFORGE :** conventions de snapshot, suffixes temporaires, mods `- FR`, séparateurs vides, outils non lancés et règles de reprise sont centralisés dans `docs/procedure/01_regles_mo2_skyforge.md`.
 - **Règle vampire SKYFORGE :** Fabien ne prévoit pas de jouer vampire ; ne pas ajouter de mods principalement orientés PJ vampire. Voir `docs/configuration/09_regle_vampire_skyforge.md`.
 - **Aetherius** est l'overhaul de races retenu ; ne pas installer Mannaz ou Imperious en parallèle.
 - **Mundus** est l'overhaul de Pierres Gardiennes retenu ; ne pas installer Freyr en parallèle.
@@ -104,6 +106,7 @@
 Avant toute nouvelle proposition d'installation, vérifier dans GitHub :
 
 - ce résumé d'état actuel ;
+- les règles MO2 SKYFORGE ;
 - le fichier thématique du module en cours ;
 - le dernier changelog de validation ;
 - le dernier snapshot / état MO2 documenté.
@@ -128,6 +131,8 @@ Tous les mods dont le nom se termine par `- FR` sont des traductions personnelle
 Ces mods `- FR` restent volontairement **décochés pour le moment**, tant que le modpack n'est pas stabilisé.
 
 Ils seront activés plus tard par petits groupes contrôlés, avec test SKSE / menu après chaque groupe.
+
+Voir aussi : `docs/procedure/01_regles_mo2_skyforge.md`.
 
 ## Notes futures importantes
 
@@ -188,6 +193,8 @@ Différés / non installés :
 - `Magic College Music - Songs for Academy - DECOCHE - FORM 43`
 - `MuJointFix - Sexlab Ostim Patch - DECOCHE RESERVE SEXLAB`
 - patches ou options FOMOD marqués `A REVOIR PLUS TARD`
+
+Les suffixes de suivi temporaires sont définis dans `docs/procedure/01_regles_mo2_skyforge.md`.
 
 ## Outils non lancés / non relancés à ce stade
 

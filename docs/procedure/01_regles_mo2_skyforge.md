@@ -141,6 +141,47 @@ Ils indiquent qu'une partie du mod, un choix FOMOD, un fichier optionnel, un pat
 - Les notes de suivi sont portées directement dans le nom MO2 du mod principal quand c'est la pratique déjà utilisée dans le bloc.
 - Ne pas créer de dossiers vides séparés sauf décision explicite.
 
+### Règle de nettoyage — suffixes de suivi temporaires
+
+Quand un mod porte un suffixe temporaire dans MO2, ce suffixe doit être supprimé, remplacé ou déplacé vers une note GitHub lorsque le sujet de suivi est résolu.
+
+Un suffixe temporaire ne doit pas devenir un état permanent par oubli.
+
+Supprimer le suffixe quand :
+
+* les options FOMOD différées ont été installées et validées ;
+* les patches différés ont été installés et validés ;
+* les options ou patches ont été exclus définitivement ;
+* le mod a été réinstallé proprement ;
+* le suivi a été déplacé vers une note GitHub, une décision différée ou une étape dédiée.
+
+Remplacer le suffixe quand le sujet de suivi change.
+
+Exemples :
+
+* `- FOMOD A REVOIR PLUS TARD` peut devenir `- PATCHES A VOIR PLUS TARD` si le FOMOD est validé mais que des patches restent différés.
+* `- A REINSTALLER PLUS TARD` peut devenir `- FOMOD VALIDÉ - PATCHES A VOIR PLUS TARD` si la réinstallation est faite mais que certains patches restent dépendants de masters futurs.
+
+Exemple avant audit :
+
+```txt
+Remiel - Custom Voiced Dwemer Specialist and Companion - FOMOD A REVOIR PLUS TARD
+```
+
+Exemple après validation du FOMOD et exclusion ou report des patches :
+
+```txt
+Remiel - Custom Voiced Dwemer Specialist and Companion
+```
+
+Exemple si un suivi reste nécessaire :
+
+```txt
+Remiel - Custom Voiced Dwemer Specialist and Companion - PATCHES A VOIR PLUS TARD
+```
+
+À chaque audit de bloc, mise à jour de snapshot ou validation de module, vérifier si les suffixes temporaires encore présents sont toujours justifiés.
+
 ---
 
 ## 7. Patches, optional files et masters absents

@@ -20,8 +20,8 @@
 - **Messages DLL bloquants :** aucun signalé
 - **Plugins cochés :** OK sur les tests documentés
 - **Overwrite :** vide sur les derniers états explicitement indiqués
-- **Compteur ESP + ESM non-light final post-450 :** à confirmer par Fabien via le panneau droit MO2
-- **Dernier compteur explicite dans les notes transmises :** 109 à l'étape 446
+- **Compteur ESP + ESM non-light final post-450 :** 110
+- **Dernier compteur explicite dans les notes transmises :** 110 après l'étape 450
 - **LOOT :** non lancé
 - **DynDOLOD / LOD :** non générés
 - **BodySlide Output :** non généré
@@ -34,16 +34,17 @@
 
 1. `docs/procedure/00_resume_etat_actuel.md`
 2. `docs/configuration/SKYFORGE_Load_Order_MO2_panneau_gauche_etape_450.md`
-3. `docs/procedure/99_changelog_validation_part_14.md`
-4. `docs/procedure/10_gameplay_combat_magic_perks_part_4.md`
-5. `docs/configuration/08_body_skins_bodyslide_vigilances.md`
-6. `docs/configuration/SKYFORGE_Load_Order_MO2_panneau_gauche_etape_434.md` — jalon historique post-434, ne plus utiliser comme référence courante
-7. `docs/procedure/99_changelog_validation_part_13.md`
-8. `docs/procedure/10_gameplay_combat_magic_perks_part_3.md`
-9. `docs/procedure/99_changelog_validation_part_12.md`
-10. `docs/procedure/10_gameplay_combat_magic_perks_part_2.md`
-11. `docs/procedure/09_animations_skeleton_physics_part_3.md`
-12. `docs/configuration/SKYFORGE_Load_Order_MO2_panneau_gauche_etape_409.md` — jalon historique ancien, ne plus utiliser comme snapshot courant.
+3. `docs/configuration/09_regle_vampire_skyforge.md`
+4. `docs/procedure/99_changelog_validation_part_14.md`
+5. `docs/procedure/10_gameplay_combat_magic_perks_part_4.md`
+6. `docs/configuration/08_body_skins_bodyslide_vigilances.md`
+7. `docs/configuration/SKYFORGE_Load_Order_MO2_panneau_gauche_etape_434.md` — jalon historique post-434, ne plus utiliser comme référence courante
+8. `docs/procedure/99_changelog_validation_part_13.md`
+9. `docs/procedure/10_gameplay_combat_magic_perks_part_3.md`
+10. `docs/procedure/99_changelog_validation_part_12.md`
+11. `docs/procedure/10_gameplay_combat_magic_perks_part_2.md`
+12. `docs/procedure/09_animations_skeleton_physics_part_3.md`
+13. `docs/configuration/SKYFORGE_Load_Order_MO2_panneau_gauche_etape_409.md` — jalon historique ancien, ne plus utiliser comme snapshot courant.
 
 ## Étapes récentes validées / documentées
 
@@ -68,11 +69,35 @@
 
 - **Nolvus Awakening** reste la référence principale pour combat / dodge / animations combat / confort gameplay léger / misc gameplay.
 - **Nefaram** reste la référence principale pour les futurs blocs Body, tenues, BodySlide et cohérence de bodies.
+- **Règle vampire SKYFORGE :** Fabien ne prévoit pas de jouer vampire ; ne pas ajouter de mods principalement orientés PJ vampire. Voir `docs/configuration/09_regle_vampire_skyforge.md`.
 - **Pandora Behaviour Engine Plus** est le générateur retenu.
 - **Nemesis** n'est pas retenu comme générateur principal.
 - Les réglages TK Dodge RE doivent être des réglages SKYFORGE propres, inspirés de Nolvus Awakening mais adaptés au modpack.
 - Les réglages MCM non urgents seront repris plus tard avec la logique Startup Save / MCM Recorder.
 - Ne pas dépendre des fichiers Nolvus Awakening locaux, sauf besoin futur de comparaison avancée.
+
+## Règle vampire SKYFORGE
+
+Fabien ne prévoit pas de jouer vampire.
+
+Conséquences pour le bloc `10.1 - RACES WEREBEASTS VAMPIRES` et toutes les reprises futures :
+
+- ne plus ajouter de mods orientés principalement PJ vampire ;
+- privilégier uniquement les mods utiles aux NPC vampires ou utiles à la fois au PJ et aux NPC ;
+- éviter les addons de feeding, progression, pouvoirs ou confort vampire purement joueur ;
+- garder `Sacrosanct` comme base déjà validée car présent dans Nefaram et Nolvus Awakening ;
+- ne pas empiler d'addons vampire sans bénéfice NPC clair.
+
+Mods différés / évités sauf décision explicite contraire de Fabien :
+
+- `Vampire Feeding Tweaks` ;
+- `Better Vampires` ;
+- `Scion` ;
+- `Sacrilege` ;
+- `Vampire Lords Can Fly` ;
+- addons feeding orientés joueur.
+
+Note complète : `docs/configuration/09_regle_vampire_skyforge.md`.
 
 ## Règle anti-doublon SKYFORGE
 
@@ -187,7 +212,8 @@ Correction : installation de `Taunt Your Enemies`, puis validation du mini-bloc.
 
 ## Vigilances restantes
 
-- **Compteur ESP + ESM non-light final post-450 :** à confirmer par Fabien via le panneau droit MO2.
+- **Compteur ESP + ESM non-light final post-450 :** 110.
+- **Règle vampire SKYFORGE :** appliquer `docs/configuration/09_regle_vampire_skyforge.md` avant toute proposition vampire.
 - **BodySlide Output :** non généré.
 - **XPMSSE :** FOMOD à revoir plus tard avant animations avancées / styles d'armes.
 - **LeveledList Crash Fix AE + 1.5 :** à vérifier hors urgence.
@@ -229,8 +255,9 @@ Correction : installation de `Taunt Your Enemies`, puis validation du mini-bloc.
 - Bloc `10 - GAMEPLAY COMBAT MAGIC PERKS` clôturé provisoirement
 - Snapshot courant : `docs/configuration/SKYFORGE_Load_Order_MO2_panneau_gauche_etape_450.md`
 - Prochain bloc prévu : `[10.1 - RACES WEREBEASTS VAMPIRES]`
+- Règle vampire SKYFORGE active : ne pas ajouter de mods principalement orientés PJ vampire
 - SKSE / menu principal : OK sur les tests documentés
 - Overwrite : vide sur les derniers états explicitement indiqués
 - CrashLogger actif
 - Pandora Output actif
-- Compteur final post-450 : à confirmer par Fabien via panneau droit MO2
+- Compteur final post-450 : 110

@@ -198,7 +198,40 @@ Règles :
 
 ---
 
-## 8. Outils à ne pas lancer sans demande explicite
+## 8. Règle opérationnelle — redémarrage de MO2 après modification des plugins
+
+Après activation/désactivation de plugins ou changement d’ordre dans le panneau droit de MO2, il peut être nécessaire de quitter complètement MO2 puis de le relancer avant de lancer un test SKSE.
+
+Cette règle vient d’un cas observé dans SKYFORGE : après activation d’un plugin, le jeu a bloqué avant d’atteindre le menu principal. Aucun master manquant ni message DLL n’était identifié. Le problème a été résolu après fermeture complète de MO2, relance de MO2, puis nouveau test SKSE/menu.
+
+### Cause opérationnelle identifiée
+
+Après modification du panneau droit MO2, notamment :
+
+* activation ou désactivation de plugins ;
+* changement d’ordre de plugins ;
+* ajout de patchs avec nouveaux plugins ;
+* retrait temporaire de plugins ;
+
+MO2 peut nécessiter un redémarrage complet pour repartir sur un état propre avant test.
+
+### Procédure recommandée
+
+Après modification des plugins dans MO2 :
+
+1. quitter complètement MO2 ;
+2. relancer MO2 ;
+3. vérifier que les plugins attendus sont bien cochés ;
+4. lancer SKSE via MO2 ;
+5. valider le test menu principal.
+
+### Règle pratique
+
+En cas de blocage avant menu principal juste après une modification de plugins, effectuer d’abord un redémarrage complet de MO2 avant de considérer le plugin comme fautif.
+
+---
+
+## 9. Outils à ne pas lancer sans demande explicite
 
 Certains outils génèrent des outputs lourds ou modifient fortement l'état de l'installation.
 
@@ -240,7 +273,7 @@ Pandora ne doit pas être relancé sauf :
 
 ---
 
-## 9. Règle vampire SKYFORGE
+## 10. Règle vampire SKYFORGE
 
 La règle vampire détaillée est documentée ici :
 
@@ -259,7 +292,7 @@ Rappel court :
 
 ---
 
-## 10. Créatures, werebeasts et futurs systèmes spécialisés
+## 11. Créatures, werebeasts et futurs systèmes spécialisés
 
 Les futurs systèmes issus de la logique Nefaram peuvent impacter fortement :
 
@@ -282,7 +315,7 @@ Règles :
 
 ---
 
-## 11. Conventions de réponse attendues pour l'intendant SKYFORGE
+## 12. Conventions de réponse attendues pour l'intendant SKYFORGE
 
 Lorsqu'une étape est proposée :
 
@@ -302,7 +335,7 @@ Lorsqu'une étape est validée :
 
 ---
 
-## 12. Statut documentaire
+## 13. Statut documentaire
 
 Ce fichier est une convention permanente de travail pour SKYFORGE.
 

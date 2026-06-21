@@ -6,6 +6,44 @@ Cette partie complète les décisions différées à partir du sous-bloc **07.4 
 
 ---
 
+## Décisions différées issues des étapes 554 à 567
+
+- Étape 554 — - Nom MO2 recommandé : `Phoenix Compendium - FOMOD PARTIEL A REVOIR PLUS TARD`
+- Étape 554 — - Modules différés : magie `Airgetlam/Castigate`, armes/combat `Eviscerate`, joueur/voix, musique/UI `Phoenix Legacy`, patches ISC liés aux modules différés.
+- Étape 555 — - Pas de note `FOMOD A REVOIR PLUS TARD`.
+- Étape 557 — - Nom MO2 recommandé : `Rudy HQ - Miscellaneous SE - FOMOD PARTIEL A REVOIR PLUS TARD`
+- Étape 557 — - Beds : différé
+- Étape 557 — - Beds différé pour le futur bloc intérieurs/architecture.
+- Étape 558 — - Nom MO2 recommandé : `Medieval Candlehorns and Sconces - FOMOD A REVOIR PLUS TARD`
+- Étape 558 — - Choix différé : `Smoke Effect (STAC Compatible)`
+- Étape 558 — - Raison : remplacement d’objet de quête différé.
+- Étape 558 — - Toutes les options **STAC / Smoking Torches and Candles** ont été différées.
+- Étape 558 — - `Medieval Candlehorns and Sconces - FOMOD A REVOIR PLUS TARD`
+- Étape 558 — `558 — Medieval Candlehorns and Sconces, SD's Horn Candles SE, Rally's Nord War Horns et Rudification - Rudy Candles Expanded installés. Options STAC / Smoke Effect différées. Test SKSE/menu OK, aucun master manquant, Overwrite vide. Aucun plugin ajouté. Compteur ESP+ESM non-light inchangé : 128.`
+- Étape 562 — Les Daedric Shrines, Rally’s Solstheim Shrines, Mundus Standing Stones et patches associés sont différés pour un bloc séparé.
+- Étape 562 — - Nom MO2 recommandé : `Stunning Statues of Skyrim - FOMOD PARTIEL A REVOIR PLUS TARD`
+- Étape 562 — - Choix différés : options plus typées ou spécifiques comme Skyforge, Falmer, Sovngarde et certaines statues Daedric très marquées.
+- Étape 562 — - `Stunning Statues of Skyrim - FOMOD PARTIEL A REVOIR PLUS TARD`
+- Étape 563 — Les patches Wintersun et autres patches gameplay/religion sont différés.
+- Étape 563 — - Les patches Moon and Star / Jyggalag / autres compatibilités sont différés pour une étape dédiée si nécessaire.
+- Étape 563 — `563 — Statue of Sithis 2K et Daedric Shrines - All in One installés. Patchs Wintersun différés. Test SKSE/menu OK, aucun master manquant, Overwrite vide. Plugins ajoutés : man_DaedricShrines.esp, man_sithis.esp. Compteur ESP+ESM non-light : 128 → 129.`
+- Étape 564 — Les **Mundus Standing Stones** et leur patch ENB Light restent différés pour un futur bloc standing stones / gameplay / lieux.
+- Étape 564 — `564 — Rally's Solstheim Shrines et Sovngarde Watcher installés. Mundus Standing Stones et patch ENB Light différés. Test SKSE/menu OK, aucun master manquant, Overwrite vide. Aucun plugin ajouté. Compteur ESP+ESM non-light inchangé : 129.`
+- Étape 565 — Les options ENB Light / glowmaps / patches complexes sont différées.
+- Étape 565 — - Options ENB Light / patches lighting différés.
+- Étape 565 — - Nom MO2 recommandé : `Improved Dwemer Glass - PATCHES A REVOIR PLUS TARD`
+- Étape 565 — - Patches différés :
+- Étape 565 — - `Improved Dwemer Glass` est marqué `PATCHES A REVOIR PLUS TARD`, car le patch ENB Light et le patch Unofficial Material Fix seront revus plus tard avec les conflits meshes/verre/Dwemer.
+- Étape 565 — - Les modules `Dwemer Tech Glowmapped`, `Dwemer Tech Glowmapped - ENB Light` et objets JS Dwemer avancés sont différés.
+- Étape 565 — - `Improved Dwemer Glass - PATCHES A REVOIR PLUS TARD`
+- Étape 566 — Les options ENB Light / Particle Light restent différées pour un bloc dédié.
+- Étape 566 — - `Improved Dwemer Glass - PATCHES A REVOIR PLUS TARD`
+- Étape 566 — `566 — Dwemer Tech Glowmapped, JS Dwemer Puzzle Cube SE + Glowmapped, JS Dwemer Control Cube SE + Glowmapped et JS Dwemer Artifacts SE + Glowmapped installés. Options ENB Light / Particle Light différées. Test SKSE/menu OK, aucun master manquant, Overwrite vide. Aucun plugin ajouté. Compteur ESP+ESM non-light inchangé : 129.`
+- Étape 567 — Les patches ENB Light, Particle Light et patches bardes/gameplay restent différés.
+- Étape 567 — - Les patches `JS Instruments of Skyrim - Patch Collection` sont différés.
+- Étape 567 — - Le patch `Dwemer Tech Glowmapped - ENB Light - John Skyrim Patch` est différé avec le futur bloc ENB Light / Particle Light.
+- Étape 567 — `567 — JS Attunement Sphere and Lexicons SE, son addon Glowmapped et JS Instruments of Skyrim SE installés. Patches gameplay/ENB Light différés. Test SKSE/menu OK, aucun master manquant, Overwrite vide. Plugin ajouté : JS Instruments of Skyrim SE - Uniques.esp. Compteur ESP+ESM non-light inchangé : 129.`
+
 ## Décisions importantes ajoutées après l’étape 327
 
 - `My Road Signs are Beautiful - French` est marqué `A REINSTALL PLUS TARD`.

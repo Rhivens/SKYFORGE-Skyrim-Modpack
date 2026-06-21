@@ -2,16 +2,16 @@
 
 ## Situation générale
 
-- **Dernière étape documentée :** Étape 509 — Mythos SE Redux exclu définitivement
+- **Dernière étape documentée :** Étape 530 — Mini-pack dialogues NPC/followers Nefaram
 - **Dernier snapshot MO2 panneau gauche courant :** `docs/configuration/SKYFORGE_Load_Order_MO2_panneau_gauche_etape_509.md`
-- **Note snapshot :** le snapshot étape 509 est la référence courante anti-doublon après collage manuel du load order brut par Fabien.
+- **Note snapshot :** le snapshot étape 509 reste la référence courante anti-doublon jusqu'au prochain snapshot post-530 fourni par Fabien.
 - **Snapshot précédent :** `docs/configuration/SKYFORGE_Load_Order_MO2_panneau_gauche_etape_480.md`, jalon historique post-480
 - **Blocs clôturés récemment :**
   - `10 - GAMEPLAY COMBAT MAGIC PERKS` — clôturé provisoirement à l'étape 450
   - `10.1 - RACES WEREBEASTS VAMPIRES` — clôturé provisoirement à l'étape 458
-  - `11.1 - FOLLOWERS NPCS DIALOGUES` — clôturé provisoirement à l'étape 490
-- **Bloc en cours :** `11.2 - CUSTOM FOLLOWERS COMPANIONS`
-- **Prochaine étape attendue :** Étape 510, suite du bloc `11.2 - CUSTOM FOLLOWERS COMPANIONS`, sauf décision contraire de Fabien.
+  - `11.1 - FOLLOWERS NPCS DIALOGUES` — clôturé provisoirement à l'étape 490, puis rouvert ponctuellement aux étapes 527 à 530
+- **Bloc en cours :** `11.1 - FOLLOWERS NPCS DIALOGUES`, reprise ponctuelle après enrichissement du bloc `11.2`
+- **Prochaine étape attendue :** Étape 531, sauf décision contraire de Fabien.
 
 ## État technique validé
 
@@ -20,15 +20,15 @@
 - **MO2 :** portable
 - **SKSE via MO2 :** OK sur les tests documentés
 - **Menu principal :** OK sur les tests documentés
-- **Masters manquants :** aucun sur les tests validés après les corrections documentées
+- **Masters manquants :** aucun sur les tests validés après les corrections / différés documentés
 - **Messages DLL bloquants :** aucun signalé
 - **Plugins cochés :** OK sur les tests documentés
 - **Overwrite :** vide sur le dernier état explicitement indiqué
-- **Compteur ESP + ESM non-light final post-509 :** 128
+- **Compteur ESP + ESM non-light final post-530 :** 128
 - **LOOT :** non lancé
 - **DynDOLOD / LOD :** non générés
 - **BodySlide Output :** non généré
-- **Pandora :** généré avec succès à l'étape 411 ; Output actif ; génération dédiée utilisée pour SkyParkour v3 à l'étape 445 ; non relancé pendant les étapes 451 à 509
+- **Pandora :** généré avec succès à l'étape 411 ; Output actif ; génération dédiée utilisée pour SkyParkour v3 à l'étape 445 ; non relancé pendant les étapes 451 à 530
 - **CrashLogger :** actif avec PDB support 1.5.97
 
 ## Fichiers de reprise prioritaires
@@ -37,19 +37,22 @@
 
 1. `docs/procedure/00_resume_etat_actuel.md`
 2. `docs/procedure/01_regles_mo2_skyforge.md`
-3. `docs/procedure/99_changelog_validation_part_16.md`
-4. `docs/procedure/11_2_custom_followers_companions_part_1.md`
-5. `docs/procedure/11_1_followers_npcs_dialogues_part_2.md`
-6. `docs/procedure/11_1_followers_npcs_dialogues_part_1.md`
-7. `docs/configuration/SKYFORGE_Load_Order_MO2_panneau_gauche_etape_509.md`
-8. `docs/procedure/10_1_races_werebeasts_vampires.md`
-9. `docs/configuration/09_regle_vampire_skyforge.md`
-10. `docs/procedure/99_changelog_validation_part_15.md`
-11. `docs/configuration/08_body_skins_bodyslide_vigilances.md`
-12. `docs/configuration/SKYFORGE_Load_Order_MO2_panneau_gauche_etape_480.md` — jalon historique post-480
-13. `docs/configuration/SKYFORGE_Load_Order_MO2_panneau_gauche_etape_450.md` — jalon historique post-450
-14. `docs/configuration/SKYFORGE_Load_Order_MO2_panneau_gauche_etape_434.md` — jalon historique post-434
-15. `docs/configuration/SKYFORGE_Load_Order_MO2_panneau_gauche_etape_409.md` — jalon historique ancien
+3. `docs/procedure/99_changelog_validation_part_17.md`
+4. `docs/procedure/11_1_followers_npcs_dialogues_part_3.md`
+5. `docs/procedure/11_2_custom_followers_companions_part_2.md`
+6. `docs/procedure/11_2_custom_followers_companions_part_1.md`
+7. `docs/procedure/11_1_followers_npcs_dialogues_part_2.md`
+8. `docs/procedure/11_1_followers_npcs_dialogues_part_1.md`
+9. `docs/configuration/SKYFORGE_Load_Order_MO2_panneau_gauche_etape_509.md`
+10. `docs/procedure/10_1_races_werebeasts_vampires.md`
+11. `docs/configuration/09_regle_vampire_skyforge.md`
+12. `docs/procedure/99_changelog_validation_part_16.md`
+13. `docs/procedure/99_changelog_validation_part_15.md`
+14. `docs/configuration/08_body_skins_bodyslide_vigilances.md`
+15. `docs/configuration/SKYFORGE_Load_Order_MO2_panneau_gauche_etape_480.md` — jalon historique post-480
+16. `docs/configuration/SKYFORGE_Load_Order_MO2_panneau_gauche_etape_450.md` — jalon historique post-450
+17. `docs/configuration/SKYFORGE_Load_Order_MO2_panneau_gauche_etape_434.md` — jalon historique post-434
+18. `docs/configuration/SKYFORGE_Load_Order_MO2_panneau_gauche_etape_409.md` — jalon historique ancien
 
 ## Étapes récentes validées / documentées
 
@@ -71,12 +74,12 @@
 
 ### Étapes 481 à 490 — Bloc 11.1 Followers, NPCs & dialogues — partie 2
 
-- **Étapes 481 à 489 :** ajout de nombreux packs `Follower Dialogue Expansion` vanilla / Nefaram / spécifiques SKYFORGE : Olfina, Uthgerd, Ysolda, Jordis, Camilla, Illia, Lydia, Mjoll, Brelyna, Erik, Faendal, Roggi, Marcurio, Sapphire, Rayya, Borgakh, Aranea, Faralda, Jenassa, Eola et Aela.
+- **Étapes 481 à 489 :** ajout de nombreux packs `Follower Dialogue Expansion` vanilla / Nefaram / spécifiques SKYFORGE.
 - **Étape 490 :** `Relationship Dialogue Overhaul - Update and MCM` + `RDO - FDE Compatibility Patch` validés.
 - **Statut :** bloc `11.1` clôturé provisoirement après l'étape 490.
 - **Compteur final part 2 :** 119.
 
-### Étapes 491 à 509 — Bloc 11.2 Custom followers & companions
+### Étapes 491 à 509 — Bloc 11.2 Custom followers & companions — partie 1
 
 - **Étape 491 :** ouverture du séparateur `[11.2 - CUSTOM FOLLOWERS COMPANIONS]`.
 - **Étape 492 :** `INIGO` installé ; Inigo ne doit pas être importé / géré dans NFF. Compteur 120.
@@ -96,6 +99,35 @@
 - **Étape 506 :** décision Kaidan : branche sobre et compatible avec futurs modules spécialisés ; extensions et patches avancés différés.
 - **Étapes 507 à 509 :** `Katana - Journey in the Shadows`, `Daegon Legacy` et `Mythos SE Redux` exclus définitivement.
 
+### Étapes 510 à 526 — Bloc 11.2 Custom followers & companions — partie 2
+
+- **Étape 510 :** `Serana Dialogue Add-On SE` installé. Compteur 129.
+- **Étape 511 :** `Serana Re-Imagined` installé. Compteur 129.
+- **Étape 512 :** `Hood Plus Hair for Serana Re-Imagined` installé ; override d'yeux non retenu. Compteur 129.
+- **Étape 513 :** replacers visuels Inigo, Lucien, Auri et Remiel installés. Compteur 129.
+- **Étape 514 :** patch banter Auri ↔ Inigo + `Serana Dialogue Add-On Patch Hub - FOMOD A REVOIR PLUS TARD`. Compteur 129.
+- **Étape 515 :** addons `Skyrim's Got Talent` pour Inigo, Auri et Xelzaz. Compteur 129.
+- **Étape 516 :** patches Xelzaz Wyrmstooth / Sirenroot maintenus décochés en attente du bloc quêtes/worlds. Compteur 129.
+- **Étape 516 bis :** `Snazzy Items for Inigo` et `Snazzy Items for Auri` installés. Compteur 129.
+- **Étape 517 :** `Press E to Heal Followers` différé. Compteur 129.
+- **Étape 517 bis :** `Mr. Dragonfly ENB Particle Light`, couleur Lavender. Compteur 129.
+- **Étape 518 :** animations Axarien pour Lucien, Kaidan 2, Auri et Inigo ; Pandora non relancé. Compteur 129.
+- **Étape 519 :** Kaidan 2 exclu définitivement ; retrait / décochage de Kaidan et de l'animation Axarien Kaidan. Compteur 128.
+- **Étape 520 :** `Menagerie - An Anniversary Edition Pet Overhaul`. Compteur 128.
+- **Étape 521 :** mini-pack visuel Xelzaz. Compteur 128.
+- **Étape 522 :** `FDE Aela Patch - Thogra` différé avant audit. Compteur 128.
+- **Étape 523 :** audit Thogra validé, version moderne Nexus ID 120007. Compteur 128.
+- **Étape 524 :** `FDE Aela Patch - Thogra` installé. Compteur 128.
+- **Étape 525 :** audit Gore validé, aucun patch ajouté maintenant. Compteur 128.
+- **Étape 526 :** `Show Follower Carry Weight` installé. Compteur 128.
+
+### Étapes 527 à 530 — Bloc 11.1 Followers, NPCs & dialogues — partie 3
+
+- **Étape 527 :** `Considerate Followers` + patch Skyrim 1.5.97 installés. Compteur 128.
+- **Étape 528 :** `Chatty NPCs`, `Collision Dialogue Overhaul` et `Shouts of Stallholders` installés. Compteur 128.
+- **Étape 529 :** `Additional Healing Reactions` documenté comme déjà installé, sans doublon. Compteur 128.
+- **Étape 530 :** `Falmer Servant Lines Expansion`, `Missing Voices in Hearthfire Added Back` et `Cheeky Kids` installés. Compteur 128.
+
 ## Décisions structurantes actuelles
 
 - **Nolvus Awakening** reste la référence principale pour socle technique, gameplay, UI, confort, dialogues et cohérence générale.
@@ -103,7 +135,7 @@
 - **Règles MO2 SKYFORGE :** conventions de snapshot, suffixes temporaires, mods `- FR`, séparateurs vides, outils non lancés et règles de reprise sont centralisés dans `docs/procedure/01_regles_mo2_skyforge.md`.
 - **Règle vampire SKYFORGE :** Fabien ne prévoit pas de jouer vampire ; ne pas ajouter de mods principalement orientés PJ vampire. Voir `docs/configuration/09_regle_vampire_skyforge.md`.
 - **Custom followers :** Inigo, Lucien et Auri ne doivent pas être importés / gérés dans NFF ou un follower framework équivalent.
-- **Custom followers exclus :** ne plus proposer `Katana - Journey in the Shadows`, `Daegon Legacy` ou `Mythos SE Redux`.
+- **Custom followers exclus :** ne plus proposer `Katana - Journey in the Shadows`, `Daegon Legacy`, `Mythos SE Redux` ou `Kaidan 2`.
 - **Aetherius** est l'overhaul de races retenu ; ne pas installer Mannaz ou Imperious en parallèle.
 - **Mundus** est l'overhaul de Pierres Gardiennes retenu ; ne pas installer Freyr en parallèle.
 - **Manbeast** est l'overhaul werewolf retenu ; ne pas installer Growl ou Moonlight Tales en parallèle.
@@ -123,14 +155,13 @@ Avant toute nouvelle proposition d'installation, vérifier dans GitHub :
 - le dernier changelog de validation ;
 - le dernier snapshot / état MO2 documenté.
 
-Le snapshot courant est désormais :
+Le snapshot courant reste pour l'instant :
 
 - `docs/configuration/SKYFORGE_Load_Order_MO2_panneau_gauche_etape_509.md`
 
 Important :
 
-- le snapshot étape 509 est la référence pratique courante anti-doublon ;
-- le snapshot étape 480 devient un jalon historique ;
+- le snapshot étape 509 reste la référence pratique courante anti-doublon jusqu'au snapshot post-530 ;
 - ne jamais reproposer un mod déjà présent dans le snapshot courant ou les fichiers de procédure ;
 - le panneau gauche MO2 ne permet pas de confirmer seul le compteur ESP + ESM non-light : ce compteur doit être donné par Fabien depuis le panneau droit MO2.
 
@@ -177,6 +208,8 @@ AI Overhaul - Cutting Room Floor Patch
 - patches custom followers dépendants de masters absents
 - patches DBVO
 - traductions `- FR`
+- patches Xelzaz Wyrmstooth / Sirenroot après bloc quêtes/worlds
+- patch hub SDA selon masters réellement présents
 
 ## Incidents / anomalies non bloquants à conserver
 
@@ -196,6 +229,7 @@ AI Overhaul - Cutting Room Floor Patch
 - `MuJointFix - Sexlab Ostim Patch - DECOCHE RESERVE SEXLAB`
 - patches ou options FOMOD marqués `A REVOIR PLUS TARD`
 - patches custom followers dépendants de masters absents
+- patches Xelzaz Wyrmstooth / Sirenroot en attente du bloc quêtes/worlds
 
 Les suffixes de suivi temporaires sont définis dans `docs/procedure/01_regles_mo2_skyforge.md`.
 
@@ -208,13 +242,13 @@ Les suffixes de suivi temporaires sont définis dans `docs/procedure/01_regles_m
 
 ## Dernier état stable
 
-État documenté après étape 509 :
+État documenté après étape 530 :
 
-- Bloc `11.1 - FOLLOWERS NPCS DIALOGUES` clôturé provisoirement
-- Bloc `11.2 - CUSTOM FOLLOWERS COMPANIONS` en cours
-- Dernier snapshot courant : `docs/configuration/SKYFORGE_Load_Order_MO2_panneau_gauche_etape_509.md`
+- Bloc `11.2 - CUSTOM FOLLOWERS COMPANIONS` enrichi jusqu'à l'étape 526
+- Bloc `11.1 - FOLLOWERS NPCS DIALOGUES` repris ponctuellement jusqu'à l'étape 530
+- Dernier snapshot courant : `docs/configuration/SKYFORGE_Load_Order_MO2_panneau_gauche_etape_509.md`, en attente du snapshot post-530
 - Compteur non-light : 128
 - Overwrite vide
 - Menu principal OK
 - Aucun master manquant
-- Prochaine étape attendue : 510
+- Prochaine étape attendue : 531

@@ -2,17 +2,17 @@
 
 ## Situation générale
 
-- **Dernière étape documentée :** Étape 553 — Rainbows Remade + Shooting Stars SE
-- **Dernier snapshot MO2 panneau gauche courant validé :** `docs/configuration/SKYFORGE_Load_Order_MO2_panneau_gauche_etape_553.md`
-- **Snapshot précédent validé :** `docs/configuration/SKYFORGE_Load_Order_MO2_panneau_gauche_etape_530.md`, jalon historique post-530.
-- **Snapshot antérieur validé :** `docs/configuration/SKYFORGE_Load_Order_MO2_panneau_gauche_etape_509.md`, jalon historique post-509.
-- **Blocs enrichis depuis le snapshot 530 :**
-  - `11.1 - FOLLOWERS NPCS DIALOGUES`
-  - `03 - UI HUD MENUS`
-  - `04 - AUDIO MUSIC VOICES`
-  - `06 - LANDSCAPE GRASS TREES WATER`
-- **Décision différée importante :** bloc map / CoMAP / FWMF / paper map à regrouper plus tard.
-- **Prochaine étape attendue :** Étape 554, sauf décision contraire de Fabien.
+- Dernière étape validée/documentée : **Étape 567 — JS Attunement Sphere / Lexicons / Instruments**
+- Snapshot MO2 panneau gauche courant : **`docs/configuration/SKYFORGE_Load_Order_MO2_panneau_gauche_etape_553.md`**
+- Snapshot MO2 panneau gauche en attente de collage/vérification : **`docs/configuration/SKYFORGE_Load_Order_MO2_panneau_gauche_etape_567.md`**
+- Le snapshot 553 reste la référence courante anti-doublon tant que le snapshot 567 n’a pas été collé et vérifié.
+- Prochaine étape attendue : **Étape 568**
+- Compteur ESP + ESM non-light post-567 : **129**
+- Overwrite : **vide**
+- LOOT : **non lancé**
+- DynDOLOD / LOD : **non générés**
+- BodySlide Output : **non généré**
+- Pandora : **généré depuis l’étape 411, Output actif ; non relancé pendant les étapes 554 à 567**
 
 ## État technique validé
 
@@ -38,25 +38,27 @@
 
 1. `docs/procedure/00_resume_etat_actuel.md`
 2. `docs/procedure/01_regles_mo2_skyforge.md`
-3. `docs/procedure/99_changelog_validation_part_18.md`
+3. `docs/procedure/99_changelog_validation_part_19.md`
 4. `docs/procedure/11_1_followers_npcs_dialogues_part_4.md`
 5. `docs/procedure/03_ui_hud_menus_part_1.md`
-6. `docs/procedure/04_audio_music_voices_part_1.md`
-7. `docs/procedure/06_landscape_grass_trees_water_part_1.md`
-8. `docs/procedure/06_decisions_differees_part_3.md`
-9. `docs/configuration/SKYFORGE_Load_Order_MO2_panneau_gauche_etape_553.md` — snapshot courant validé post-553
-10. `docs/configuration/SKYFORGE_Load_Order_MO2_panneau_gauche_etape_530.md` — jalon historique post-530
-11. `docs/procedure/99_changelog_validation_part_17.md`
-12. `docs/procedure/11_1_followers_npcs_dialogues_part_3.md`
-13. `docs/procedure/11_2_custom_followers_companions_part_2.md`
-14. `docs/procedure/11_2_custom_followers_companions_part_1.md`
-15. `docs/procedure/11_1_followers_npcs_dialogues_part_2.md`
-16. `docs/procedure/11_1_followers_npcs_dialogues_part_1.md`
-17. `docs/configuration/09_regle_vampire_skyforge.md`
-18. `docs/configuration/08_body_skins_bodyslide_vigilances.md`
-19. `docs/configuration/SKYFORGE_Load_Order_MO2_panneau_gauche_etape_509.md` — jalon historique post-509
-20. `docs/configuration/SKYFORGE_Load_Order_MO2_panneau_gauche_etape_480.md` — jalon historique post-480
-21. `docs/configuration/SKYFORGE_Load_Order_MO2_panneau_gauche_etape_450.md` — jalon historique post-450
+6. `docs/procedure/04_audio_music_voices_part_2.md`
+7. `docs/procedure/05_visual_base_meshes_textures_part_1.md`
+8. `docs/procedure/06_landscape_grass_trees_water_part_1.md`
+9. `docs/procedure/06_decisions_differees_part_4.md`
+10. `docs/configuration/SKYFORGE_Load_Order_MO2_panneau_gauche_etape_567.md` — jalon validé post-567
+11. `docs/configuration/SKYFORGE_Load_Order_MO2_panneau_gauche_etape_553.md` — jalon historique post-553
+12. `docs/configuration/SKYFORGE_Load_Order_MO2_panneau_gauche_etape_530.md` — jalon historique post-530
+13. `docs/procedure/99_changelog_validation_part_17.md`
+14. `docs/procedure/11_1_followers_npcs_dialogues_part_3.md`
+15. `docs/procedure/11_2_custom_followers_companions_part_2.md`
+16. `docs/procedure/11_2_custom_followers_companions_part_1.md`
+17. `docs/procedure/11_1_followers_npcs_dialogues_part_2.md`
+18. `docs/procedure/11_1_followers_npcs_dialogues_part_1.md`
+19. `docs/configuration/09_regle_vampire_skyforge.md`
+20. `docs/configuration/08_body_skins_bodyslide_vigilances.md`
+21. `docs/configuration/SKYFORGE_Load_Order_MO2_panneau_gauche_etape_509.md` — jalon historique post-509
+22. `docs/configuration/SKYFORGE_Load_Order_MO2_panneau_gauche_etape_480.md` — jalon historique post-480
+23. `docs/configuration/SKYFORGE_Load_Order_MO2_panneau_gauche_etape_450.md` — jalon historique post-450
 
 ## Étapes récentes validées / documentées
 

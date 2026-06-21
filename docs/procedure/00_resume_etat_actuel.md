@@ -2,16 +2,17 @@
 
 ## Situation générale
 
-- **Dernière étape documentée :** Étape 530 — Mini-pack dialogues NPC/followers Nefaram
-- **Dernier snapshot MO2 panneau gauche courant :** `docs/configuration/SKYFORGE_Load_Order_MO2_panneau_gauche_etape_530.md`
-- **Note snapshot :** le snapshot étape 530 est désormais la référence courante anti-doublon après collage manuel et vérification du brut MO2 complet.
-- **Snapshot précédent :** `docs/configuration/SKYFORGE_Load_Order_MO2_panneau_gauche_etape_509.md`, jalon historique post-509
-- **Blocs clôturés récemment :**
-  - `10 - GAMEPLAY COMBAT MAGIC PERKS` — clôturé provisoirement à l'étape 450
-  - `10.1 - RACES WEREBEASTS VAMPIRES` — clôturé provisoirement à l'étape 458
-  - `11.1 - FOLLOWERS NPCS DIALOGUES` — clôturé provisoirement à l'étape 490, puis rouvert ponctuellement aux étapes 527 à 530
-- **Bloc en cours :** `11.1 - FOLLOWERS NPCS DIALOGUES`, reprise ponctuelle après enrichissement du bloc `11.2`
-- **Prochaine étape attendue :** Étape 531, sauf décision contraire de Fabien.
+- **Dernière étape documentée :** Étape 553 — Rainbows Remade + Shooting Stars SE
+- **Dernier snapshot MO2 panneau gauche courant validé :** `docs/configuration/SKYFORGE_Load_Order_MO2_panneau_gauche_etape_530.md`
+- **Snapshot post-553 préparé :** `docs/configuration/SKYFORGE_Load_Order_MO2_panneau_gauche_etape_553.md`, en attente du collage manuel du brut MO2 complet puis vérification.
+- **Snapshot précédent validé :** `docs/configuration/SKYFORGE_Load_Order_MO2_panneau_gauche_etape_509.md`, jalon historique post-509.
+- **Blocs enrichis depuis le snapshot 530 :**
+  - `11.1 - FOLLOWERS NPCS DIALOGUES`
+  - `03 - UI HUD MENUS`
+  - `04 - AUDIO MUSIC VOICES`
+  - `06 - LANDSCAPE GRASS TREES WATER`
+- **Décision différée importante :** bloc map / CoMAP / FWMF / paper map à regrouper plus tard.
+- **Prochaine étape attendue :** Étape 554, sauf décision contraire de Fabien.
 
 ## État technique validé
 
@@ -20,15 +21,15 @@
 - **MO2 :** portable
 - **SKSE via MO2 :** OK sur les tests documentés
 - **Menu principal :** OK sur les tests documentés
-- **Masters manquants :** aucun sur les tests validés après les corrections / différés documentés
+- **Masters manquants :** aucun sur les tests validés après corrections / différés documentés
 - **Messages DLL bloquants :** aucun signalé
 - **Plugins cochés :** OK sur les tests documentés
-- **Overwrite :** vide sur le dernier état explicitement indiqué
-- **Compteur ESP + ESM non-light final post-530 :** 128
+- **Overwrite :** vide sur les tests documentés après corrections
+- **Compteur ESP + ESM non-light final post-553 :** 128
 - **LOOT :** non lancé
 - **DynDOLOD / LOD :** non générés
 - **BodySlide Output :** non généré
-- **Pandora :** généré avec succès à l'étape 411 ; Output actif ; génération dédiée utilisée pour SkyParkour v3 à l'étape 445 ; non relancé pendant les étapes 451 à 530
+- **Pandora :** généré avec succès à l'étape 411 ; Output actif ; génération dédiée utilisée pour SkyParkour v3 à l'étape 445 ; non relancé pendant les étapes 451 à 553
 - **CrashLogger :** actif avec PDB support 1.5.97
 
 ## Fichiers de reprise prioritaires
@@ -37,97 +38,88 @@
 
 1. `docs/procedure/00_resume_etat_actuel.md`
 2. `docs/procedure/01_regles_mo2_skyforge.md`
-3. `docs/procedure/99_changelog_validation_part_17.md`
-4. `docs/procedure/11_1_followers_npcs_dialogues_part_3.md`
-5. `docs/procedure/11_2_custom_followers_companions_part_2.md`
-6. `docs/procedure/11_2_custom_followers_companions_part_1.md`
-7. `docs/procedure/11_1_followers_npcs_dialogues_part_2.md`
-8. `docs/procedure/11_1_followers_npcs_dialogues_part_1.md`
-9. `docs/configuration/SKYFORGE_Load_Order_MO2_panneau_gauche_etape_530.md`
-10. `docs/procedure/10_1_races_werebeasts_vampires.md`
-11. `docs/configuration/09_regle_vampire_skyforge.md`
-12. `docs/procedure/99_changelog_validation_part_16.md`
-13. `docs/procedure/99_changelog_validation_part_15.md`
-14. `docs/configuration/08_body_skins_bodyslide_vigilances.md`
-15. `docs/configuration/SKYFORGE_Load_Order_MO2_panneau_gauche_etape_509.md` — jalon historique post-509
-16. `docs/configuration/SKYFORGE_Load_Order_MO2_panneau_gauche_etape_480.md` — jalon historique post-480
-17. `docs/configuration/SKYFORGE_Load_Order_MO2_panneau_gauche_etape_450.md` — jalon historique post-450
-18. `docs/configuration/SKYFORGE_Load_Order_MO2_panneau_gauche_etape_434.md` — jalon historique post-434
-19. `docs/configuration/SKYFORGE_Load_Order_MO2_panneau_gauche_etape_409.md` — jalon historique ancien
+3. `docs/procedure/99_changelog_validation_part_18.md`
+4. `docs/procedure/11_1_followers_npcs_dialogues_part_4.md`
+5. `docs/procedure/03_ui_hud_menus_part_1.md`
+6. `docs/procedure/04_audio_music_voices_part_1.md`
+7. `docs/procedure/06_landscape_grass_trees_water_part_1.md`
+8. `docs/procedure/06_decisions_differees_part_3.md`
+9. `docs/configuration/SKYFORGE_Load_Order_MO2_panneau_gauche_etape_530.md` — snapshot courant validé tant que le snapshot 553 n’est pas collé / vérifié
+10. `docs/configuration/SKYFORGE_Load_Order_MO2_panneau_gauche_etape_553.md` — placeholder préparé, en attente du brut MO2
+11. `docs/procedure/99_changelog_validation_part_17.md`
+12. `docs/procedure/11_1_followers_npcs_dialogues_part_3.md`
+13. `docs/procedure/11_2_custom_followers_companions_part_2.md`
+14. `docs/procedure/11_2_custom_followers_companions_part_1.md`
+15. `docs/procedure/11_1_followers_npcs_dialogues_part_2.md`
+16. `docs/procedure/11_1_followers_npcs_dialogues_part_1.md`
+17. `docs/configuration/09_regle_vampire_skyforge.md`
+18. `docs/configuration/08_body_skins_bodyslide_vigilances.md`
+19. `docs/configuration/SKYFORGE_Load_Order_MO2_panneau_gauche_etape_509.md` — jalon historique post-509
+20. `docs/configuration/SKYFORGE_Load_Order_MO2_panneau_gauche_etape_480.md` — jalon historique post-480
+21. `docs/configuration/SKYFORGE_Load_Order_MO2_panneau_gauche_etape_450.md` — jalon historique post-450
 
 ## Étapes récentes validées / documentées
 
 ### Étapes 451 à 458 — Bloc 10.1 Races, werebeasts & vampires
 
-- **Étape 451 :** ouverture prudente du bloc `10.1`, aucun mod installé, systèmes vampires / werebeasts / créatures différés. Compteur 110.
-- **Étape 452 :** `Aetherius - A Race Overhaul` version 2.14.1. FOMOD minimal. Compteur 110.
-- **Étape 453 :** `Aetherius - Race Menu Racial Passive Descriptions`. Compteur 110.
-- **Étape 454 :** `Mundus - A Standing Stone Overhaul` + patch USSEP. Freyr exclu. Compteur 110.
-- **Étape 455 :** `Manbeast - A Werewolf Overhaul`. Growl exclu. Compteur 110.
-- **Étape 456 :** `Sacrosanct - Vampires of Skyrim` + `Cover Your Head - Sacrosanct`. Compteur 111.
-- **Étape 457 :** `Sun Affects NPC Vampires`, option NPC + PJ. Compteur 111.
-- **Étape 458 :** clôture provisoire du bloc `10.1`. `Vampire Lines Expansion` différé vers `11.1`. Compteur 111.
+- Ouverture prudente puis stabilisation du bloc `10.1`.
+- Aetherius, Mundus, Sacrosanct, Cover Your Head - Sacrosanct, Sun Affects NPC Vampires et Manbeast validés.
+- Bloc clôturé provisoirement à l'étape 458.
 
-### Étapes 459 à 480 — Bloc 11.1 Followers, NPCs & dialogues — partie 1
+### Étapes 459 à 490 — Bloc 11.1 Followers, NPCs & dialogues — parties 1 et 2
 
-- **Étapes 459 à 480 :** installation et stabilisation des lignes de dialogue, NPCs React, Carriages and Stables Dialogue Bundle, Show NPC Disposition, Scared of Shootings, Dialogue Expansion, Guard Dialogue Overhaul, More Dialogue Options, Misc Dialogue Edits, RDO, Cutting Room Floor, AI Overhaul, Run For Your Lives, Realistic Conversations et SPID NPC Trap Safety.
-- **Compteur final part 1 :** 119.
+- Installation et stabilisation des lignes de dialogue, NPCs React, Dialogue Expansion, GDO, More Dialogue Options, Misc Dialogue Edits, RDO, Cutting Room Floor, AI Overhaul, Run For Your Lives, Realistic Conversations et SPID NPC Trap Safety.
+- Ajout de nombreux packs `Follower Dialogue Expansion` vanilla / Nefaram / spécifiques SKYFORGE.
+- Bloc clôturé provisoirement après l'étape 490.
 
-### Étapes 481 à 490 — Bloc 11.1 Followers, NPCs & dialogues — partie 2
+### Étapes 491 à 526 — Bloc 11.2 Custom followers & companions — parties 1 et 2
 
-- **Étapes 481 à 489 :** ajout de nombreux packs `Follower Dialogue Expansion` vanilla / Nefaram / spécifiques SKYFORGE.
-- **Étape 490 :** `Relationship Dialogue Overhaul - Update and MCM` + `RDO - FDE Compatibility Patch` validés.
-- **Statut :** bloc `11.1` clôturé provisoirement après l'étape 490.
-- **Compteur final part 2 :** 119.
+- Installation et enrichissement d'Inigo, Lucien, Auri, Remiel, Xelzaz, Thogra, Gore et Serana Dialogue Add-On.
+- Installation de replacers visuels, patches ciblés, addons Skyrim's Got Talent et animations Axarien pour followers retenus.
+- `Kaidan 2`, `Katana - Journey in the Shadows`, `Daegon Legacy` et `Mythos SE Redux` exclus définitivement du modpack SKYFORGE.
+- Bloc enrichi jusqu'à l'étape 526.
 
-### Étapes 491 à 509 — Bloc 11.2 Custom followers & companions — partie 1
+### Étapes 527 à 530 — Retour ponctuel Bloc 11.1 Followers, NPCs & dialogues — partie 3
 
-- **Étape 491 :** ouverture du séparateur `[11.2 - CUSTOM FOLLOWERS COMPANIONS]`.
-- **Étape 492 :** `INIGO` installé ; Inigo ne doit pas être importé / géré dans NFF. Compteur 120.
-- **Étape 493 :** patches FDE ↔ Inigo installés. Compteur 120.
-- **Étape 494 :** `Lucien - Immersive Fully Voiced Male Follower` installé ; Lucien ne doit pas être importé / géré dans NFF. Compteur 121.
-- **Étape 495 :** patches FDE ↔ Lucien installés. Compteur 121.
-- **Étape 496 :** `Song of the Green (Auri Follower)` installé ; Auri ne doit pas être importée / gérée dans NFF. Compteur 122.
-- **Étape 497 :** patches FDE ↔ Auri installés. Compteur 122.
-- **Étape 498 :** Remiel installée avec correctifs génériques ; suffixe `FOMOD A REVOIR PLUS TARD` conservé. Compteur 123.
-- **Étape 499 :** patches FDE ↔ Remiel installés. Compteur 123.
-- **Étape 500 :** Xelzaz installé avec suffixe `PATCHES A VOIR PLUS TARD`. Compteur 124.
-- **Étape 501 :** patches Xelzaz partiels AE + FDE Aela validés. Compteur 125.
-- **Étape 502 :** Thogra installée avec suffixe `PATCHES A VOIR PLUS TARD`. Compteur 126.
-- **Étape 503 :** patch Remiel ↔ Thogra installé. Compteur 126.
-- **Étape 504 :** Gore installé en FOMOD partiel, suffixe `FOMOD & PATCHES A REVOIR PLUS TARD`. Compteur 127.
-- **Étape 505 :** Kaidan 2 installé seul, sans Extended ni patches. Compteur 128.
-- **Étape 506 :** décision Kaidan : branche sobre et compatible avec futurs modules spécialisés ; extensions et patches avancés différés.
-- **Étapes 507 à 509 :** `Katana - Journey in the Shadows`, `Daegon Legacy` et `Mythos SE Redux` exclus définitivement.
+- `Considerate Followers` + patch Skyrim 1.5.97.
+- `Chatty NPCs`, `Collision Dialogue Overhaul`, `Shouts of Stallholders`.
+- `Additional Healing Reactions` documenté comme déjà installé.
+- `Falmer Servant Lines Expansion`, `Missing Voices in Hearthfire Added Back` et `Cheeky Kids`.
 
-### Étapes 510 à 526 — Bloc 11.2 Custom followers & companions — partie 2
+### Étapes 531 à 533 — Bloc 11.1 Followers, NPCs & dialogues — partie 4
 
-- **Étape 510 :** `Serana Dialogue Add-On SE` installé. Compteur 129.
-- **Étape 511 :** `Serana Re-Imagined` installé. Compteur 129.
-- **Étape 512 :** `Hood Plus Hair for Serana Re-Imagined` installé ; override d'yeux non retenu. Compteur 129.
-- **Étape 513 :** replacers visuels Inigo, Lucien, Auri et Remiel installés. Compteur 129.
-- **Étape 514 :** patch banter Auri ↔ Inigo + `Serana Dialogue Add-On Patch Hub - FOMOD A REVOIR PLUS TARD`. Compteur 129.
-- **Étape 515 :** addons `Skyrim's Got Talent` pour Inigo, Auri et Xelzaz. Compteur 129.
-- **Étape 516 :** patches Xelzaz Wyrmstooth / Sirenroot maintenus décochés en attente du bloc quêtes/worlds. Compteur 129.
-- **Étape 516 bis :** `Snazzy Items for Inigo` et `Snazzy Items for Auri` installés. Compteur 129.
-- **Étape 517 :** `Press E to Heal Followers` différé. Compteur 129.
-- **Étape 517 bis :** `Mr. Dragonfly ENB Particle Light`, couleur Lavender. Compteur 129.
-- **Étape 518 :** animations Axarien pour Lucien, Kaidan 2, Auri et Inigo ; Pandora non relancé. Compteur 129.
-- **Étape 519 :** Kaidan 2 exclu définitivement ; retrait / décochage de Kaidan et de l'animation Axarien Kaidan. Compteur 128.
-- **Étape 520 :** `Menagerie - An Anniversary Edition Pet Overhaul`. Compteur 128.
-- **Étape 521 :** mini-pack visuel Xelzaz. Compteur 128.
-- **Étape 522 :** `FDE Aela Patch - Thogra` différé avant audit. Compteur 128.
-- **Étape 523 :** audit Thogra validé, version moderne Nexus ID 120007. Compteur 128.
-- **Étape 524 :** `FDE Aela Patch - Thogra` installé. Compteur 128.
-- **Étape 525 :** audit Gore validé, aucun patch ajouté maintenant. Compteur 128.
-- **Étape 526 :** `Show Follower Carry Weight` installé. Compteur 128.
+- **Étape 531 :** `Additional Dremora Faces - PATCHES A VOIR PLUS TARD` + `Dremora Lines Expansion`.
+- **Étape 532 :** `Dynamic Dialogue Replacer - DDR` et `Skyrim Autocorrect - Dialogue Grammar Fixes` différés pour cohérence avec la traduction FR manuelle.
+- **Étape 533 :** `More to Say - FOMOD A REVOIR PLUS TARD`.
 
-### Étapes 527 à 530 — Bloc 11.1 Followers, NPCs & dialogues — partie 3
+### Étapes 534, 543, 549, 550 et 552 — Bloc 04 Audio, music & voices — partie 1
 
-- **Étape 527 :** `Considerate Followers` + patch Skyrim 1.5.97 installés. Compteur 128.
-- **Étape 528 :** `Chatty NPCs`, `Collision Dialogue Overhaul` et `Shouts of Stallholders` installés. Compteur 128.
-- **Étape 529 :** `Additional Healing Reactions` documenté comme déjà installé, sans doublon. Compteur 128.
-- **Étape 530 :** `Falmer Servant Lines Expansion`, `Missing Voices in Hearthfire Added Back` et `Cheeky Kids` installés. Compteur 128.
+- `NPC Dialogue Audio Enhancer`.
+- `Meridia Revoiced SE` + `The Black Door Revoiced`.
+- `Whispering Tomes of Apocrypha - FOMOD A REVOIR PLUS TARD`.
+- `MEMOSPORE - UI Sound Effects - FOMOD A REVOIR PLUS TARD`.
+- `Whales Off The Coast - FOMOD A REVOIR PLUS TARD` + `Murmurs and Mead - FOMOD A REVOIR PLUS TARD`.
+
+### Étapes 535 à 548 — Bloc 03 UI, HUD & menus — partie 1
+
+- `Subtitles`, `Hotkey Reminder`, `Load Screen Shading Fix`, `Menu Zoom`, `Notification Log SSE NG`, `Yes Im Sure NG`, `Too many notifications`.
+- Étapes 539 et 540 annulées / doublons.
+- `Photo Mode`, `Skyrim Character Sheet`, `Name Those Ash Piles`.
+- Correction Overwrite Photo Mode via `SKYFORGE - Photo Mode Output`.
+- `iWant Widgets`, `iWant Widgets NG`, `iWant Status Bars`.
+- `Detection Meter`, `Casting Bar`, pack d'icônes I4 / SkyUI, correction Inventory Interface Information Injector 1.5.97.
+- `TrueHUD Curated Bosses` et `Show Mount Carry Weight`.
+
+### Étape 551 — Décision différée map
+
+- `CoMAP`, `CoMAP 4 for Skyrim 1.5`, `Flat World Map Framework` et `Skyrim Paper Map by Caro Tuts for FWMF` sont différés.
+- Ces éléments devront être repris dans un bloc map dédié.
+- Rappel : les plugins FWMF / paper map devront rester très bas dans le load order panneau droit pour éviter le risque de map violette.
+
+### Étape 553 — Bloc 06 Landscape, grass, trees & water — partie 1
+
+- `Rainbows Remade` + hotfix + patch sans notification d'initialisation.
+- `Shooting Stars SE`.
 
 ## Décisions structurantes actuelles
 
@@ -144,112 +136,12 @@
 - **GDO / RDO / AI Overhaul / FDE Compatibility** sont désormais installés et patchés selon la route documentée ; ne pas ajouter de patch alternatif sans audit.
 - **Pandora Behaviour Engine Plus** est le générateur retenu.
 - **Nemesis** n'est pas retenu comme générateur principal.
-- Les réglages MCM non urgents seront repris plus tard avec la logique Startup Save / MCM Recorder.
+- **Flat World Map Framework / CoMAP / paper map :** différés jusqu'à un bloc map dédié.
 
-## Règle anti-doublon SKYFORGE
+## Règles de reprise immédiate
 
-Avant toute nouvelle proposition d'installation, vérifier dans GitHub :
-
-- ce résumé d'état actuel ;
-- les règles MO2 SKYFORGE ;
-- le fichier thématique du module en cours ;
-- le dernier changelog de validation ;
-- le dernier snapshot / état MO2 documenté.
-
-Le snapshot courant est désormais :
-
-- `docs/configuration/SKYFORGE_Load_Order_MO2_panneau_gauche_etape_530.md`
-
-Important :
-
-- le snapshot étape 530 est la référence pratique courante anti-doublon ;
-- ne jamais reproposer un mod déjà présent dans le snapshot courant ou les fichiers de procédure ;
-- le panneau gauche MO2 ne permet pas de confirmer seul le compteur ESP + ESM non-light : ce compteur doit être donné par Fabien depuis le panneau droit MO2.
-
-## Règle traductions personnelles FR
-
-Tous les mods dont le nom se termine par `- FR` sont des traductions personnelles de Fabien.
-
-Ces mods `- FR` restent volontairement **décochés pour le moment**, tant que le modpack n'est pas stabilisé.
-
-Ils seront activés plus tard par petits groupes contrôlés, avec test SKSE / menu après chaque groupe.
-
-Voir aussi : `docs/procedure/01_regles_mo2_skyforge.md`.
-
-## Notes futures importantes
-
-### PB's Silky Skin — SKYFORGE PLAYER SKIN OVERRIDE
-
-Note dédiée : `docs/configuration/08_body_skins_bodyslide_vigilances.md`.
-
-Objectif : éviter les problèmes de brillance excessive / shiny sur la skin du personnage joueur et prévoir plus tard un mod override dédié pour la skin PJ.
-
-### RDO / FDE / AI Overhaul
-
-Route actuelle validée :
-
-```txt
-Relationship Dialogue Overhaul - RDO SE
-Relationship Dialogue Overhaul - Update and MCM
-Cutting Room Floor
-RDO - CRF + USSEP Patch
-RDO - FDE Compatibility Patch
-AI Overhaul SSE
-AI Overhaul - Relationship Dialogue Overhaul Patch
-AI Overhaul - Cutting Room Floor Patch
-```
-
-### Dialogue / NPC / followers différés
-
-À revoir plus tard selon les blocs concernés :
-
-- Dremora Lines Expansion
-- patches CFTO / transport
-- Longer Jailtime, uniquement lors d'un futur bloc prison / systèmes associés
-- patches custom followers dépendants de masters absents
-- patches DBVO
-- traductions `- FR`
-- patches Xelzaz Wyrmstooth / Sirenroot après bloc quêtes/worlds
-- patch hub SDA selon masters réellement présents
-
-## Incidents / anomalies non bloquants à conserver
-
-- **Étape 426 — Riverwood Giant Inn :** objets flottants à l'emplacement de l'ancien comptoir.
-- **Étape 427 — écran noir non reproductible :** non bloquant.
-- **Étape 441 — Remote Interactions :** master manquant corrigé par installation de Taunt Your Enemies.
-- **Étape 473 — RDO CRF / USSEP :** master manquant corrigé par installation de Cutting Room Floor.
-- **Étape 475 — patch AI Overhaul / RDO :** patch décoché puis réactivé à l'étape 476 après installation de AI Overhaul.
-
-## Mods explicitement décochés / différés à conserver
-
-- tous les mods terminés par `- FR`
-- `Dunmeri Furniture in Gray Quarter - PATCHES A VOIR PLUS TARD`
-- `Kris's Papyrus Extender - DECOCHE RESERVE`
-- `ENB Extender Skyrim - DECOCHE RESERVE ENB`
-- `Magic College Music - Songs for Academy - DECOCHE - FORM 43`
-- `MuJointFix - Sexlab Ostim Patch - DECOCHE RESERVE SEXLAB`
-- patches ou options FOMOD marqués `A REVOIR PLUS TARD`
-- patches custom followers dépendants de masters absents
-- patches Xelzaz Wyrmstooth / Sirenroot en attente du bloc quêtes/worlds
-
-Les suffixes de suivi temporaires sont définis dans `docs/procedure/01_regles_mo2_skyforge.md`.
-
-## Outils non lancés / non relancés à ce stade
-
-- LOOT
-- DynDOLOD / LOD
-- BodySlide
-- Pandora ne doit pas être relancé sauf demande explicite ou besoin technique d'un mod d'animation / comportement
-
-## Dernier état stable
-
-État documenté après étape 530 :
-
-- Bloc `11.2 - CUSTOM FOLLOWERS COMPANIONS` enrichi jusqu'à l'étape 526
-- Bloc `11.1 - FOLLOWERS NPCS DIALOGUES` repris ponctuellement jusqu'à l'étape 530
-- Dernier snapshot courant : `docs/configuration/SKYFORGE_Load_Order_MO2_panneau_gauche_etape_530.md`
-- Compteur non-light : 128
-- Overwrite vide
-- Menu principal OK
-- Aucun master manquant
-- Prochaine étape attendue : 531
+- Ne pas proposer de mod déjà visible dans le snapshot 530 tant que le snapshot 553 n'a pas été collé et vérifié.
+- Après collage manuel et vérification du snapshot 553, le snapshot 553 deviendra la nouvelle référence anti-doublon.
+- Ne pas lancer LOOT, DynDOLOD, BodySlide ou Pandora sans demande explicite.
+- Pour les mods `- FR`, ne pas les activer seuls hors phase de traduction / tests dédiés.
+- Chaque nouvelle étape doit rester courte, testable et documentée.

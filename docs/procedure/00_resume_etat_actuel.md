@@ -3,16 +3,15 @@
 ## Situation générale
 
 - Dernière étape validée/documentée : **Étape 567 — JS Attunement Sphere / Lexicons / Instruments**
-- Snapshot MO2 panneau gauche courant : **`docs/configuration/SKYFORGE_Load_Order_MO2_panneau_gauche_etape_553.md`**
-- Snapshot MO2 panneau gauche en attente de collage/vérification : **`docs/configuration/SKYFORGE_Load_Order_MO2_panneau_gauche_etape_567.md`**
-- Le snapshot 553 reste la référence courante anti-doublon tant que le snapshot 567 n’a pas été collé et vérifié.
+- Snapshot MO2 panneau gauche courant : **`docs/configuration/SKYFORGE_Load_Order_MO2_panneau_gauche_etape_567.md`**
+- Le snapshot 553 devient un jalon historique post-553.
 - Prochaine étape attendue : **Étape 568**
 - Compteur ESP + ESM non-light post-567 : **129**
 - Overwrite : **vide**
 - LOOT : **non lancé**
 - DynDOLOD / LOD : **non générés**
 - BodySlide Output : **non généré**
-- Pandora : **généré depuis l’étape 411, Output actif ; non relancé pendant les étapes 554 à 567**
+- Pandora : **généré depuis l’étape 411, Output actif ; non relancé pendant les étapes 451 à 567**
 
 ## État technique validé
 
@@ -25,11 +24,11 @@
 - **Messages DLL bloquants :** aucun signalé
 - **Plugins cochés :** OK sur les tests documentés
 - **Overwrite :** vide sur les tests documentés après corrections
-- **Compteur ESP + ESM non-light final post-553 :** 128
+- **Compteur ESP + ESM non-light final post-567 :** 129
 - **LOOT :** non lancé
 - **DynDOLOD / LOD :** non générés
 - **BodySlide Output :** non généré
-- **Pandora :** généré avec succès à l'étape 411 ; Output actif ; génération dédiée utilisée pour SkyParkour v3 à l'étape 445 ; non relancé pendant les étapes 451 à 553
+- **Pandora :** généré avec succès à l'étape 411 ; Output actif ; génération dédiée utilisée pour SkyParkour v3 à l'étape 445 ; non relancé pendant les étapes 451 à 567
 - **CrashLogger :** actif avec PDB support 1.5.97
 
 ## Fichiers de reprise prioritaires
@@ -45,7 +44,7 @@
 7. `docs/procedure/05_visual_base_meshes_textures_part_1.md`
 8. `docs/procedure/06_landscape_grass_trees_water_part_1.md`
 9. `docs/procedure/06_decisions_differees_part_4.md`
-10. `docs/configuration/SKYFORGE_Load_Order_MO2_panneau_gauche_etape_567.md` — jalon validé post-567
+10. `docs/configuration/SKYFORGE_Load_Order_MO2_panneau_gauche_etape_567.md` — jalon courant post-567
 11. `docs/configuration/SKYFORGE_Load_Order_MO2_panneau_gauche_etape_553.md` — jalon historique post-553
 12. `docs/configuration/SKYFORGE_Load_Order_MO2_panneau_gauche_etape_530.md` — jalon historique post-530
 13. `docs/procedure/99_changelog_validation_part_17.md`
@@ -78,72 +77,3 @@
 
 - Installation et enrichissement d'Inigo, Lucien, Auri, Remiel, Xelzaz, Thogra, Gore et Serana Dialogue Add-On.
 - Installation de replacers visuels, patches ciblés, addons Skyrim's Got Talent et animations Axarien pour followers retenus.
-- `Kaidan 2`, `Katana - Journey in the Shadows`, `Daegon Legacy` et `Mythos SE Redux` exclus définitivement du modpack SKYFORGE.
-- Bloc enrichi jusqu'à l'étape 526.
-
-### Étapes 527 à 530 — Retour ponctuel Bloc 11.1 Followers, NPCs & dialogues — partie 3
-
-- `Considerate Followers` + patch Skyrim 1.5.97.
-- `Chatty NPCs`, `Collision Dialogue Overhaul`, `Shouts of Stallholders`.
-- `Additional Healing Reactions` documenté comme déjà installé.
-- `Falmer Servant Lines Expansion`, `Missing Voices in Hearthfire Added Back` et `Cheeky Kids`.
-
-### Étapes 531 à 533 — Bloc 11.1 Followers, NPCs & dialogues — partie 4
-
-- **Étape 531 :** `Additional Dremora Faces - PATCHES A VOIR PLUS TARD` + `Dremora Lines Expansion`.
-- **Étape 532 :** `Dynamic Dialogue Replacer - DDR` et `Skyrim Autocorrect - Dialogue Grammar Fixes` différés pour cohérence avec la traduction FR manuelle.
-- **Étape 533 :** `More to Say - FOMOD A REVOIR PLUS TARD`.
-
-### Étapes 534, 543, 549, 550 et 552 — Bloc 04 Audio, music & voices — partie 1
-
-- `NPC Dialogue Audio Enhancer`.
-- `Meridia Revoiced SE` + `The Black Door Revoiced`.
-- `Whispering Tomes of Apocrypha - FOMOD A REVOIR PLUS TARD`.
-- `MEMOSPORE - UI Sound Effects - FOMOD A REVOIR PLUS TARD`.
-- `Whales Off The Coast - FOMOD A REVOIR PLUS TARD` + `Murmurs and Mead - FOMOD A REVOIR PLUS TARD`.
-
-### Étapes 535 à 548 — Bloc 03 UI, HUD & menus — partie 1
-
-- `Subtitles`, `Hotkey Reminder`, `Load Screen Shading Fix`, `Menu Zoom`, `Notification Log SSE NG`, `Yes Im Sure NG`, `Too many notifications`.
-- Étapes 539 et 540 annulées / doublons.
-- `Photo Mode`, `Skyrim Character Sheet`, `Name Those Ash Piles`.
-- Correction Overwrite Photo Mode via `SKYFORGE - Photo Mode Output`.
-- `iWant Widgets`, `iWant Widgets NG`, `iWant Status Bars`.
-- `Detection Meter`, `Casting Bar`, pack d'icônes I4 / SkyUI, correction Inventory Interface Information Injector 1.5.97.
-- `TrueHUD Curated Bosses` et `Show Mount Carry Weight`.
-
-### Étape 551 — Décision différée map
-
-- `CoMAP`, `CoMAP 4 for Skyrim 1.5`, `Flat World Map Framework` et `Skyrim Paper Map by Caro Tuts for FWMF` sont différés.
-- Ces éléments devront être repris dans un bloc map dédié.
-- Rappel : les plugins FWMF / paper map devront rester très bas dans le load order panneau droit pour éviter le risque de map violette.
-
-### Étape 553 — Bloc 06 Landscape, grass, trees & water — partie 1
-
-- `Rainbows Remade` + hotfix + patch sans notification d'initialisation.
-- `Shooting Stars SE`.
-
-## Décisions structurantes actuelles
-
-- **Nolvus Awakening** reste la référence principale pour socle technique, gameplay, UI, confort, dialogues et cohérence générale.
-- **Nefaram** reste une référence majeure pour les choix NPC / dialogues / systèmes spécialisés et pour les futurs blocs Body, tenues, BodySlide et cohérence de bodies.
-- **Règles MO2 SKYFORGE :** conventions de snapshot, suffixes temporaires, mods `- FR`, séparateurs vides, outils non lancés et règles de reprise sont centralisés dans `docs/procedure/01_regles_mo2_skyforge.md`.
-- **Règle vampire SKYFORGE :** Fabien ne prévoit pas de jouer vampire ; ne pas ajouter de mods principalement orientés PJ vampire. Voir `docs/configuration/09_regle_vampire_skyforge.md`.
-- **Custom followers :** Inigo, Lucien et Auri ne doivent pas être importés / gérés dans NFF ou un follower framework équivalent.
-- **Custom followers exclus :** ne plus proposer `Katana - Journey in the Shadows`, `Daegon Legacy`, `Mythos SE Redux` ou `Kaidan 2`.
-- **Aetherius** est l'overhaul de races retenu ; ne pas installer Mannaz ou Imperious en parallèle.
-- **Mundus** est l'overhaul de Pierres Gardiennes retenu ; ne pas installer Freyr en parallèle.
-- **Manbeast** est l'overhaul werewolf retenu ; ne pas installer Growl ou Moonlight Tales en parallèle.
-- **Sacrosanct** est la base vampire retenue ; ne pas empiler Scion, Sacrilege, Better Vampires ou addons feeding orientés joueur.
-- **GDO / RDO / AI Overhaul / FDE Compatibility** sont désormais installés et patchés selon la route documentée ; ne pas ajouter de patch alternatif sans audit.
-- **Pandora Behaviour Engine Plus** est le générateur retenu.
-- **Nemesis** n'est pas retenu comme générateur principal.
-- **Flat World Map Framework / CoMAP / paper map :** différés jusqu'à un bloc map dédié.
-
-## Règles de reprise immédiate
-
-- Ne pas proposer de mod déjà visible dans le snapshot 553.
-- Le snapshot 553 est la référence anti-doublon courante.
-- Ne pas lancer LOOT, DynDOLOD, BodySlide ou Pandora sans demande explicite.
-- Pour les mods `- FR`, ne pas les activer seuls hors phase de traduction / tests dédiés.
-- Chaque nouvelle étape doit rester courte, testable et documentée.

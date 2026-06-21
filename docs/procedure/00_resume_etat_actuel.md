@@ -3,9 +3,9 @@
 ## Situation générale
 
 - **Dernière étape documentée :** Étape 553 — Rainbows Remade + Shooting Stars SE
-- **Dernier snapshot MO2 panneau gauche courant validé :** `docs/configuration/SKYFORGE_Load_Order_MO2_panneau_gauche_etape_530.md`
-- **Snapshot post-553 préparé :** `docs/configuration/SKYFORGE_Load_Order_MO2_panneau_gauche_etape_553.md`, en attente du collage manuel du brut MO2 complet puis vérification.
-- **Snapshot précédent validé :** `docs/configuration/SKYFORGE_Load_Order_MO2_panneau_gauche_etape_509.md`, jalon historique post-509.
+- **Dernier snapshot MO2 panneau gauche courant validé :** `docs/configuration/SKYFORGE_Load_Order_MO2_panneau_gauche_etape_553.md`
+- **Snapshot précédent validé :** `docs/configuration/SKYFORGE_Load_Order_MO2_panneau_gauche_etape_530.md`, jalon historique post-530.
+- **Snapshot antérieur validé :** `docs/configuration/SKYFORGE_Load_Order_MO2_panneau_gauche_etape_509.md`, jalon historique post-509.
 - **Blocs enrichis depuis le snapshot 530 :**
   - `11.1 - FOLLOWERS NPCS DIALOGUES`
   - `03 - UI HUD MENUS`
@@ -44,8 +44,8 @@
 6. `docs/procedure/04_audio_music_voices_part_1.md`
 7. `docs/procedure/06_landscape_grass_trees_water_part_1.md`
 8. `docs/procedure/06_decisions_differees_part_3.md`
-9. `docs/configuration/SKYFORGE_Load_Order_MO2_panneau_gauche_etape_530.md` — snapshot courant validé tant que le snapshot 553 n’est pas collé / vérifié
-10. `docs/configuration/SKYFORGE_Load_Order_MO2_panneau_gauche_etape_553.md` — placeholder préparé, en attente du brut MO2
+9. `docs/configuration/SKYFORGE_Load_Order_MO2_panneau_gauche_etape_553.md` — snapshot courant validé post-553
+10. `docs/configuration/SKYFORGE_Load_Order_MO2_panneau_gauche_etape_530.md` — jalon historique post-530
 11. `docs/procedure/99_changelog_validation_part_17.md`
 12. `docs/procedure/11_1_followers_npcs_dialogues_part_3.md`
 13. `docs/procedure/11_2_custom_followers_companions_part_2.md`
@@ -140,8 +140,8 @@
 
 ## Règles de reprise immédiate
 
-- Ne pas proposer de mod déjà visible dans le snapshot 530 tant que le snapshot 553 n'a pas été collé et vérifié.
-- Après collage manuel et vérification du snapshot 553, le snapshot 553 deviendra la nouvelle référence anti-doublon.
+- Ne pas proposer de mod déjà visible dans le snapshot 553.
+- Le snapshot 553 est la référence anti-doublon courante.
 - Ne pas lancer LOOT, DynDOLOD, BodySlide ou Pandora sans demande explicite.
 - Pour les mods `- FR`, ne pas les activer seuls hors phase de traduction / tests dédiés.
 - Chaque nouvelle étape doit rester courte, testable et documentée.

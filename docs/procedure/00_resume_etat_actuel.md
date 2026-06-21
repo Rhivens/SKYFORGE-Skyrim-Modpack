@@ -3,9 +3,9 @@
 ## Situation générale
 
 - **Dernière étape documentée :** Étape 530 — Mini-pack dialogues NPC/followers Nefaram
-- **Dernier snapshot MO2 panneau gauche courant :** `docs/configuration/SKYFORGE_Load_Order_MO2_panneau_gauche_etape_509.md`
-- **Note snapshot :** le snapshot étape 509 reste la référence courante anti-doublon jusqu'au prochain snapshot post-530 fourni par Fabien.
-- **Snapshot précédent :** `docs/configuration/SKYFORGE_Load_Order_MO2_panneau_gauche_etape_480.md`, jalon historique post-480
+- **Dernier snapshot MO2 panneau gauche courant :** `docs/configuration/SKYFORGE_Load_Order_MO2_panneau_gauche_etape_530.md`
+- **Note snapshot :** le snapshot étape 530 est désormais la référence courante anti-doublon après collage manuel et vérification du brut MO2 complet.
+- **Snapshot précédent :** `docs/configuration/SKYFORGE_Load_Order_MO2_panneau_gauche_etape_509.md`, jalon historique post-509
 - **Blocs clôturés récemment :**
   - `10 - GAMEPLAY COMBAT MAGIC PERKS` — clôturé provisoirement à l'étape 450
   - `10.1 - RACES WEREBEASTS VAMPIRES` — clôturé provisoirement à l'étape 458
@@ -43,16 +43,17 @@
 6. `docs/procedure/11_2_custom_followers_companions_part_1.md`
 7. `docs/procedure/11_1_followers_npcs_dialogues_part_2.md`
 8. `docs/procedure/11_1_followers_npcs_dialogues_part_1.md`
-9. `docs/configuration/SKYFORGE_Load_Order_MO2_panneau_gauche_etape_509.md`
+9. `docs/configuration/SKYFORGE_Load_Order_MO2_panneau_gauche_etape_530.md`
 10. `docs/procedure/10_1_races_werebeasts_vampires.md`
 11. `docs/configuration/09_regle_vampire_skyforge.md`
 12. `docs/procedure/99_changelog_validation_part_16.md`
 13. `docs/procedure/99_changelog_validation_part_15.md`
 14. `docs/configuration/08_body_skins_bodyslide_vigilances.md`
-15. `docs/configuration/SKYFORGE_Load_Order_MO2_panneau_gauche_etape_480.md` — jalon historique post-480
-16. `docs/configuration/SKYFORGE_Load_Order_MO2_panneau_gauche_etape_450.md` — jalon historique post-450
-17. `docs/configuration/SKYFORGE_Load_Order_MO2_panneau_gauche_etape_434.md` — jalon historique post-434
-18. `docs/configuration/SKYFORGE_Load_Order_MO2_panneau_gauche_etape_409.md` — jalon historique ancien
+15. `docs/configuration/SKYFORGE_Load_Order_MO2_panneau_gauche_etape_509.md` — jalon historique post-509
+16. `docs/configuration/SKYFORGE_Load_Order_MO2_panneau_gauche_etape_480.md` — jalon historique post-480
+17. `docs/configuration/SKYFORGE_Load_Order_MO2_panneau_gauche_etape_450.md` — jalon historique post-450
+18. `docs/configuration/SKYFORGE_Load_Order_MO2_panneau_gauche_etape_434.md` — jalon historique post-434
+19. `docs/configuration/SKYFORGE_Load_Order_MO2_panneau_gauche_etape_409.md` — jalon historique ancien
 
 ## Étapes récentes validées / documentées
 
@@ -155,13 +156,13 @@ Avant toute nouvelle proposition d'installation, vérifier dans GitHub :
 - le dernier changelog de validation ;
 - le dernier snapshot / état MO2 documenté.
 
-Le snapshot courant reste pour l'instant :
+Le snapshot courant est désormais :
 
-- `docs/configuration/SKYFORGE_Load_Order_MO2_panneau_gauche_etape_509.md`
+- `docs/configuration/SKYFORGE_Load_Order_MO2_panneau_gauche_etape_530.md`
 
 Important :
 
-- le snapshot étape 509 reste la référence pratique courante anti-doublon jusqu'au snapshot post-530 ;
+- le snapshot étape 530 est la référence pratique courante anti-doublon ;
 - ne jamais reproposer un mod déjà présent dans le snapshot courant ou les fichiers de procédure ;
 - le panneau gauche MO2 ne permet pas de confirmer seul le compteur ESP + ESM non-light : ce compteur doit être donné par Fabien depuis le panneau droit MO2.
 
@@ -246,7 +247,7 @@ Les suffixes de suivi temporaires sont définis dans `docs/procedure/01_regles_m
 
 - Bloc `11.2 - CUSTOM FOLLOWERS COMPANIONS` enrichi jusqu'à l'étape 526
 - Bloc `11.1 - FOLLOWERS NPCS DIALOGUES` repris ponctuellement jusqu'à l'étape 530
-- Dernier snapshot courant : `docs/configuration/SKYFORGE_Load_Order_MO2_panneau_gauche_etape_509.md`, en attente du snapshot post-530
+- Dernier snapshot courant : `docs/configuration/SKYFORGE_Load_Order_MO2_panneau_gauche_etape_530.md`
 - Compteur non-light : 128
 - Overwrite vide
 - Menu principal OK

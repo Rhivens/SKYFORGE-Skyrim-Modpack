@@ -23,7 +23,643 @@ Conséquence :
 > Coller ici le changelog complet publié sur Discord.
 
 ```txt
-[PLACEHOLDER]
-Coller ici le changelog brut NEFARAM 17.
-Ne pas modifier le texte source si possible, afin de conserver une trace fidèle de l'annonce.
+# NEFARAM 17 CHANGELOG
+
+Switched a lot of mods for their modern alternatives: Footprints, SLSF, ...
+Now based on latest Skyrim version !!
+rebalanced bikinis by @Cather of 2
+Updated and added SKSE .dll patches by @0572
+Increased damage of silver weapons, now deal 50% more damage to undead, ghost etc
+Renamed magecore stuff
+Fixed crawl sl survival
+Fixed DOM CTD
+Nerfed a bit more Babo NPCs
+Nerfed toh thieves guild quest gold reward
+Daegon doesnt teach skills anymore, has her custom body shape again
+Updated Bdor hair, changes ID, so some presets may have wrong hair again
+Fixed vampire sleep exhaustion bug
+Fixed Daedric Helmet
+Nerfed money from CC Farming
+Devious Followers is only enabled in Hard Mode
+Distributed more misc items in dressers, cupboards, wardrobes
+A lot of QOL changes
+
+# NEFARAM 17 CHANGELOG (Automatically generated)
+
+## Summary
+- **Added:** 169 mods
+- **Removed:** 84 mods
+- **Updated:** 293 mods
+
+## Added Mods
+
+- [Predator] SMP Head
+- A Bunch of Dear Diary Dark Mode Reskins
+- Adaptive Pantyhose for Cosplay Pack by Caenarvon
+- Axarien's Animations - Custom Followers - Val Serano Inigo Lucien Kaidan Auri Bishop
+- Aura's Inventory Tweaks
+- Ayleid Stone Buttplugs
+- BaboDialogue Stability Patch
+- Best In Class - SKSE Remake
+- Beyond Skyrim - Provincial Pets of Skyrim
+- Better Courier
+- Blended Roads Meshes
+- Body Blushing - Racemenu Overlays - 3BA - CBBE - BHUNP
+- Capital Windhelm Expansion - Collision Fixes
+- Capital Windhelm Expansion - Exterior NavMesh Fix and Patches
+- CBBE Body Highlight Tattoos
+- Chanterelle Campfire Formlist patch
+- Chanterelle Collectable Deadwood and Branches
+- Chanterelle Expanded Tweaks and Enhancements
+- Chanterelle Horse Herds
+- Chanterelle World Expansion Pack
+- Chanterelle World LOD
+- Combat Music Fix NG Updated
+- Considerate Followers - Followers are Silent During Dialogue
+- ConsolePlusPlus
+- Cancel Spells - Proper Spell Sheathing
+- Capital Whiterun Expansion - Quest and Dialogue Addon
+- CC Gallows Hall - Tweaks and Enhancements (GHTE)
+- CC Hendraheim - Tweaks and Enhancements (HenTE)
+- CC Myrwatch - Tweaks and Enhancements (MyrTE)
+- CC Tundra Homestead - Tweaks and Enhancements (THTE)
+- ConsoleUtil Extended
+- CopyPasteInMenus
+- Crash Logger SSE AE VR - PDB support
+- CWE bug fixes
+- DAK Helper
+- Detection Meter - AE Support
+- Devious Curses
+- Devious Devices - KID Keyword Patches
+- Disable Turn Animation SE I AE
+- Don't send me there again (dosemetha)
+- Dragons Use Thu'um
+- Desktop Splash Screen
+- Devious Lore Voice
+- Disable NPC stretching idle
+- Dwemer Metal Retexture SE
+- Dynamic Female Weather Idles
+- Dynamic Relaxed sneak OAR
+- Dynamic Tooltips
+- Dynamic Female Table Leaning
+- Dynamic Footprints Skse
+- Dynamic Inventory Icon Injector
+- DynamicFootprintsSkse Skyland
+- Even Better Quest Objectives SE
+- Enhanced Rocks and Mountains - Complex Material and PBR
+- ERM - Complex Material Textures Collection
+- ERM - Textures
+- Eydvina Shield-Hearth Boss Fight
+- Follower Dialogue Expansion - Aela the Huntress Patch
+- Faction Armors and Weapons Retexture SE
+- FameCommentsReloadedSE
+- FileAccess.Interface.for.Skyrim.SE.Scripts.NG-1.4.3
+- First Person (FP) Inertia - SKSE
+- GoS - Serana High Poly RaceMenu Preset
+- GSPoses SE
+- GHTE - Patch
+- Glasses Pack Vol. 1 - SPID Distribution
+- Glasses Pack Vol.1
+- Hendraheim - TnE - Patch
+- Haugbui - A Draugr Overhaul
+- Hide Those Futile Quests SE
+- HorsePower - Modernized Horse Riding (Total Riding Overhaul)
+- HOUSE OF WARRIORS - Immersive Dialogue Expansion - Jorrvaskr (Companions)
+- Immersive Interactions - Skyrim Souls - Reduce Activation Delay
+- Ingredient Magnitudes
+- Illustrious Whiterun - Alt Stonefloor 2K
+- Illustrious Whiterun - Optional Moss Alpha 2K
+- Improved Barstool Exit Animation
+- Laura Voice
+- LewdMarks
+- Loading Screen Smoke Removed
+- Loading Screen Truce AE
+- LoreBox - Item and Spell Tooltips
+- LoreBox Item and Spell Tooltips - Untarnished UI Reskin
+- Lorebox for some mods
+- Lovely Makeup 2 - Racemenu Overlays
+- Mannequin Extended Limit
+- MCM Unlocked
+- MCM Unlocked - MCM Recorder Patch
+- Misty Skye CBBE 3BA Patch
+- Misty Skye CBBE 3BA Patch Fix
+- Molag Bal Voice Unification Project
+- Misty Skye - Sexlab_Addon Tweak
+- Myrwatch - TnE - Patch
+- NAT.ENB III - CENTRAL PATCHES
+- Nature's Bounty - An Immersive Lore-Friendly Resource Gathering Integration Overhaul Redux for Good Guys Mod
+- Northern Roads - Fixes and Optimization
+- Notification Log SSE NG
+- Outfit Recognition Framework
+- SkinnyPete Outfits
+- OAR integration for Vanilla Sneak animations
+- Open Animation Replacer - RaySense
+- PAH_AYGAS Botoxed
+- PAH_HSH Botoxed
+- Public Whore Jail Replacement
+- Papyrus Ini Manipulator
+- Penetration Physics
+- Pickpocket Everyone SKSE - Steal off Species - Pickpocket Any Creature
+- Quest Item Icon
+- Quests Are In Skyrim
+- Quality CubeMaps - HD Cube Maps
+- Racemenu Modders Package
+- Race Menu Player Rotation
+- Racemenu Modified Overlay Meshes
+- Racemenu(SKEE) cosave Load Crash Fix
+- Radiant Prostitution RMCW Edition - SLSFR Patch
+- REBEL NORTH - Immersive Dialogue Expansion - Stormcloaks
+- Restarter's Random Patches for Chanterelle
+- Ryn's Standing Stones 3DNPC
+- Seasonal Weathers Framework - NAT-ENB III - 3.1.1C
+- SexLab Human Animation Remover
+- Show Player In Menus - Persistent Zoom Fix
+- ShowRaceMenu - NG
+- SkyParkour v3 - Procedural Parkour and Climbing Framework (SPPF)
+- Skyrim Character Sheet - Show in UI
+- Skyrim Souls RE - Updated - (Fixed)
+- SLSF Reloaded
+- Save Unbaker
+- Saints and Seducers Bugs Around Skyrim (FLM)
+- Seamless Varied Feminine Idles OAR
+- SexLabSisterhoodofDibellaSE
+- Simple Wall Lean (RaySense)
+- Simple Wall Lean (RaySense) - More feminine Female animations
+- SL Survival Voice
+- SLISeeYouMasturbating - Voiced
+- SLSF Comments Voice
+- SMP-Fixes - for - FSMP 3.0.0-Beta
+- Steal off Scoundrels - Pickpocketing Criminals is Not Stealing
+- Sisterhood Of Dibella Voice
+- Skyrim Unbound Reborn - Chanterelle Addon
+- SLISeeYouMasturbating - Sleeping NPCs Masturbate. Secretly Watch or Help in Sexlab
+- Song of the Green Auri Follower 3DNPCs Banter Patch ESLified
+- Song of the Green Auri Follower Inigo Banter Patch ESLified
+- Song of the Green Auri Follower Kaidan Banter Patch ESLified
+- SmoothCam - Intimate
+- Softly Obscuring Snowfall
+- Sprint Stuttering Fix
+- Statics of Skyrim - Improved Resources for Mods (SMIMed - HD - Optimized)
+- Stay At The System Page NG
+- Sunhelm - Four Seasons patch
+- Sunhelm - No Needs In Jail
+- sztkUtil
+- Take a peek
+- The Frozen Heart
+- Thieves Guild Reformation - Taking Care of Business
+- Thieves Guild Requirements SE - Droppable Stones
+- THTE - Patch
+- Toggle UI (SKSE Plugin)
+- UIExtensions Source
+- Unique Map Weather - Vanilla Additions
+- v16 Exclusions Update
+- Val Serano
+- Val Serano - HD Textures 2K
+- Vanargand Animations II - Sprint
+- Vigilants of stendarr my way
+- Wade in Water Redux - Swimming Overhaul
+- Why I Came to Skyrim
+- Widescreen Scale Removed for 1-6-1130 and higher
+- Wyrmstooth Dragonborn Compatibility Patch
+- Whiterun Road Floor Redux - Parallax - Vanilla-esque
+- Warming Hands
+
+## Removed Mods
+
+- Alchemy Plus SE
+- Alik'r Warriors wear CC Redguard Elite Armaments (SPID)
+- ASL Patch for SLGP
+- ASL SLSO Sound Effects
+- Atlas Map Markers SE - Updated with MCM
+- Atlas Map Markers SE - Updated with MCM - Settings Loader
+- Additional Skyland Parallax
+- aMidianBorn Book of Silence SE
+- Ancient Dwemer Metal
+- Bruma Outfits for Skyrim Imperials (SPID Version)
+- Buy and Sell Torches - bug fix
+- Backported Extended ESL Support
+- bc036's Tweaks
+- Belethor's Sister - Quest
+- Best in Class for Skyrim 1.5
+- Cannibal Draugr on Solstheim (Bloodmoon Creature Restoration Project)
+- Capital Windhelm Expansion Eastern gate blackscreen and other fixes
+- CBPC 3-Bone Breast Body Breast-Butt Bounce Configs for 3BA-BHUNP-COCO
+- CBPC Anus Support
+- CoMAP 4 for Skyrim 1.5
+- Considerate Followers for Skyrim 1.5
+- Console Commands Extender
+- ConsoleUtilSSE NG
+- Copy and Paste in Console
+- Comprehensive First Person Animation Overhaul - CFPAO
+- Courier Delivers to NPCs
+- Dwemer Automatons Glowmapped
+- Dwemer Tech Glowmapped
+- Dynamic Random Female Idles V2
+- Dark Brotherhood Armors Retexture SE
+- Dark Preset - Cbbe - 3BBB
+- Deviously Enchanted Chests SE
+- Divine Crusader Creation Club Sword Fix
+- Dragon War - A Dragon Overhaul
+- Dynamic Armor Variants for Skyrim 1.5
+- Dynamic String Distributor (DSD)
+- DVA - Dynamic Vampire Appearance
+- Elevated NPCs
+- Embers XD - Fire Them Sparks
+- ENB Helper SE
+- Enchantable Special Item Fix for Skyrim 1.5
+- Evolving Value Economy (SkyRem - Eve)
+- EC Vanilla Tweaks - Winter Unending
+- Economy_separator
+- Fertility Mode
+- FYX - Candlehearth Hall Chimney
+- Faster Horse Dismount SSE (with optional Faster Mounting)
+- Footprints
+- Footprints - heels addon
+- Footprints Sand Patch 0.9
+- Forsworn Armors and Weapons Retexture SE
+- Frankly HD Dawnguard Armor and Weapons
+- FYX - 3D Whiterun Drawbridge Gate
+- FYX - Jorrvaskr
+- Heels Fix - Settings Loader
+- Go To Bed - DAR patch
+- Go to bed - Settings Loader
+- High Poly Heads COURIER CEW
+- Homes Under the Warhammer
+- HDT-SMP Racemenu Hairs and Wigs
+- HelpExtender
+- Hide Your Quests (ESL flagged)
+- Horses Simply Turn Better
+- Illustrious Whiterun - Complex Materials
+- Illustrious Whiterun - Alt Stonefloor 2K
+- Improved Dwemer Glass
+- Immersive Dialogue Expansion - Stormcloaks
+- Immersive Interactions - DD&Toy Patch
+- Immersive Load Screen Message Overhaul
+- Immersive Load Screens for ArteFakes
+- Improved Help Command - SE - AE
+- Inventory Interface Information Injector SE
+- JContainers SE
+- Knotwork for Skyrim 1.5
+- LeveledList Crash Fix for Skyrim 1.5
+- Load Screen Shading Fix
+- Loading Screen Truce
+- Longer Jailtime
+- Lux - Illustrious Whiterun - Parallax'd
+- Magic Fixes and Tweaks for Skyrim 1.5
+- Mannequin Management
+- MCM Recorder - Menu Maid 2 Integration
+- Medieval Bridges
+- Myrwatch - Editable Home Cells (Cell Bug Workaround)
+- No Lockpick Activate (SKSE) - Updated
+- non-combat sneak idle
+- NL_MCM - A Modular MCM Framework
+- NoOverpenetration
+- Northern Roads Resculpted Reach Bridge Fix
+- Notification Log SSE
+- Pickpocket Everyone - Steal from Any Creature
+- Pickpocket Reset
+- Player Eyes Blink Fix
+- Power of Creation - Fishing
+- Player Rotation in ShowRaceMenu
+- Project Porthole - Unique Doors For Unique Cities
+- RaceMenu 0.4.16 Memory Leak Hotfix (SE)
+- Racheal- Lovely Breton Preset
+- Radiant - Candles
+- Realistic AI Detection (RAID)
+- Recursion FPS Fix SKSE
+- Riding Animation Overhaul - RAO (OAR - DAR)
+- RUSTIC ARMOR and WEAPONS SE
+- Sex Lab - Sexual Fame Framework SE
+- Sexlab BJ Sound FX replacerv
+- Sexlab Sound FX Hip flap replacer
+- Skyrim Battle Aftermath SE
+- Skyrim Battle Aftermath SE - Missing meshes Patch
+- Skyrim Project Optimization SE
+- Skyrim Souls RE for Skyrim 1.5
+- Skyrim Priority SE AE - skse plugin
+- SLAnimStageLabels
+- SLATE_Creature Patch
+- SLATE_SE
+- SLSF Comments Voice
+- SLSF NPC Init Patch SE
+- SLSFFameComments
+- SPID for Footprints
+- SPID for Footprints - Player Footprints Fix
+- SPID for Footprints fix
+- Stay At The System Page - Updated
+- STRAWBERRY MEGAPACK - ALL 25 PRESETS - ONE SKIN - FEW REQUIREMENTS
+- SCORN - Skyrim Consistently Oppressive and Rewritten Narrative
+- Silence MCM Recorder Popups
+- Skyrim 2020 Smaller Packages
+- The Courier Crew
+- The Dragon Cult - A Draugr Overhaul
+- The Dragon Cult - Simonrim old
+- Thieves Guild Armors Retexture SE
+- Turn Animation Fix
+- UVSF - Universal Vanilla String Forwarder for DSD
+- Ultimate Immersion Toggle - UI Toggle - Hide Your HUD - Rebuild
+- Val Serano - HD Textures 2K
+- Vanargand Animations - Sneak idle walk and run
+- Vanargand Animations - Sprint
+- Vampire Armors and Weapons Retexture SE
+- Vigilant - foootprints patch
+- Wade In Water Redone
+- Water Effects Brightness and Reflection Fix
+- YEET - Store Quest Items
+
+## Updated Mods
+
+- [Dint999] BDOR Hairs
+- 3dnpcs Fixes and Tweaks: 6.0 → 6.2
+- 4K Torture Rack: 1.4 → 1.6
+- Acheron - Death Alternative: 1.4.4.6 → 1.9.3
+- Actor Limit Fix: 5.0 → 9.0
+- Address Library for SKSE Plugins: 2.0 → 11.0
+- Administer Potions and Poisons to Friendly NPCs: NotUsed → 4.1
+- AI Overhaul SSE: 1.8.7 → 1.9
+- Andrealphus' Papyrus Functions: 1.6.1 → 1.7.2
+- Animal Research The Insatiable Scholar: 0.54 → 0.55
+- Assorted mesh fixes: 0.129.1 → 0.139.2
+- Auto Input Switch: 1.1.2 → 1.3
+- Ayleid Piercings - CBBE 3BA - SoS: 1.4 → 1.6.4
+- Acoustic Space Improvement Fixes: 1.2.1 → 1.3.3
+- Ancient Nord Armors and Weapons Retexture SE: 1.0 → 2.0
+- Andrealphus' Exploit Fixes: 1.0 → 1.2.20.2
+- Apocalypse - Magic of Skyrim: 10.2.2 → 10.2.3
+- BakaFactory's SLAL Pack: 7.40 → 7.60
+- Billyy's SLAL Animations: 10.1 → 10.3
+- BaboDialogue: 5.71 → 6.00
+- BakaFactory Animated Beasts Cocks: 2.90 → 3.31
+- BakaFactory's SLAL Pack: 6.50 → 7.40
+- Better Jumping SE: 1.7.3 → 1.8.6
+- Beyond Skyrim - Bruma Upscaled Textures (BSBUT): 1.0 → 1.01
+- Billyy's SLAL Animations
+- BodySlide and Outfit Studio: 5.6 → 5.7.1
+- Bug Fixes SSE: 6.0 → 10.0
+- Blended Roads Redone SE - 8K: 1.5.1 → 2.1
+- Campfire Animations: 1.4 → 1.5.1
+- Conditional Armor Type Animations: 1.1 → 1.3c
+- Creation Club Open Helmets: 1.0 → 1.4
+- Caught Red Handed - Quest Expansion: 1.06 → 1.07
+- CBBE 3BA: 2.47 → 2.48
+- CBPC - Physics with Collisions: 1.6.2 → 1.6.4
+- Chatty NPCs and Followers: 1.51 → 1.6.1
+- Chooey's KS Hairdos Retexture - HDT-SMP Addon: 2.0 → 2.1
+- Classic Paralysis: 3.2 → 3.3.1
+- Climbing Costs Stamina - SKSE: 1.0 → 1.2.1
+- CoMAP: 4.1 → 4.3
+- Comprehensive Attack Rate Patch - SKSE: 1.1.2.14 → 1.1.2.15
+- CopyPasteInMenus: 1.0.1 → 1.0.3
+- Conditional Expressions Extended: 2.1.6 → 2.1.7
+- Contextual Crosshair: 1.3.1 → 1.3.2
+- Core Impact Framework (CIF): 1.2.5 → 1.2.8
+- Crafting Recipe Distributor: 4.0.1 → 4.1
+- Creation Club Farming - Tweaks Enhancements and Quest Expansion: 1.5.1 → 1.5
+- CreatureFramework
+- CrosshairRefEventsFix: 27/09/2025 → 
+- DD - I4 Patch: 7.0 → 8.0
+- Description Framework: 2.1.1 → 2.1.2
+- Dialogue History: 2.0.1 → 2.3.3
+- Dismembering Framework: 1.2.1 → 1.2.2
+- Distinct Interiors Patch Collection: 1.1.2 → 1.1.3
+- Draw Fix - Move Equip Animation Fix: 1.1 → 1.2
+- Dwemer Gates Don't Reset: 1.3.7 → 1.4
+- Dynamic Female Rail Leaning: 1.1 → 1.2
+- Dynamic Interface Patcher - DIP: 1.0.3 → 2.1.5
+- Dynamic Things Alternative - Base Object Swapper: 0.2.2 → 0.4.1
+- DynamicFootprintsSkse Skyland: 2.3 → 2.3.1
+- DynDOLOD DLL NG: Alpha-39 → Alpha-41
+- DynDOLOD Resources SE: Alpha-57 → Alpha-59
+- DynDOLOD DLL NG: Alpha-36 → Alpha-39
+- Dangerous Trap Fixes (D.T.F.): 1.0 → 1.1.1
+- Devious Devices upscaled: 26/10/2025 → 5.2
+- Dwemer Armors and Weapons Retexture SE: 1.0 → 2.0
+- Elven Armors and Weapons Retexture SE: 1.01 → 2.0
+- ECE Sliders Addon for Racemenu: 2.3 → 2.4
+- Embers XD: 3.1 → 3.2.2
+- ENB Extender for Skyrim: 1.3.2 → 1.4.3
+- ENB Input Disabler: 1.0.2 → 1.1.1
+- Encounter Zones Unlocked SE: 1.4 → 1.5.4
+- Enhanced Invisibility: 1.3 → 1.4.1
+- Enhanced Volumetric Lighting and Shadows (EVLaS): 1.3 → 1.3.1
+- Enhanced Worldspace Maps: 3.1 → 4.1
+- Environs - Riften Warehouse: 1.01 → 1.02
+- Essential Favorites: 2.2 → 2.3
+- Face Discoloration Fix: 1.0.1 → 1.0.3
+- Faster HDT-SMP: 2.5.1 → 3.0.4
+- Favorite Misc Items: 3.6 → 4.0
+- Fluffworks Patches: 1.0 → 2.3
+- Frozen Electrocuted Combustion [FEC]: 5.1 → 6.1.1
+- Fuz Ro D-oh - Silent Voice: 1.7 → 2.5
+- FYX - Campfire Reacts to the Wind - EmbersXD Edition: 1.0.2.1 → 1.0.3
+- Faster HDT-SMP: 3.0.4 → 3.0.5
+- Faster HDT-SMP: 3.0.5 → 3.1
+- Feral - Claw Unarmed Attacks for Beast Races - Vampires - Werewolves: 2.0 → 3.0
+- First Person (FP) Inertia - SKSE: 1.2 → 1.3
+- Flute Animation Fix: 1.1 → 1.3
+- Follower Dialogue Expansion - Aela the Huntress: 5.0 → 9.0
+- Follower Dialogue Expansion - Faralda: 1.01 → 2.0
+- Follower Dialogue Expansion - Lydia: 1.4 → 1.5
+- Gesture Animation Remix (DAR): 2.3 → 2.4
+- GG's Thieves Guild HQ Patch Collection: 1.8.2 → 1.11.1
+- GKB Waves Reborn: 3.1 → 3.1.2
+- GLENMORIL - English Translation: 0.96-HF1 → 0.96HF2
+- Goetia Animations - Male Idle Walk And Run: 1.2 → 1.3c
+- Goetia Animations - Sprint: 1.0 → 1.0c
+- Grab and Eat - Eat directly from harvestable flora: 1.0 → 1.1
+- Gesture Animation Remix (DAR): 1.1 → 2.3
+- Go to bed: 1.0 → 2.0.7
+- Grab And Throw: 2.0 → 2.1.1
+- Heavy Armory - New Weapons: 6.1.7 → 6.2.3
+- Headhunter - Bounties Redone: 1.57 → 1.61
+- Heels Fix: 1.6.2 → 1.9
+- HDT-SMP Creation Backpacks: 1.0 → 1.0alpha
+- Heels - Sound Record Distributor - Patch Hub: 1.11 → 1.25
+- I'm Walkin' Here NG with Pets: 1.0 → 1.8
+- Iron Armors and Weapons Retexture SE: 2.0 → 2.1.1
+- ImGui Icons: 1.0 → 1.2
+- Immersive Aggressive Opponents - Armor-Based Opposite Faction Aggression: 1.9 → 1.18
+- Immersive Equipment Displays: 1.7.1 → 1.7.4
+- Immersive folded hands (DAR): 1.5 → 2.2
+- Immersive Illusion Spells: 1.2 → 1.3
+- Improved Closefaced Helmets Fixes: 1.3 → 1.6
+- Improved Table Transition Animations: 1.2 → 1.5
+- Injected Animated Armoury: 1.0.5 → 1.1.6
+- Inventory Interface Information Injector: 1.0 → 1.1
+- Item Equip Restrictor: 1.4 → 2.1.1
+- Jarl Sitting Animation Replacer: 1.4.1 → 2.0
+- JS Vanilla Circlets SE: 1.15 → 1.16
+- Knotwork: 2.0.1 → 2.1
+- KS Hairdos - HDT SMP (Physics): 1.4.3 → 1.5
+- Light Placer: 3.5.1 → 4.2
+- Lightened Skyrim - Base Object Swapper edition: 1.09 → 1.10
+- Lux: 6.9 → 7.1
+- Lux (patch hub): 6.9 → 7.1
+- Lux Orbis (patch hub): 4.5 → 4.7
+- LeveledList Crash Fix: 1.1.1 → 2.0
+- Leviathan Animations - Two-Handed Power Attacks: 1.3 → 1.4c
+- Leviathan Animations II - Female Idle Walk And Run: 2.3 → 2.3c
+- Leviathan Animations II - Male Idle Walk And Run: 2.3 → 2.3c
+- Leviathan Animations II - Sprint: 2.4 → 2.4c
+- Lod Model Library for DynDOLOD: 1.6 → 1.7
+- MCM Unlocked: 2.0.1 → 2.1.2
+- Main Menu Randomizer SE: 2.0.2 → 2.0.4
+- Main Menu Redone: 1.5 → 1.6
+- Male Player Animations (DAR): 1.0 → 1.1
+- Malignis Animations - Random Idles Talk Barter: 1.0 → 1.31
+- MCM Helper: 1.4 → 1.5
+- Menagerie - A Creation Club Pet Overhaul: 2.0 → 2.31
+- Menu Zoom: 1.0.1 → 1.0.2
+- Mfg Fix NG: 1.0.7alpha → 1.0.9
+- Modern Female Sitting Animations Overhaul: 1.9 → 2.0
+- Modex - A Mod Explorer Menu (AddItemMenu): 1.2.3 → 2.2.1
+- More Informative Console: 1.2 → 1.2.2
+- More Nasty Critters - Skeletons HD Patch: 19/09/2024 → 
+- moreHUD Inventory Edition: 1.0.19 → 2.1.3
+- moreHUD SE: 4.1.1 → 5.2.2
+- MoreNastyCrittersSE: 15.4 → 16.1F
+- Mysterium Xarxes - A SimonRim Addon for The Cause: 1.01 → 1.1
+- MuJointFix: 1.0 → 2.1.2
+- NPC Animation Remix (DAR): 2.2 → 2.3
+- Name Those Ash Piles: 4.0 → 5.0.1
+- Neutral Whiterun Guards: 4.2 → 4.6
+- New Armory Series - Lunar Weapons: 2.0.1 → 2.3
+- Nilheim - Misc Quest Expansion: 1.13 → 1.14
+- No Grass In Objects: 1.4 → 1.6.3f
+- No Lockpick Activate (SKSE) - Updated: 3.1 → 3.2
+- NoModesty DD: 31/08/2024 → 
+- Nordic Northern Roads - Retexture - Parallax: 1.5 → 2.6
+- Northern Roads - Patches Compendium: 7.2 → 7.6
+- Northern Roads Patch Collection: 1.33 → 1.40
+- NPC Animation Remix (DAR): 1.6.2 → 2.2
+- Object Categorization Framework - Some KID Patches - I4: 2.9 → 3.5
+- OBody Next Generation - Settings Loader: 2.2 → 2.3
+- OBody NG: 4.3.7 → 4.4.3
+- Offset Movement Animation - Nemesis - Modders Resource: 1.1 → 1.2
+- Open Animation Replacer: 2.3.6 → 3.0.2
+- OSL Keywords (KID) - Various Armor Patches: 1.42.1 → 2.20
+- Open Animation Replacer: 3.0.2 → 3.1.5
+- Object Categorization Framework - Some KID Patches - I4: 3.5 → 3.6
+- Open Animation Replacer - Detection Plugin: 2.1.3 → 2.1.4
+- Orcish Armors and Weapons Retexture SE: 2.0.1 → 2.0.2
+- PAH And You Get a Slave!: 0.63 → 0.72
+- PAH Diary Of Mine: 7.11.7 → 8.2.1
+- PAH Home Sweet Home: 1.33 → 1.42
+- powerofthree's Papyrus Extender: 6.3 → 6.4
+- Paarthurnax - Quest Expansion: 1.12 → 1.13
+- Pandora Behaviour Engine: 4.0.4beta- → 4.3.1beta-
+- PapyrusUtil SE - Modders Scripting Utility Functions: 3.9 → 4.6
+- Particle Patch for ENB: 1.3.8 → 1.4.1
+- Perk Entry Point Extender: 1.2.0.5 → 2.2.4.6
+- Persistent Favorites: 0.3.1 → 1.0.6
+- Photo Mode And Dialogue History Dear Diary Dark Mode Patch: 1.0 → 1.1
+- PhotoMode: 1.8 → 2.0.3
+- Player Eyes Blink Fix: 1.3 → 1.4-AE
+- powerofthree's Papyrus Extender: 6.2.1 → 6.3
+- Rare Curios - Bolts Expanded: 1.3 → 2.0
+- RYFTEN DOWN - A little addition to the Riften canal: 1.1.2 → 1.1.4.1
+- Ryn's Standing Stones: 1.2 → 1.8
+- RaceMenu OverlayFix and Various Mod Fixes: 1.9 → 1.53
+- Rare Curios - Bolts Expanded: 2.0 → 2.1.1
+- RDO - FDE Compatibility Patch: 1.0.1 → 1.0.3
+- REBEL NORTH - Immersive Dialogue Expansion - Stormcloaks: 3.0 → 3.0.1
+- Runway Walk Animation: 1.2 → 1.3c
+- Sexlab - Cum Overlays: 13/11/2024 → 0.1
+- SexLab Separate Orgasm: 2022.0-08-02 → 2022.8.2
+- Shaders of Solstheim - Ash and Moss: 0.2.1 → 0.3
+- Simple Snow Improvements - Skyrim (BOS): 2.3 → 2.4
+- Sisterhood Of Dibella Voice: 1.2022 → 20260103.0
+- Skyland Landscapes Complex Parallax: 1.2 → 1.5
+- SL Widgets: 2.0.27 → 2.2
+- SLGP: 30/04/2026 → 1.0
+- SLNights: 2.7 → 2.8.1
+- SLO Aroused NG: 3.1.8 → 3.1.11
+- Smooth Random Sprint Animation: 3.1 → 4.1
+- Snowy Ships for Snowy Regions: 2.6SoS → 2.7SoS
+- Snowy Surfaces Sound Collision and Aesthetics: 2.5 → 2.6
+- Sanguine Symphony: 1.1 → 1.2.1
+- Save and Load Accelerator for SKSE Cosaves - S.L.A.C.K: 1.3.1 → 1.3.2
+- Scrab's Papyrus Extender: 2.1.5 → 2.2
+- Scrambled Bugs: 17.0 → 21.0
+- SDA Patch Hub SE: 2.9.5 → 2.9.7
+- Seasonal Weathers Framework - Seasons support for Weathers Mods: NATENBIII3.0.2 → 1.01
+- Security Overhaul SKSE - Some More Locks: 1.0.9 → 1.0.13
+- Serana Dialogue Add-On: 4.2.2 → 4.3.1
+- SexLab Framework: 1.63 → 1.66beta
+- Shame of Skyrim: 2.0 → 3.1
+- Shouting Provokes Dragons: 2.1 → 2.1.2
+- Simple Dual Sheath: 4.80 → 1.5.7
+- Simply Knock SKSE64 DLL: 4.0 → 5.6
+- SIRENROOT - Deluge of Deceit: 1.21 → 1.30
+- SKSE:  → 2.2.6
+- SKSE Menu Framework: 2.1 → 3.8
+- Skyrim Autocorrect - Dialogue Grammar Fixes: 1.0.4 → 1.0.6
+- Skyrim Extended Cut - Saints and Seducers: 1.0.0.6 → 1.1.1
+- Skyrim on Skooma: 69.69 → 69.69c
+- SkyUI: 5.2SE → 5.2
+- SL smooth expressions: 07/07/2024 → 
+- SlaveTatsNG: 0.76 → 0.8.1
+- SL Widgets
+- Scrab's Papyrus Extender: 2.2 → 2.3
+- SDA Patch Hub SE: 2.9.7 → 2.9.8
+- Serana Dialogue Add-On: 4.3.1 → 4.3.2
+- SkyParkour v3 - Procedural Parkour and Climbing Framework (SPPF): 3.5.1 → 3.5.3
+- Skyrim Souls RE - Updated: 2.4 → 3.1.2
+- Skyrim's Got Talent - More Gold Reward:  → 1.0
+- SLO Aroused NG: 3.1.7 → 3.1.8
+- SmoothCam: 1.7 → 1.7.1
+- Sonders Keyword Distribution Resources: 1.8 → 2.1
+- Sound Record Distributor: 1.5.1 → 1.5.3
+- Spell Perk Item Distributor (SPID): 6.8.2 → 7.2.1
+- Splashes of Skyrim: 1.4 → 1.4.1
+- Splashes of Storms: 1.3 → 1.3.1
+- SSE Display Tweaks: 0.5.12 → 0.5.16
+- Stagger Effect Fix: 1.0.2 → 1.0.3
+- STB Active Effects: 1.2 → 1.4
+- Storm Lightning for SSE and VR (Minty Lightning 2019): 1.4.14 → 1.4.23
+- Stormcloaks Fight With Thalmor: 1.1 → 4.0
+- SubmissiveLolaResubmission: 2.1.13 → 2.1.21
+- Survival Control Panel: 1.0.3 → 1.1.2
+- Stuck on Sleeper Fix - Exit Noble Bed Double 02: 0.1 → 0.2
+- Take a Seat - New DAR Sitting Animations: 1.0 → 1.01
+- Tamrielic Distribution: 1.3.3.1 → 1.4.1
+- Terrain Helper for ENB: 1.0 → 1.0.1
+- Thieves Guild Holdup Improvements: 1.0 → 1.3
+- Terrain Helper for ENB: 0.4 → 1.0
+- The Distinct Cities of the North Interiors: 2.4 → 2.4.1
+- The Forsworn Conspiracy - Quest Expansion: 1.0 → 1.2
+- The Great Town of Ivarstead Patch Collection: 3.1.2 → 3.5
+- The Great Town of Ivarstead SSE: 1.3.3 → 1.3.4
+- The New Gentleman: 4.2.4 → 4.2.5
+- The Trappings of Fate: 2.2.2 → 2.3
+- The Trappings of Fate Voice: 2.0.5 → 2.3
+- The Distinct Cities of the North Interiors: 2.4.1 → 2.4.2
+- The Handy Icon Collection Collective: 1.7 → 1.8
+- The Innocence Lost - Quest Expansion: 1.11 → 1.12
+- The Whispering Door - Quest Expansion: 1.13 → 1.15
+- Time Format Changer: 1.0.2 → 1.2.1
+- Thieves Guild Requirements SE: 5.2 → 5.3.1
+- Thieves Guild Requirements SE - Settings Loader: 2.0 → 3.0.1
+- To Your Face SE - AE - VR: 1.0h → 1.0u
+- True Nordic Farmhouses (2K - 4K): 0.2 → 1.2
+- Unarmed Behaviors Expanded: 2.0 → 2.0.1
+- Unique Map Weather Framework: 1.02 → 1.1.1
+- Unlocked 1st Person Combat: 1.1 → 1.3
+- Unofficial Skyrim Special Edition Patch: 4.3alpha → 4.3.8alpha
+- Use Or Take SKSE: 1.1 → 1.3
+- Unique Armors and Weapons Retexture SE: 1.2 → 1.4
+- Vanargand Animations - Female Idle Walk and Run: 1.3.1 → 1.3.1c
+- Vanargand Animations - Male Idle Walk and Run: 1.3.1 → 1.3.1c
+- Vanilla hair remake: 0.31 → 1.0.2
+- Vanilla Item Descriptions: 1.1 → 1.1-UO
+- Venerable Nordic Temples (2K - 4K): 0.2 → 1.2
+- VRAMr: 15.0715 → 16.0310
+- Water for ENB: 2.04 → 2.20
+- WIDeadBodyCleanupScript Crash Fix: 0.4 → 0.5.2
+- WiZkiD Hunter's Camp Overhaul 2k BOS: 1.2 → 1.3
+- Wyrmstooth: 1.0-dbp → 1.20.3
+- Wyrmstooth World Map Unique Weather: 1.0 → 1.01
+- YameteKudasai: 2.2.2 → 2.2.3
+- Yes Im Sure: 1.5 → 1.7
+- Why I Came to Skyrim: 2.02 → 2.03
 ```

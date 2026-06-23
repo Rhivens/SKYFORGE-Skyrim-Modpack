@@ -8,6 +8,19 @@ Projet personnel de création d’un modpack **Skyrim Special Edition 1.5.97** b
 
 SKYFORGE vise une installation Skyrim stable, cohérente et documentée étape par étape, avec une approche prudente : installation progressive, tests réguliers, décisions différées quand un choix dépend de modules futurs, et validation explicite avant toute mise à jour structurelle.
 
+> [!WARNING]
+> **Alerte NEFARAM 17**
+>
+> NEFARAM 17 migre vers **Skyrim 1.6.1170 / SKSE 2.2.6 / SexLab 1.66beta**.
+>
+> **SKYFORGE reste officiellement basé sur Skyrim SE 1.5.97 Best of Both Worlds.**
+>
+> NEFARAM 17 peut être utilisé comme source d’inspiration ou de veille, mais **ne doit pas être utilisé comme référence stricte de versions SKSE, DLL, SexLab, Acheron, Yamete, Devious ou frameworks NG/AE**.
+>
+> Voir :
+> - [Alerte NEFARAM 17](docs/procedure/ALERTE_NEFARAM_17.md)
+> - [Changelog brut NEFARAM 17](docs/reference/NEFARAM_17_CHANGELOG_BRUT.md)
+
 ---
 
 ## Suivre l’avancement du projet

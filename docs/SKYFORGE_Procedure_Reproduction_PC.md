@@ -15,6 +15,7 @@ Sous-bloc en cours : petits replacers visuels / clutter / objets / stockades
 Dernier fichier thématique mis à jour : docs/procedure/05_visual_base_meshes_textures_part_2.md
 Dernier changelog de validation : docs/procedure/99_changelog_validation_part_20.md
 Dernier fichier de décisions différées : docs/procedure/06_decisions_differees_part_6.md
+Dernier snapshot MO2 panneau gauche : docs/configuration/SKYFORGE_Load_Order_MO2_panneau_gauche_etape_578.md — placeholder créé, collage manuel du load order complet à effectuer
 Prochaine étape attendue : Étape 579
 Profil stable de référence : à créer / nommer après décision Fabien si nécessaire
 Runtime : Skyrim SE 1.5.97 Best of Both Worlds
@@ -105,6 +106,10 @@ Pandora non relancé depuis les dernières étapes documentées
 6. [Configurations frameworks spécifiques](configuration/05_sexlab_devious_mcm.md)
 7. [Configurations différées](configuration/99_configurations_differees.md)
 8. [Changelog configuration](configuration/CHANGELOG_CONFIGURATION.md)
+9. [Load Order MO2 panneau gauche — Étape 578](configuration/SKYFORGE_Load_Order_MO2_panneau_gauche_etape_578.md)
+10. [Load Order MO2 panneau gauche — Étape 567](configuration/SKYFORGE_Load_Order_MO2_panneau_gauche_etape_567.md)
+11. [Load Order MO2 panneau gauche — Étape 553](configuration/SKYFORGE_Load_Order_MO2_panneau_gauche_etape_553.md)
+12. [Load Order MO2 panneau gauche — Étape 530](configuration/SKYFORGE_Load_Order_MO2_panneau_gauche_etape_530.md)
 
 ---
 
@@ -137,6 +142,7 @@ La reprise se fait à partir de :
 Module : 05 - VISUAL BASE MESHES TEXTURES
 Sous-bloc : petits replacers visuels / clutter / objets / stockades
 État de référence : Étape 578 validée, compteur non-light 129
+Snapshot MO2 panneau gauche de référence : `docs/configuration/SKYFORGE_Load_Order_MO2_panneau_gauche_etape_578.md` — placeholder créé, collage manuel à effectuer
 Règles maintenues :
 main files d’abord ;
 patches complexes différés ;

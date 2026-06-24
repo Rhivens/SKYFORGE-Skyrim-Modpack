@@ -8,20 +8,23 @@
 
 ## État actuel validé
 
-Dernière étape validée : Étape 357 — INTERIORS pack 9 : Whiterun EEK + JK
-Dernière étape d’installation validée : Étape 357 — INTERIORS pack 9 : Whiterun EEK + JK
-Module en cours : 07 - CITIES TOWNS INTERIORS LIGHTING
-Sous-bloc en cours : 07.6 - INTERIORS
-Dernier fichier thématique mis à jour : docs/procedure/11_cities_towns_interiors_lighting_part_8.md
-Dernier changelog de validation : docs/procedure/99_changelog_validation_part_6.md
-Prochaine étape attendue : Étape 358
-Profil stable de référence : SKYFORGE - Stable étape 346 ruins OK
+Dernière étape validée : Étape 578 — Stockades, dents de spectre, sigils
+Dernière étape d’installation validée : Étape 578 — Stockades, dents de spectre, sigils
+Module en cours : 05 - VISUAL BASE MESHES TEXTURES
+Sous-bloc en cours : petits replacers visuels / clutter / objets / stockades
+Dernier fichier thématique mis à jour : docs/procedure/05_visual_base_meshes_textures_part_2.md
+Dernier changelog de validation : docs/procedure/99_changelog_validation_part_20.md
+Dernier fichier de décisions différées : docs/procedure/06_decisions_differees_part_6.md
+Prochaine étape attendue : Étape 579
+Profil stable de référence : à créer / nommer après décision Fabien si nécessaire
 Runtime : Skyrim SE 1.5.97 Best of Both Worlds
 AE / Creation Club : conservé
 MO2 : portable
-Compteur ESP + ESM non-light : 82
+Compteur ESP + ESM non-light : 129
 LOOT : non lancé
 LOD / DynDOLOD : non générés
+BodySlide Output : non généré
+Pandora : généré depuis l’étape 411, Output actif ; non relancé pendant les étapes 451 à 578
 
 ---
 
@@ -30,10 +33,14 @@ LOD / DynDOLOD : non générés
 SKSE via MO2 : OK
 Menu principal : OK
 Aucun master manquant
-Tous les plugins cochés
+Aucun message DLL bloquant
+Tous les plugins attendus cochés
 Overwrite vide
-Dernier incident noté : crash ponctuel non reproductible à l’Étape 350 lors du premier lancement après Skyrim Sewers 4
-Décision sur l’incident : surveillance uniquement, pas de réparation MO2, pas de modification DLL, pas de LOOT
+Compteur ESP + ESM non-light final post-578 : 129
+LOOT non lancé
+LOD / DynDOLOD non générés
+BodySlide Output non généré
+Pandora non relancé depuis les dernières étapes documentées
 
 ---
 
@@ -47,38 +54,44 @@ Décision sur l’incident : surveillance uniquement, pas de réparation MO2, pa
 6. [Bug fixes & engine patches — partie 2](procedure/04_bug_fixes_engine_patches_part_2.md)
 7. [Bug fixes & engine patches — partie 3](procedure/04_bug_fixes_engine_patches_part_3.md)
 8. [Visual base meshes & textures](procedure/05_visual_base_meshes_textures.md)
-9. [Décisions différées et points à revoir](procedure/06_decisions_differees.md)
-10. [Décisions différées et points à revoir — partie 2](procedure/06_decisions_differees_part_2.md)
-11. [Décisions différées et points à revoir — partie 3](procedure/06_decisions_differees_part_3.md)
-12. [Décisions différées et points à revoir — partie 4](procedure/06_decisions_differees_part_4.md)
-13. [Décisions différées et points à revoir — partie 5](procedure/06_decisions_differees_part_5.md)
-14. [UI, HUD et menus](procedure/07_ui_hud_menus.md)
-15. [UI, HUD et menus — partie 2](procedure/07_ui_hud_menus_part_2.md)
-16. [UI, HUD et menus — partie 3](procedure/07_ui_hud_menus_part_3.md)
-17. [Survival, immersion et roleplay](procedure/08_survival_immersion_roleplay.md)
-18. [Audio, musiques et sons](procedure/09_audio_music_sounds.md)
-19. [Audio, musiques et sons — partie 2](procedure/09_audio_music_sounds_part_2.md)
-20. [Landscape, grass, trees & water](procedure/10_landscape_grass_trees_water.md)
-21. [Landscape, grass, trees & water — partie 2](procedure/10_landscape_grass_trees_water_part_2.md)
-22. [Landscape, grass, trees & water — partie 3](procedure/10_landscape_grass_trees_water_part_3.md)
-23. [Cities, towns, interiors & lighting](procedure/11_cities_towns_interiors_lighting.md)
-24. [Cities, towns, interiors & lighting — partie 2](procedure/11_cities_towns_interiors_lighting_part_2.md)
-25. [Cities, towns, interiors & lighting — partie 3](procedure/11_cities_towns_interiors_lighting_part_3.md)
-26. [Cities, towns, interiors & lighting — partie 4](procedure/11_cities_towns_interiors_lighting_part_4.md)
-27. [Cities, towns, interiors & lighting — partie 5](procedure/11_cities_towns_interiors_lighting_part_5.md)
-28. [Cities, towns, interiors & lighting — partie 6](procedure/11_cities_towns_interiors_lighting_part_6.md)
-29. [Cities, towns, interiors & lighting — partie 7](procedure/11_cities_towns_interiors_lighting_part_7.md)
-30. [Cities, towns, interiors & lighting — partie 8](procedure/11_cities_towns_interiors_lighting_part_8.md)
-31. [Ajouts personnels SKYFORGE](procedure/96_ajouts_personnels_skyforge.md)
-32. [Registre central de dette technique](procedure/97_registre_dette_technique.md)
-33. [Registre central de dette technique — partie 2](procedure/97_registre_dette_technique_part_2.md)
-34. [Audit de continuité des étapes](procedure/98_audit_continuite_etapes.md)
-35. [Changelog / validation](procedure/99_changelog_validation.md)
-36. [Changelog / validation — partie 2](procedure/99_changelog_validation_part_2.md)
-37. [Changelog / validation — partie 3](procedure/99_changelog_validation_part_3.md)
-38. [Changelog / validation — partie 4](procedure/99_changelog_validation_part_4.md)
-39. [Changelog / validation — partie 5](procedure/99_changelog_validation_part_5.md)
-40. [Changelog / validation — partie 6](procedure/99_changelog_validation_part_6.md)
+9. [Visual base meshes & textures — partie 1](procedure/05_visual_base_meshes_textures_part_1.md)
+10. [Visual base meshes & textures — partie 2](procedure/05_visual_base_meshes_textures_part_2.md)
+11. [Décisions différées et points à revoir](procedure/06_decisions_differees.md)
+12. [Décisions différées et points à revoir — partie 2](procedure/06_decisions_differees_part_2.md)
+13. [Décisions différées et points à revoir — partie 3](procedure/06_decisions_differees_part_3.md)
+14. [Décisions différées et points à revoir — partie 4](procedure/06_decisions_differees_part_4.md)
+15. [Décisions différées et points à revoir — partie 5](procedure/06_decisions_differees_part_5.md)
+16. [Décisions différées et points à revoir — partie 6](procedure/06_decisions_differees_part_6.md)
+17. [UI, HUD et menus](procedure/07_ui_hud_menus.md)
+18. [UI, HUD et menus — partie 2](procedure/07_ui_hud_menus_part_2.md)
+19. [UI, HUD et menus — partie 3](procedure/07_ui_hud_menus_part_3.md)
+20. [Survival, immersion et roleplay](procedure/08_survival_immersion_roleplay.md)
+21. [Audio, musiques et sons](procedure/09_audio_music_sounds.md)
+22. [Audio, musiques et sons — partie 2](procedure/09_audio_music_sounds_part_2.md)
+23. [Landscape, grass, trees & water](procedure/10_landscape_grass_trees_water.md)
+24. [Landscape, grass, trees & water — partie 2](procedure/10_landscape_grass_trees_water_part_2.md)
+25. [Landscape, grass, trees & water — partie 3](procedure/10_landscape_grass_trees_water_part_3.md)
+26. [Cities, towns, interiors & lighting](procedure/11_cities_towns_interiors_lighting.md)
+27. [Cities, towns, interiors & lighting — partie 2](procedure/11_cities_towns_interiors_lighting_part_2.md)
+28. [Cities, towns, interiors & lighting — partie 3](procedure/11_cities_towns_interiors_lighting_part_3.md)
+29. [Cities, towns, interiors & lighting — partie 4](procedure/11_cities_towns_interiors_lighting_part_4.md)
+30. [Cities, towns, interiors & lighting — partie 5](procedure/11_cities_towns_interiors_lighting_part_5.md)
+31. [Cities, towns, interiors & lighting — partie 6](procedure/11_cities_towns_interiors_lighting_part_6.md)
+32. [Cities, towns, interiors & lighting — partie 7](procedure/11_cities_towns_interiors_lighting_part_7.md)
+33. [Cities, towns, interiors & lighting — partie 8](procedure/11_cities_towns_interiors_lighting_part_8.md)
+34. [Ajouts personnels SKYFORGE](procedure/96_ajouts_personnels_skyforge.md)
+35. [Registre central de dette technique](procedure/97_registre_dette_technique.md)
+36. [Registre central de dette technique — partie 2](procedure/97_registre_dette_technique_part_2.md)
+37. [Audit de continuité des étapes](procedure/98_audit_continuite_etapes.md)
+38. [Changelog / validation](procedure/99_changelog_validation.md)
+39. [Changelog / validation — partie 2](procedure/99_changelog_validation_part_2.md)
+40. [Changelog / validation — partie 3](procedure/99_changelog_validation_part_3.md)
+41. [Changelog / validation — partie 4](procedure/99_changelog_validation_part_4.md)
+42. [Changelog / validation — partie 5](procedure/99_changelog_validation_part_5.md)
+43. [Changelog / validation — partie 6](procedure/99_changelog_validation_part_6.md)
+44. [Changelog / validation — partie 17](procedure/99_changelog_validation_part_17.md)
+45. [Changelog / validation — partie 19](procedure/99_changelog_validation_part_19.md)
+46. [Changelog / validation — partie 20](procedure/99_changelog_validation_part_20.md)
 
 ---
 
@@ -120,28 +133,27 @@ Le registre central de dette technique doit être maintenu à chaque pause GitHu
 
 La reprise se fait à partir de :
 
-Étape 358
-Module : 07 - CITIES TOWNS INTERIORS LIGHTING
-Sous-bloc : 07.6 - INTERIORS
-État de référence : Étape 357 validée, compteur non-light 82
+Étape 579
+Module : 05 - VISUAL BASE MESHES TEXTURES
+Sous-bloc : petits replacers visuels / clutter / objets / stockades
+État de référence : Étape 578 validée, compteur non-light 129
 Règles maintenues :
 main files d’abord ;
 patches complexes différés ;
 ne pas lancer LOOT ;
 ne pas générer LOD / DynDOLOD ;
-ne pas toucher au panneau droit sauf missing master ;
-garder Atlantean Landscape -Complete- 2K décoché ;
-garder le patch Scarecrows of Skyrim - BOS - SOS Patch décoché tant que Simplicity of Snow.esp est absent ;
+ne pas générer BodySlide Output ;
+ne pas relancer Pandora sauf ajout animation/comportement nécessitant génération ;
+ne pas toucher au panneau droit sauf missing master ou plugin attendu ;
 continuer les tests courts SKSE / menu / masters / DLL / Overwrite.
 
 Consignes maintenues :
 
 - Ne pas lancer LOOT.
 - Ne pas générer LOD / DynDOLOD maintenant.
-- Ne pas toucher au panneau droit sauf missing master.
-- Garder `Atlantean Landscape -Complete- 2K` décoché.
-- Garder le patch `Scarecrows of Skyrim - BOS - SOS Patch` décoché tant que `Simplicity of Snow.esp` est absent.
-- Garder les patches Jorrvaskr / Dawnguard / Volkihar différés pour la future phase de patching.
-- Garder les patch hubs / patch collections marqués `A COMPLETER PLUS TARD` pour la future phase de patching.
-- Garder les patches Lands / Ruins complexes différés : Lux / Lux Orbis / Lux Via / Northern Roads / eFPS / LOD / DynDOLOD / Nolvus.
+- Ne pas générer BodySlide Output maintenant.
+- Ne pas relancer Pandora sauf nécessité explicite.
+- Ne pas toucher au panneau droit sauf missing master ou plugin attendu.
+- Garder les patches complexes différés pour la future phase de patching.
+- Garder les options ENB Light / particules différées pour bloc dédié.
 - Continuer les tests courts SKSE / menu / masters / DLL / Overwrite.

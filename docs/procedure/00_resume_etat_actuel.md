@@ -45,27 +45,9 @@
 8. `docs/procedure/05_2_parallax_framework_textures_part_1.md`
 9. `docs/procedure/02_skse_core_utilities_part_2.md`
 10. `docs/procedure/99_changelog_validation_part_21.md`
-11. `docs/procedure/05_1_lighting_effects_particles_part_1.md`
-12. `docs/procedure/06_decisions_differees_part_7.md`
-13. `docs/configuration/SKYFORGE_Load_Order_MO2_panneau_gauche_etape_600.md` — jalon historique post-600
-14. `docs/configuration/SKYFORGE_Load_Order_MO2_panneau_gauche_etape_578.md` — jalon historique post-578
+11. `docs/configuration/SKYFORGE_Load_Order_MO2_panneau_gauche_etape_600.md` — jalon historique post-600
 
 ## Étapes récentes validées / documentées
-
-### Étapes 579 à 581 — Fin complément Visual Base / meshes
-
-- Installation de meshes FYX, collisions, coffres, carrioles détaillées, symboles du Collège, boissons uniques et correction caméra bûcheronnage.
-- Compteur ESP + ESM non-light conservé à **129**.
-- État final post-581 : SKSE/menu principal OK, aucun master manquant, aucun message DLL, Overwrite vide.
-
-### Étapes 582 à 600 — Ouverture du bloc Lighting Effects & Particles
-
-- Création / validation du séparateur `[05.1 - LIGHTING EFFECTS & PARTICLES]`.
-- Installation de fumées, impacts de sorts, patchs d’impacts, poussières, nombreux ENB Particle Lights, Rudy HQ More Lights, VFX élémentaires, VFX Kittytail, FleshFX, MIF et Separated Slash Effects X - MIF.
-- Compteur ESP + ESM non-light : **129 → 130** à l’étape 582, puis **130 → 131** à l’étape 583.
-- Étape 600 validée avec `MIF - Mu Impact Framework` et `Separated Slash Effects X - MIF`.
-- État final post-600 : SKSE/menu principal OK, aucun master manquant, aucun message DLL, Overwrite vide, compteur ESP + ESM non-light **131**.
-- Snapshot MO2 panneau gauche post-600 créé avec placeholder dans `docs/configuration/SKYFORGE_Load_Order_MO2_panneau_gauche_etape_600.md`.
 
 ### Étapes 601 à 603 — Clôture provisoire du bloc Lighting Effects & Particles
 

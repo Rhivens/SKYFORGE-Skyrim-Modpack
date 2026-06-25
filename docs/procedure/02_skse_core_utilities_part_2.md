@@ -79,227 +79,33 @@ https://www.nexusmods.com/skyrimspecialedition/mods/74689
 **Résultat :**  
 `MergeMapper` installé et validé.
 
-**Test de validation :**  
-SKSE via MO2, menu principal atteint, aucun message DLL, aucun master manquant, `Overwrite` vide.
-
-**Statut :**  
-Étape 125 validée.
-
 ---
 
-### 126. Perk Entry Point Extender
+### 605. Auto Parallax
 
 **Module :** 01 - SKSE PLUGINS & CORE UTILITIES
 
 **Objectif :**  
-Installer une dépendance SKSE / modder resource pour les perk entry points.
-
-**Lien :**  
-https://www.nexusmods.com/skyrimspecialedition/mods/91192
-
-**Version installée :**  
-`2.2.4.6`
-
-**Décision :**  
-La version expérimentale `2.3.4.0` n’a pas été installée.
-
-**Raison :**  
-La version `2.3.4.0` ajoute des dépendances souples et de nouvelles fonctions expérimentales. La version `2.2.4.6` est retenue comme version stable prudente.
-
-**Test de validation :**  
-SKSE via MO2, menu principal atteint, aucun message DLL, aucun master manquant, `Overwrite` vide.
-
-**Statut :**  
-Étape 126 validée.
-
----
-
-### 127. Dynamic String Distributor
-
-**Module :** 01 - SKSE PLUGINS & CORE UTILITIES
-
-**Objectif :**  
-Installer le framework requis par certaines futures traductions FR dynamiques.
-
-**Lien :**  
-https://www.nexusmods.com/skyrimspecialedition/mods/107676
-
-**Résultat :**  
-`Dynamic String Distributor` installé dans `01 - SKSE PLUGINS & CORE UTILITIES`.
-
-**Décisions associées :**
-
-- `Dynamic Dialogue Replacer` : différé
-- `Skyrim Autocorrect - Dialogue Grammar Fixes` : différé
-
-**Note :**  
-Les traductions FR utilisant DSD seront placées plus tard dans `18 - TRADUCTIONS FR`, tandis que DSD reste dans les core utilities.
-
-**Test de validation :**  
-SKSE via MO2, menu principal atteint, aucun message DLL, aucun master manquant, `Overwrite` vide.
-
-**Statut :**  
-Étape 127 validée.
-
----
-
-### 129. KiLoader for Skyrim
-
-**Module :** 01 - SKSE PLUGINS & CORE UTILITIES
-
-**Objectif :**  
-Installer `KiLoader`, framework technique requis par certains composants Ki / ENB.
-
-**Lien :**  
-https://www.nexusmods.com/skyrimspecialedition/mods/99404
-
-**Résultat :**
-
-- `KiLoader for Skyrim` installé
-- Des dossiers vides ont été générés dans `Overwrite`
-- Un mod dédié a été créé : `KiLoader - Generated Empty Folders`
-- Ce mod est placé sous `KiLoader for Skyrim`
-- `Overwrite` est redevenu vide
-
-**Test de validation :**  
-SKSE via MO2, menu principal atteint, aucun message DLL, aucun master manquant, `Overwrite` nettoyé et vide.
-
-**Statut :**  
-Étape 129 validée.
-
----
-
-### 133. Bloc SKSE confort — Media Keys Fix SKSE + DPI Scaling Fix
-
-**Module :** 01 - SKSE PLUGINS & CORE UTILITIES
-
-**Objectif :**  
-Installer deux petits utilitaires de confort côté SKSE / affichage.
-
-**Liens :**
-
-- Media Keys Fix SKSE  
-  https://www.nexusmods.com/skyrimspecialedition/mods/92948
-- DPI Scaling Fix  
-  https://www.nexusmods.com/skyrimspecialedition/mods/95740
-
-**Mods installés :**
-
-- `Media Keys Fix SKSE`
-- `DPI Scaling Fix`
+Installer `Auto Parallax`, plugin SKSE de gestion automatique du parallax, en préparation du bloc `[05.2 - PARALLAX FRAMEWORK TEXTURES]`.
 
 **Placement :**
 
-- `Media Keys Fix SKSE` → `01 - SKSE PLUGINS & CORE UTILITIES`
-- `DPI Scaling Fix` → `01 - SKSE PLUGINS & CORE UTILITIES`
+- `Auto Parallax` → `[01 - SKSE PLUGINS & CORE UTILITIES]`
+- Position : après `SkyPatcher - SE`
 
-**Note :**  
-`Persistent Favorites`, validé dans la même étape globale, est classé dans le fichier Bug Fixes & Engine Patches partie 3.
+**Rôle :**
 
-**Test de validation :**  
-SKSE via MO2, menu principal atteint, aucun message DLL, aucun master manquant, `Overwrite` vide.
-
-**Statut :**  
-Étape 133 validée.
-
----
-
-### 135. dTry’s Key Utils
-
-**Module :** 01 - SKSE PLUGINS & CORE UTILITIES
-
-**Résultat :**  
-Étape sautée car le mod était déjà installé :
-
-- `dTry's Key Utils SE`
-
-**Statut :**  
-Étape 135 sautée — déjà installé.
-
----
-
-### 137. Face Discoloration Fix
-
-**Module :** 01 - SKSE PLUGINS & CORE UTILITIES
-
-**Résultat :**  
-Étape sautée car le mod était déjà installé :
-
-- `Face Discoloration Fix SE (1.5.97)`
-
-**Statut :**  
-Étape 137 sautée — déjà installé.
-
----
-
-### 159. dMenu + dMenu NG
-
-**Module :** 01 - SKSE PLUGINS & CORE UTILITIES
-
-**Objectif :**  
-Ajouter le framework de menu nécessaire / recommandé pour certains mods modernes, notamment `Wheeler`.
-
-**Liens :**
-
-- dMenu  
-  https://www.nexusmods.com/skyrimspecialedition/mods/97221
-- dMenu NG  
-  https://www.nexusmods.com/skyrimspecialedition/mods/166751
-
-**Mods installés :**
-
-- `dMenu`
-- `dMenu NG`
-
-**Placement MO2 :**  
-Dans `01 - SKSE PLUGINS & CORE UTILITIES`, sous `DPI Scaling Fix`.
-
-**Ordre retenu :**
-
-1. `dMenu`
-2. `dMenu NG`
-
-**Règle :**  
-`dMenu NG` doit rester après `dMenu` pour gagner les conflits éventuels.
+- Gestion automatique du parallax.
+- Préparation des futurs ajouts du bloc `[05.2 - PARALLAX FRAMEWORK TEXTURES]`.
 
 **Test de validation :**
 
-- SKSE via MO2 : OK
-- Menu principal atteint : OK
-- Aucun message DLL/master : OK
-- `Overwrite` vide : OK
+- SKSE/menu principal : OK
+- Masters manquants : aucun
+- Messages DLL : aucun
+- Plugins cochés : tous
+- Overwrite : vide
+- Compteur ESP + ESM non-light : `131`
 
 **Statut :**  
-Étape 159 validée.
-
----
-
-### 163. ImGui Icons
-
-**Module :** 01 - SKSE PLUGINS & CORE UTILITIES
-
-**Objectif :**  
-Ajouter une dépendance ImGui utilisée par certains menus ou éléments UI modernes.
-
-**Lien corrigé :**  
-https://www.nexusmods.com/skyrimspecialedition/mods/114790?tab=files
-
-**Mod installé :**
-
-- `ImGui Icons`
-
-**Placement MO2 :**  
-Dans `01 - SKSE PLUGINS & CORE UTILITIES`, sous `dMenu NG`.
-
-**Note :**  
-Les autres éléments validés dans l’étape globale 163 (`Dialogue History`, `Menu Maid 2`, `Menu Maid 2 - Generated INI`) sont classés dans le fichier UI/HUD/Menus.
-
-**Test de validation :**
-
-- SKSE via MO2 : OK
-- Menu principal atteint : OK
-- Aucun message DLL/master : OK
-- `Overwrite` vidé après création du mod dédié `Menu Maid 2 - Generated INI` : OK
-
-**Statut :**  
-Étape 163 validée pour la partie core utilities.
+Étape 605 validée.

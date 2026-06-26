@@ -3,8 +3,10 @@
 ## Situation générale
 
 - Dernière étape validée/documentée : **Étape 685 — Clôture provisoire SexLab Core 13-A**
-- Snapshot MO2 panneau gauche courant : `docs/configuration/SKYFORGE_Load_Order_MO2_panneau_gauche_etape_639.md` — dernier snapshot complet panneau gauche disponible ; les étapes 656 à 685 sont documentées dans les changelogs / modules thématiques
-- Le snapshot 639 reste la référence anti-doublon courante jusqu’à création d’un nouveau snapshot MO2.
+- Snapshot MO2 panneau gauche courant : `docs/configuration/SKYFORGE_Load_Order_MO2_panneau_gauche_etape_685.md` — placeholder créé, collage manuel du panneau gauche complet à effectuer
+- Snapshot MO2 panneau droit plugins courant : `docs/configuration/SKYFORGE_Load_Order_MO2_panneau_droit_plugins_etape_685.md` — placeholder créé, collage manuel du panneau droit plugins complet à effectuer
+- Le snapshot 685 devient la référence anti-doublon courante après collage manuel.
+- Le snapshot 639 reste un jalon historique tant que le collage 685 n’est pas effectué.
 - Prochaine étape attendue : **Étape 686**
 - Compteur ESP + ESM non-light post-685 : **141**
 - Overwrite : **vide**
@@ -44,16 +46,18 @@
 3. `docs/procedure/99_changelog_validation_part_25.md`
 4. `docs/procedure/17_sexlab_core_adult_frameworks_part_1.md`
 5. `docs/procedure/06_decisions_differees_part_11.md`
-6. `docs/procedure/12_characters_body_skins_bodyslide_part_1.md`
-7. `docs/procedure/13_animations_skeleton_physics_part_1.md`
-8. `docs/procedure/14_gameplay_combat_magic_perks_part_1.md`
-9. `docs/procedure/15_followers_npcs_dialogues_part_1.md`
-10. `docs/procedure/16_survival_immersion_roleplay_part_1.md`
-11. `docs/configuration/SKYFORGE_Load_Order_MO2_panneau_gauche_etape_639.md` — dernier snapshot panneau gauche disponible
-12. `docs/procedure/99_changelog_validation_part_24.md`
-13. `docs/procedure/11_cities_towns_interiors_lighting_part_1.md`
-14. `docs/procedure/10_landscape_grass_trees_water_part_6.md`
-15. `docs/procedure/06_decisions_differees_part_10.md`
+6. `docs/configuration/SKYFORGE_Load_Order_MO2_panneau_gauche_etape_685.md` — placeholder créé, collage manuel à effectuer
+7. `docs/configuration/SKYFORGE_Load_Order_MO2_panneau_droit_plugins_etape_685.md` — placeholder créé, collage manuel à effectuer
+8. `docs/procedure/12_characters_body_skins_bodyslide_part_1.md`
+9. `docs/procedure/13_animations_skeleton_physics_part_1.md`
+10. `docs/procedure/14_gameplay_combat_magic_perks_part_1.md`
+11. `docs/procedure/15_followers_npcs_dialogues_part_1.md`
+12. `docs/procedure/16_survival_immersion_roleplay_part_1.md`
+13. `docs/configuration/SKYFORGE_Load_Order_MO2_panneau_gauche_etape_639.md` — jalon historique jusqu’au collage complet du snapshot 685
+14. `docs/procedure/99_changelog_validation_part_24.md`
+15. `docs/procedure/11_cities_towns_interiors_lighting_part_1.md`
+16. `docs/procedure/10_landscape_grass_trees_water_part_6.md`
+17. `docs/procedure/06_decisions_differees_part_10.md`
 
 ## Étapes récentes validées / documentées
 

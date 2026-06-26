@@ -39,12 +39,13 @@ C’est le meilleur point d’entrée pour suivre l’évolution récente du mod
 * [Changelog / validation — partie 25](docs/procedure/99_changelog_validation_part_25.md)
 * [SexLab core adult frameworks — partie 1](docs/procedure/17_sexlab_core_adult_frameworks_part_1.md)
 * [Décisions différées — partie 11](docs/procedure/06_decisions_differees_part_11.md)
+* [Snapshot Load Order MO2 — panneau gauche — étape 685](docs/configuration/SKYFORGE_Load_Order_MO2_panneau_gauche_etape_685.md)
+* [Snapshot Plugins MO2 — panneau droit — étape 685](docs/configuration/SKYFORGE_Load_Order_MO2_panneau_droit_plugins_etape_685.md)
 * [Module 08 — Characters / Body / Skins / BodySlide — partie 1](docs/procedure/12_characters_body_skins_bodyslide_part_1.md)
 * [Module 09 — Animations / Skeleton / Physics — partie 1](docs/procedure/13_animations_skeleton_physics_part_1.md)
 * [Module 10 — Gameplay / Combat / Magic / Perks — partie 1](docs/procedure/14_gameplay_combat_magic_perks_part_1.md)
 * [Module 11 — Followers / NPCs / Dialogues — partie 1](docs/procedure/15_followers_npcs_dialogues_part_1.md)
 * [Module 12 — Survival / Immersion / Roleplay — partie 1](docs/procedure/16_survival_immersion_roleplay_part_1.md)
-* [Snapshot Load Order MO2 — panneau gauche — étape 639](docs/configuration/SKYFORGE_Load_Order_MO2_panneau_gauche_etape_639.md)
 * [Règle vampire SKYFORGE](docs/configuration/09_regle_vampire_skyforge.md)
 * [Vigilances Body / Skins / BodySlide](docs/configuration/08_body_skins_bodyslide_vigilances.md)
 * [Procédure principale de reproduction](docs/SKYFORGE_Procedure_Reproduction_PC.md)
@@ -65,7 +66,7 @@ C’est le meilleur point d’entrée pour suivre l’évolution récente du mod
 * [État MO2 ciblé — blocs 09 / 10 — étape 409](docs/configuration/SKYFORGE_Load_Order_MO2_blocs_09_10_etape_409.md)
 * [Snapshot Load Order MO2 — panneau gauche — étape 401](docs/configuration/SKYFORGE_Load_Order_MO2_panneau_gauche_etape_401.md)
 
-Ces snapshots plus anciens sont conservés comme jalons historiques. Le snapshot panneau gauche courant de comparaison anti-doublon reste celui de l’**étape 639** jusqu’à création d’un nouveau snapshot MO2.
+Ces snapshots plus anciens sont conservés comme jalons historiques. Les snapshots **étape 685** deviennent les références courantes après collage manuel du panneau gauche et du panneau droit plugins.
 
 ### Autres fichiers de suivi
 
@@ -92,7 +93,8 @@ Ces snapshots plus anciens sont conservés comme jalons historiques. Le snapshot
 * **Dernière étape documentée :** Étape 685 — Clôture provisoire SexLab Core 13-A
 * **Prochaine étape attendue :** Étape 686
 * **Blocs récemment enrichis / clôturés provisoirement :** `08`, `09`, `10`, `11`, `12`, `13 - SEXLAB CORE ADULT FRAMEWORKS`
-* **Snapshot MO2 courant :** [panneau gauche étape 639](docs/configuration/SKYFORGE_Load_Order_MO2_panneau_gauche_etape_639.md)
+* **Snapshot MO2 panneau gauche courant :** [panneau gauche étape 685](docs/configuration/SKYFORGE_Load_Order_MO2_panneau_gauche_etape_685.md) — placeholder créé, collage manuel à effectuer
+* **Snapshot MO2 panneau droit plugins courant :** [panneau droit plugins étape 685](docs/configuration/SKYFORGE_Load_Order_MO2_panneau_droit_plugins_etape_685.md) — placeholder créé, collage manuel à effectuer
 * **Compteur ESP + ESM non-light post-685 :** 141
 * **Runtime :** Skyrim SE 1.5.97 Best of Both Worlds
 * **AE / Creation Club :** conservé
@@ -112,7 +114,8 @@ L’état exact le plus récent est toujours consigné dans le [résumé de l’
 
 ## Règles de lecture importantes
 
-* Le snapshot **étape 639** reste la référence panneau gauche courante jusqu’à création d’un nouveau snapshot MO2.
+* Les snapshots **étape 685** sont créés avec placeholders et deviennent les références courantes après collage manuel.
+* Le snapshot **étape 639** reste un jalon historique et une sécurité de comparaison tant que les collages 685 ne sont pas effectués.
 * Les étapes **656 à 681** sont principalement des vérifications / audits documentaires et clôtures provisoires.
 * Les étapes **682 à 685** correspondent à l’installation et la validation de **SexLab Core 13-A**.
 * Les snapshots **618**, **600**, **578**, **567**, **553**, **530**, **509**, **480** et **450** restent des jalons historiques.
